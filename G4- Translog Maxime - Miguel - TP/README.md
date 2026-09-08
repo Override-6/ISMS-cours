@@ -6,7 +6,7 @@
 
 ---
 
-## Avancement : séances 1 à 3 sur 9
+## Avancement : séances 1 à 3 sur 9, séance 4 amorcée
 
 Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séance 3, choix du référentiel) sont faits. **Les séances 4 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
 
@@ -15,7 +15,8 @@ Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séanc
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ **livrable assemblé** — reste la page de Maxime *(F7)* |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ **livrable assemblé** — reste le marquage dans l'instance *(F3)* |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** — reste une capture *(F6)* |
-| S4–S9 | Audit, risque, tiers, traitement, SMSI, indicateurs | D4 à D9 | 24 | ⏳ séances non tenues |
+| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 **bureau du RSSI S4 fait** (Miguel) — TP et livrable à venir |
+| S5–S9 | Risque, tiers, traitement, SMSI, indicateurs | D5 à D9 | 20 | ⏳ séances non tenues |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 3 sous-sections sur 9, **toutes rédigées** |
 
 **Barème des livrables : 40 points** (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note 3), convertis sur 20, coefficient 4 sur 10.
