@@ -20,7 +20,7 @@
 | **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **13 pts** assemblés (D1 4 · D2 5 · D3 4) | D4→D9 = 24 pts, séances non tenues |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 3 sous-sections sur 9, **toutes rédigées** | 6 sous-sections, une par séance restante |
 | **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | ✅ **8 pages sur 8** (Miguel + Maxime, S1→S4) | rien — F7 clos |
-| **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | — | **à sécuriser** : traçabilité nominative dans l'instance |
+| **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
 ### Détail par séance
@@ -29,7 +29,7 @@
 |---|---|---|---|---|---|
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ assemblé | — (instance ouverte en S2) |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ⬜ **Top 5 à marquer** |
-| **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ⬜ **auteurs + statut** |
+| **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
 | **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI S4 fait (Miguel + Maxime) · **D4 à produire** | — |
 | S5 | Risques majeurs | D5 | 3 | ⏳ | — |
 | S6 | Tiers et projets | D6 | 7 | ⏳ | — |
@@ -63,24 +63,25 @@
 ### Preuves déjà au dossier
 
 - `Session-2/3-Evidence/` — liste des actifs (2 captures), vue d'analyse d'impact.
-- `Session-3/3-Evidence/` — 13 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
+- `Session-3/3-Evidence/` — 16 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
 
 ---
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 2 chantiers
+### 🔴 Avant la remise du 17 septembre — 1 chantier
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
-| **1** | **F5 · Nommer les propriétaires** — renseigner *Authors* sur l'évaluation de conformité **et sur tous les actifs**, poser un **statut** sur l'évaluation, puis recapturer | instance `translog-b` | les deux | **le coefficient individuel** (×0,85 → ×1,15 sur *toutes* les notes collectives) | Petite |
-| **2** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
+| **1** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
 
-> ⚠️ **Les deux chantiers restants se font dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
+> ⚠️ **Ce dernier chantier se fait dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne le résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
 
 **F7 · Bureau du RSSI — clos.** Les huit pages (Miguel + Maxime, S1 à S4) sont écrites, une par étudiant et par séance, chacune individuelle et close par une recommandation à la direction ; le détail des angles retenus est dans `fixes.md`.
 
 **F6 · Capture de l'annexe A dépliée — clos.** `Session-3/3-Evidence/S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png` montre l'arbre déplié : **93** contrôles en **37 / 8 / 14 / 34**, conforme à l'affirmation déjà écrite dans D3.
+
+**F5 · Nommer les propriétaires — clos.** Authors confirmés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), statut posé (`In progress`) : le rapport de référentiel compte désormais l'audit (« 1 counted, 0 excluded »). Trois nouvelles captures dans `Session-3/3-Evidence/`.
 
 ### ⏳ Au fil des séances 4 à 9 — le rythme à tenir
 

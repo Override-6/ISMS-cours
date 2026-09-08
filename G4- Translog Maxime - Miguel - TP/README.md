@@ -70,7 +70,7 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 ### Séance 3 — Choix du référentiel *(D3)* ✅
 - `2-Labs/D3-note-de-business-case.md` — **le livrable**, deux pages, cinq sections, les cinq éléments exigés dont l'**estimation de la charge** (≈ 60 jours-homme la première année). Le rapport long de 13 pages reste à côté comme pièce d'appui.
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel et Maxime, angles distincts). Voir `fixes.md` F7.
-- `3-Evidence/` — 13 captures : détail du référentiel (123 exigences, dont l'arbre annexe A déplié), évaluation rattachée au périmètre, recherches en bibliothèque.
+- `3-Evidence/` — 16 captures : détail du référentiel (123 exigences, dont l'arbre annexe A déplié), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque.
 - ✅ L'**erreur sur le ReCyF est corrigée** dans les quatre fichiers concernés, et l'arithmétique de la grille recalculée (ReCyF 205, écart 25 points). ✅ La capture de l'annexe A dépliée est faite (93 en 37/8/14/34) — voir `fixes.md` F6.
 
 ### Séance 4 — Audit · valeur de la certification *(D4)* 🔄
@@ -81,4 +81,4 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 
 ## Le point à ne pas perdre de vue
 
-La note individuelle passe par **deux** portes, et l'une d'elles est dans l'outil : le coefficient individuel (0,85 · 0,95 · 1,05 · 1,15) s'appuie à parts égales sur la **question individuelle en soutenance** et sur la **traçabilité nominative dans l'instance — chaque objet créé porte un propriétaire**. Aujourd'hui l'évaluation de conformité ne porte ni auteur ni statut. Voir `fixes.md` F5.
+La note individuelle passe par **deux** portes, et l'une d'elles est dans l'outil : le coefficient individuel (0,85 · 0,95 · 1,05 · 1,15) s'appuie à parts égales sur la **question individuelle en soutenance** et sur la **traçabilité nominative dans l'instance — chaque objet créé porte un propriétaire**. Cette seconde porte est désormais fermée : l'évaluation de conformité porte auteurs et statut, et les 17 actifs portent un propriétaire assigné. Voir `fixes.md` F5.

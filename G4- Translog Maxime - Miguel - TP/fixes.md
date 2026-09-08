@@ -13,7 +13,7 @@
 
 | # | Correction | Livrable | Points en jeu | Charge | État |
 |---|---|---|---|---|---|
-| **F5** | Les objets de l'outil ne portent **aucun propriétaire** | tous + coefficient | multiplicateur individuel | Petite | ☐ ouvert |
+| **F5** | Les objets de l'outil ne portent **aucun propriétaire** | tous + coefficient | multiplicateur individuel | Petite | ✅ **fait** |
 | **F4** | **Erreur ReCyF** : écrit comme absent de la bibliothèque, la capture le montre présent | D3 + S3-05 | exactitude | Petite | ✅ **fait** |
 | **F3** | **Top 5 des actifs critiques** absent (élément exigé de D2) — bloque aussi la sous-section 2 de la note | D2 + note | **5** | Moyenne | 🔄 **dossier fait** — reste à marquer dans l'instance |
 | **F1** | D3 fait 13 pages ; la consigne dit **deux pages plus l'export** | D3 | 4 | Moyenne | ✅ **fait** |
@@ -53,28 +53,28 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : F5 et F4 d'abord — petites, et l'une des deux est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. F1 + F2 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** : F4 d'abord — petite, et c'est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. F1 + F2 + F5 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
 
-**Restent ouvertes, hors écriture** : F5 (objets de l'outil) et le marquage/capture de F3 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
+**Reste ouvert, hors écriture** : le marquage/capture de F3 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
 
 ---
 
-## F5 · Les objets de l'outil ne portent aucun propriétaire
+## F5 · Les objets de l'outil ne portent aucun propriétaire — ✅ fait
 
-**Preuve** : `Piece-2-File/Session-3/3-Evidence/S3-05-ex3-compliance-assessment-detail.jpg`.
+**Preuve d'origine (état constaté)** : `Piece-2-File/Session-3/3-Evidence/S3-05-ex3-compliance-assessment-detail.jpg` — nom `MERIDIAN - ISO/IEC 27001:2022 - initial assessment`, périmètre `Global/MERIDIAN-LOGISTIQUE`, référentiel ISO/IEC 27001:2022, vierge, créée le 9/7/2026 à 14h03. Ce qui était vide : **Authors, Reviewers, Status, Description, ID**. Le rapport de référentiel affichait *« Detected 1 audits (0 counted, 1 excluded): Unknown 1 »* — faute de statut, l'évaluation était exclue de son propre rapport.
 
-Ce qui est bon : nom `MERIDIAN - ISO/IEC 27001:2022 - initial assessment`, périmètre `Global/MERIDIAN-LOGISTIQUE`, référentiel ISO/IEC 27001:2022, vierge, créée le 9/7/2026 à 14h03.
-Ce qui est vide : **Authors, Reviewers, Status, Description, ID**.
+**Pourquoi cela coûtait des points.** Le coefficient individuel — 0,85 / 0,95 / 1,05 / 1,15, appliqué **aux deux** composantes collectives (livrables coef. 4, soutenance coef. 3) — repose sur deux éléments de poids égal, dont le premier est *« la traçabilité nominative dans l'outil, où chaque objet créé porte un propriétaire »*.
 
-**Pourquoi cela coûte des points.** Le coefficient individuel — 0,85 / 0,95 / 1,05 / 1,15, appliqué **aux deux** composantes collectives (livrables coef. 4, soutenance coef. 3) — repose sur deux éléments de poids égal, dont le premier est *« la traçabilité nominative dans l'outil, où chaque objet créé porte un propriétaire »*.
+> **Correction du 8 septembre 2026** : une version antérieure de cette fiche demandait aussi de remplacer le domaine `Global` par `MERIDIAN-LOGISTIQUE`. **C'était une erreur**, reprise d'une convention de notre propre S2-05 qui confondait deux champs : dans CISO Assistant, le **domaine** est le dossier organisationnel — `Global` y est la valeur normale — et c'est le **périmètre** (`MERIDIAN-LOGISTIQUE`) qui porte le rattachement noté. **Le domaine n'a pas été touché.**
 
-Second symptôme : le rapport de référentiel affiche *« Detected 1 audits (0 counted, 1 excluded): Unknown 1 »* — faute de statut, notre évaluation est exclue de son propre rapport.
+**Preuve de clôture** :
+- `Session-3/3-Evidence/S3-05-ex3-compliance-assessment-detail-authors-status.png` — Authors `Miguel.monereodelasota@ynov.com` / `maximebatista18@gmail.com`, **Status : In progress**.
+- `Session-3/3-Evidence/S3-05-ex5-framework-report-counted.png` — le rapport de référentiel affiche désormais *« Detected 1 audits (**1 counted, 0 excluded**): In progress 1 »* : l'évaluation compte dans son propre rapport.
+- `Session-3/3-Evidence/S3-05-ex5-assets-list-authors-assigned-to.png` — les **17 actifs** (`Showing 1 to 17 of 17`) portent chacun les deux noms en colonne « Assigned to ».
 
-> **Correction du 8 septembre 2026** : une version antérieure de cette fiche demandait aussi de remplacer le domaine `Global` par `MERIDIAN-LOGISTIQUE`. **C'était une erreur**, reprise d'une convention de notre propre S2-05 qui confondait deux champs : dans CISO Assistant, le **domaine** est le dossier organisationnel — `Global` y est la valeur normale — et c'est le **périmètre** (`MERIDIAN-LOGISTIQUE`) qui porte le rattachement noté. **Ne pas toucher au domaine.**
+Reviewers, Description et ID restent vides — ils ne faisaient pas partie du « Fini quand » et n'entament pas la traçabilité nominative exigée.
 
-**Fini quand** : auteurs renseignés sur l'évaluation **et** sur tous les actifs, statut posé pour que l'audit soit compté par son propre rapport, puis nouvelles captures dans `Session-3/3-Evidence/`. Le domaine reste `Global`.
-
-> ⚠️ **Travail dans l'outil, pas dans les fichiers.** Ces champs se règlent dans le navigateur sur `translog-b`. Je peux fournir la liste champ par champ ; la saisie vous revient.
+**Fini** : auteurs renseignés sur l'évaluation **et** sur les 17 actifs, statut posé (`In progress`) et l'audit désormais compté par son propre rapport. Le domaine reste `Global`.
 
 ---
 
@@ -269,3 +269,4 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 | 8 sept. 2026 | **F7 clos** (S1-S3) : les trois pages de Maxime écrites (S1 angle arbitrage économique, S2 Shadow IT/AI, S3 responsabilité des dirigeants), chacune avec un angle distinct de celui de Miguel. Six pages à ce stade, `Session-n/1-CISO-desk/`. |
 | 8 sept. 2026 | **F7 clos à 8/8** : la page de Maxime pour la séance 4 écrite (angle « l'effet interne » — l'échéance d'un audit externe comme seul mécanisme qui discipline réellement, illustré par l'échec de la notification à deux heures lors de l'arrêt du WMS en avril, plutôt que la piste des sauvegardes déjà prise en séance 1). Huit pages en tout sur quatre séances, chacune avec un angle distinct entre les deux auteurs. Restent uniquement F5 et le marquage/capture de F3 et F6 — tout dans l'outil, plus rien à écrire. |
 | 8 sept. 2026 | **F6 clos** : capture de l'arbre de l'annexe A déplié prise sur `translog-b` (`S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png`) — confirme **93** contrôles en **37** (A.5) / **8** (A.6) / **14** (A.7) / **34** (A.8), cohérent avec l'affirmation déjà écrite dans S3-05 et la note de business case. Restent F5 (objets de l'outil) et le marquage/capture de F3. |
+| 8 sept. 2026 | **F5 clos** : Authors vérifiés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), Status posé sur l'évaluation — premier essai à « Planned » resté exclu du rapport (« 0 counted, 1 excluded: Planned 1 »), corrigé en « In progress », qui compte désormais (« 1 counted, 0 excluded: In progress 1 »). Trois nouvelles captures dans `Session-3/3-Evidence/`. Reste uniquement le marquage/capture de F3. |
