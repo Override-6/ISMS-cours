@@ -6,16 +6,16 @@
 
 ---
 
-## Avancement : séances 1 à 3 sur 9, séance 4 ouverte
+## Avancement : séances 1 à 3 sur 9, séance 4 en cours (TP 1 fait)
 
-Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séance 3, choix du référentiel) sont faits, livrables compris. La séance 4 est **ouverte** : le bureau du RSSI y est déjà clos (Miguel et Maxime), le TP et le livrable `D4` restent à produire. **Les séances 5 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
+Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séance 3, choix du référentiel) sont faits, livrables compris. La séance 4 est **en cours** : le bureau du RSSI y est clos (Miguel et Maxime), et le **TP 1 — auto-évaluation dans CISO Assistant — est fait** (les douze exigences retenues sont saisies dans `translog-b`, les quatre mesures appliquées sont créées, la feuille de travail est rédigée). Reste le **TP 2**, qui écrit le livrable `D4` (rapport d'audit initial) à partir de cette matière. **Les séances 5 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
 
 | Séance | Thème | Livrable | Points | État |
 |---|---|---|---|---|
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ **livrable assemblé**, bureau du RSSI clos *(F7)* |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ **livrable assemblé** — reste le marquage dans l'instance *(F3)* |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** |
-| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 **bureau du RSSI S4 clos** (Miguel + Maxime) — TP et livrable à venir |
+| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI clos, **TP 1 fait** (auto-évaluation, douze exigences + quatre mesures dans l'instance) — **TP 2 et livrable `D4` à venir** |
 | S5–S9 | Risque, tiers, traitement, SMSI, indicateurs | D5 à D9 | 20 | ⏳ séances non tenues |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 3 sous-sections sur 9, **toutes rédigées** |
 
@@ -75,7 +75,10 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 
 ### Séance 4 — Audit · valeur de la certification *(D4)* 🔄
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel et Maxime, angles distincts) à partir du TD 1 *« La valeur de la certification ISO 27001 »*. `fixes.md` F7 est clos, 8 pages sur 8.
-- `2-Labs/`, `3-Evidence/`, `4-Working-notes/` — pas encore produits ; le TP et le livrable `D4` correspondent à la séance en cours.
+- `4-Working-notes/Seance-4-TD-S4-03-gradation-des-constats.md` — **TD 2 fait** : les huit constats du cycle d'audit groupe gradés (conforme / non-conformité majeure ou mineure / observation), justifiés par l'exigence et l'étendue de l'écart, jamais par la gravité ressentie ; les deux gradations discutables (C6, C8) argumentées des deux côtés. Préalable du TP 1.
+- `2-Labs/` — **TP 1 fait** : `PLAN-Seance-4-TP-S4-05-auto-evaluation.md` (le mode opératoire) et `Seance-4-TP-S4-05-feuille-de-travail-auto-evaluation.md` (**la feuille de travail** — cadrage, mapping des statuts, les douze exigences justifiées, les quatre mesures SMART, synthèse par thème, lecture de maturité, biais assumé, et les deux listes qui alimenteront le TP 2). Dans `translog-b` : les douze exigences retenues portent un statut (0 couvert · 2 partiels · 9 non couverts · 1 non évalué assumé, A.6.3), et quatre mesures appliquées (deux corrections, deux actions correctives) sont créées, rattachées à leur exigence, avec propriétaire nominatif et échéance. Aucun objet des séances 2/3 recréé ou renommé.
+- `3-Evidence/` — quatre captures `S4-05-*.jpg` : l'évaluation d'une exigence saisie, le détail de A.8.22 (non couvert, justification), les quatre mesures appliquées avec propriétaire et échéance, le taux de conformité après saisie.
+- Reste à faire : le **TP 2**, qui écrit le livrable `D4-rapport-d-audit-initial.md` (six sections imposées) à partir de cette feuille de travail, et la 4ᵉ sous-section de la note de stratégie.
 
 ---
 
