@@ -14,7 +14,7 @@ Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séanc
 |---|---|---|---|---|
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ **livrable assemblé**, bureau du RSSI clos *(F7)* |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ **livrable assemblé** — reste le marquage dans l'instance *(F3)* |
-| **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** — reste une capture *(F6)* |
+| **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** |
 | **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 **bureau du RSSI S4 clos** (Miguel + Maxime) — TP et livrable à venir |
 | S5–S9 | Risque, tiers, traitement, SMSI, indicateurs | D5 à D9 | 20 | ⏳ séances non tenues |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 3 sous-sections sur 9, **toutes rédigées** |
@@ -70,8 +70,8 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 ### Séance 3 — Choix du référentiel *(D3)* ✅
 - `2-Labs/D3-note-de-business-case.md` — **le livrable**, deux pages, cinq sections, les cinq éléments exigés dont l'**estimation de la charge** (≈ 60 jours-homme la première année). Le rapport long de 13 pages reste à côté comme pièce d'appui.
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel et Maxime, angles distincts). Voir `fixes.md` F7.
-- `3-Evidence/` — 12 captures : détail du référentiel (123 exigences), évaluation rattachée au périmètre, recherches en bibliothèque.
-- ✅ L'**erreur sur le ReCyF est corrigée** dans les quatre fichiers concernés, et l'arithmétique de la grille recalculée (ReCyF 205, écart 25 points). ⚠️ Reste la capture de l'annexe A dépliée. Voir `fixes.md` F6.
+- `3-Evidence/` — 13 captures : détail du référentiel (123 exigences, dont l'arbre annexe A déplié), évaluation rattachée au périmètre, recherches en bibliothèque.
+- ✅ L'**erreur sur le ReCyF est corrigée** dans les quatre fichiers concernés, et l'arithmétique de la grille recalculée (ReCyF 205, écart 25 points). ✅ La capture de l'annexe A dépliée est faite (93 en 37/8/14/34) — voir `fixes.md` F6.
 
 ### Séance 4 — Audit · valeur de la certification *(D4)* 🔄
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel et Maxime, angles distincts) à partir du TD 1 *« La valeur de la certification ISO 27001 »*. `fixes.md` F7 est clos, 8 pages sur 8.

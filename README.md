@@ -63,23 +63,24 @@
 ### Preuves déjà au dossier
 
 - `Session-2/3-Evidence/` — liste des actifs (2 captures), vue d'analyse d'impact.
-- `Session-3/3-Evidence/` — 12 captures : détail du référentiel (**123 exigences**), évaluation rattachée au périmètre, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
+- `Session-3/3-Evidence/` — 13 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
 
 ---
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 3 chantiers
+### 🔴 Avant la remise du 17 septembre — 2 chantiers
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F5 · Nommer les propriétaires** — renseigner *Authors* sur l'évaluation de conformité **et sur tous les actifs**, poser un **statut** sur l'évaluation, puis recapturer | instance `translog-b` | les deux | **le coefficient individuel** (×0,85 → ×1,15 sur *toutes* les notes collectives) | Petite |
 | **2** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
-| **3** | **F6 · Capture de l'annexe A dépliée** — montrer **93** contrôles en **37 / 8 / 14 / 34**, ou ramener l'affirmation à ce que la preuve soutient | instance → `Session-3/3-Evidence/` | les deux | exactitude de D3 | Petite |
 
-> ⚠️ **Les trois chantiers restants se font dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
+> ⚠️ **Les deux chantiers restants se font dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
 
 **F7 · Bureau du RSSI — clos.** Les huit pages (Miguel + Maxime, S1 à S4) sont écrites, une par étudiant et par séance, chacune individuelle et close par une recommandation à la direction ; le détail des angles retenus est dans `fixes.md`.
+
+**F6 · Capture de l'annexe A dépliée — clos.** `Session-3/3-Evidence/S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png` montre l'arbre déplié : **93** contrôles en **37 / 8 / 14 / 34**, conforme à l'affirmation déjà écrite dans D3.
 
 ### ⏳ Au fil des séances 4 à 9 — le rythme à tenir
 

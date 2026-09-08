@@ -18,7 +18,7 @@
 | **F3** | **Top 5 des actifs critiques** absent (élément exigé de D2) — bloque aussi la sous-section 2 de la note | D2 + note | **5** | Moyenne | 🔄 **dossier fait** — reste à marquer dans l'instance |
 | **F1** | D3 fait 13 pages ; la consigne dit **deux pages plus l'export** | D3 | 4 | Moyenne | ✅ **fait** |
 | **F2** | D3 n'a pas d'**estimation de la charge** (élément exigé) | D3 | 4 (partagé) | Petite | ✅ **fait** |
-| **F6** | Les comptes **93 / 37-8-14-34** n'ont aucune capture derrière eux | preuve D3 | exactitude | Petite | 🔄 **capture à prendre** (l'affirmation, elle, est exacte) |
+| **F6** | Les comptes **93 / 37-8-14-34** n'ont aucune capture derrière eux | preuve D3 | exactitude | Petite | ✅ **fait** |
 | **F7** | **Bureau du RSSI** : S1 absent ; S2 et S3 collectifs et hors format | bureau du RSSI | **10** (coef. 1) | Grande | ✅ **fait** — huit pages (Miguel + Maxime, S1 à S4) |
 | **F8** | Le schéma de gouvernance D1 ne porte pas de **fréquences** | D1 | 4 (partagé) | Petite | ✅ **fait** |
 | **F9** | La feuille de route chiffrée S1 ne doit **pas** figurer au rendu | hygiène D1 | 0 | Triviale | ✅ **fait** |
@@ -33,7 +33,7 @@
 
 `Session-3/1-CISO-desk/S3-bureau-du-RSSI-Miguel-Monereo.md` répond à la question de la séance 3.
 
-> ⚠️ **Reste** : la capture de l'arbre déplié montrant 93 contrôles en 37 / 8 / 14 / 34 *(F6)*. L'affirmation est exacte — c'est la composition de l'annexe A de la norme — mais **nous** n'en avons pas la preuve à l'écran, et le livrable est noté sur les objets exportés.
+**L'annexe A dépliée est désormais prouvée** *(F6)* : `S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png` montre les comptes réels — **93** répartis en **37 / 8 / 14 / 34** — confirmant l'affirmation déjà écrite dans S3-05 et la note de business case.
 
 ### Séance 2 — close au dossier, reste un geste dans l'outil
 
@@ -53,9 +53,9 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : F5 et F4 d'abord — petites, et l'une des deux est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. Puis F1 + F2 + F6 ensemble, qui atterrissent tous dans la même note de deux pages. F7 est désormais clos. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** : F5 et F4 d'abord — petites, et l'une des deux est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. F1 + F2 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
 
-**Restent ouvertes, hors écriture** : F5 (objets de l'outil) et le marquage/capture de F3 et F6 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
+**Restent ouvertes, hors écriture** : F5 (objets de l'outil) et le marquage/capture de F3 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
 
 ---
 
@@ -134,13 +134,13 @@ Ce n'est **pas** le chiffrage de certification déjà écrit au §III.2 du rappo
 
 ---
 
-## F6 · Les comptes 93 / 37-8-14-34 n'ont aucune preuve derrière eux
+## F6 · Les comptes 93 / 37-8-14-34 n'ont aucune preuve derrière eux — ✅ fait
 
-`Session-3/3-Evidence/S3-05-ex2-framework-detail-123-requirements-annexA-4themes.jpg` confirme **123** exigences associées et les deux blocs (`core - Clauses`, `annex-a - Statement of Applicability`) avec les quatre thèmes A.5 / A.6 / A.7 / A.8 — mais l'arbre est **replié**, donc aucun compte par thème n'est visible.
+`Session-3/3-Evidence/S3-05-ex2-framework-detail-123-requirements-annexA-4themes.jpg` confirmait déjà **123** exigences associées et les deux blocs (`core - Clauses`, `annex-a - Statement of Applicability`) avec les quatre thèmes A.5 / A.6 / A.7 / A.8 — mais l'arbre était **replié**, donc aucun compte par thème n'était visible.
 
-S3-05 et la note de business case affirment pourtant **93** et **37 / 8 / 14 / 34** comme des faits.
+**Preuve ajoutée** : `Session-3/3-Evidence/S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png`, l'arbre déplié d'un niveau sur `translog-b`, montre les comptes réels : `core - Clauses` **30**, `annex-a - Statement of Applicability` **93**, décomposé en `A.5 - Organisational controls` **37**, `A.6 - People controls` **8**, `A.7 - Physical controls` **14**, `A.8 - Technological controls` **34** (37 + 8 + 14 + 34 = 93 ; 30 + 93 = 123). S3-05 et la note de business case affirmaient déjà ces chiffres — c'était exact, il manquait seulement la pièce à l'écran.
 
-**Fini quand** : soit une capture arbre déplié montrant les comptes, soit l'affirmation ramenée à ce que la preuve soutient.
+**Fini** : capture arbre déplié montrant les comptes, prise le 8 septembre 2026.
 
 ---
 
@@ -268,3 +268,4 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 | 8 sept. 2026 | **Séance 3 corrigée** : livrable `D3` en deux pages avec estimation de charge (F1, F2, F10), **erreur ReCyF corrigée dans les quatre fichiers concernés et arithmétique de la grille recalculée** (F4), bureau du RSSI S3 de Miguel écrit (F7). Restent la capture de l'annexe A (F6) et les objets de l'outil (F5). |
 | 8 sept. 2026 | **F7 clos** (S1-S3) : les trois pages de Maxime écrites (S1 angle arbitrage économique, S2 Shadow IT/AI, S3 responsabilité des dirigeants), chacune avec un angle distinct de celui de Miguel. Six pages à ce stade, `Session-n/1-CISO-desk/`. |
 | 8 sept. 2026 | **F7 clos à 8/8** : la page de Maxime pour la séance 4 écrite (angle « l'effet interne » — l'échéance d'un audit externe comme seul mécanisme qui discipline réellement, illustré par l'échec de la notification à deux heures lors de l'arrêt du WMS en avril, plutôt que la piste des sauvegardes déjà prise en séance 1). Huit pages en tout sur quatre séances, chacune avec un angle distinct entre les deux auteurs. Restent uniquement F5 et le marquage/capture de F3 et F6 — tout dans l'outil, plus rien à écrire. |
+| 8 sept. 2026 | **F6 clos** : capture de l'arbre de l'annexe A déplié prise sur `translog-b` (`S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png`) — confirme **93** contrôles en **37** (A.5) / **8** (A.6) / **14** (A.7) / **34** (A.8), cohérent avec l'affirmation déjà écrite dans S3-05 et la note de business case. Restent F5 (objets de l'outil) et le marquage/capture de F3. |
