@@ -9,7 +9,7 @@
 | Étudiant | Fichier | État |
 |---|---|---|
 | Miguel Monereo | `S1-bureau-du-RSSI-Miguel-Monereo.md` | ✅ rendu |
-| Maxime | `S1-bureau-du-RSSI-Maxime.md` | ☐ **à écrire** |
+| Maxime | `S1-bureau-du-RSSI-Maxime.md` | ✅ rendu — angle 3 (l'arbitrage économique) |
 
 ## Pour Maxime — et surtout, ne pas rendre la même page
 

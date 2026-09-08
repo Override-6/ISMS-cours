@@ -7,7 +7,7 @@
 | Étudiant | Fichier | État |
 |---|---|---|
 | Miguel Monereo | `S3-bureau-du-RSSI-Miguel-Monereo.md` | ✅ rendu |
-| Maxime | `S3-bureau-du-RSSI-Maxime.md` | ☐ **à écrire** |
+| Maxime | `S3-bureau-du-RSSI-Maxime.md` | ✅ rendu — angle 1 (la responsabilité personnelle des dirigeants) |
 
 `Seance-3-TD-S3-01-applicabilite-nis2.md` — le compte rendu collectif du TD (199 lignes), conservé comme matière de travail. **Ce n'est pas le bureau du RSSI.**
 

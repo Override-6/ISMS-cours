@@ -13,13 +13,13 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 3 sur 9, la séance 4 est ouverte** (le bureau du RSSI S4 est fait, le TP reste à venir). Tout ce qui relève des séances 5 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 3 sur 9, la séance 4 est ouverte** (le bureau du RSSI S4 est fait — Miguel et Maxime —, le TP reste à venir). Tout ce qui relève des séances 5 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
 | **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **13 pts** assemblés (D1 4 · D2 5 · D3 4) | D4→D9 = 24 pts, séances non tenues |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 3 sous-sections sur 9, **toutes rédigées** | 6 sous-sections, une par séance restante |
-| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | Miguel : **4 pages sur 4** (S1→S4) | Maxime : **4 pages sur 4 à écrire** |
+| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | ✅ **8 pages sur 8** (Miguel + Maxime, S1→S4) | rien — F7 clos |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | — | **à sécuriser** : traçabilité nominative dans l'instance |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
@@ -30,7 +30,7 @@
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ assemblé | — (instance ouverte en S2) |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ⬜ **Top 5 à marquer** |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ⬜ **auteurs + statut** |
-| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI S4 fait (Miguel) · **D4 à produire** | — |
+| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI S4 fait (Miguel + Maxime) · **D4 à produire** | — |
 | S5 | Risques majeurs | D5 | 3 | ⏳ | — |
 | S6 | Tiers et projets | D6 | 7 | ⏳ | — |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
@@ -56,8 +56,8 @@
 - **F1 / F2** — D3 ramenée à **deux pages** ; le rapport de 13 pages requalifié en pièce d'appui ; **estimation de charge** ajoutée.
 - **F4** — **erreur ReCyF corrigée** dans les 4 fichiers concernés : le référentiel est *présent* en bibliothèque, contrairement à ce qu'on écrivait. Grille recalculée (ReCyF 195 → **205**, écart 35 → **25 pts**), deux tests de bascule refaits. La recommandation ne bouge pas — elle tient sur la **règle de veto**, pas sur l'arithmétique.
 - **F9** — la feuille de route chiffrée S1 est conservée mais **sortie du rendu** (c'est le sujet du rattrapage).
-- **F7 (moitié)** — les **trois pages du bureau du RSSI de Miguel** sont écrites, une par séance, chacune close par une recommandation à la direction.
-- **Séance 4 amorcée** — le bureau du RSSI S4 de Miguel est écrit à partir du TD 1 *« La valeur de la certification ISO 27001 »* : mécanique de la certification, arbitrage de périmètre, mise au point NIS 2 et réponse au client pharmaceutique.
+- **F7 (clos)** — les **huit pages du bureau du RSSI** (Miguel + Maxime, S1 à S4) sont écrites, chacune individuelle, chacune close par une recommandation à la direction, chacune avec un angle distinct de son binôme.
+- **Séance 4 close côté bureau du RSSI** — les deux pages S4, à partir du TD 1 *« La valeur de la certification ISO 27001 »* : Miguel sur le découplage des deux demandes (client / Direction Générale), Maxime sur l'effet interne de l'échéance externe comme mécanisme de discipline.
 - **F3 (moitié)** — le Top 5 est au dossier, classé sur un critère écrit *avant* le classement, et la **sous-section 2 de la note de stratégie qu'il bloquait est rédigée**.
 
 ### Preuves déjà au dossier
@@ -69,27 +69,17 @@
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 4 chantiers
+### 🔴 Avant la remise du 17 septembre — 3 chantiers
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F5 · Nommer les propriétaires** — renseigner *Authors* sur l'évaluation de conformité **et sur tous les actifs**, poser un **statut** sur l'évaluation, puis recapturer | instance `translog-b` | les deux | **le coefficient individuel** (×0,85 → ×1,15 sur *toutes* les notes collectives) | Petite |
 | **2** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
 | **3** | **F6 · Capture de l'annexe A dépliée** — montrer **93** contrôles en **37 / 8 / 14 / 34**, ou ramener l'affirmation à ce que la preuve soutient | instance → `Session-3/3-Evidence/` | les deux | exactitude de D3 | Petite |
-| **4** | **F7 · Les quatre pages du bureau du RSSI de Maxime** — S1, S2, S3 **et S4**, **une page chacune**, individuelles, closes par une recommandation à la direction | dossier | **Maxime** | **10 pts, coef. 1** | Grande |
 
-> ⚠️ **Chantiers 1, 2 et 3 = travail dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
+> ⚠️ **Les trois chantiers restants se font dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
 
-**Les quatre questions du bureau du RSSI, pour Maxime :**
-
-| Séance | Question du jour |
-|---|---|
-| S1 | De quoi un conseil d'administration a-t-il réellement besoin de son RSSI ? |
-| S2 | Pourquoi tout inventaire d'actifs est-il faux, et qu'en fait-on ? |
-| S3 | Sommes-nous dans le champ de NIS 2, et à quel titre ? |
-| S4 | Que vaut une certification ISO 27001, et que répond-on au tiers qui l'exige ? |
-
-C'est la **seule note individuelle** du module : les deux pages d'une même séance ne peuvent pas se ressembler. Des angles distincts sont proposés dans le `README` de chaque dossier `1-CISO-desk/`.
+**F7 · Bureau du RSSI — clos.** Les huit pages (Miguel + Maxime, S1 à S4) sont écrites, une par étudiant et par séance, chacune individuelle et close par une recommandation à la direction ; le détail des angles retenus est dans `fixes.md`.
 
 ### ⏳ Au fil des séances 4 à 9 — le rythme à tenir
 
@@ -103,7 +93,7 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 
 | Séance | Livrable attendu | Pts |
 |---|---|---|
-| **S4** | **D4** — audit / état des lieux · *bureau du RSSI S4 déjà fait ; reste le TP, le livrable et la sous-section 4 de la note* | 4 |
+| **S4** | **D4** — audit / état des lieux · *bureau du RSSI S4 déjà fait (Miguel + Maxime) ; reste le TP, le livrable et la sous-section 4 de la note* | 4 |
 | S5 | **D5** — risques majeurs | 3 |
 | S6 | **D6** — tiers et projets *(le plus lourd du module)* | **7** |
 | S7 | **D7** — traitement du risque | 5 |

@@ -7,7 +7,7 @@
 | Étudiant | Fichier | État |
 |---|---|---|
 | Miguel Monereo | `S4-bureau-du-RSSI-Miguel-Monereo.md` | ✅ rendu |
-| Maxime | `S4-bureau-du-RSSI-Maxime.md` | ☐ **à écrire** |
+| Maxime | `S4-bureau-du-RSSI-Maxime.md` | ✅ rendu — angle 2 (l'effet interne, discipline par l'échéance externe) |
 
 **Source** : `../../../../S4 - Sources/TD 1/` (version anglaise) et `../../../../Correction/` (version française, **corrigés et barème dépliés**).
 

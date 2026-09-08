@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les séances 1 à 3 uniquement.** Ce sont les seules tenues à ce jour. Les livrables D4 à D9 (24 points sur 40) ne sont pas en retard — leurs séances n'ont pas eu lieu. Rien dans ce fichier ne les concerne.
+**Portée de ce journal : les livrables D1 à D3 (séances 1 à 3), plus F7 qui les déborde.** D1 à D3 sont les seuls livrables dus à ce jour ; D4 à D9 (24 points sur 40) ne sont pas en retard, leurs séances n'ont pas eu lieu au sens du livrable noté. Seule exception : **F7**, note individuelle courant sur les neuf séances, dont la séance 4 est déjà ouverte et traitée plus bas.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -19,7 +19,7 @@
 | **F1** | D3 fait 13 pages ; la consigne dit **deux pages plus l'export** | D3 | 4 | Moyenne | ✅ **fait** |
 | **F2** | D3 n'a pas d'**estimation de la charge** (élément exigé) | D3 | 4 (partagé) | Petite | ✅ **fait** |
 | **F6** | Les comptes **93 / 37-8-14-34** n'ont aucune capture derrière eux | preuve D3 | exactitude | Petite | 🔄 **capture à prendre** (l'affirmation, elle, est exacte) |
-| **F7** | **Bureau du RSSI** : S1 absent ; S2 et S3 collectifs et hors format | bureau du RSSI | **10** (coef. 1) | Grande | 🔄 **les quatre pages de Miguel faites** (S1→S4) — restent les quatre de Maxime |
+| **F7** | **Bureau du RSSI** : S1 absent ; S2 et S3 collectifs et hors format | bureau du RSSI | **10** (coef. 1) | Grande | ✅ **fait** — huit pages (Miguel + Maxime, S1 à S4) |
 | **F8** | Le schéma de gouvernance D1 ne porte pas de **fréquences** | D1 | 4 (partagé) | Petite | ✅ **fait** |
 | **F9** | La feuille de route chiffrée S1 ne doit **pas** figurer au rendu | hygiène D1 | 0 | Triviale | ✅ **fait** |
 | **F10** | **Aucune séance ne présente son livrable comme un livrable** — D1 à D3 sont enfouis dans des comptes rendus d'exercices | D1 · D2 · D3 | **13** | Moyenne | ✅ **fait** — D1, D2, D3 |
@@ -53,7 +53,9 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : F5 et F4 d'abord — petites, et l'une des deux est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. Puis F1 + F2 + F6 ensemble, qui atterrissent tous dans la même note de deux pages. Puis F7, le plus gros travail d'écriture. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** : F5 et F4 d'abord — petites, et l'une des deux est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. Puis F1 + F2 + F6 ensemble, qui atterrissent tous dans la même note de deux pages. F7 est désormais clos. F8 et F9 se ferment quand on veut.
+
+**Restent ouvertes, hors écriture** : F5 (objets de l'outil) et le marquage/capture de F3 et F6 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
 
 ---
 
@@ -142,7 +144,22 @@ S3-05 et la note de business case affirment pourtant **93** et **37 / 8 / 14 / 3
 
 ---
 
-## F7 · Le bureau du RSSI : format et auteur
+## F7 · Le bureau du RSSI : format et auteur — ✅ fait
+
+**Les huit pages sont écrites** : `S1-bureau-du-RSSI-Miguel-Monereo.md` / `S1-bureau-du-RSSI-Maxime.md`, et de même pour S2, S3 et S4, chacune dans `Session-n/1-CISO-desk/`. Chaque page est individuelle, tient sur une page, et se clôt par une recommandation adressée à la direction.
+
+**Répartition retenue** : les quatre séances sont écrites par les deux étudiants plutôt que réparties une par personne — huit pages au total, sur quatre questions communes, chacune avec un angle distinct pour ne pas produire deux pages semblables.
+
+| Séance | Angle de Miguel | Angle de Maxime |
+|---|---|---|
+| S1 | L'exposition traduite en langage de mission, question fermée, signalement précoce | L'arbitrage économique : prix des deux branches de chaque décision (coût d'agir / coût de l'inaction), absent de nos propres arbitrages budgétaires |
+| S2 | Trois causes structurelles de la fausseté d'un inventaire ; notre propre réponse (Logistique) est la pire des quatre | Shadow IT / Shadow AI : le risque *produit* plutôt que subi, et le même mécanisme retrouvé chez nous dans le compte partagé de la TMA |
+| S3 | L'incertitude assumée sur la qualification transport / expédition et son prix | La responsabilité personnelle des dirigeants (article 20) : indépendante de l'issue de cet arbitrage, et la question de gouvernance — quel organe la porte — encore ouverte chez nous |
+| S4 | Le découplage des deux demandes : le certificat que veut le client et celui qu'imagine la Direction Générale ne sont pas le même objet | L'effet interne, le plus durable : l'échéance d'un audit externe comme seul mécanisme qui discipline réellement — la directive de notification à deux heures, restée lettre morte lors de l'arrêt du WMS en avril, en est la preuve |
+
+<details>
+<summary>Contexte de la correction (avant écriture)</summary>
+
 
 **La consigne**
 
@@ -150,20 +167,22 @@ S3-05 et la note de business case affirment pourtant **93** et **37 / 8 / 14 / 3
 
 Barème : justesse et pertinence 4 · posture RSSI, une page tenue, recommandation explicite 3 · écriture lisible par un dirigeant non technique 3 = **10 points, coefficient 1**.
 
-**Les trois questions**
+**Les quatre questions**
 
 | Séance | Question du jour | Notre fichier | Problème |
 |---|---|---|---|
 | S1 | De quoi un conseil d'administration a-t-il réellement besoin de son RSSI ? | *aucun* | **Absente.** Le TD S1-03 rangé en `4-Working-notes/` porte sur les principes structurants — autre sujet |
 | S2 | Pourquoi tout inventaire d'actifs est-il faux, et qu'en fait-on ? | `Session-2/1-CISO-desk/…S2-01…md` | Bon sujet, mais collectif et long |
 | S3 | Sommes-nous dans le champ de NIS 2, et à quel titre ? | `Session-3/1-CISO-desk/…S3-01…md` | Bon sujet, mais collectif et **199 lignes** contre une page |
-| S4 | Que vaut une certification ISO 27001, et que répond-on au tiers qui l'exige ? | `Session-4/1-CISO-desk/S4-…-Miguel-Monereo.md` | ✅ page de Miguel rendue ; **celle de Maxime reste à écrire** |
+| S4 | Que vaut une certification ISO 27001, et que répond-on au tiers qui l'exige ? | `Session-4/1-CISO-desk/S4-…-Miguel-Monereo.md` | ✅ les deux pages rendues, Miguel puis Maxime |
 
 Tous portent l'en-tête *« Réponses du Groupe 4 »* — collectif, là où la note est **individuelle**. Le fond est là ; le format et l'auteur ne le sont pas.
 
 **Fini quand** : une page par étudiant et par séance — Miguel et Maxime séparément, **huit pages en tout à ce jour** (S1 à S4) — chacune close par une recommandation explicite à la direction.
 
 > ⚠️ **Décision à prendre avant de commencer** : c'est la seule note individuelle, vous ne pouvez donc pas rendre la même page. Qui prend quelle séance, ou chacun écrit-il les trois de son côté ?
+
+</details>
 
 ---
 
@@ -247,3 +266,5 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 | 8 sept. 2026 | **Séance 2 corrigée** : livrable `D2` assemblé avec le **Top 5 justifié** et le processus de mise à jour (F3, F10), bureau du RSSI S2 de Miguel écrit (F7), **sous-section 2 de la note de stratégie débloquée et rédigée**. Reste le marquage du Top 5 dans l'instance. |
 | 8 sept. 2026 | **Séance 4 ouverte** : bureau du RSSI S4 de Miguel écrit à partir du TD 1 « La valeur de la certification ISO 27001 » — mécanique en trois maillons, arbitrage de périmètre, mise au point NIS 2, réponse au client pharmaceutique (F7). Reste la page de Maxime, ainsi que le TP et le livrable D4. |
 | 8 sept. 2026 | **Séance 3 corrigée** : livrable `D3` en deux pages avec estimation de charge (F1, F2, F10), **erreur ReCyF corrigée dans les quatre fichiers concernés et arithmétique de la grille recalculée** (F4), bureau du RSSI S3 de Miguel écrit (F7). Restent la capture de l'annexe A (F6) et les objets de l'outil (F5). |
+| 8 sept. 2026 | **F7 clos** (S1-S3) : les trois pages de Maxime écrites (S1 angle arbitrage économique, S2 Shadow IT/AI, S3 responsabilité des dirigeants), chacune avec un angle distinct de celui de Miguel. Six pages à ce stade, `Session-n/1-CISO-desk/`. |
+| 8 sept. 2026 | **F7 clos à 8/8** : la page de Maxime pour la séance 4 écrite (angle « l'effet interne » — l'échéance d'un audit externe comme seul mécanisme qui discipline réellement, illustré par l'échec de la notification à deux heures lors de l'arrêt du WMS en avril, plutôt que la piste des sauvegardes déjà prise en séance 1). Huit pages en tout sur quatre séances, chacune avec un angle distinct entre les deux auteurs. Restent uniquement F5 et le marquage/capture de F3 et F6 — tout dans l'outil, plus rien à écrire. |

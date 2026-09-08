@@ -7,7 +7,7 @@
 | Étudiant | Fichier | État |
 |---|---|---|
 | Miguel Monereo | `S2-bureau-du-RSSI-Miguel-Monereo.md` | ✅ rendu |
-| Maxime | `S2-bureau-du-RSSI-Maxime.md` | ☐ **à écrire** |
+| Maxime | `S2-bureau-du-RSSI-Maxime.md` | ✅ rendu — angle 2 (Shadow IT / Shadow AI) |
 
 `Seance-2-TD-S2-01-inventaire.md` — le compte rendu collectif du TD, conservé comme matière de travail. **Ce n'est pas le bureau du RSSI** : il est collectif et bien plus long qu'une page.
 
