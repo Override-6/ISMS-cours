@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CISO Assistant access · ISMS module</title>
+<style>
+  :root{
+    --encre:#14212d; --doux:#4a5c6e; --accent:#8a2f3b; --accent-clair:#f7edee;
+    --trait:#d2dae1; --trait-doux:#eef2f5; --alerte:#8a5a12; --alerte-fond:#fdf6ea;
+    --fond:#ffffff; --carte:#fbfcfd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --encre:#e7edf3; --doux:#a9b8c6; --accent:#e0899a; --accent-clair:#2a1a1e;
+      --trait:#33414f; --trait-doux:#26313b; --alerte:#e0b166; --alerte-fond:#2b2416;
+      --fond:#141a20; --carte:#1a222a;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fond);color:var(--encre);
+       font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       padding:2.5rem 1.25rem 4rem;}
+  .page{max-width:56rem;margin:0 auto}
+  .chapeau{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:2rem;margin:.5rem 0 0;letter-spacing:-.02em}
+  .sous{color:var(--doux);margin:.5rem 0 0;font-size:1.05rem}
+  hr{border:0;border-top:2px solid var(--accent);width:4rem;margin:1.5rem 0 2rem}
+  h2{font-size:1.15rem;margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--trait)}
+  .encart{background:var(--accent-clair);border-left:3px solid var(--accent);
+          padding:1rem 1.15rem;border-radius:0 6px 6px 0;margin:1.25rem 0}
+  .encart p{margin:0}
+  .encart p + p{margin-top:.6rem}
+  .alerte{background:var(--alerte-fond);border-left-color:var(--alerte)}
+  table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.94rem}
+  caption{text-align:left;color:var(--doux);font-size:.85rem;padding-bottom:.5rem}
+  th{background:var(--accent);color:#fff;text-align:left;padding:.6rem .7rem;font-weight:600;font-size:.85rem}
+  td{padding:.6rem .7rem;border-bottom:1px solid var(--trait-doux);vertical-align:top}
+  tbody tr:nth-child(even) td{background:var(--carte)}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+  code,.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:.9em}
+  .ident{background:var(--carte);border:1px solid var(--trait);border-radius:6px;
+         padding:1rem 1.15rem;margin:1rem 0;display:flex;gap:2rem;flex-wrap:wrap}
+  .ident div{min-width:12rem}
+  .ident .etiq{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--doux)}
+  .ident .val{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.05rem;font-weight:600;margin-top:.2rem}
+  ol{padding-left:1.2rem} li{margin-bottom:.45rem}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--trait);
+         color:var(--doux);font-size:.85rem}
+  @media print{body{padding:0} .encart,.ident{break-inside:avoid} tr{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<p class="chapeau">ISMS module · Master's year 2</p>
+<h1>Access to CISO Assistant</h1>
+<p class="sous">Security governance and information system mapping · MERIDIAN group</p>
+<hr>
+
+<h2>1. Your group's instance</h2>
+<p>Each group works on its own instance. Two groups review the same subsidiary,
+without consulting each other: that is what makes the plenary confrontation
+worthwhile.</p>
+
+<table>
+  <caption>Eight groups, eight instances, four subsidiaries. Common login: <span class="mono">admin@lockbay.eu</span></caption>
+  <thead><tr><th>Group</th><th>Subsidiary under review</th><th>Address</th><th>First sign-in password</th></tr></thead>
+  <tbody>
+    <tr><td><strong>G1</strong></td><td>MERIDIAN Santé</td><td><a href="https://medsecure-a.lockbay.eu">medsecure-a.lockbay.eu</a></td><td class="mono">lWIq8+Bdix3ml27i</td></tr>
+    <tr><td><strong>G2</strong></td><td>MERIDIAN Santé</td><td><a href="https://medsecure-b.lockbay.eu">medsecure-b.lockbay.eu</a></td><td class="mono">!=aMzhs+tjXkrlHS</td></tr>
+    <tr><td><strong>G3</strong></td><td>MERIDIAN Logistique</td><td><a href="https://translog-a.lockbay.eu">translog-a.lockbay.eu</a></td><td class="mono">YLVbE8TBTsusRc#j</td></tr>
+    <tr><td><strong>G4</strong></td><td>MERIDIAN Logistique</td><td><a href="https://translog-b.lockbay.eu">translog-b.lockbay.eu</a></td><td class="mono">+kjfGsM%OpKaPJJ5</td></tr>
+    <tr><td><strong>G5</strong></td><td>MERIDIAN Éducation</td><td><a href="https://educonnect-a.lockbay.eu">educonnect-a.lockbay.eu</a></td><td class="mono">GSKYKH8Lv2#58jbD</td></tr>
+    <tr><td><strong>G6</strong></td><td>MERIDIAN Éducation</td><td><a href="https://educonnect-b.lockbay.eu">educonnect-b.lockbay.eu</a></td><td class="mono">dNTNZdkO9kjx%3gl</td></tr>
+    <tr><td><strong>G7</strong></td><td>MERIDIAN Territoires</td><td><a href="https://cityadmin-a.lockbay.eu">cityadmin-a.lockbay.eu</a></td><td class="mono">zMpvR7-AhYCR3@ny</td></tr>
+    <tr><td><strong>G8</strong></td><td>MERIDIAN Territoires</td><td><a href="https://cityadmin-b.lockbay.eu">cityadmin-b.lockbay.eu</a></td><td class="mono">Qunt4Ev4b-W*p6st</td></tr>
+  </tbody>
+</table>
+
+<h2>2. First sign-in</h2>
+<p>Each instance has its own password, in the column above. The login is the
+same everywhere: <span class="mono">admin@lockbay.eu</span>. This account is for
+getting in once, not for working.</p>
+
+<ol>
+  <li>Open your group's address and sign in with the password on your row.</li>
+  <li>Create <strong>a personal, named account</strong> in <span class="mono">Identity management</span>,
+      then give it the necessary rights on the subsidiary's domain.</li>
+  <li>Sign out and carry on working with that account. Everything produced
+      must be attributable: that is the rule this module teaches, and it starts here.</li>
+  <li>Change the bootstrap password once the account is created. It is written
+      on a sheet handed out in class, so it protects nothing.</li>
+</ol>
+
+<h2>3. The other route: a personal instance</h2>
+<p>CISO Assistant is open source software published by intuitem. A personal
+deployment replaces the provided instance without penalty; the project's
+documentation gives the procedure. Both routes produce the same work and the
+same exported evidence of state.</p>
+
+<h2>4. What goes in, and what does not</h2>
+<div class="encart alerte">
+  <p><strong>High availability, medium integrity, low confidentiality.</strong>
+  This is not a production tool, and its environment is shared.</p>
+  <p>Only the MERIDIAN case, which is fictional, goes in. No real data, no
+  person's name, nothing from an internship or an employer. Rating the
+  confidentiality of a tool before pouring anything into it is exactly the
+  reflex this module installs: it applies here first.</p>
+</div>
+
+<h2>5. If something breaks</h2>
+<p>A missing teammate, a stubborn computer or a temperamental network are part
+of the job. Each group finds its own way through; the other route is one. An
+incident gets reported, it does not get waited out.</p>
+
+<footer>
+  Session document · module M2-01-4-ISMS · the addresses remain valid across
+  all ten sessions, from 2 to 17 September 2026.
+</footer>
+
+</div>
+</body>
+</html>
