@@ -8,21 +8,21 @@
 >
 > **Langue** : ce document est tenu en français. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise ; la note, elle, ne mélange pas.
 
-**État d'avancement : 3 sous-sections sur 9, toutes rédigées.** Les séances 4 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
+**État d'avancement : 4 sous-sections sur 9, toutes rédigées.** Les séances 5 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
 
 | # | Séance | Sous-section | Question servie | État |
 |---|---|---|---|---|
 | 1 | S1 | Contexte et gouvernance cible | Où en est la filiale | ✅ rédigée |
 | 2 | S2 | Actifs critiques | Où en est la filiale | ✅ rédigée |
 | 3 | S3 | Choix du référentiel | Où elle doit aller | ✅ rédigée |
-| 4 | S4 | État des lieux | Où en est la filiale | ⏳ séance non tenue |
+| 4 | S4 | État des lieux | Où en est la filiale | ✅ rédigée |
 | 5 | S5 | Risques majeurs | Où elle doit aller | ⏳ séance non tenue |
 | 6 | S6 | Tiers et projets | Comment elle y va | ⏳ séance non tenue |
 | 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ⏳ séance non tenue |
 | 8 | S8 | Périmètre du SMSI | Comment elle y va | ⏳ séance non tenue |
 | 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
 
-**Budget de pages** : trois sous-sections rédigées d'une demi-page ≈ **1 ½ page**. La marge est intacte ; la contrainte mordra vers la séance 6 ou 7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages** : quatre sous-sections rédigées ≈ **2 pages**. La marge se resserre mais tient ; la contrainte mordra vers la séance 6 ou 7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
@@ -57,6 +57,20 @@
 > **Ce que ce choix ne change pas** : il ne délivre par lui-même aucune conformité réglementaire, et les obligations sectorielles des filiales continuent de s'appliquer indépendamment.
 
 *Preuve au dossier : `Piece-2-File/Session-3/2-Labs/` — qualification et import (S3-05), note de business case et revue par les pairs (S3-06). Preuve d'état : `Piece-2-File/Session-3/3-Evidence/`.*
+
+---
+
+## Sous-section 4 — État des lieux *(séance 4)*
+
+> Le référentiel retenu à la sous-section précédente vient de connaître sa première utilisation à pleine échelle : une auto-évaluation outillée des douze exigences les plus exposées de Logistique, conduite dans l'instance de gouvernance, complétée par les constats gradés du premier cycle d'audit interne du groupe. La feuille de route arrêtée en sous-section 1 gagne ici son premier jalon mesuré. En une phrase, l'état est celui-ci : **des fondations documentées, une application non prouvée, des angles morts nommés** — aucune des douze exigences évaluées n'est pleinement couverte, deux le sont partiellement, et un point ne l'est pas du tout faute d'avoir été posé à la filiale.
+>
+> **Ce que cela donne à ceux qui décident.** La gouvernance à trois niveaux arrêtée en sous-section 1 avait pour objet de faire décider sur des faits plutôt que sur des impressions ; l'état des lieux est le premier jeu de faits de cette nature que la filiale se donne sur elle-même — deux non-conformités majeures touchent le même système, le WMS, dont l'arrêt bloque 40 % du volume expédié du groupe.
+>
+> **Ce que cela dit des actifs critiques.** La sous-section 2 avait mesuré la portée de cinq actifs sans savoir s'ils étaient protégés ; l'auto-évaluation vient de mesurer une partie de cette protection réelle, et le résultat — un cloisonnement réseau absent, un compte d'administration partagé avec un prestataire — confirme que les lacunes assumées en séance 2 n'étaient pas prudentes par excès, elles décrivaient l'état réel.
+>
+> **La limite à ne pas maquiller.** Cette mesure est une auto-évaluation, pas un audit indépendant au sens de la définition retenue en sous-section 3 — il lui manque l'indépendance, et le rapport qui l'accompagne le dit explicitement. Ce que cet état des lieux engage pour la suite : la séance 5 pondérera ces écarts par conséquence et vraisemblance dans l'analyse de risque, et l'approche d'homologation du WMS, cadrée mais incomplète, y trouvera son premier exhibit manquant à combler.
+
+*Preuve au dossier : `Piece-2-File/Session-4/2-Labs/D4-rapport-d-audit-initial.md` (rapport d'audit initial), `Seance-4-TP-S4-05-feuille-de-travail-auto-evaluation.md` (auto-évaluation), `Seance-4-TP-S4-06-exercice1-cadrage-homologation-WMS-et-exercice3-recommandations.md` (cadrage d'homologation). Preuve d'état : `Piece-2-File/Session-4/3-Evidence/`, et suivi outillé des constats dans `translog-b` (Follow-ups).*
 
 ---
 

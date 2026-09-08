@@ -53,7 +53,7 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : F4 d'abord — petite, et c'est une contre-vérité posée sous les yeux d'un correcteur qui dispose des mêmes captures que nous. Puis F3, le plus gros livrable. F1 + F2 + F5 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** : F3, seul chantier restant hors écriture. F1 + F2 + F4 + F5 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
 
 **Reste ouvert, hors écriture** : le marquage/capture de F3 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
 
@@ -65,7 +65,7 @@ Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 �
 
 **Pourquoi cela coûtait des points.** Le coefficient individuel — 0,85 / 0,95 / 1,05 / 1,15, appliqué **aux deux** composantes collectives (livrables coef. 4, soutenance coef. 3) — repose sur deux éléments de poids égal, dont le premier est *« la traçabilité nominative dans l'outil, où chaque objet créé porte un propriétaire »*.
 
-> **Correction du 8 septembre 2026** : une version antérieure de cette fiche demandait aussi de remplacer le domaine `Global` par `MERIDIAN-LOGISTIQUE`. **C'était une erreur**, reprise d'une convention de notre propre S2-05 qui confondait deux champs : dans CISO Assistant, le **domaine** est le dossier organisationnel — `Global` y est la valeur normale — et c'est le **périmètre** (`MERIDIAN-LOGISTIQUE`) qui porte le rattachement noté. **Le domaine n'a pas été touché.**
+> **Correction du 8 septembre 2026** : une version antérieure de cette fiche demandait de remplacer le domaine `Global` par `MERIDIAN-LOGISTIQUE`. **C'était une erreur**, reprise d'une convention de notre propre S2-05 qui confondait deux champs. **Rectifié le même jour, en séance 4, en vérifiant l'objet réel dans l'outil** : le domaine de l'évaluation n'est ni `Global` ni `MERIDIAN-LOGISTIQUE` seuls — c'est `MERIDIAN-LOGISTIQUE`, un **sous-domaine propre à la filiale, enfant de `Global`** (`Domains` le confirme : *Parent domain* = `Global`) ; et le périmètre n'est pas `MERIDIAN-LOGISTIQUE` mais `MERIDIAN-LOGISTIQUE-FINAL`, à l'intérieur de ce sous-domaine. Cette organisation à un sous-domaine par filiale est correcte et n'a pas été touchée ; seule la phrase qui la décrivait ici était imprécise.
 
 **Preuve de clôture** :
 - `Session-3/3-Evidence/S3-05-ex3-compliance-assessment-detail-authors-status.png` — Authors `Miguel.monereodelasota@ynov.com` / `maximebatista18@gmail.com`, **Status : In progress**.
@@ -74,11 +74,11 @@ Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 �
 
 Reviewers, Description et ID restent vides — ils ne faisaient pas partie du « Fini quand » et n'entament pas la traçabilité nominative exigée.
 
-**Fini** : auteurs renseignés sur l'évaluation **et** sur les 17 actifs, statut posé (`In progress`) et l'audit désormais compté par son propre rapport. Le domaine reste `Global`.
+**Fini** : auteurs renseignés sur l'évaluation **et** sur les 17 actifs, statut posé (`In progress`) et l'audit désormais compté par son propre rapport. Le domaine (`MERIDIAN-LOGISTIQUE`, sous-domaine de `Global`) et le périmètre (`MERIDIAN-LOGISTIQUE-FINAL`) n'ont pas été touchés.
 
 ---
 
-## F4 · L'affirmation sur le ReCyF est contredite par nos propres preuves
+## F4 · L'affirmation sur le ReCyF est contredite par nos propres preuves — ✅ fait
 
 **Preuve** : `Piece-2-File/Session-3/3-Evidence/S3-05-ex4-library-search-ReCyF-FOUND-see-note.jpg` — le référentiel est **présent** dans la bibliothèque : fournisseur **ANSSI**, id `ReCyF`, *« RECYF : RÉFÉRENTIEL CYBER France – Version 2.5 du 17/03/2026 »*, built-in, langue française, date de publication **2026-07-09**, « Showing 1 to 1 of 1 ».
 
@@ -92,7 +92,7 @@ Reviewers, Description et ID restent vides — ils ne faisaient pas partie du «
 
 **Effet sur la recommandation : aucun.** Si la note d'outillage du ReCyF passe de 2 à 3, son total va de 195 à **205** contre **230** pour ISO — l'écart se resserre de 35 à 25 mais ne bascule pas. La règle de veto l'écarte toujours comme **colonne vertébrale** sur la couverture, indépendamment de la note.
 
-**Fini quand** : l'Ex. 4 de S3-05 est réécrit autour de ce qui est réellement à l'écran ; les deux passages de la note de business case sont corrigés ; l'analyse de sensibilité dit 25 et non 35, et pourquoi cela tient toujours.
+**Fini** : l'Ex. 4 de S3-05 est réécrit autour de ce qui est réellement à l'écran (correction datée conservée, rien effacé) ; les deux passages de la note de business case sont corrigés ; l'analyse de sensibilité dit 25 et non 35, et la recommandation ne bouge pas — elle tient sur la règle de veto, pas sur l'arithmétique.
 
 ---
 
@@ -270,3 +270,4 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 | 8 sept. 2026 | **F7 clos à 8/8** : la page de Maxime pour la séance 4 écrite (angle « l'effet interne » — l'échéance d'un audit externe comme seul mécanisme qui discipline réellement, illustré par l'échec de la notification à deux heures lors de l'arrêt du WMS en avril, plutôt que la piste des sauvegardes déjà prise en séance 1). Huit pages en tout sur quatre séances, chacune avec un angle distinct entre les deux auteurs. Restent uniquement F5 et le marquage/capture de F3 et F6 — tout dans l'outil, plus rien à écrire. |
 | 8 sept. 2026 | **F6 clos** : capture de l'arbre de l'annexe A déplié prise sur `translog-b` (`S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png`) — confirme **93** contrôles en **37** (A.5) / **8** (A.6) / **14** (A.7) / **34** (A.8), cohérent avec l'affirmation déjà écrite dans S3-05 et la note de business case. Restent F5 (objets de l'outil) et le marquage/capture de F3. |
 | 8 sept. 2026 | **F5 clos** : Authors vérifiés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), Status posé sur l'évaluation — premier essai à « Planned » resté exclu du rapport (« 0 counted, 1 excluded: Planned 1 »), corrigé en « In progress », qui compte désormais (« 1 counted, 0 excluded: In progress 1 »). Trois nouvelles captures dans `Session-3/3-Evidence/`. Reste uniquement le marquage/capture de F3. |
+| 8 sept. 2026 | **Séance 4 — TP 1 fait** (auto-évaluation outillée des douze exigences de Logistique dans `translog-b`, quatre mesures appliquées créées, feuille de travail rédigée) et **TP 2 fait** : livrable `D4-rapport-d-audit-initial.md` (six sections), fiche de cadrage de l'homologation du WMS et recommandations réparées (exercices 1 et 3), **sous-section 4 de la note de stratégie rédigée**. Suivi outillé ajouté dans `translog-b` : un objet *Follow-up* (« MERIDIAN Logistique - Internal audit - Initial audit report (S4) ») portant les trois constats gradés par le TD 2 (C3, C4 en non-conformité majeure, C7 conforme sur son flux), chacun rattaché aux mesures correctives concernées. Au passage, correction d'une imprécision trouvée dans la note « Correction du 8 septembre 2026 » de F5 : le domaine réel de l'évaluation est `MERIDIAN-LOGISTIQUE` (sous-domaine de `Global`), le périmètre `MERIDIAN-LOGISTIQUE-FINAL` — rien n'était cassé dans l'outil, seule la phrase était imprécise. Une nouvelle capture dans `Session-4/3-Evidence/`. |

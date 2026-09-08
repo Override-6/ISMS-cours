@@ -13,12 +13,12 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 3 sur 9, la séance 4 est ouverte** (le bureau du RSSI S4 est fait — Miguel et Maxime —, le TP reste à venir). Tout ce qui relève des séances 5 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 4 sur 9, la séance 5 est la prochaine à ouvrir.** Tout ce qui relève des séances 5 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
-| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **13 pts** assemblés (D1 4 · D2 5 · D3 4) | D4→D9 = 24 pts, séances non tenues |
-| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 3 sous-sections sur 9, **toutes rédigées** | 6 sous-sections, une par séance restante |
+| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **17 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4) | D5→D9 = 20 pts, séances non tenues |
+| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 4 sous-sections sur 9, **toutes rédigées** | 5 sous-sections, une par séance restante |
 | **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | ✅ **8 pages sur 8** (Miguel + Maxime, S1→S4) | rien — F7 clos |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
@@ -30,7 +30,7 @@
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ assemblé | — (instance ouverte en S2) |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ⬜ **Top 5 à marquer** |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
-| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI S4 fait (Miguel + Maxime) · **D4 à produire** | — |
+| **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
 | S5 | Risques majeurs | D5 | 3 | ⏳ | — |
 | S6 | Tiers et projets | D6 | 7 | ⏳ | — |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
@@ -41,13 +41,14 @@
 
 ## 2. Ce qui est **fait**
 
-### Les trois livrables existent, nommés, autonomes, au format exigé
+### Les quatre livrables existent, nommés, autonomes, au format exigé
 
 | Livrable | Fichier | Ce qu'il porte |
 |---|---|---|
 | **D1** | `…/Session-1/2-Labs/D1-note-de-cadrage-et-gouvernance-cible.md` | Deux pages : périmètre et exclusions assumées, enjeux, parties prenantes, contraintes réelles · gouvernance à trois niveaux **avec fréquences**, matrice RACI, 5 directives codifiées, 3 règles d'arbitrage |
 | **D2** | `…/Session-2/2-Labs/D2-cartographie-MERIDIAN-LOGISTIQUE.md` | Les **8 éléments exigés** : valeurs métier, biens supports, DICT, dépendances inter-filiales, **Top 5 justifié**, lacunes assumées, processus de mise à jour |
 | **D3** | `…/Session-3/2-Labs/D3-note-de-business-case.md` | Deux pages, 5 sections, les **5 éléments exigés** dont l'**estimation de charge** (≈ 60 jours-homme la 1re année, poste par poste) |
+| **D4** | `…/Session-4/2-Labs/D4-rapport-d-audit-initial.md` | Six sections imposées : cadrage (auto-évaluation, sans indépendance, assumée), synthèse pour décision, **constats gradués** (C3/C4 majeurs, C7 conforme sur son flux, + écarts complémentaires de l'auto-évaluation), recommandations tracées, plan d'action correctif (M1-M4), angles morts |
 
 ### Corrections passées (journal complet : [`fixes.md`](G4-%20Translog%20Maxime%20-%20Miguel%20-%20TP/fixes.md))
 
@@ -57,13 +58,14 @@
 - **F4** — **erreur ReCyF corrigée** dans les 4 fichiers concernés : le référentiel est *présent* en bibliothèque, contrairement à ce qu'on écrivait. Grille recalculée (ReCyF 195 → **205**, écart 35 → **25 pts**), deux tests de bascule refaits. La recommandation ne bouge pas — elle tient sur la **règle de veto**, pas sur l'arithmétique.
 - **F9** — la feuille de route chiffrée S1 est conservée mais **sortie du rendu** (c'est le sujet du rattrapage).
 - **F7 (clos)** — les **huit pages du bureau du RSSI** (Miguel + Maxime, S1 à S4) sont écrites, chacune individuelle, chacune close par une recommandation à la direction, chacune avec un angle distinct de son binôme.
-- **Séance 4 close côté bureau du RSSI** — les deux pages S4, à partir du TD 1 *« La valeur de la certification ISO 27001 »* : Miguel sur le découplage des deux demandes (client / Direction Générale), Maxime sur l'effet interne de l'échéance externe comme mécanisme de discipline.
+- **Séance 4 close en entier** — bureau du RSSI (les deux pages S4, à partir du TD 1 *« La valeur de la certification ISO 27001 »* : Miguel sur le découplage des deux demandes client/Direction Générale, Maxime sur l'effet interne de l'échéance externe), auto-évaluation outillée (TP 1) et rapport d'audit initial **D4** (TP 2, six sections, trois constats gradés suivis dans l'instance).
 - **F3 (moitié)** — le Top 5 est au dossier, classé sur un critère écrit *avant* le classement, et la **sous-section 2 de la note de stratégie qu'il bloquait est rédigée**.
 
 ### Preuves déjà au dossier
 
 - `Session-2/3-Evidence/` — liste des actifs (2 captures), vue d'analyse d'impact.
 - `Session-3/3-Evidence/` — 16 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
+- `Session-4/3-Evidence/` — 5 captures : auto-évaluation des douze exigences, mesures appliquées, taux de conformité, et le suivi outillé des trois constats gradés (*Follow-up*) créé dans `translog-b`.
 
 ---
 
@@ -83,7 +85,7 @@
 
 **F5 · Nommer les propriétaires — clos.** Authors confirmés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), statut posé (`In progress`) : le rapport de référentiel compte désormais l'audit (« 1 counted, 0 excluded »). Trois nouvelles captures dans `Session-3/3-Evidence/`.
 
-### ⏳ Au fil des séances 4 à 9 — le rythme à tenir
+### ⏳ Au fil des séances 5 à 9 — le rythme à tenir
 
 Chaque séance produit **trois choses**, et il n'y en a jamais eu d'autres :
 
@@ -95,7 +97,6 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 
 | Séance | Livrable attendu | Pts |
 |---|---|---|
-| **S4** | **D4** — audit / état des lieux · *bureau du RSSI S4 déjà fait (Miguel + Maxime) ; reste le TP, le livrable et la sous-section 4 de la note* | 4 |
 | S5 | **D5** — risques majeurs | 3 |
 | S6 | **D6** — tiers et projets *(le plus lourd du module)* | **7** |
 | S7 | **D7** — traitement du risque | 5 |
@@ -103,7 +104,7 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 | S9 | **D9** — indicateurs + **version close de la note de stratégie** | 3 |
 | **S10** | **Pièce 3** — export daté de l'instance, 8h30–9h15, au dépôt | support |
 
-**Budget de pages de la note** : 3 à 5 pages de texte (3 est la cible). Trois sous-sections écrites ≈ **1 ½ page** — la marge est intacte, la contrainte mordra vers S6/S7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages de la note** : 3 à 5 pages de texte (3 est la cible). Quatre sous-sections écrites ≈ **2 pages** — la marge se resserre mais tient, la contrainte mordra vers S6/S7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
@@ -130,7 +131,7 @@ ISMS/
 │
 ├── Seance-1/, Seance-2/, Seance-3/   ← supports de cours reçus (CM / TD / TP), par séance
 ├── S2 - Sources/, S3 - Sources/,     ← mêmes supports, export Lockbay Academy
-│   S4 - Sources/                        (S4 : séance en cours)
+│   S4 - Sources/                        (S1 à S4 désormais complètes)
 ├── Correction/                        ← version française du support S4 TD 1
 ├── 00-Reference/                      ← dossier de référence MERIDIAN + accès à l'instance
 └── .FIRST_TP-backup-20260908-115436/ ← état du dossier avant la réorganisation du 8 sept. (archive)
@@ -150,7 +151,7 @@ ISMS/
 
 ## 5. Conventions à ne pas perdre
 
-- **Instance** `translog-b`, **périmètre** `MERIDIAN-LOGISTIQUE`. Le **domaine** reste `Global` — c'est sa valeur normale dans CISO Assistant. Domaine ≠ périmètre : c'est le **périmètre** qui porte le rattachement noté.
+- **Instance** `translog-b`. Domaine ≠ périmètre : le **domaine** des objets de la filiale est `MERIDIAN-LOGISTIQUE` (un sous-domaine propre, enfant du domaine racine `Global` — vérifié dans `Domains`), et le **périmètre** est `MERIDIAN-LOGISTIQUE-FINAL`, à l'intérieur de ce sous-domaine. Ne pas confondre les deux, et ne pas supposer que le domaine affiché est littéralement `Global` sans l'avoir vérifié sur l'objet.
 - **Chaque objet créé dans l'instance porte un auteur nommé.** C'est la moitié du coefficient individuel, l'autre moitié étant la question individuelle en soutenance.
 - **La note de stratégie est en français** et ne mélange pas les langues. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise.
 - **Un livrable ne se cache pas dans un compte rendu.** Il porte son nom `Dn-…`, il est autonome, il tient le format exigé ; les comptes rendus de TP restent à côté comme trace de méthode.

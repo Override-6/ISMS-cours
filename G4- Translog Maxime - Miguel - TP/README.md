@@ -6,18 +6,18 @@
 
 ---
 
-## Avancement : séances 1 à 3 sur 9, séance 4 en cours (TP 1 fait)
+## Avancement : séances 1 à 4 sur 9, séance 5 à venir
 
-Le bloc 1 (séances 1–2, fondations) et la première séance du bloc 2 (séance 3, choix du référentiel) sont faits, livrables compris. La séance 4 est **en cours** : le bureau du RSSI y est clos (Miguel et Maxime), et le **TP 1 — auto-évaluation dans CISO Assistant — est fait** (les douze exigences retenues sont saisies dans `translog-b`, les quatre mesures appliquées sont créées, la feuille de travail est rédigée). Reste le **TP 2**, qui écrit le livrable `D4` (rapport d'audit initial) à partir de cette matière. **Les séances 5 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
+Le bloc 1 (séances 1–2, fondations) et les deux premières séances du bloc 2 (séance 3, choix du référentiel ; séance 4, audit initial) sont faites, livrables compris. La séance 4 est désormais **complète** : bureau du RSSI clos (Miguel et Maxime), **TP 1** — auto-évaluation outillée dans `translog-b`, douze exigences + quatre mesures créées — et **TP 2** — livrable `D4` (rapport d'audit initial, six sections), fiche de cadrage de l'homologation du WMS, recommandations réparées — tous faits, plus un suivi outillé des constats gradés (*Follow-up*) ajouté dans l'instance. **Les séances 5 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
 
 | Séance | Thème | Livrable | Points | État |
 |---|---|---|---|---|
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ **livrable assemblé**, bureau du RSSI clos *(F7)* |
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ **livrable assemblé** — reste le marquage dans l'instance *(F3)* |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** |
-| **S4** | Audit · valeur de la certification | **D4** | 4 | 🔄 bureau du RSSI clos, **TP 1 fait** (auto-évaluation, douze exigences + quatre mesures dans l'instance) — **TP 2 et livrable `D4` à venir** |
+| **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ **livrable assemblé**, bureau du RSSI clos, TP 1 et TP 2 faits |
 | S5–S9 | Risque, tiers, traitement, SMSI, indicateurs | D5 à D9 | 20 | ⏳ séances non tenues |
-| S1–S9 | — | Note de stratégie | 3 | 🔄 3 sous-sections sur 9, **toutes rédigées** |
+| S1–S9 | — | Note de stratégie | 3 | 🔄 4 sous-sections sur 9, **toutes rédigées** |
 
 **Barème des livrables : 40 points** (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note 3), convertis sur 20, coefficient 4 sur 10.
 **Remise : 17 septembre 2026.**
@@ -73,12 +73,11 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 - `3-Evidence/` — 16 captures : détail du référentiel (123 exigences, dont l'arbre annexe A déplié), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque.
 - ✅ L'**erreur sur le ReCyF est corrigée** dans les quatre fichiers concernés, et l'arithmétique de la grille recalculée (ReCyF 205, écart 25 points). ✅ La capture de l'annexe A dépliée est faite (93 en 37/8/14/34) — voir `fixes.md` F6.
 
-### Séance 4 — Audit · valeur de la certification *(D4)* 🔄
+### Séance 4 — Audit initial *(D4)* ✅
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel et Maxime, angles distincts) à partir du TD 1 *« La valeur de la certification ISO 27001 »*. `fixes.md` F7 est clos, 8 pages sur 8.
 - `4-Working-notes/Seance-4-TD-S4-03-gradation-des-constats.md` — **TD 2 fait** : les huit constats du cycle d'audit groupe gradés (conforme / non-conformité majeure ou mineure / observation), justifiés par l'exigence et l'étendue de l'écart, jamais par la gravité ressentie ; les deux gradations discutables (C6, C8) argumentées des deux côtés. Préalable du TP 1.
-- `2-Labs/` — **TP 1 fait** : `PLAN-Seance-4-TP-S4-05-auto-evaluation.md` (le mode opératoire) et `Seance-4-TP-S4-05-feuille-de-travail-auto-evaluation.md` (**la feuille de travail** — cadrage, mapping des statuts, les douze exigences justifiées, les quatre mesures SMART, synthèse par thème, lecture de maturité, biais assumé, et les deux listes qui alimenteront le TP 2). Dans `translog-b` : les douze exigences retenues portent un statut (0 couvert · 2 partiels · 9 non couverts · 1 non évalué assumé, A.6.3), et quatre mesures appliquées (deux corrections, deux actions correctives) sont créées, rattachées à leur exigence, avec propriétaire nominatif et échéance. Aucun objet des séances 2/3 recréé ou renommé.
-- `3-Evidence/` — quatre captures `S4-05-*.jpg` : l'évaluation d'une exigence saisie, le détail de A.8.22 (non couvert, justification), les quatre mesures appliquées avec propriétaire et échéance, le taux de conformité après saisie.
-- Reste à faire : le **TP 2**, qui écrit le livrable `D4-rapport-d-audit-initial.md` (six sections imposées) à partir de cette feuille de travail, et la 4ᵉ sous-section de la note de stratégie.
+- `2-Labs/` — **TP 1 fait** : `PLAN-Seance-4-TP-S4-05-auto-evaluation.md` (le mode opératoire) et `Seance-4-TP-S4-05-feuille-de-travail-auto-evaluation.md` (**la feuille de travail** — cadrage, mapping des statuts, les douze exigences justifiées, les quatre mesures SMART, synthèse par thème, lecture de maturité, biais assumé). Dans `translog-b` : les douze exigences retenues portent un statut (0 couvert · 2 partiels · 9 non couverts · 1 non évalué assumé, A.6.3), et quatre mesures appliquées (deux corrections, deux actions correctives) sont créées, rattachées à leur exigence, avec propriétaire nominatif et échéance. **TP 2 fait** : `D4-rapport-d-audit-initial.md` (**le livrable**, six sections — cadrage, synthèse, constats gradués, recommandations, plan d'action correctif, angles morts) et `Seance-4-TP-S4-06-exercice1-cadrage-homologation-WMS-et-exercice3-recommandations.md` (fiche de cadrage de l'homologation du WMS, trois recommandations bâclées réparées). Dans `translog-b` : un objet *Follow-up* porte les trois constats gradés par le TD 2 (C3, C4 en non-conformité majeure, C7 conforme sur son flux), chacun rattaché aux mesures correctives concernées. Aucun objet des séances 2/3 recréé ou renommé.
+- `3-Evidence/` — cinq captures : `S4-05-*.jpg` (l'évaluation des exigences, le détail de A.8.22, les quatre mesures appliquées, le taux de conformité après saisie) et `S4-06-ex2-follow-up-findings-C3-C4-C7.png` (le suivi outillé des trois constats).
 
 ---
 
