@@ -13,14 +13,14 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 4 sur 9 ; la séance 5 est ouverte — ses deux TD sont rendus et relus, ses deux TP restent à faire.** Tout ce qui relève des séances 6 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 4 sur 9 ; la séance 5 est ouverte — ses deux TD et son TP 1 sont faits, le TP 2 et D5 restent.** Tout ce qui relève des séances 6 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
 | **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **17 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4) | D5→D9 = 20 pts, séances non tenues |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 4 sous-sections sur 9, **toutes rédigées** | 5 sous-sections, une par séance restante |
 | **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **9 pages** — S1→S4 complètes (F7 clos), + S5 de Maxime | 🔴 **S5 de Miguel** (F12) |
-| **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut) | — |
+| **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut, étude EBIOS RM comprise) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
 ### Détail par séance
@@ -28,10 +28,10 @@
 | Séance | Thème | Livrable | Pts | Dossier | Instance |
 |---|---|---|---|---|---|
 | **S1** | Gouvernance : niveaux, acteurs, principes | **D1** Note de cadrage et gouvernance cible | 4 | ✅ assemblé | — (instance ouverte en S2) |
-| **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ⬜ **Top 5 à marquer** |
+| **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ✅ **Top 5 marqué** (étiquette `Top5`) |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
-| **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | 🔄 **TD 1 et TD 2 rendus et relus** (F12) — TP 1, TP 2 et D5 à faire | ⬜ matrice 4x4 à importer |
+| **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | 🔄 TD 1, TD 2 et **TP 1** faits — restent **TP 2 et D5** | ✅ matrice 4x4 importée, étude créée, ateliers 1-2 saisis |
 | S6 | Tiers et projets | D6 | 7 | ⏳ | — |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
 | S8 | Périmètre du SMSI | D8 | 2 | ⏳ | — |
@@ -67,6 +67,7 @@
 - `Session-2/3-Evidence/` — liste des actifs (2 captures), vue d'analyse d'impact.
 - `Session-3/3-Evidence/` — 16 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
 - `Session-4/3-Evidence/` — 5 captures : auto-évaluation des douze exigences, mesures appliquées, taux de conformité, et le suivi outillé des trois constats gradés (*Follow-up*) créé dans `translog-b`.
+- `Session-5/3-Evidence/` — 18 captures du TP 1 : inventaire de l'existant (domaines, périmètre, 17 actifs, audit S4, liste EBIOS RM vide avant la séance), grille de la matrice 4x4 importée, paramètres de l'étude, 17 actifs reliés, compteurs du *Summary*, les 6 événements redoutés, les 5 couples SR/OV avec la colonne `Pertinence` lisible, les ateliers 3-4-5 vides, et le Top 5 étiqueté dans la liste des actifs (F3).
 
 ---
 
@@ -77,10 +78,11 @@
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
-| **2** | **Séance 5 · TP 1 et TP 2** — import de la matrice « 4x4 EBIOS-RM », saisie des ateliers 1 et 2 dans `translog-b`, échelles G1-G4 / V1-V4 décrites en termes du groupe, seuil d'acceptation posé sur la grille, livrable **D5** assemblé et **sous-section 5** de la note rédigée | instance + dépôt | les deux | **D5 — 3 pts** | Moyenne |
-| **3** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
+| **2** | **Séance 5 · TP 2** — échelles G1-G4 / V1-V4 décrites en termes du groupe, **seuil d'acceptation** posé sur la grille de la matrice importée, livrable **D5** assemblé et **sous-section 5** de la note rédigée. *(Le TP 1 est fait : matrice importée, étude créée, ateliers 1 et 2 saisis — 6 événements redoutés, 5 couples SR/OV dont 3 retenus.)* | instance + dépôt | les deux | **D5 — 3 pts** | Moyenne |
 
-> ⚠️ **Les chantiers 2 et 3 passent par le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
+> ⚠️ **Le chantier 2 passe en partie par le navigateur**, sur `translog-b` : le seuil d'acceptation se pose dans l'outil, puis on rapatrie les captures.
+
+**F3 · Top 5 marqué dans l'instance — clos.** `SA-01`, `SA-04`, `SA-09`, `SA-05` et `SA-03` portent l'étiquette **`Top5`**, lisible dans la colonne `LABELS` de la liste des actifs sans ouvrir D2 ; liste recapturée dans `Session-2/3-Evidence/`.
 
 **F7 · Bureau du RSSI — clos.** Les huit pages (Miguel + Maxime, S1 à S4) sont écrites, une par étudiant et par séance, chacune individuelle et close par une recommandation à la direction ; le détail des angles retenus est dans `fixes.md`.
 
