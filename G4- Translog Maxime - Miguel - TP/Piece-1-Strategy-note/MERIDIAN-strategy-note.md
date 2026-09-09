@@ -8,7 +8,7 @@
 >
 > **Langue** : ce document est tenu en français. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise ; la note, elle, ne mélange pas.
 
-**État d'avancement : 4 sous-sections sur 9, toutes rédigées.** Les séances 5 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
+**État d'avancement : 5 sous-sections sur 9, toutes rédigées.** Les séances 6 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
 
 | # | Séance | Sous-section | Question servie | État |
 |---|---|---|---|---|
@@ -16,13 +16,13 @@
 | 2 | S2 | Actifs critiques | Où en est la filiale | ✅ rédigée |
 | 3 | S3 | Choix du référentiel | Où elle doit aller | ✅ rédigée |
 | 4 | S4 | État des lieux | Où en est la filiale | ✅ rédigée |
-| 5 | S5 | Risques majeurs | Où elle doit aller | ⏳ séance non tenue |
+| 5 | S5 | Risques majeurs | Où elle doit aller | ✅ rédigée |
 | 6 | S6 | Tiers et projets | Comment elle y va | ⏳ séance non tenue |
 | 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ⏳ séance non tenue |
 | 8 | S8 | Périmètre du SMSI | Comment elle y va | ⏳ séance non tenue |
 | 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
 
-**Budget de pages** : quatre sous-sections rédigées ≈ **2 pages**. La marge se resserre mais tient ; la contrainte mordra vers la séance 6 ou 7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages** : cinq sous-sections rédigées ≈ **2,5 pages** (la sous-section 5 est plus longue, une demi-page). La marge se resserre ; la contrainte mordra vers la séance 6 ou 7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
@@ -74,12 +74,26 @@
 
 ---
 
+## Sous-section 5 — Risques majeurs *(séance 5)*
+
+> L'analyse de risque annoncée en clôture de la sous-section précédente a été conduite selon les deux premiers ateliers de la méthode EBIOS Risk Manager. Elle confronte les cinq actifs critiques de la sous-section 2 à ceux qui pourraient vouloir leur nuire, et retient **trois scénarios majeurs**, chacun dirigé contre l'un de ces actifs : un **groupe cybercriminel** qui chiffrerait le système de gestion d'entrepôt pour arrêter l'expédition du groupe et exiger une rançon ; un **agent interne mécontent ou sur le départ** qui fausserait les données de préparation et emporterait le savoir-faire des six entrepôts, aujourd'hui écrit nulle part ; un **concurrent** qui capterait les données d'exploitation et celles du client pharmaceutique pour disputer le marché. Un quatrième acteur — le prestataire des automates, dont le contrat n'offre aucune réversibilité — est tenu en veille et sera traité en séance 6 avec le reste de l'écosystème ; c'est le seul des cinq actifs critiques qu'aucun des trois scénarios ne vise directement, et ce n'est pas un oubli mais un choix de méthode.
+>
+> **L'événement le plus grave du dossier** est l'arrêt non planifié de l'expédition au-delà de six heures : il bloque 40 % du volume expédié du groupe, déclenche des pénalités de 12 000 € par jour, et il est **crédible** — le système est centralisé sur un seul site sans secours, ses sauvegardes n'ont jamais été restaurées, et un arrêt de ce type a déjà eu lieu en avril sans que personne ne tienne de chronologie.
+>
+> **Ce que l'état des lieux de la sous-section 4 change à ces risques**, en une phrase : les deux non-conformités majeures — réseaux industriel et bureautique non cloisonnés, compte d'administration partagé avec un prestataire sans porteur identifié — ne sont pas seulement des écarts de conformité, ce sont le chemin qui fait passer les scénarios cybercriminel et interne du théorique au **très probable**, parce qu'elles retirent à un attaquant les deux obstacles qui le ralentiraient : la séparation des réseaux et la possibilité de savoir qui a agi.
+>
+> **Décision demandée à la Direction Générale** : confirmer le seuil d'acceptation dérivé de l'appétence proposée au comité — un risque **élevé** est inacceptable en l'état et doit être traité avant toute mise en production ; un risque **moyen** n'est toléré que daté, surveillé et confié à un propriétaire nommé ; un risque **faible** est accepté tel quel. C'est la gouvernance de la sous-section 1 qui parle : la Direction Générale fixe ce seuil, le Conseil d'Administration l'approuve.
+
+*Preuve au dossier : `Piece-2-File/Session-5/2-Labs/D5-appreciation-initiale-des-risques.md` (appréciation initiale des risques — cadrage, socle, sources de risque, événements redoutés, échelles justifiées), `Piece-2-File/Session-5/1-CISO-desk/Seance-5-TD-S5-01-appetence-au-risque.md` (bureau du RSSI : appétence), `Piece-2-File/Session-5/4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md` (ateliers 1 et 2), `Piece-2-File/Session-5/2-Labs/Seance-5-TP-S5-06-echelles-et-assemblage-D5.md` (échelles et assemblage). Preuve d'état : `Piece-2-File/Session-5/3-Evidence/`, et l'étude EBIOS RM dans `translog-b` (17 actifs, 7 événements redoutés, 5 couples source de risque / objectif visé).*
+
+---
+
 ## Journal des amendements
 
 *Règle : rien n'est supprimé ; toute contradiction entre deux sous-sections s'amende d'une phrase de justification, datée.*
 
 | Date | Sous-section amendée | Amendement | Justification |
 |---|---|---|---|
-| — | — | Aucun amendement à ce jour | Les sous-sections 1, 2 et 3 ne se contredisent pas. |
+| — | — | Aucun amendement à ce jour | Les sous-sections 1 à 5 ne se contredisent pas : la sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques), elle ne la corrige pas. |
 
 **Amendement déjà identifié pour plus tard** : quand le périmètre de déploiement ISO sera arrêté filiale par filiale, la sous-section 1 gagnera une phrase mentionnant cet arbitrage — la gouvernance décrite en S1 aura alors produit une décision de plus.
