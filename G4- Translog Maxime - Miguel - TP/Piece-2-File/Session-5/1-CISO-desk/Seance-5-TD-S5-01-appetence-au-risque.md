@@ -110,9 +110,11 @@ une décision réelle est à réécrire.*
   (manquement contractuel direct + risque sanitaire — pénalités de 12 000 €/jour, pack §2).
 - **Décision concrète qu'il tranche** : **le calendrier de la mesure M1 du plan d'action correctif de D4**
   — création du VLAN dédié pour les automates de tri d'E2/E3/E4, filtrage en défaut-refus. L'énoncé
-  autorise à programmer cette bascule dans la fenêtre hors pic malgré la position du Responsable
-  Exploitation (« personne ne touche aux automates en période de pointe, dix mois sur douze », pack §3) ;
-  symétriquement, il interdit de repousser M1 indéfiniment au motif qu'elle porte un risque d'arrêt —
+  autorise à programmer cette bascule dans la fenêtre hors pic malgré la position du **Directeur de la
+  filiale** (« ne veut aucune intervention sur les automates en période de pointe, soit dix mois sur
+  douze », pack §3) — celui-là même qui décide des budgets et des contrats, donc la seule position que
+  l'énoncé doit pouvoir surmonter ; symétriquement, il interdit de repousser M1 indéfiniment au motif
+  qu'elle porte un risque d'arrêt —
   l'arrêt planifié, borné et supervisé est explicitement dans l'appétence.
 
 ### Énoncé 2 — transverse au groupe, valable pour les quatre filiales

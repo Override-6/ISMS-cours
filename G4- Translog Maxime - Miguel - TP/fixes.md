@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D4 (séances 1 à 4), plus F7 qui les déborde.** D1 à D4 sont les seuls livrables dus à ce jour ; D5 à D9 (20 points sur 40) ne sont pas en retard, leurs séances n'ont pas eu lieu au sens du livrable noté. Seule exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les quatre séances tenues.
+**Portée de ce journal : les livrables D1 à D4 (séances 1 à 4), plus les deux TD de la séance 5 et F7, qui les débordent.** D1 à D4 sont les seuls livrables **assemblés** à ce jour ; D5 à D9 (20 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 5 a produit ses deux TD, pas encore ses TP ni son D5 (**F12**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les quatre séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -24,6 +24,7 @@
 | **F9** | La feuille de route chiffrée S1 ne doit **pas** figurer au rendu | hygiène D1 | 0 | Triviale | ✅ **fait** |
 | **F10** | **Aucune séance ne présente son livrable comme un livrable** — D1 à D3 sont enfouis dans des comptes rendus d'exercices | D1 · D2 · D3 | **13** | Moyenne | ✅ **fait** — D1, D2, D3 |
 | **F11** | La note de cadrage D1 n'énonce ni **enjeux** ni **contraintes** | D1 | 4 (partagé) | Petite | ✅ **fait** |
+| **F12** | **Séance 5, TD 1 et TD 2 relus** : trois erreurs de citation, un constat du reference pack non gradé, page du bureau du RSSI de Miguel absente | D5 (matière) + bureau du RSSI | **10** (coef. 1) + matière de D5 | Petite | 🔄 **citations corrigées** — reste la page de Miguel |
 
 ### Séance 3 — close au dossier
 
@@ -53,7 +54,7 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : F3, seul chantier restant hors écriture. F1 + F2 + F4 + F5 + F6 sont désormais clos, comme F7. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** : la page du bureau du RSSI S5 de Miguel (**F12**, 10 points, individuel), puis F3, seul chantier restant hors écriture. F1 + F2 + F4 + F5 + F6 sont désormais clos, comme F7 pour S1-S4. F8 et F9 se ferment quand on veut.
 
 **Reste ouvert, hors écriture** : le marquage/capture de F3 — tout ce qui se fait dans le navigateur sur `translog-b`, pas dans les fichiers.
 
@@ -243,6 +244,72 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 
 ---
 
+## F12 · Relecture de la séance 5 (TD 1 et TD 2) — 🔄 citations corrigées, reste la page de Miguel
+
+**Ce qui a été relu** : `Session-5/1-CISO-desk/Seance-5-TD-S5-01-appetence-au-risque.md` (TD 1, appétence
+au risque) et `Session-5/4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md` (TD 2, ateliers 1
+et 2), confrontés aux énoncés des sources S5, au CM de la séance 5, au pack de filiale, au reference pack
+et à nos propres D1, D2 et D4.
+
+**Le fond tient.** La contrainte la plus dure du TD 2 est respectée : les valeurs métier `LOG-PA-01/02/04`
+et les biens supports `LOG-SA-01` à `SA-13` sont **repris à l'identique de D2**, aucun recréé, aucun
+renommé — c'est le premier critère d'acceptation de D5. Les besoins DICT dominants correspondent ligne à
+ligne à D2 ; les six événements redoutés couvrent les **quatre** besoins et au moins une ligne de la table
+de départ chacun, dépendance §6 incluse ; les objectifs visés sont formulés en **résultats** et non en
+motivations (le piège annoncé) ; les trois couples retenus visent trois valeurs métier différentes (règle
+de sélection du guide) ; et la confrontation SR/ER produit les trois signalements que l'énoncé demande, au
+lieu de les masquer. Chiffres et renvois vérifiés bons : 40 % / 6 h, 12 000 €/jour, neuf porteurs de
+l'identifiant de l'éditeur du SIH, 2 filiales sur 4 au SOC, 128 compromissions ANSSI 2025, CHSF/LockBit
+2022, Norsk Hydro 250-300 MNOK ; `ACC-01`, `ACC-02`, `INC-01`, `JRN-01`, `COR-01`, `ARB-01` cités avec
+leur libellé **et** leur métrique de vérification ; cadences des trois instances conformes à D1 ; C3, C4,
+C7 et M1 à M4 conformes à D4 ; comptes de l'auto-évaluation cohérents (2 partielles + 9 non couvertes +
+A.6.3 non évaluée = 12).
+
+**Ce qui a été corrigé — trois erreurs de traçabilité**
+
+| # | Où | Erreur | Correction |
+|---|---|---|---|
+| 1 | TD 1, énoncé d'appétence n°1 | « Personne ne touche aux automates en période de pointe, dix mois sur douze » attribué au **Responsable Exploitation** | C'est le **Directeur de la filiale** (pack §3, et la DG le dit elle-même dans le cas). L'erreur affaiblissait l'argument : l'énoncé sert précisément à surmonter la position de celui qui tient budgets et contrats |
+| 2 | TD 2, ex. 4.2, couple n°2 | Les réglages qualifiés de « propriété industrielle » par l'intégrateur renvoyés au **pack §4** | C'est le **pack §3** (carte des pouvoirs) ; §4 est le relevé d'inventaire |
+| 3 | TD 2, ex. 3, ligne ISO | `A.8.13` / `A.5.30` présentés comme écarts dans une cellule dont l'état d'application est « auto-évaluation S4 sur 12 exigences » | Ces deux mesures **n'ont jamais été auto-évaluées** : les douze sont A.5.9, A.5.15, A.5.16, A.5.17, A.5.19, A.5.22, A.6.3, A.8.2, A.8.5, A.8.8, A.8.15, A.8.22. Marquées « hors des douze exigences auto-évaluées, écart repris du pack §5(4) et de la lacune n°5 de D2, non gradé » — comme D4 avait su le faire pour A.6.3 |
+
+**Ce qui a été complété — un constat du reference pack qui n'était pas présenté comme tel.** L'énoncé du
+TD 2 dit que les écarts à reporter sont **les deux constats du tableau du reference pack** pour la filiale,
+tels que le rapport d'audit de la séance 4 les a gradés. Pour Logistique ce sont *« réseaux bureautique et
+industriel interconnectés, compte de domaine partagé avec le prestataire »* et *« sauvegardes du WMS
+jamais restaurées »*. Le premier est repris scindé en C3 et C4 — c'est le découpage de D4, il est
+défendable — mais le second n'apparaissait qu'en sous-puce des lignes « guide d'hygiène » et « ISO », sans
+gradation, et **D4 ne l'avait pas gradé non plus**. Un encadré ajouté sous la table du socle fait
+désormais la correspondance explicite et assume l'écart comme *connu et non gradé, à qualifier au prochain
+cycle d'audit*.
+
+**Deux réserves de forme levées** : la correspondance de l'échelle de gravité avec les libellés de l'outil
+(Minor / Significant / Important / Critical) est désormais annoncée comme **présumée, à vérifier à l'import
+de la matrice au TP 1** — la matrice n'est pas encore à l'écran ; et le renvoi des durées de cycles
+(3 ans / 1 an) au « CM S5 **et S1** » est ramené au seul CM S5, seul endroit où le guide est cité.
+
+**Choix assumés, non corrigés** — ce ne sont pas des erreurs, ils sont défendables et documentés dans les
+fichiers : le TD 2 retient `PA-01`, `PA-02` et `PA-04` comme les trois valeurs métier de la table de
+départ et laisse `PA-03` de côté, ce qui prive la paire « initié » d'un événement redouté — mais l'énoncé
+demande précisément de **signaler** ce cas, et le fichier le signale avec la correction à porter dans D5 ;
+le TD 1 répond « mixte » sur deux des quatre déviations là où la question propose un binaire, en assumant
+le partage et en le justifiant.
+
+> ⚠️ **Ce qui reste ouvert sur la séance 5** — et ce n'est pas dans ces deux fichiers :
+> 1. **`Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md` n'existe pas.** C'est la note
+>    individuelle, 10 points sur les neuf séances. Le `README` du dossier propose déjà trois angles
+>    distincts de celui de Maxime (« qui fixe : le piège de posture »).
+> 2. **TP 1 et TP 2 de la séance 5 non faits** : ni `Session-5/2-Labs/`, ni `3-Evidence/`, ni le livrable
+>    **D5** (3 points), ni la **sous-section 5** de la note de stratégie. Les deux TD déclarent déjà,
+>    section par section, ce qui alimente D5 — l'assemblage est prêt à être fait.
+
+**Fini quand** : la page S5 de Miguel est écrite, close par une recommandation à la direction ; puis TP 1
+(import de la matrice 4x4, saisie des ateliers 1 et 2 dans `translog-b`, captures) et TP 2 (échelles G1-G4
+et V1-V4 décrites en termes du groupe, seuil d'acceptation posé sur la grille, `D5` assemblé,
+sous-section 5 de la note rédigée).
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -271,3 +338,4 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 | 8 sept. 2026 | **F6 clos** : capture de l'arbre de l'annexe A déplié prise sur `translog-b` (`S3-05-ex2bis-framework-detail-annexA-4themes-expanded.png`) — confirme **93** contrôles en **37** (A.5) / **8** (A.6) / **14** (A.7) / **34** (A.8), cohérent avec l'affirmation déjà écrite dans S3-05 et la note de business case. Restent F5 (objets de l'outil) et le marquage/capture de F3. |
 | 8 sept. 2026 | **F5 clos** : Authors vérifiés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), Status posé sur l'évaluation — premier essai à « Planned » resté exclu du rapport (« 0 counted, 1 excluded: Planned 1 »), corrigé en « In progress », qui compte désormais (« 1 counted, 0 excluded: In progress 1 »). Trois nouvelles captures dans `Session-3/3-Evidence/`. Reste uniquement le marquage/capture de F3. |
 | 8 sept. 2026 | **Séance 4 — TP 1 fait** (auto-évaluation outillée des douze exigences de Logistique dans `translog-b`, quatre mesures appliquées créées, feuille de travail rédigée) et **TP 2 fait** : livrable `D4-rapport-d-audit-initial.md` (six sections), fiche de cadrage de l'homologation du WMS et recommandations réparées (exercices 1 et 3), **sous-section 4 de la note de stratégie rédigée**. Suivi outillé ajouté dans `translog-b` : un objet *Follow-up* (« MERIDIAN Logistique - Internal audit - Initial audit report (S4) ») portant les trois constats gradés par le TD 2 (C3, C4 en non-conformité majeure, C7 conforme sur son flux), chacun rattaché aux mesures correctives concernées. Au passage, correction d'une imprécision trouvée dans la note « Correction du 8 septembre 2026 » de F5 : le domaine réel de l'évaluation est `MERIDIAN-LOGISTIQUE` (sous-domaine de `Global`), le périmètre `MERIDIAN-LOGISTIQUE-FINAL` — rien n'était cassé dans l'outil, seule la phrase était imprécise. Une nouvelle capture dans `Session-4/3-Evidence/`. |
+| 9 sept. 2026 | **Séance 5 — TD 1 et TD 2 rendus, puis relus** (F12). Le fond tient : reprise à l'identique des objets de D2 (premier critère d'acceptation de D5), quatre besoins DICT couverts par les six événements redoutés, objectifs visés formulés en résultats, trois couples retenus sur trois valeurs métier distinctes, signalements ER3/ER5 et `PA-03` assumés. **Trois erreurs de citation corrigées** : quote des automates rendue au Directeur de la filiale et non au Responsable Exploitation (TD 1) ; « propriété industrielle » renvoyée au pack §3 et non §4 (TD 2) ; `A.8.13`/`A.5.30` marquées hors des douze exigences auto-évaluées de S4. **Un manque comblé** : encadré de correspondance avec les deux constats du reference pack, assumant les sauvegardes jamais restaurées comme écart connu **non gradé**. Deux réserves de forme levées (correspondance des libellés de l'outil annoncée comme présumée jusqu'au TP 1 ; renvoi des cycles ramené au seul CM S5). **Restent ouverts** : la page du bureau du RSSI S5 de Miguel, et les TP 1 / TP 2 de la séance 5 (D5 + sous-section 5 de la note). |

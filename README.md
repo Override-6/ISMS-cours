@@ -3,7 +3,7 @@
 **Module M2-01-4-ISMS** — *Security governance and information system mapping*
 **Groupe 4 « Translog »** · Miguel Monereo, Maxime · filiale d'instruction **MERIDIAN Logistique**
 **Instance** `translog-b` (https://translog-b.lockbay.eu) · **périmètre** `MERIDIAN-LOGISTIQUE`
-**Remise : 17 septembre 2026** · dernière mise à jour du dépôt : **8 septembre 2026**
+**Remise : 17 septembre 2026** · dernière mise à jour du dépôt : **9 septembre 2026**
 
 > **La règle qui gouverne tout le rendu :**
 > *la sous-section n de la note **affirme** ; la séance n du dossier **prouve** ; l'export **montre** que l'objet existe dans l'outil.*
@@ -13,13 +13,13 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 4 sur 9, la séance 5 est la prochaine à ouvrir.** Tout ce qui relève des séances 5 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 4 sur 9 ; la séance 5 est ouverte — ses deux TD sont rendus et relus, ses deux TP restent à faire.** Tout ce qui relève des séances 6 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
 | **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **17 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4) | D5→D9 = 20 pts, séances non tenues |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 4 sous-sections sur 9, **toutes rédigées** | 5 sous-sections, une par séance restante |
-| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | ✅ **8 pages sur 8** (Miguel + Maxime, S1→S4) | rien — F7 clos |
+| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **9 pages** — S1→S4 complètes (F7 clos), + S5 de Maxime | 🔴 **S5 de Miguel** (F12) |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
@@ -31,7 +31,7 @@
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ assemblé | ⬜ **Top 5 à marquer** |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
-| S5 | Risques majeurs | D5 | 3 | ⏳ | — |
+| **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | 🔄 **TD 1 et TD 2 rendus et relus** (F12) — TP 1, TP 2 et D5 à faire | ⬜ matrice 4x4 à importer |
 | S6 | Tiers et projets | D6 | 7 | ⏳ | — |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
 | S8 | Périmètre du SMSI | D8 | 2 | ⏳ | — |
@@ -60,6 +60,7 @@
 - **F7 (clos)** — les **huit pages du bureau du RSSI** (Miguel + Maxime, S1 à S4) sont écrites, chacune individuelle, chacune close par une recommandation à la direction, chacune avec un angle distinct de son binôme.
 - **Séance 4 close en entier** — bureau du RSSI (les deux pages S4, à partir du TD 1 *« La valeur de la certification ISO 27001 »* : Miguel sur le découplage des deux demandes client/Direction Générale, Maxime sur l'effet interne de l'échéance externe), auto-évaluation outillée (TP 1) et rapport d'audit initial **D4** (TP 2, six sections, trois constats gradés suivis dans l'instance).
 - **F3 (moitié)** — le Top 5 est au dossier, classé sur un critère écrit *avant* le classement, et la **sous-section 2 de la note de stratégie qu'il bloquait est rédigée**.
+- **F12** — **séance 5 ouverte et relue** : les deux TD sont rendus (appétence au risque le matin, ateliers 1 et 2 d'EBIOS RM l'après-midi) puis confrontés aux sources. Le fond tient — objets de D2 repris **à l'identique**, ce qui est le premier critère d'acceptation de D5 ; trois erreurs de citation corrigées ; un constat du reference pack (sauvegardes jamais restaurées) assumé comme **écart connu non gradé**. Restent la page S5 du bureau du RSSI de Miguel et les deux TP.
 
 ### Preuves déjà au dossier
 
@@ -75,9 +76,11 @@
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
-| **1** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
+| **1** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
+| **2** | **Séance 5 · TP 1 et TP 2** — import de la matrice « 4x4 EBIOS-RM », saisie des ateliers 1 et 2 dans `translog-b`, échelles G1-G4 / V1-V4 décrites en termes du groupe, seuil d'acceptation posé sur la grille, livrable **D5** assemblé et **sous-section 5** de la note rédigée | instance + dépôt | les deux | **D5 — 3 pts** | Moyenne |
+| **3** | **F3 · Marquer le Top 5 dans l'instance** — `SA-01`, `SA-04`, `SA-09`, `SA-05`, `SA-03` repérables sans lire le fichier, puis liste d'actifs recapturée dans `Session-2/3-Evidence/` | instance `translog-b` | les deux | **D2 dit « instance *et* dossier »** — 5 pts | Moyenne |
 
-> ⚠️ **Ce dernier chantier se fait dans le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne le résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
+> ⚠️ **Les chantiers 2 et 3 passent par le navigateur**, sur `translog-b`. Aucun fichier de ce dépôt ne les résout : la saisie se fait dans l'outil, puis on rapatrie les captures.
 
 **F7 · Bureau du RSSI — clos.** Les huit pages (Miguel + Maxime, S1 à S4) sont écrites, une par étudiant et par séance, chacune individuelle et close par une recommandation à la direction ; le détail des angles retenus est dans `fixes.md`.
 
@@ -122,7 +125,7 @@ ISMS/
 │   │
 │   ├── Piece-1-Strategy-note/         ← PIÈCE 1 · la note de stratégie, 9 sous-sections
 │   ├── Piece-2-File/                  ← PIÈCE 2 · le dossier, une séance par dossier
-│   │   └── Session-1|2|3|4/
+│   │   └── Session-1|2|3|4|5/
 │   │       ├── 1-CISO-desk/           ← bureau du RSSI — 1 page/étudiant · 10 pts, individuel
 │   │       ├── 2-Labs/                ← le livrable Dn · barème des livrables
 │   │       ├── 3-Evidence/            ← captures de l'instance CISO Assistant
@@ -131,7 +134,7 @@ ISMS/
 │
 ├── Seance-1/, Seance-2/, Seance-3/   ← supports de cours reçus (CM / TD / TP), par séance
 ├── S2 - Sources/, S3 - Sources/,     ← mêmes supports, export Lockbay Academy
-│   S4 - Sources/                        (S1 à S4 désormais complètes)
+│   S4 - Sources/, S5 - Sources/         (S1 à S5 désormais complètes)
 ├── Correction/                        ← version française du support S4 TD 1
 ├── 00-Reference/                      ← dossier de référence MERIDIAN + accès à l'instance
 └── .FIRST_TP-backup-20260908-115436/ ← état du dossier avant la réorganisation du 8 sept. (archive)
