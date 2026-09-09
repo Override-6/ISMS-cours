@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D3 (séances 1 à 3), plus F7 qui les déborde.** D1 à D3 sont les seuls livrables dus à ce jour ; D4 à D9 (24 points sur 40) ne sont pas en retard, leurs séances n'ont pas eu lieu au sens du livrable noté. Seule exception : **F7**, note individuelle courant sur les neuf séances, dont la séance 4 est déjà ouverte et traitée plus bas.
+**Portée de ce journal : les livrables D1 à D4 (séances 1 à 4), plus F7 qui les déborde.** D1 à D4 sont les seuls livrables dus à ce jour ; D5 à D9 (20 points sur 40) ne sont pas en retard, leurs séances n'ont pas eu lieu au sens du livrable noté. Seule exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les quatre séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
