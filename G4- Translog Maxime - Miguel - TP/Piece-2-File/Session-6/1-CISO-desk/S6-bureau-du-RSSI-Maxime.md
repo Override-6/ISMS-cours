@@ -35,12 +35,13 @@ un conflit entre filiales, un retard, une architecture à reprendre — alors qu
 cadrage auraient coûté **une réunion**. C'est la seule ligne de notre inventaire qu'on peut encore écrire
 avant qu'elle existe.
 
-**Ce que je ne dirai pas au Comité** : ni que nos prestataires sont défaillants — ils font ce que leur
-contrat prévoit, et le contrat ne prévoit rien —, ni qu'une règle de contractualisation nous mettrait à
-l'abri. Elle ne fait qu'une chose, et c'est déjà beaucoup : elle **arrête d'aggraver l'inventaire**
-pendant qu'on répare l'existant. Et il faudra en accepter le prix : une exigence de sécurité formulée
-après l'appel d'offres n'existera jamais dans le contrat, donc la règle ne vaudra que si elle est
-opposable **avant** la signature.
+**Ce que je ne dirai pas au Comité** : ni que nos prestataires sont défaillants — ils font exactement ce
+que leur contrat prévoit, et sur la sécurité leurs contrats ne prévoient presque rien : rien du tout pour
+l'intégrateur, une clause générale sans critère vérifiable pour la TMA —, ni qu'une règle de
+contractualisation nous mettrait à l'abri. Elle ne fait qu'une chose, et c'est déjà beaucoup : elle
+**arrête d'aggraver l'inventaire** pendant qu'on répare l'existant. Et il faudra en accepter le prix : une
+exigence de sécurité formulée après l'appel d'offres n'existera jamais dans le contrat, donc la règle ne
+vaudra que si elle est opposable **avant** la signature.
 
 ---
 

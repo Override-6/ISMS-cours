@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D4 (séances 1 à 4), plus les deux TD de la séance 5 et F7, qui les débordent.** D1 à D4 sont les seuls livrables **assemblés** à ce jour ; D5 à D9 (20 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 5 a produit ses deux TD, pas encore ses TP ni son D5 (**F12**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les quatre séances tenues.
+**Portée de ce journal : les livrables D1 à D5 (séances 1 à 5), plus les TD relus des séances 5 et 6 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit son TD 1, pas encore son TD 2, ses TP ni son D6 (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -25,6 +25,7 @@
 | **F10** | **Aucune séance ne présente son livrable comme un livrable** — D1 à D3 sont enfouis dans des comptes rendus d'exercices | D1 · D2 · D3 | **13** | Moyenne | ✅ **fait** — D1, D2, D3 |
 | **F11** | La note de cadrage D1 n'énonce ni **enjeux** ni **contraintes** | D1 | 4 (partagé) | Petite | ✅ **fait** |
 | **F12** | **Séance 5, TD 1 et TD 2 relus** : trois erreurs de citation, un constat du reference pack non gradé, page du bureau du RSSI de Miguel absente | D5 (matière) + bureau du RSSI | **10** (coef. 1) + matière de D5 | Petite | 🔄 **citations corrigées** — reste la page de Miguel |
+| **F13** | **Séance 6, TD 1 relu** : fond juste et sourcé ; l'extrait de contrat TMA-WMS-2021 arrivé après coup fait requalifier « clause absente » en « clause présente mais non opposable » (note collective) et corriger une phrase de la page de Maxime ; trois imprécisions de forme | D6 (matière) + bureau du RSSI | matière de D6 + **10** (coef. 1) | Petite | ✅ **fait** — 2 pages rendues, corrections portées |
 
 ### Séance 3 — close au dossier
 
@@ -312,6 +313,60 @@ sous-section 5 de la note rédigée).
 
 ---
 
+## F13 · Relecture de la séance 6 (TD 1) — ✅ fait
+
+**Ce qui a été relu** : `Session-6/1-CISO-desk/Seance-6-TD-S6-01-attaque-par-la-chaine-d-approvisionnement.md`
+(note collective des cinq questions) et les deux pages individuelles `S6-bureau-du-RSSI-Maxime.md` et
+`S6-bureau-du-RSSI-Miguel-Monereo.md`, confrontées à l'énoncé du TD, au CM *Security by Design*, au pack de
+filiale (§2 à §7), au reference pack (§2 à §7), à nos D1, D2, D4, D5 et à l'énoncé d'appétence n°2 de la
+séance 5.
+
+**Le fond tient, et il est sourcé.** Sur une cinquantaine d'affirmations vérifiables, aucune erreur de
+fond. Les trois notions sont distinguées avec leur limite, conformes à l'énoncé. Les deux cas de référence
+sont exacts au chiffre près : NotPetya (27/6/2017, M.E.Doc, environnement éditeur compromis, Mærsk
+250-300 M$ sur *Transport & Logistique* au T3 2017), SolarWinds (~18 000 clients d'Orion, découvert
+déc. 2020, déclaration FBI/CISA/ODNI/NSA), CESIN 2026 (35 %, 3ᵉ vecteur), et le 85 % « clauses de sécurité
+dans les contrats » de la page de Maxime **est bien tiré du CM de la séance 6** (CESIN / OpinionWay 2025),
+pas inventé. L'inventaire des 16 dépendances est traçable ligne à ligne : T1-T10 au pack §3/§4/§5/§6,
+T11-T16 au reference pack §5/§3/§6, et les quatre constats connus de l'énoncé sont tous repris (T1, T11,
+T13/T14, T15). Les renvois D4 sont exacts — recommandation 2 / M2 / 8-12-2026, recommandation 3 / M4 /
+8-11-2026, et la **recommandation n°5 est bien la seule des cinq sans mesure datée** (M1 à M4 couvrent les
+recommandations 1 à 4). La citation de l'énoncé d'appétence n°2 est verbatim ; la mise en réserve du couple
+SR/OV n°2 dans D5 est citée exactement ; `PSSI-CADRE-COR-01` porte le libellé de D1 ; toutes les références
+`LOG-SA`/`LOG-PA` correspondent à D2. Chiffres vérifiés bons : 2 800 salariés, 12 000 €/jour, 40 % / 6 h,
+~300 scannettes, 45 000 comptes, ~30 collectivités, SOC « 2 filiales sur 4 », neuf porteurs de
+l'identifiant de l'éditeur du SIH de Santé.
+
+**Ce que le nouvel extrait de contrat oblige à corriger.** `S6 - Sources/Extrait-contrat-Logistique-TMA-WMS.pdf`
+(activité d'ancrage de la séance 6, prestataire **APPLICA Services**, réf. **TMA-WMS-2021** signée le
+8/11/2021, articles 1 à 8) est arrivé après le premier jet du TD. Il **renforce** la transposition NotPetya —
+l'article 3 stipule noir sur blanc que le prestataire *« installe les mises à jour […] de 22 h à 5 h, sans
+autre formalité »* — et il **corrige** deux formulations trop tranchées :
+
+| # | Où | Ce qui était écrit | Correction |
+|---|---|---|---|
+| 1 | Note collective, Q3(b) | « la clause qui aurait aidé » / « c'est **mot pour mot** ce que D4 a décidé » — implicitement, la clause de traçabilité des accès est *absente* du contrat TMA | L'article 3 en porte **déjà une version sans effet** (*« liste des personnes habilitées à intervenir […] sur demande »*). Requalifié : « **une clause présente mais non opposable** » ; « mot pour mot » → « la traduction contractuelle de ». Pour l'intégrateur, en revanche, le contrat ne porte bien **aucune** clause — inchangé |
+| 2 | Page de Maxime | « ils font ce que leur contrat prévoit, et **le contrat ne prévoit rien** » | Vrai pour l'intégrateur, faux pour la TMA (articles 5 « Sécurité » et 6 « Confidentialité » existent, même faibles). Reformulé : « rien du tout pour l'intégrateur, une clause générale sans critère vérifiable pour la TMA » |
+| 3 | Note collective, bilan du tableau | « **treize** [des seize lignes] n'ont jamais fait l'objet d'une exigence de sécurité écrite » | **douze** : la TMA en porte une (art. 5), générale et invérifiable — la nuance est ajoutée |
+
+**Imprécisions de forme corrigées** : « techniciens sur leur mobile **personnel** » (le pack §3 dit
+seulement « le numéro de mobile d'un technicien ») → « en direct, sur leur mobile », dans la page de Miguel
+et dans la note collective (Q3(b) point 5) ; la ligne T3 étiquetait l'intégrateur `LOG-SA-03`, qui est
+l'*actif* automates dont il est propriétaire → « propriétaire de `LOG-SA-03` » ; la ligne T1 nomme
+désormais le prestataire (APPLICA Services) et le compte (`svc-applica`), et la note verse l'extrait de
+contrat à sa liste de sources.
+
+**Non corrigé, et c'est normal** : le barème de la page (README du dossier) reste « repris du format des
+séances précédentes » — le corrigé officiel du module est replié dans l'énoncé (« cliquer pour révéler »)
+et n'était pas accessible, comme pour tous les TD du bureau du RSSI depuis la séance 4. La page de Maxime
+attribue une identité féminine à la Directrice Générale et à la RSSI de Santé : c'est la convention du
+dossier depuis la séance 4, les sources ne précisent pas.
+
+**Fini quand** : le TD 2 de la séance 6 (management des tiers, ateliers 3 et 4 d'EBIOS RM), les TP 1 et
+TP 2, le livrable **D6** et la sous-section 6 de la note. La page S5 de Miguel (F12) reste due.
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -342,3 +397,4 @@ sous-section 5 de la note rédigée).
 | 8 sept. 2026 | **Séance 4 — TP 1 fait** (auto-évaluation outillée des douze exigences de Logistique dans `translog-b`, quatre mesures appliquées créées, feuille de travail rédigée) et **TP 2 fait** : livrable `D4-rapport-d-audit-initial.md` (six sections), fiche de cadrage de l'homologation du WMS et recommandations réparées (exercices 1 et 3), **sous-section 4 de la note de stratégie rédigée**. Suivi outillé ajouté dans `translog-b` : un objet *Follow-up* (« MERIDIAN Logistique - Internal audit - Initial audit report (S4) ») portant les trois constats gradés par le TD 2 (C3, C4 en non-conformité majeure, C7 conforme sur son flux), chacun rattaché aux mesures correctives concernées. Au passage, correction d'une imprécision trouvée dans la note « Correction du 8 septembre 2026 » de F5 : le domaine réel de l'évaluation est `MERIDIAN-LOGISTIQUE` (sous-domaine de `Global`), le périmètre `MERIDIAN-LOGISTIQUE-FINAL` — rien n'était cassé dans l'outil, seule la phrase était imprécise. Une nouvelle capture dans `Session-4/3-Evidence/`. |
 | 9 sept. 2026 | **Séance 5 — TD 1 et TD 2 rendus, puis relus** (F12). Le fond tient : reprise à l'identique des objets de D2 (premier critère d'acceptation de D5), quatre besoins DICT couverts par les six événements redoutés, objectifs visés formulés en résultats, trois couples retenus sur trois valeurs métier distinctes, signalements ER3/ER5 et `PA-03` assumés. **Trois erreurs de citation corrigées** : quote des automates rendue au Directeur de la filiale et non au Responsable Exploitation (TD 1) ; « propriété industrielle » renvoyée au pack §3 et non §4 (TD 2) ; `A.8.13`/`A.5.30` marquées hors des douze exigences auto-évaluées de S4. **Un manque comblé** : encadré de correspondance avec les deux constats du reference pack, assumant les sauvegardes jamais restaurées comme écart connu **non gradé**. Deux réserves de forme levées (correspondance des libellés de l'outil annoncée comme présumée jusqu'au TP 1 ; renvoi des cycles ramené au seul CM S5). **Restent ouverts** : la page du bureau du RSSI S5 de Miguel, et les TP 1 / TP 2 de la séance 5 (D5 + sous-section 5 de la note). |
 | 9 sept. 2026 | **Séance 5 — TP 1 fait** : les ateliers 1 et 2 d'EBIOS RM sont saisis dans `translog-b`. Matrice **`4x4 risk matrix from EBIOS-RM`** importée (elle conditionne la création de l'étude) ; étude **« Étude EBIOS RM MERIDIAN - Logistique et approvisionnement d'urgence vers Santé - cycle 1 »** créée dans le domaine `MERIDIAN-LOGISTIQUE`, méthode de cotation **`Manual`** (et non `Express`, qui écraserait la vraisemblance saisie à la main en séance 7) ; cadrage du TD 2 porté dans la description ; **17 actifs reliés** (aucun recréé, aucun doublon) ; audit de la séance 4 rattaché ; **6 événements redoutés** et **5 couples SR/OV dont 3 retenus**, chacun relié à au moins un événement redouté. Compteurs vérifiés : Assets 17 · Audits 1 · Feared events 6 · RO/TO couples 5 · ateliers 3-4-5 à 0, comme la méthode l'exige. **Six écarts outil/TD relevés et écrits** plutôt que corrigés en douce : le domaine `MERIDIAN-SANTE` **existe** (le plan du TP le supposait absent — le trou est au niveau de la *valeur métier* de Santé, pas du domaine) ; l'axe de gravité s'appelle **`Impact`** à l'écran, là où le TP dit « Consequence » et le CM « gravité » ; `LOG-SA-13` s'affiche **« API »** et non « interface » ; le couple 2 est rangé en **`Other`** et non `Avenger` (c'est un attaquant qui *passe par* l'intégrateur, pas l'intégrateur qui se venge) ; les trois positions « à cheval » du TD tranchées **vers le bas** sur l'observé ; la colonne **`Pertinence`** calculée par l'outil (elle ignore l'activité) contredit la sélection sur le couple 4 — **`Partially relevant` mais retenu**, parce qu'il est le seul à couvrir `LOG-PA-04` et la confidentialité, et la justification écrite prévaut. **Réserve du TD 2 levée** : la correspondance *mineure/significative/grave/critique* → `Minor`/`Significant`/`Important`/`Critical` est désormais **constatée** à l'écran, plus « présumée ». Correction d'une saisie antérieure : ER2 portait `Availability` hérité d'ER1, remis à `Integrity`. **F3 clos** dans la foulée (étiquette `Top5` sur les cinq actifs). Feuille de travail et 18 captures au dossier. ER7 non saisi (le critère de l'énoncé veut 6), arbitrage renvoyé au TP 2. |
+| 10 sept. 2026 | **Séance 6 — TD 1 rendu, puis relu** (**F13**). Fond juste et sourcé sur ~50 affirmations : trois notions distinguées, deux cas de référence exacts au chiffre près (le 85 % de la page de Maxime vient bien du CM S6), 16 dépendances traçables au § du pack, renvois D4 (M2/M4, recommandation n°5 sans date) et citations D5/appétence n°2 verbatim. **Deux formulations corrigées à la lumière de l'extrait de contrat TMA-WMS-2021** arrivé après coup : « clause absente » → « clause présente mais non opposable » (l'article 3 porte déjà une liste des habilités « sur demande ») en Q3(b) ; « le contrat ne prévoit rien » → distingue l'intégrateur (rien) de la TMA (art. 5/6 faibles) dans la page de Maxime ; le décompte « treize lignes sans exigence de sécurité » ramené à douze. **Trois imprécisions de forme** : « mobile personnel » → « mobile » (pages de Miguel et note collective), T1 nomme désormais APPLICA Services / `svc-applica`, l'extrait de contrat versé aux sources. Barème de la page toujours « repris du format des séances précédentes » — le corrigé officiel reste replié dans l'énoncé. **Restent dus** : la page S5 de Miguel (F12), et tout le reste de la séance 6 (TD 2, TP 1, TP 2, D6). |

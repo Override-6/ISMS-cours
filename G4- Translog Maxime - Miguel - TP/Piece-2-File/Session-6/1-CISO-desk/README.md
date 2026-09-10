@@ -19,7 +19,10 @@ collectif et bien plus long qu'une page.
 
 **Source** : `../../../../S6 - Sources/TD 1/The CISO's Desk_ Supply Chain Attack _ Lockbay Academy.pdf`
 (énoncé ; corrigé et barème repliés dans la page, « cliquer pour révéler »). Travail conduit à partir du
-corpus : pack de filiale §3, §4, §5, §6 · reference pack §3, §5, §6 · D1, D2, D4, D5 · CM de la séance 6.
+corpus : pack de filiale §3, §4, §5, §6 · reference pack §3, §5, §6 · D1, D2, D4, D5 · CM de la séance 6 ·
+extrait du **contrat TMA-WMS-2021** (`../../../../S6 - Sources/Extrait-contrat-Logistique-TMA-WMS.pdf`,
+activité d'ancrage arrivée après le premier jet du TD — la note collective et les deux pages ont été
+relues à sa lumière, cf. `../../../fixes.md` F13).
 
 ## Les trois notions du matin
 

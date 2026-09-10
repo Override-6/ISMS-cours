@@ -20,7 +20,7 @@ le matin ; elle intervient avec un compte de domaine partagé dont **personne n'
 porteurs** — l'audit interne du holding a demandé la liste nominative, il a reçu un nom de compte.
 L'intégrateur de nos automates de tri entre par une **box 4G placée hors du réseau supervisé**, sous un
 contrat sans réversibilité ni exigence de sécurité, et nos six chefs d'entrepôt appellent ses techniciens
-sur leur mobile personnel. Le logiciel des sondes de température, qui porte la preuve produite à l'audit
+en direct, sur leur mobile. Le logiciel des sondes de température, qui porte la preuve produite à l'audit
 annuel du client pharmaceutique, est hébergé chez son fournisseur, et notre Responsable Qualité dit
 elle-même qu'elle ne saura pas répondre à *« qui a accès aux relevés ? »*.
 

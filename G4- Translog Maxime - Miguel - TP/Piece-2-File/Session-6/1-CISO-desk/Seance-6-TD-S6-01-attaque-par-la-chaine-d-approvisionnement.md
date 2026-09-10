@@ -72,16 +72,18 @@ d'organisations touchées, et l'attaquant choisit ensuite ses vraies cibles dans
 
 *Sources : pack de filiale §3 (carte du pouvoir), §4 (inventaire tel qu'envoyé), §5 (constats du
 diagnostic), §6 (ce qui franchit la frontière) ; reference pack §5 (dépendances inter-filiales) et §3 ;
-les quatre constats rappelés dans l'énoncé. La qualification de la question 2 tient dans la dernière
-colonne, comme le demande la méthode de travail. Les références `LOG-SA-xx` sont celles de **D2**.*
+les quatre constats rappelés dans l'énoncé ; l'extrait du **contrat TMA-WMS-2021** versé au dossier comme
+activité d'ancrage de la séance 6 (prestataire APPLICA Services, articles 1 à 8). La qualification de la
+question 2 tient dans la dernière colonne, comme le demande la méthode de travail. Les références
+`LOG-SA-xx` sont celles de **D2**.*
 
 ### A. MERIDIAN Logistique — la filiale sous revue
 
 | # | Tiers ou flux entrant | Filiale | Nature de l'accès ou de la dépendance | Ce qu'il peut atteindre | **Q2 — pourquoi c'est un chemin de pivot attirant** |
 |---|---|---|---|---|---|
-| **T1** | **TMA du WMS** (`LOG-SA-10`) | Logistique | Compte de **domaine partagé**, dont personne n'établit le nombre de porteurs ; contrat prévoyant l'astreinte, **pas** la journalisation nominative | Le WMS et sa base (`LOG-SA-01`), donc `LOG-PA-01` — un arrêt > 6 h bloque **40 % du volume expédié du groupe** ; et, par le compte de domaine, le réseau bureautique de la filiale | Un **seul secret** ouvre le système le plus critique de la filiale, il est déjà partagé hors de nos murs, et son usage n'est imputable à personne : meilleur rapport effort/gain du dossier, et l'intrusion se confond avec l'exploitation normale |
+| **T1** | **TMA du WMS** — APPLICA Services (`LOG-SA-10`) | Logistique | Compte de **domaine partagé** `svc-applica`, droits d'administration sur les serveurs du WMS (contrat art. 3) ; nombre de porteurs jamais établi ; le contrat prévoit l'astreinte (art. 4) et une liste des habilités *« sur demande »* (art. 3), **pas** de journalisation nominative | Le WMS et sa base (`LOG-SA-01`), donc `LOG-PA-01` — un arrêt > 6 h bloque **40 % du volume expédié du groupe** ; et, par le compte de domaine, le réseau bureautique de la filiale | Un **seul secret** ouvre le système le plus critique de la filiale, il est déjà partagé hors de nos murs, et son usage n'est imputable à personne : meilleur rapport effort/gain du dossier, et l'intrusion se confond avec l'exploitation normale |
 | **T2** | **Flux de mise à jour du WMS** | Logistique | Mises à jour posées **la nuit, quand la TMA le décide**, découvertes le matin (§4) ; ni fenêtre annoncée, ni validation, ni retour arrière documenté | Le WMS **en production sur les six sites simultanément** | C'est le mécanisme **NotPetya** à l'identique : compromettre une fois l'environnement du fournisseur pour être installé, en confiance, sur toutes les cibles — et ici, personne ne regarde ce qui est posé |
-| **T3** | **Intégrateur des automates de tri** (`LOG-SA-03`) | Logistique | Accès distant permanent par **box 4G hors du réseau supervisé**, plus interventions sur site ; contrat **sans réversibilité ni exigence de sécurité** ; réglages revendiqués comme propriété industrielle | Les automates d'E2/E3/E4 et — faute de cloisonnement IT/OT (constat **C3** de D4) — le réseau bureautique et le WMS | Un accès qui n'est pas sur notre réseau ne produit **aucun journal chez nous** ; la porte est ouverte en permanence, elle donne sur un réseau plat, et son propriétaire nous refuse déjà la connaissance des réglages |
+| **T3** | **Intégrateur des automates de tri** (propriétaire de `LOG-SA-03`) | Logistique | Accès distant permanent par **box 4G hors du réseau supervisé**, plus interventions sur site ; contrat **sans réversibilité ni exigence de sécurité** ; réglages revendiqués comme propriété industrielle | Les automates d'E2/E3/E4 et — faute de cloisonnement IT/OT (constat **C3** de D4) — le réseau bureautique et le WMS | Un accès qui n'est pas sur notre réseau ne produit **aucun journal chez nous** ; la porte est ouverte en permanence, elle donne sur un réseau plat, et son propriétaire nous refuse déjà la connaissance des réglages |
 | **T4** | **Techniciens de l'intégrateur appelés en direct** | Logistique | Canal humain hors DSI : chaque chef d'entrepôt détient le numéro de mobile d'un technicien et l'appelle directement (§3) ; aucune vérification d'identité | La décision d'intervenir sur les automates, et le prétexte d'un accès accordé de bonne foi | Le prétexte est **déjà normal ici** : un appel entrant qui dit « c'est moi, votre technicien » n'a rien d'anormal, et rien ne permet de vérifier que c'en est un |
 | **T5** | **Fournisseur des sondes de température** et son logiciel **hébergé chez lui** (`LOG-SA-05`) | Logistique | Logiciel en ligne hors de notre maîtrise ; la Qualité y accède ; rapport mensuel au client pharmaceutique | Les relevés de température = `LOG-PA-02` (chaîne du froid) **et** `LOG-PA-04` (la preuve produite à l'audit annuel, **12 000 €/jour** de pénalités) | Pour atteindre le contrat, l'attaquant n'a pas besoin d'entrer chez nous : **la preuve que le client vérifie est stockée et modifiable ailleurs**, et la Responsable Qualité dit elle-même qu'elle ne saura pas répondre à « qui a accès aux relevés ? » |
 | **T6** | **Fournisseur de télématique** (flotte, remorques) | Logistique | Abonnement : *« le fournisseur gère tout, on regarde un écran »* (§3) ; aucune exigence de sécurité formulée | Les données de température **en transport** et la position des véhicules | Dépendance déclarée nulle par le métier, donc **jamais examinée** : c'est la définition d'un angle mort, et elle porte une part de la preuve de chaîne du froid |
@@ -106,9 +108,10 @@ et les quatre constats rappelés par l'énoncé. Le RSSI Groupe parle depuis cet
 | **T16** | **Projet de plateforme pédagogique Éducation ↔ bases administratives Territoires** | Éducation + Territoires | Dépendance **à naître**, aujourd'hui en arbitrage : Territoires s'y oppose | Les bases administratives à données citoyennes régulées | La seule ligne du tableau qu'on peut encore écrire **avant** qu'elle existe : c'est aujourd'hui une exigence de cadrage qui coûte une réunion, ce sera demain une interconnexion héritée qu'on rattrapera à coups de zone tampon et d'API sécurisées |
 
 **Ce que le tableau apprend, avant même toute cotation.** Sur les seize lignes, **aucune** n'a été
-contractée par un RSSI, et **treize** n'ont jamais fait l'objet d'une exigence de sécurité écrite. Les
-trois plus puissantes chez nous — T1, T2, T3 — partagent la même propriété : *nous savons ce qu'elles
-peuvent faire, nous ne savons pas dire si quelqu'un d'autre s'en sert*.
+contractée par un RSSI, et **douze** n'ont jamais fait l'objet d'une exigence de sécurité écrite — la
+treizième, la TMA, n'en porte qu'une, générale et sans critère vérifiable (*« règles de l'art »*, art. 5
+du contrat). Les trois plus puissantes chez nous — T1, T2, T3 — partagent la même propriété : *nous savons
+ce qu'elles peuvent faire, nous ne savons pas dire si quelqu'un d'autre s'en sert*.
 
 ---
 
@@ -122,10 +125,14 @@ dossier — jamais par une intuition — et la clause contractuelle qui aurait a
 > **L'endroit : le flux de mise à jour du WMS de MERIDIAN Logistique (T2).**
 
 **Justification, pièce par pièce.**
-1. *« La TMA fait les mises à jour la nuit, quand elle veut, on l'apprend le matin »* — notes d'entretien,
-   pack §4. Le flux est **entrant, automatique et non validé** : c'est la définition du vecteur M.E.Doc.
+1. Le flux est **entrant, automatique et non validé** — la définition du vecteur M.E.Doc. Ce n'est pas un
+   simple état de fait toléré : l'**article 3 du contrat TMA-WMS-2021** le stipule — le prestataire
+   *« installe les mises à jour […] de 22 h à 5 h, sans autre formalité »*, sans fenêtre notifiée ni liste
+   des composants livrés —, et les notes d'entretien le confirment (*« la TMA fait les mises à jour la
+   nuit, quand elle veut, on l'apprend le matin »*, pack §4).
 2. La TMA intervient avec un **compte de domaine partagé dont personne n'établit le nombre de porteurs**
-   (pack §3 et §5.2) : une compromission chez elle ne se distingue pas d'une intervention légitime.
+   (pack §3 et §5.2 ; compte `svc-applica`, contrat art. 3) : une compromission chez elle ne se distingue
+   pas d'une intervention légitime.
 3. Le **SOC ne reçoit rien du WMS** (pack §6) : rien ne dirait qu'une mise à jour a fait autre chose que
    ce qu'elle annonçait.
 4. Le WMS porte `LOG-PA-01` : un arrêt > 6 h bloque **40 % du volume expédié du groupe**, et les
@@ -147,9 +154,10 @@ hors inventaire) — un fournisseur unique servant beaucoup de monde, dont le gr
 > environnement de production ou de livraison** ; le donneur d'ordre peut **suspendre le flux de mise à
 > jour** sans que la suspension constitue un manquement de sa part.
 
-Elle se combine avec ce que le groupe s'impose déjà — `PSSI-CADRE-COR-01` (correctif critique sous
-14 jours, D1) — et le corrige : la directive actuelle impose un **délai**, elle ne contrôle pas **ce qui
-est posé**. Les deux vont ensemble ; l'une sans l'autre transforme la diligence en vecteur.
+Elle **remplace le *« sans autre formalité »* de l'article 3** par un point de contrôle. Et elle se
+combine avec ce que le groupe s'impose déjà — `PSSI-CADRE-COR-01` (correctif critique sous 14 jours, D1) —
+qu'elle corrige : la directive actuelle impose un **délai**, elle ne contrôle pas **ce qui est posé**. Les
+deux vont ensemble ; l'une sans l'autre transforme la diligence en vecteur.
 
 ### (b) Mécanisme « accès de maintenance détourné »
 
@@ -168,8 +176,8 @@ est posé**. Les deux vont ensemble ; l'une sans l'autre transforme la diligence
    levier pour exiger quoi que ce soit sans renégocier.
 4. Les réseaux bureautique et industriel sont **interconnectés sans cloisonnement** (constat **C3** de
    D4, non-conformité majeure) : l'accès ne donne pas sur un automate, il donne sur **tout**.
-5. Ajouter T4 : six chefs d'entrepôt appellent des techniciens sur leur mobile personnel — le détournement
-   n'a même pas besoin d'être technique.
+5. Ajouter T4 : chacun des six chefs d'entrepôt appelle un technicien de l'intégrateur en direct, sur son
+   mobile (pack §3) — le détournement n'a même pas besoin d'être technique.
 
 *Variante Santé* : un identifiant unique pour neuf personnes chez l'éditeur, en accès permanent à un SI
 portant des données de santé — même mécanisme, imputabilité tout aussi inopérante, et l'audit interne du
@@ -182,13 +190,18 @@ holding attend depuis trois demandes le registre des comptes d'administration.
 > **au départ de chaque intervenant**, et se soumet à un **droit d'audit** ; le contrat porte une **clause
 > de réversibilité** incluant la restitution des configurations, des paramétrages et des secrets.
 
-C'est mot pour mot ce que **D4** a déjà décidé de porter au contrat de l'intégrateur (recommandation 2,
-mesure **M2**, échéance 8/12/2026) et d'exiger de la TMA (recommandation 3, mesure **M4**, 8/11/2026), et
-ce que l'**énoncé d'appétence n°2 adopté en séance 5** rend non négociable : *« MERIDIAN n'accepte pas
-qu'une action d'administration ou d'un prestataire sur un système portant un actif critique reste non
-imputable à une personne nommée, ni qu'un contrat de prestation nouveau ou renouvelé omette la
-journalisation par utilisateur nommé et une clause de réversibilité. »* Le matin ne découvre donc pas la
-règle : il montre **où elle n'est pas encore appliquée**.
+C'est la traduction contractuelle de ce que **D4** a déjà décidé de porter au contrat de l'intégrateur
+(recommandation 2, mesure **M2**, échéance 8/12/2026) et d'exiger de la TMA (recommandation 3, mesure
+**M4**, 8/11/2026), et ce que l'**énoncé d'appétence n°2 adopté en séance 5** rend non négociable :
+*« MERIDIAN n'accepte pas qu'une action d'administration ou d'un prestataire sur un système portant un
+actif critique reste non imputable à une personne nommée, ni qu'un contrat de prestation nouveau ou
+renouvelé omette la journalisation par utilisateur nommé et une clause de réversibilité. »* Pour
+l'intégrateur, le contrat ne porte **aucune** de ces clauses ; côté TMA, l'article 3 en porte déjà une
+version **sans effet** — *« le prestataire tient à jour la liste des personnes habilitées à intervenir et
+la communique au client sur demande »* —, ce qui montre l'écart entre une clause présente et une clause
+opposable : la version utile nomme les porteurs du compte, se met à jour au départ de chaque intervenant
+et s'assortit d'un droit d'audit. Le matin ne découvre donc pas la règle : il montre **où elle n'est pas
+encore appliquée**.
 
 ---
 
@@ -275,7 +288,7 @@ démonstration ; c'est cet après-midi qui le cotera.
 |---|---|
 | **Q1 — inventaire** | Seize lignes en quatre colonnes, tirées de §3, §4, §5 et §6 du pack de filiale et de §3 et §5 du reference pack, sans s'arrêter aux prestataires contractés : un **flux de mise à jour** (T2), un **canal humain** (T4), une **dépendance de détection** (T10) et une **dépendance à naître** (T16) figurent au tableau ; les quatre constats de l'énoncé sont tous repris |
 | **Q2 — qualification** | Une phrase par ligne, en logique de moindre effort et du point de vue de l'attaquant, tenue dans une colonne du tableau comme le demande la méthode |
-| **Q3 — transposition** | Les deux mécanismes désignés à un endroit précis du groupe, chacun justifié par **quatre à cinq éléments cités du dossier** (§ du pack, constat de D4), la variante groupe nommée pour chacun, et **une clause contractuelle rédigée** par mécanisme, raccordée aux mesures M2/M4 de D4 et à l'énoncé d'appétence n°2 de D5 |
+| **Q3 — transposition** | Les deux mécanismes désignés à un endroit précis du groupe, chacun justifié par **quatre à cinq éléments cités du dossier** (§ du pack, constat de D4, articles du contrat TMA-WMS-2021), la variante groupe nommée pour chacun, et **une clause contractuelle rédigée** par mécanisme — confrontée au contrat réel et raccordée aux mesures M2/M4 de D4 et à l'énoncé d'appétence n°2 de D5 |
 | **Q4 — trois messages** | Fait sourcé (CESIN 2026 · Mærsk · SolarWinds), phrase d'exposition honnête et bornée (« je sais ce qu'ils peuvent faire, je ne sais pas dire si quelqu'un d'autre s'en sert »), décision demandée en deux volets sans budget nouveau, plus la liste explicite de ce qui **n'est pas** affirmé |
 | **Q5 — la limite** | Deux phrases : l'absence d'échelle de danger de l'écosystème et de lien aux événements redoutés, et le renvoi nommé à l'atelier 3, à l'atelier 4 et au seuil d'acceptation de D5 — avec la mise en réserve du couple n°2 comme preuve d'articulation |
 
