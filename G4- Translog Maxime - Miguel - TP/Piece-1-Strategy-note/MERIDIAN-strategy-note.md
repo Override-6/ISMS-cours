@@ -8,7 +8,7 @@
 >
 > **Langue** : ce document est tenu en français. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise ; la note, elle, ne mélange pas.
 
-**État d'avancement : 5 sous-sections sur 9, toutes rédigées.** Les séances 6 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
+**État d'avancement : 6 sous-sections sur 9, toutes rédigées.** Les séances 7 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
 
 | # | Séance | Sous-section | Question servie | État |
 |---|---|---|---|---|
@@ -17,12 +17,12 @@
 | 3 | S3 | Choix du référentiel | Où elle doit aller | ✅ rédigée |
 | 4 | S4 | État des lieux | Où en est la filiale | ✅ rédigée |
 | 5 | S5 | Risques majeurs | Où elle doit aller | ✅ rédigée |
-| 6 | S6 | Tiers et projets | Comment elle y va | ⏳ séance non tenue |
+| 6 | S6 | Tiers et projets | Comment elle y va | ✅ rédigée |
 | 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ⏳ séance non tenue |
 | 8 | S8 | Périmètre du SMSI | Comment elle y va | ⏳ séance non tenue |
 | 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
 
-**Budget de pages** : cinq sous-sections rédigées ≈ **2,5 pages** (la sous-section 5 est plus longue, une demi-page). La marge se resserre ; la contrainte mordra vers la séance 6 ou 7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages** : six sous-sections rédigées ≈ **3 pages** (la cible). La marge est atteinte ; les sous-sections 7 à 9 se rédigeront serré, et toute contrainte se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
@@ -88,12 +88,26 @@
 
 ---
 
+## Sous-section 6 — Tiers et projets *(séance 6)*
+
+> Les risques majeurs de la sous-section précédente ne viennent pas tous de l'intérieur. L'écosystème de l'actif le plus critique — le système de gestion d'entrepôt — a été **coté** selon l'atelier 3 de la méthode : cinq parties prenantes, **deux critiques**, la tierce maintenance applicative du WMS et l'intégrateur des automates. Un scénario stratégique en ressort, coté **critique** : un groupe cybercriminel qui arrêterait l'expédition du groupe **en passant par le prestataire de maintenance** plutôt que par une attaque frontale — la position exacte d'un transporteur européen en 2017, qui n'a pas été piraté mais a installé de bonne foi la mise à jour d'un fournisseur compromis, pour 250 à 300 millions de dollars en un trimestre.
+>
+> **La règle que le groupe se donne** : aucun contrat donnant accès à un actif critique de la sous-section 2 n'est signé ni renouvelé sans trois exigences vérifiables — **journalisation par utilisateur nommé, notification sous vingt-quatre heures d'une compromission chez le prestataire, réversibilité** —, opposables par la Direction Juridique **avant** la signature. Ce n'est pas une exigence nouvelle : c'est la gouvernance de la sous-section 1 — la Direction Générale fixe l'appétence, le Conseil l'approuve — appliquée aux tiers. Première application : le contrat de maintenance du WMS, qui vient à renouvellement en novembre 2026 sans porter aucune de ces trois exigences.
+>
+> **Les projets, ensuite.** Chaque dépendance tierce a un point de naissance, et c'est un projet ; une exigence de sécurité posée au cadrage coûte une réunion, la même rattrapée en production coûte un projet. Le groupe adopte **six jalons de sécurité** à critère de passage vérifiable. Le premier projet passé à cette grille est la **reprise du flux de réapprovisionnement d'urgence vers MERIDIAN Santé**, bloqué depuis trois mois — ce flux que la sous-section 1 citait déjà comme une décision prise sans règle. Le cadrer comme un projet, avec la RSSI de Santé à la table dès le premier jalon, est la façon de lever l'objection de Santé plutôt que de la contourner.
+>
+> **Ce que cela engage pour la suite** : la sous-section 7 chiffrera le traitement de ces risques d'écosystème. Aucune de ces décisions ne demande de budget nouveau la première année — la règle des trois exigences est une condition de signature, pas un achat, et les six jalons sont une discipline de cadrage, pas une dépense.
+
+*Preuve au dossier : `Piece-2-File/Session-6/2-Labs/D6-tiers-et-projets.md` (livrable D6 — fiche projet à six jalons, exigences de sécurité du contrat d'infogérance tracées, dispositif de surveillance du tiers), `Seance-6-TP-S6-06-fiche-projet-et-exigences-tiers.md` (feuille de travail), `Piece-2-File/Session-6/1-CISO-desk/` (bureau du RSSI et note collective du TD 1, seize dépendances tierces), `Piece-2-File/Session-6/4-Working-notes/Seance-6-TD-S6-03-management-des-tiers-infogerance-ateliers-3-4.md` (carte de dangerosité et scénario stratégique). Preuve d'état : `Piece-2-File/Session-6/3-Evidence/`, et l'étude EBIOS RM dans `translog-b` (5 parties prenantes cotées, 2 scénarios stratégiques, 1 scénario opérationnel).*
+
+---
+
 ## Journal des amendements
 
 *Règle : rien n'est supprimé ; toute contradiction entre deux sous-sections s'amende d'une phrase de justification, datée.*
 
 | Date | Sous-section amendée | Amendement | Justification |
 |---|---|---|---|
-| — | — | Aucun amendement à ce jour | Les sous-sections 1 à 5 ne se contredisent pas : la sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques), elle ne la corrige pas. |
+| — | — | Aucun amendement à ce jour | Les sous-sections 1 à 6 ne se contredisent pas. La sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques). La sous-section 6 **tient** celle de la sous-section 5 : le prestataire des automates, « tenu en veille et traité en séance 6 avec le reste de l'écosystème », est désormais coté comme partie prenante critique — la sous-section 6 complète la 5, elle ne la corrige pas. |
 
 **Amendement déjà identifié pour plus tard** : quand le périmètre de déploiement ISO sera arrêté filiale par filiale, la sous-section 1 gagnera une phrase mentionnant cet arbitrage — la gouvernance décrite en S1 aura alors produit une décision de plus.

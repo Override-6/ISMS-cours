@@ -13,12 +13,12 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 5 sur 9 ; la séance 6 est ouverte — TD 1, TD 2 et TP 1 sont faits, le CM et le TP 2 restent.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). Tout ce qui relève des séances 7 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 5 sur 9 ; la séance 6 est close côté dossier — TD 1, TD 2, TP 1 et TP 2 sont faits, seul le CM reste.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). Tout ce qui relève des séances 7 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
-| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **20 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3) | D6→D9 = 17 pts, dont **D6 en cours** (7 pts) |
-| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | 5 sous-sections sur 9, **toutes rédigées** | 4 sous-sections, une par séance restante |
+| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **27 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · **D6 7**) | D7→D9 = 10 pts |
+| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | **6 sous-sections sur 9**, toutes rédigées | 3 sous-sections, une par séance restante |
 | **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **11 pages** — S1→S4 complètes (F7 clos), S5 de Maxime, **S6 des deux** | 🔴 **S5 de Miguel** (F12) |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut, étude EBIOS RM comprise) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
@@ -32,7 +32,7 @@
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | ✅ assemblé — reste la page S5 du bureau du RSSI de Miguel (F12) | ✅ matrice 4x4 importée, étude créée, ateliers 1-2 saisis (7 ER, 5 couples) |
-| **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | 🔄 **TD 1 et TD 2 faits** (bureau du RSSI × 2, note collective, ateliers 3-4 par écrit) + **TP 1 saisi dans `translog-b`** — reste la saisie du TP 2 | ✅ écosystème saisi (5 parties prenantes, 2 critiques), 2 scénarios stratégiques (3 chemins d'attaque), 1 scénario opérationnel V3 |
+| **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | ✅ **assemblé** — TD 1 + TD 2 + TP 1 + TP 2 ; **D6** = fiche projet (6 jalons) + exigences du contrat APPLICA (5 familles tracées) + dispositif de surveillance + export de l'étude ; sous-section 6 rédigée. Reste le CM. | ✅ écosystème coté (5 parties prenantes, 2 critiques : intégrateur 12, APPLICA 8), 2 scénarios stratégiques (SS1 G4, SS2 G3), 1 scénario opérationnel V3 ; état vérifié, rapport exporté |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
 | S8 | Périmètre du SMSI | D8 | 2 | ⏳ | — |
 | S9 | Indicateurs, version finale | D9 | 3 | ⏳ | — |
@@ -41,7 +41,7 @@
 
 ## 2. Ce qui est **fait**
 
-### Les cinq livrables existent, nommés, autonomes, au format exigé
+### Les six livrables existent, nommés, autonomes, au format exigé
 
 | Livrable | Fichier | Ce qu'il porte |
 |---|---|---|
@@ -50,6 +50,7 @@
 | **D3** | `…/Session-3/2-Labs/D3-note-de-business-case.md` | Deux pages, 5 sections, les **5 éléments exigés** dont l'**estimation de charge** (≈ 60 jours-homme la 1re année, poste par poste) |
 | **D4** | `…/Session-4/2-Labs/D4-rapport-d-audit-initial.md` | Six sections imposées : cadrage (auto-évaluation, sans indépendance, assumée), synthèse pour décision, **constats gradués** (C3/C4 majeurs, C7 conforme sur son flux, + écarts complémentaires de l'auto-évaluation), recommandations tracées, plan d'action correctif (M1-M4), angles morts |
 | **D5** | `…/Session-5/2-Labs/D5-appreciation-initiale-des-risques.md` | Cadrage, socle de sécurité, **3 couples source de risque / objectif visé** retenus sur 5, **7 événements redoutés** cotés, échelles de gravité et de vraisemblance en termes du groupe, **seuil d'acceptation** posé sur la grille 4×4 |
+| **D6** | `…/Session-6/2-Labs/D6-tiers-et-projets.md` | Deux pièces cohérentes : **fiche projet** (reprise du flux Logistique→Santé, 6 jalons M1-M6 à critère de passage factuel, 3 régimes, propriétaire unique par jalon, points d'arbitrage) et **exigences du contrat d'infogérance du WMS** (5 familles, formulation vérifiable, justification tracée à un scénario/écart/silence) + dispositif de surveillance du tiers ; **export de l'étude EBIOS RM** (écosystème coté, scénarios stratégiques) |
 
 ### Corrections passées (journal complet : [`fixes.md`](G4-%20Translog%20Maxime%20-%20Miguel%20-%20TP/fixes.md))
 
@@ -63,7 +64,8 @@
 - **F3 (moitié)** — le Top 5 est au dossier, classé sur un critère écrit *avant* le classement, et la **sous-section 2 de la note de stratégie qu'il bloquait est rédigée**.
 - **Séance 6 ouverte — TD 1 fait** (bureau du RSSI, *« The CISO's Desk: Supply Chain Attack »*) : note collective de 5 questions — **inventaire de 16 dépendances tierces** (10 pour Logistique, 6 au niveau groupe), chacune qualifiée en chemin de pivot ; les deux mécanismes de référence (mise à jour piégée / accès de maintenance détourné) transposés sur le groupe avec la **clause contractuelle** correspondante ; les trois messages du briefing au ComEx. Plus les **deux pages individuelles** — Miguel sur la case vide de la détection (le SOC ne reçoit rien du WMS, de la box 4G ni des automates), Maxime sur « le pivot est signé, pas piraté ». Matière première de l'atelier 3 et de **D6**.
 - **Séance 6 — TD 2 fait** (`Session-6/4-Working-notes/`, management des tiers et ateliers 3-4 d'EBIOS RM) : **exercice 1** — l'extrait du contrat de tierce maintenance du WMS (`TMA-WMS-2021`, APPLICA Services) lu au prisme des **quatre familles de l'infogérance** (réversibilité, droit d'audit, notification d'incident, maîtrise de la sous-traitance), tableau d'exigences vérifiables et écart corrigé par ligne, la plus urgente isolée. **Exercice 2** — carte de dangerosité de l'écosystème de `LOG-PA-01` : **5 parties prenantes** de §3 et §6 cotées sur dépendance × pénétration (exposition) / maturité × confiance (fiabilité), classées, **seuil de criticité écrit** (dangerosité ≥ 4,0), **deux parties prenantes critiques** — l'intégrateur des automates (12,0) et APPLICA (8,0) — et un **scénario stratégique** du couple SR/OV n°1 (cybercriminel → chiffrement du WMS **en passant par la TMA**, mécanisme NotPetya) coté **G4 critique**. Entre dans la saisie de l'atelier 3 (TP 1), les exigences tiers de **D6** (TP 2) et la sous-section 6 de la note.
-- **Séance 6 — TP 1 saisi dans `translog-b`** (mode opératoire : `Session-6/2-Labs/PLAN-Seance-6-TP-S6-05-ecosysteme-et-scenarios.md` ; feuille de travail : `Session-6/2-Labs/Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md`) : étude de la séance 5 rouverte et vérifiée (7 événements redoutés, D5 fait foi) · **5 parties prenantes créées** (Entity + Category, friction anticipée par le plan et confirmée : le champ Entity était désactivé tant qu'aucune entité n'existait — 5 entités créées dans `Third Parties`) avec leurs 4 notes justifiées, criticités **lues** (8,0 · 12,0 · 1,0 · 0,5 · 0,44 — écart d'arrondi sur PP4, classement inchangé), **2 critiques** `Selected` · **2 scénarios stratégiques** (SS1 couple n°1, gravité `Critical` ; SS2 couple n°4, gravité `Important` — le champ *Focused feared event* n'accepte qu'un seul ER, ER6 resté en description) avec **3 chemins d'attaque** au total · **1 scénario opérationnel** (kill chain en sept actions, `Likelihood` réglé à deux niveaux distincts de l'outil — scénario **et** *Operating mode* — tous deux à `Very likely`, `Risk level` = `High`). Signale aussi une pièce citée par D5 mais absente de `Session-5/3-Evidence/` (capture du rapport d'étude), non produite faute de temps — à trancher avant l'export de séance 10.
+- **Séance 6 — TP 1 saisi dans `translog-b`** (mode opératoire : `Session-6/2-Labs/PLAN-Seance-6-TP-S6-05-ecosysteme-et-scenarios.md` ; feuille de travail : `Session-6/2-Labs/Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md`) : étude de la séance 5 rouverte et vérifiée (7 événements redoutés, D5 fait foi) · **5 parties prenantes créées** (Entity + Category, friction anticipée par le plan et confirmée : le champ Entity était désactivé tant qu'aucune entité n'existait — 5 entités créées dans `Third Parties`) avec leurs 4 notes justifiées, criticités **lues** (8,0 · 12,0 · 1,0 · 0,5 · 0,44 — écart d'arrondi sur PP4, classement inchangé), **2 critiques** `Selected` · **2 scénarios stratégiques** (SS1 couple n°1, gravité `Critical` ; SS2 couple n°4, gravité `Important` — le champ *Focused feared event* n'accepte qu'un seul ER, ER6 resté en description) avec **3 chemins d'attaque** au total · **1 scénario opérationnel** (kill chain en sept actions, `Likelihood` réglé à deux niveaux distincts de l'outil — scénario **et** *Operating mode* — tous deux à `Very likely`, `Risk level` = `High`).
+- **Séance 6 — TP 2 fait · livrable D6 assemblé (7 pts).** `Session-6/2-Labs/D6-tiers-et-projets.md` + feuille de travail `Seance-6-TP-S6-06-fiche-projet-et-exigences-tiers.md`. **Pièce 1 — fiche projet** : la reprise du flux d'approvisionnement d'urgence Logistique→Santé (coupé depuis 3 mois), choisie et justifiée contre l'autre candidat, cadrée sur les 6 jalons de sécurité (chacun avec un critère de passage démontré par un fait), 3 régimes explicités, propriétaire unique par jalon, 3 points d'arbitrage. **Pièce 2 — exigences du contrat APPLICA** : les 5 familles (réversibilité, droit d'audit, notification, traçabilité/comptes nommés, sous-traitance), chacune en formulation vérifiable et tracée à un scénario stratégique / un écart de D4 / un silence du contrat ; + dispositif de surveillance (3 indicateurs, comité de suivi, preuve annuelle, ce qui reste au client). **État de l'instance vérifié** (compteurs, criticités, gravités — chiffre pour chiffre) et **rapport de l'étude exporté** (`Session-6/3-Evidence/S6-06-*`). La **capture du rapport d'étude citée par D5** et absente de `Session-5/3-Evidence/` a été produite au passage (`S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`).
 - **F12** — **séance 5 ouverte et relue** : les deux TD sont rendus (appétence au risque le matin, ateliers 1 et 2 d'EBIOS RM l'après-midi) puis confrontés aux sources. Le fond tient — objets de D2 repris **à l'identique**, ce qui est le premier critère d'acceptation de D5 ; trois erreurs de citation corrigées ; un constat du reference pack (sauvegardes jamais restaurées) assumé comme **écart connu non gradé**. Les deux TP ont suivi (D5 assemblé, sous-section 5 rédigée) ; reste la page S5 du bureau du RSSI de Miguel.
 
 ### Preuves déjà au dossier
@@ -71,19 +73,20 @@
 - `Session-2/3-Evidence/` — liste des actifs (2 captures), vue d'analyse d'impact.
 - `Session-3/3-Evidence/` — 16 captures : détail du référentiel (**123 exigences**, dont l'arbre annexe A déplié en 37/8/14/34), évaluation rattachée au périmètre et portant désormais auteurs + statut, liste des 17 actifs avec propriétaires assignés, recherches en bibliothèque (guide d'hygiène ANSSI, DORA, HDS v2.0, RGS 2.0 Annexe B2, ReCyF).
 - `Session-4/3-Evidence/` — 5 captures : auto-évaluation des douze exigences, mesures appliquées, taux de conformité, et le suivi outillé des trois constats gradés (*Follow-up*) créé dans `translog-b`.
-- `Session-5/3-Evidence/` — 23 captures (TP 1 et TP 2) : inventaire de l'existant (domaines, périmètre, 17 actifs, audit S4, liste EBIOS RM vide avant la séance), grille de la matrice 4x4 importée, paramètres de l'étude, 17 actifs reliés, compteurs du *Summary*, les 6 événements redoutés, les 5 couples SR/OV avec la colonne `Pertinence` lisible, les ateliers 3-4-5 vides, et le Top 5 étiqueté dans la liste des actifs (F3).
-- `Session-6/3-Evidence/` — 11 captures (TP 1) : compteurs de l'étude reprise, liste des 5 parties prenantes avec criticités, détail des 4 notes de PP1 et PP2, détail des 2 scénarios stratégiques et de leurs 3 chemins d'attaque, détail du scénario opérationnel et sa vraisemblance, atelier 5 vide.
+- `Session-5/3-Evidence/` — 24 captures (TP 1 et TP 2) : inventaire de l'existant (domaines, périmètre, 17 actifs, audit S4, liste EBIOS RM vide avant la séance), grille de la matrice 4x4 importée, paramètres de l'étude, 17 actifs reliés, compteurs du *Summary*, les 6 événements redoutés, les 5 couples SR/OV avec la colonne `Pertinence` lisible, les ateliers 3-4-5 vides, le Top 5 étiqueté dans la liste des actifs (F3), et le rapport d'étude ateliers 1-2 (produit à la séance 6, comble la pièce citée par D5).
+- `Session-6/3-Evidence/` — 13 captures : TP 1 (compteurs de l'étude reprise, liste des 5 parties prenantes avec criticités, détail des 4 notes de PP1 et PP2, détail des 2 scénarios stratégiques et de leurs 3 chemins d'attaque, détail du scénario opérationnel et sa vraisemblance, atelier 5 vide) + TP 2 (rapport de l'étude ateliers 3-4, liste écosystème avec les 2 critiques `Selected`).
 
 ---
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 2 chantiers
+### 🔴 Avant la remise du 17 septembre — 1 chantier
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
-| **2** | **Séance 6 · finir la journée** — TP 1 **saisi** dans `translog-b` (feuille de travail : `Session-6/2-Labs/Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md`, 11 captures dans `Session-6/3-Evidence/`) ; reste le TP 2 (**exigences applicables aux tiers + fiche projet**), livrable **D6** à assembler et **sous-section 6** de la note à rédiger. *(TD 1, TD 2 et TP 1 faits : 16 dépendances inventoriées et qualifiées, contrat APPLICA lu par familles, écosystème saisi dans l'outil — 5 parties prenantes, 2 critiques —, 2 scénarios stratégiques avec 3 chemins d'attaque, 1 scénario opérationnel `High`.)* | instance + dépôt | les deux | **D6 — 7 pts, le plus lourd du module** | Moyenne |
+
+**Séance 6 — close côté dossier.** TD 1 + TD 2 + TP 1 + TP 2 faits, **D6 assemblé (7 pts)**, sous-section 6 de la note rédigée, écosystème coté dans `translog-b` et rapport exporté. Il reste le **CM** *Security by Design* (notes d'étude, non noté) et, au fil de l'eau, les captures si un objet bouge. Prochain livrable noté : **D7** (traitement du risque, séance 7).
 
 **F3 · Top 5 marqué dans l'instance — clos.** `SA-01`, `SA-04`, `SA-09`, `SA-05` et `SA-03` portent l'étiquette **`Top5`**, lisible dans la colonne `LABELS` de la liste des actifs sans ouvrir D2 ; liste recapturée dans `Session-2/3-Evidence/`.
 
@@ -112,7 +115,7 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 | S9 | **D9** — indicateurs + **version close de la note de stratégie** | 3 |
 | **S10** | **Pièce 3** — export daté de l'instance, 8h30–9h15, au dépôt | support |
 
-**Budget de pages de la note** : 3 à 5 pages de texte (3 est la cible). Quatre sous-sections écrites ≈ **2 pages** — la marge se resserre mais tient, la contrainte mordra vers S6/S7 et se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages de la note** : 3 à 5 pages de texte (3 est la cible). Six sous-sections écrites ≈ **3 pages** — la cible est atteinte ; les sous-sections 7 à 9 se rédigeront serré, toute contrainte se traitant en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
