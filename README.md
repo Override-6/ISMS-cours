@@ -13,7 +13,7 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 5 sur 9 ; la séance 6 est ouverte — son TD 1 est fait, le CM, le TD 2 et les deux TP restent.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). Tout ce qui relève des séances 7 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances tenues : 5 sur 9 ; la séance 6 est ouverte — ses TD 1 et TD 2 sont faits, le CM et les deux TP restent.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). Tout ce qui relève des séances 7 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
@@ -32,7 +32,7 @@
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ assemblé | ✅ auteurs + statut |
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | ✅ assemblé — reste la page S5 du bureau du RSSI de Miguel (F12) | ✅ matrice 4x4 importée, étude créée, ateliers 1-2 saisis (7 ER, 5 couples) |
-| **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | 🔄 **TD 1 fait** (bureau du RSSI × 2 + note collective) — restent TD 2, TP 1 et TP 2 | ⏳ écosystème et scénarios à saisir (atelier 3) |
+| **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | 🔄 **TD 1 et TD 2 faits** (bureau du RSSI × 2, note collective, ateliers 3-4 par écrit) — restent TP 1 et TP 2 | ⏳ écosystème et scénarios à saisir (atelier 3) |
 | S7 | Traitement du risque | D7 | 5 | ⏳ | — |
 | S8 | Périmètre du SMSI | D8 | 2 | ⏳ | — |
 | S9 | Indicateurs, version finale | D9 | 3 | ⏳ | — |
@@ -62,6 +62,7 @@
 - **Séance 4 close en entier** — bureau du RSSI (les deux pages S4, à partir du TD 1 *« La valeur de la certification ISO 27001 »* : Miguel sur le découplage des deux demandes client/Direction Générale, Maxime sur l'effet interne de l'échéance externe), auto-évaluation outillée (TP 1) et rapport d'audit initial **D4** (TP 2, six sections, trois constats gradés suivis dans l'instance).
 - **F3 (moitié)** — le Top 5 est au dossier, classé sur un critère écrit *avant* le classement, et la **sous-section 2 de la note de stratégie qu'il bloquait est rédigée**.
 - **Séance 6 ouverte — TD 1 fait** (bureau du RSSI, *« The CISO's Desk: Supply Chain Attack »*) : note collective de 5 questions — **inventaire de 16 dépendances tierces** (10 pour Logistique, 6 au niveau groupe), chacune qualifiée en chemin de pivot ; les deux mécanismes de référence (mise à jour piégée / accès de maintenance détourné) transposés sur le groupe avec la **clause contractuelle** correspondante ; les trois messages du briefing au ComEx. Plus les **deux pages individuelles** — Miguel sur la case vide de la détection (le SOC ne reçoit rien du WMS, de la box 4G ni des automates), Maxime sur « le pivot est signé, pas piraté ». Matière première de l'atelier 3 et de **D6**.
+- **Séance 6 — TD 2 fait** (`Session-6/4-Working-notes/`, management des tiers et ateliers 3-4 d'EBIOS RM) : **exercice 1** — l'extrait du contrat de tierce maintenance du WMS (`TMA-WMS-2021`, APPLICA Services) lu au prisme des **quatre familles de l'infogérance** (réversibilité, droit d'audit, notification d'incident, maîtrise de la sous-traitance), tableau d'exigences vérifiables et écart corrigé par ligne, la plus urgente isolée. **Exercice 2** — carte de dangerosité de l'écosystème de `LOG-PA-01` : **5 parties prenantes** de §3 et §6 cotées sur dépendance × pénétration (exposition) / maturité × confiance (fiabilité), classées, **seuil de criticité écrit** (dangerosité ≥ 4,0), **deux parties prenantes critiques** — l'intégrateur des automates (12,0) et APPLICA (8,0) — et un **scénario stratégique** du couple SR/OV n°1 (cybercriminel → chiffrement du WMS **en passant par la TMA**, mécanisme NotPetya) coté **G4 critique**. Entre dans la saisie de l'atelier 3 (TP 1), les exigences tiers de **D6** (TP 2) et la sous-section 6 de la note.
 - **F12** — **séance 5 ouverte et relue** : les deux TD sont rendus (appétence au risque le matin, ateliers 1 et 2 d'EBIOS RM l'après-midi) puis confrontés aux sources. Le fond tient — objets de D2 repris **à l'identique**, ce qui est le premier critère d'acceptation de D5 ; trois erreurs de citation corrigées ; un constat du reference pack (sauvegardes jamais restaurées) assumé comme **écart connu non gradé**. Les deux TP ont suivi (D5 assemblé, sous-section 5 rédigée) ; reste la page S5 du bureau du RSSI de Miguel.
 
 ### Preuves déjà au dossier
@@ -80,7 +81,7 @@
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
-| **2** | **Séance 6 · finir la journée** — TD 2 (management des tiers, infogérance, **ateliers 3 et 4** d'EBIOS RM), TP 1 (écosystème et scénarios saisis dans `translog-b`), TP 2 (**exigences applicables aux tiers + fiche projet**), livrable **D6** assemblé et **sous-section 6** de la note rédigée. *(Le TD 1 est fait : 16 dépendances inventoriées et qualifiées, deux clauses contractuelles rédigées, trois messages de briefing.)* | instance + dépôt | les deux | **D6 — 7 pts, le plus lourd du module** | Lourde |
+| **2** | **Séance 6 · finir la journée** — TP 1 (écosystème et scénarios saisis dans `translog-b`), TP 2 (**exigences applicables aux tiers + fiche projet**), livrable **D6** assemblé et **sous-section 6** de la note rédigée. *(Les TD 1 et TD 2 sont faits : 16 dépendances inventoriées et qualifiées, contrat APPLICA lu par familles, écosystème de `LOG-PA-01` coté — 2 parties prenantes critiques —, scénario stratégique G4.)* | instance + dépôt | les deux | **D6 — 7 pts, le plus lourd du module** | Lourde |
 
 > ⚠️ **Le chantier 2 passe en partie par le navigateur**, sur `translog-b` : l'écosystème, les parties prenantes et les scénarios stratégiques se saisissent dans l'outil, puis on rapatrie les captures dans `Session-6/3-Evidence/`.
 
