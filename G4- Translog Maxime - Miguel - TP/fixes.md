@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D5 (séances 1 à 5), plus les TD relus des séances 5 et 6 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit son TD 1, pas encore son TD 2, ses TP ni son D6 (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
+**Portée de ce journal : les livrables D1 à D5 (séances 1 à 5), plus les TD relus des séances 5 et 6 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit ses deux TD, pas encore ses TP ni son D6 ; seul le **TD 1** a été relu (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -362,8 +362,9 @@ et n'était pas accessible, comme pour tous les TD du bureau du RSSI depuis la s
 attribue une identité féminine à la Directrice Générale et à la RSSI de Santé : c'est la convention du
 dossier depuis la séance 4, les sources ne précisent pas.
 
-**Fini quand** : le TD 2 de la séance 6 (management des tiers, ateliers 3 et 4 d'EBIOS RM), les TP 1 et
-TP 2, le livrable **D6** et la sous-section 6 de la note. La page S5 de Miguel (F12) reste due.
+**Fini quand** : les TP 1 et TP 2 de la séance 6, le livrable **D6** et la sous-section 6 de la note (le
+TD 2 est rendu, commit `e8de77d` — il verse l'extrait de contrat à l'exercice 1 et résout la mise en
+réserve du couple SR/OV n°2 de D5). La page S5 de Miguel (F12) reste due.
 
 ---
 
