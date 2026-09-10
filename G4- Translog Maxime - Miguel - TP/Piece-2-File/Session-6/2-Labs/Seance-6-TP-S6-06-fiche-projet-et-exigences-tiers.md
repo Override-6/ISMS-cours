@@ -126,6 +126,17 @@ exact que citent D5 (§ preuves à l'appui) et la feuille `S5-06` :
 `Session-5/3-Evidence/S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`. L'affirmation de D5 est désormais
 tenue par une pièce. Aucun texte de D5 n'est modifié.
 
+### 5.4 Doublons dans les captures du TP 1 — corrigés
+
+Contrôle des empreintes des 11 fichiers `S6-05-*.jpg` : **deux paires étaient identiques au bit près** —
+`S6-05-ex1-etude-reprise-compteurs.jpg` = `S6-05-atelier5-vide-et-compteurs.jpg`, et
+`S6-05-ex2-5-parties-prenantes-liste.jpg` = `S6-05-ex3-carte-dangerosite-classement.jpg` (le même fichier
+enregistré deux fois pendant le TP 1). Les quatre captures ont été **reprises** dans `translog-b` le
+10/9/2026, chacune distincte : `ex1` = page de l'étude (5 ateliers + compteurs du *Summary*) ; `atelier5`
+= cartes ateliers 4-5 montrant l'atelier 5 non généré + compteur *Applied controls (risk assessment) 0* ;
+`ex2` = grille des 5 parties prenantes ; `ex3` = fiches de criticité de PP1 et PP2 + le *Ecosystem radar*.
+Les objets de l'instance n'ont **pas** changé — seules les captures sont refaites.
+
 ---
 
 ## 6. Ce qui sort de ce TP
