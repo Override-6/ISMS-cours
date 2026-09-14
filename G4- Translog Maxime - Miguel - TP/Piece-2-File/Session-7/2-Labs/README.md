@@ -1,18 +1,17 @@
 # Séance 7 — TP · livrable D7 (5 points)
 
-**État : le mode opératoire et la saisie du TP 1 sont faits ; le livrable D7 (TP 2) reste à faire.**
+**État : TP 1 et TP 2 faits ; reste la saisie des coûts dans `translog-b`.**
 
 | Fichier | Rôle | État |
 |---|---|---|
 | `PLAN-Seance-7-TP-S7-05-atelier4-et-registre.md` | Le mode opératoire du TP 1, écrit **avant** la saisie (format des séances 4, 5 et 6) : les deux kill chains prêtes à coller, les vraisemblances proposées et justifiées, les 8 lignes attendues du registre avec option / porteur / échéance, les résiduels visés, et la note d'écart déjà amorcée | ✅ **écrit** — trace de méthode |
 | `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md` | La feuille de travail du TP 1 : ce que la saisie a réellement produit — compteurs lus, libellés d'écran divergents, refus de l'outil (absent, contrairement à l'énoncé), **note d'écart** complétée | ✅ **remplie** — registre à 8 lignes, résiduels cotés, contrôle qualité au vert |
-| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement par décision, fiches d'acceptation, demandes de dérogation | 🔴 **à faire** (TP 2) · ✅ **5 points** |
-| `Seance-7-TP-S7-06-acceptations-et-derogations.md` | La feuille de travail du TP 2 si D7 déborde | 🔴 à faire |
+| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement par décision (13 mesures, 2 transversales), sept fiches d'acceptation (six résiduels `Medium` + une `Low`), aucune dérogation (écrit et justifié), total budgétaire ≈ 82 000 €/an mis en face du coût de l'inaction, table de rapprochement ISO/IEC 27001:2022 | ✅ **rédigé** · ✅ **5 points** — 🟡 coûts calculés à la main, **saisie dans l'outil restant due** (section *Coût* des 13 mesures + capture de l'aperçu budgétaire du *Plan d'action* — extension de navigateur indisponible à la clôture de cette version) |
 
-> **Ce que le plan a déjà tranché, et qui change le TP 2** : le registre appellera **six fiches
-> d'acceptation** (les six résiduels attendus en `Medium`, que D5 ne tolère que formalisés), là où le TD 2
-> n'en avait formalisé **qu'une**. Et **aucune dérogation** ne devrait être à demander — ce que l'énoncé du
-> TP 2 oblige alors à **écrire, en disant pourquoi**.
+> **Le calcul tenu par D7** : le registre appelle **six fiches d'acceptation formelles** (les six résiduels
+> `Medium` — OS1, OS2, ER2, ER3, ER5, ER7) et **une acceptation simple** (ER6, `Low`), là où le TD 2 n'en
+> avait formalisé qu'une. **Aucune dérogation** n'est demandée — D7 §4 l'écrit et dit pourquoi : aucun
+> résiduel ne dépasse `Medium`.
 
 ---
 

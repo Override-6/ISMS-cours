@@ -8,7 +8,7 @@
 >
 > **Langue** : ce document est tenu en français. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise ; la note, elle, ne mélange pas.
 
-**État d'avancement : 6 sous-sections sur 9, toutes rédigées.** Les séances 7 à 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
+**État d'avancement : 7 sous-sections sur 9, toutes rédigées.** Les séances 8 et 9 n'ont pas encore eu lieu. Version close en séance 9, déposée en séance 10.
 
 | # | Séance | Sous-section | Question servie | État |
 |---|---|---|---|---|
@@ -18,11 +18,11 @@
 | 4 | S4 | État des lieux | Où en est la filiale | ✅ rédigée |
 | 5 | S5 | Risques majeurs | Où elle doit aller | ✅ rédigée |
 | 6 | S6 | Tiers et projets | Comment elle y va | ✅ rédigée |
-| 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ⏳ séance non tenue |
+| 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ✅ rédigée |
 | 8 | S8 | Périmètre du SMSI | Comment elle y va | ⏳ séance non tenue |
 | 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
 
-**Budget de pages** : six sous-sections rédigées ≈ **3 pages** (la cible). La marge est atteinte ; les sous-sections 7 à 9 se rédigeront serré, et toute contrainte se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
+**Budget de pages** : sept sous-sections rédigées ≈ **3,5 pages**. La marge reste tenue ; les sous-sections 8 et 9 se rédigeront serré, et toute contrainte se traitera en resserrant la **nouvelle** sous-section, jamais en supprimant une précédente.
 
 ---
 
@@ -102,6 +102,18 @@
 
 ---
 
+## Sous-section 7 — Traitement du risque *(séance 7)*
+
+> **Position du groupe sur l'acceptabilité du risque.** Le seuil demandé à la Direction Générale en clôture de la sous-section 5 est désormais **appliqué, pas seulement approuvé** : un résiduel `Élevé` reste inacceptable en l'état, un résiduel `Moyen` n'est porté que **formalisé** — tolérance datée, surveillance, propriétaire nommé, mesure compensatoire — et un résiduel `Faible` est accepté tel quel, revu à la cadence trimestrielle du Comité Exécutif. Sur les huit scénarios du registre issu de l'atelier 4, **aucun ne reste au-dessus de la ligne** après traitement : six retombent à `Moyen`, deux à `Faible`. La filiale ne ferme aucun risque — elle les fait tous passer d'inacceptable ou tolérable-sous-condition à **tolérable-formalisé**, ce qui n'est pas la même chose, et c'est dit ici sans le maquiller.
+>
+> **Les décisions structurantes prises aujourd'hui.** Treize mesures, organisées en plan de traitement **par décision et non par scénario** : cinq décisions engagent la Direction (deux avenants contractuels — intégrateur des automates, clause de sous-traitance APPLICA —, une acceptation formalisée sur la chaîne du froid signée par la Direction Générale, une acceptation simple sur la fuite vers le client pharmaceutique, le pilotage du projet de reprise du flux Santé déjà cadré en sous-section 6) ; huit relèvent de l'exécution (DSI, Responsable Exploitation, RSSI Groupe), dont deux mesures **transversales** qui traitent plusieurs scénarios à la fois — comptes nommés et MFA pour la tierce maintenance, et segmentation des réseaux bureautique et industriel, cette dernière la plus coûteuse et la plus large du plan. Coût annuel du plan complet, de l'ordre de **82 000 €**, mis en face de la fourchette du coût de l'inaction chiffrée le même jour : au minimum **12 000 €** pour une seule journée d'arrêt du WMS, un ordre de grandeur de **plusieurs millions** en cas de rançongiciel abouti. Un coût certain et borné, contre une perte plausible et non bornée qui excéderait le budget annuel du plan en une seule journée d'incident — c'est l'arbitrage que ce document porte à la Direction Financière.
+>
+> **Ce qui reste ouvert, et à quelle échéance.** Trois points n'ont pas de réponse aujourd'hui. Le **RTO réel** du WMS est inconnu tant que la restauration n'a pas été testée en conditions réelles (mesure engagée, échéance **14/11/2026**) — c'est lui qui bornera la partie haute de la fourchette du coût de l'inaction, encore un ordre de grandeur à ce jour. Le résiduel du scénario porté par l'intégrateur des automates (**`Moyen`**) reste, par nature de ce type de tiers, un plancher que le traitement engagé ne fait pas disparaître ; sa réévaluation est fixée à la prochaine revue de la carte de dangerosité de l'écosystème, au plus tard 12 mois. Et le projet de reprise du flux vers MERIDIAN Santé, bloqué depuis trois mois avant ce traitement, n'atteint son résiduel visé qu'à son sixième jalon, échéance **14/09/2027** — jusque-là, le risque reste coté `Élevé` dans les faits, `Moyen` dans la trajectoire décidée.
+
+*Preuve au dossier : `Piece-2-File/Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md` (livrable D7 — plan de traitement par décision, sept fiches d'acceptation, aucune dérogation à demander et pourquoi, total budgétaire mis en face du coût de l'inaction), `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md` (registre à 8 lignes, résiduels cotés), `Piece-2-File/Session-7/1-CISO-desk/Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md` (fourchette du coût de l'inaction), `Piece-2-File/Session-7/4-Working-notes/Seance-7-TD-S7-03-matrices-de-cotation-et-options-de-traitement.md` (matrice de cotation, ligne d'acceptation défendue). Preuve d'état : `Piece-2-File/Session-7/3-Evidence/`, et le registre de risques dans `translog-b` (8 scénarios, contrôle qualité au vert).*
+
+---
+
 ## Journal des amendements
 
 *Règle : rien n'est supprimé ; toute contradiction entre deux sous-sections s'amende d'une phrase de justification, datée.*
@@ -109,5 +121,6 @@
 | Date | Sous-section amendée | Amendement | Justification |
 |---|---|---|---|
 | — | — | Aucun amendement à ce jour | Les sous-sections 1 à 6 ne se contredisent pas. La sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques). La sous-section 6 **tient** celle de la sous-section 5 : le prestataire des automates, « tenu en veille et traité en séance 6 avec le reste de l'écosystème », est désormais coté comme partie prenante critique — la sous-section 6 complète la 5, elle ne la corrige pas. |
+| 14 sept. 2026 | Sous-section 6 | Précision, pas correction : *« aucune de ces décisions ne demande de budget nouveau la première année »* (sous-section 6) portait sur les **deux** décisions qu'elle traitait — la règle des trois exigences contractuelles et la discipline des six jalons de cadrage — pas sur l'ensemble de la trajectoire de traitement du risque. La sous-section 7 engage un budget nouveau (**≈ 82 000 €/an**) sur les mesures techniques du registre ; les deux affirmations coexistent, chacune sur son périmètre exact. |
 
 **Amendement déjà identifié pour plus tard** : quand le périmètre de déploiement ISO sera arrêté filiale par filiale, la sous-section 1 gagnera une phrase mentionnant cet arbitrage — la gouvernance décrite en S1 aura alors produit une décision de plus.
