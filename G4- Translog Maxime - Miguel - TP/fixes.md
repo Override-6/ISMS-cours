@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D5 (séances 1 à 5), plus les TD relus des séances 5 et 6 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit ses deux TD, pas encore ses TP ni son D6 ; seul le **TD 1** a été relu (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
+**Portée de ce journal : les livrables D1 à D6 (séances 1 à 6), plus les TD relus des séances 5, 6 et 7 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit ses deux TD, pas encore ses TP ni son D6 ; seul le **TD 1** a été relu (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -25,6 +25,7 @@
 | **F10** | **Aucune séance ne présente son livrable comme un livrable** — D1 à D3 sont enfouis dans des comptes rendus d'exercices | D1 · D2 · D3 | **13** | Moyenne | ✅ **fait** — D1, D2, D3 |
 | **F11** | La note de cadrage D1 n'énonce ni **enjeux** ni **contraintes** | D1 | 4 (partagé) | Petite | ✅ **fait** |
 | **F12** | **Séance 5, TD 1 et TD 2 relus** : trois erreurs de citation, un constat du reference pack non gradé, page du bureau du RSSI de Miguel absente | D5 (matière) + bureau du RSSI | **10** (coef. 1) + matière de D5 | Petite | 🔄 **citations corrigées** — reste la page de Miguel |
+| **F14** | **Séance 7 relue et rangée** : le TD 1 (*« Le point du RSSI »*) était classé en `4-Working-notes` et numéroté `S7-03`, le TD 2 en `S7-04` — hors de la nomenclature des séances 1 à 6 ; les trois autres emplacements de la séance manquaient ; deux cellules de la matrice 4×4 recopiées de mémoire, un chiffre non sourcé dans la fourchette du TD 1 ; **TD 2 réécrit** à la structure et au niveau des séances 5 et 6 | D7 (matière) + bureau du RSSI | matière de **D7** (5 pts) + **10** (coef. 1) | Moyenne | 🔄 **rangement, corrections et réécriture du TD 2 faits** — restent les 2 pages du bureau du RSSI, TP 1, TP 2, `D7` |
 | **F13** | **Séance 6, TD 1 relu** : fond juste et sourcé ; l'extrait de contrat TMA-WMS-2021 arrivé après coup fait requalifier « clause absente » en « clause présente mais non opposable » (note collective) et corriger une phrase de la page de Maxime ; trois imprécisions de forme | D6 (matière) + bureau du RSSI | matière de D6 + **10** (coef. 1) | Petite | ✅ **fait** — 2 pages rendues, corrections portées |
 
 ### Séance 3 — close au dossier
@@ -371,6 +372,172 @@ réserve du couple SR/OV n°2 de D5). La page S5 de Miguel (F12) reste due.
 
 ---
 
+## F14 · Relecture et rangement de la séance 7 — 🔄 rangement fait, les TP restent dus
+
+**Constaté le 14 septembre 2026.** Les deux TD de la séance 7 avaient été déposés ensemble dans
+`Session-7/4-Working-notes/`, seul emplacement existant de la séance. Quatre écarts, dans l'ordre de gravité.
+
+### 1. Le TD 1 n'était pas au bon endroit, et les deux TD étaient mal numérotés — corrigé
+
+Le TD 1 de la séance 7, *« Le point du RSSI : chiffrer le coût de l'inaction »*, est un **bureau du RSSI**,
+comme celui de chacune des séances 2 à 6. Sa note collective appartient à `1-CISO-desk/`, à côté des deux
+pages individuelles qu'elle nourrit — c'est là que sont `Seance-2-TD-S2-01-…`, `Seance-3-TD-S3-01-…`,
+`Seance-5-TD-S5-01-…` et `Seance-6-TD-S6-01-…`. Le laisser en `4-Working-notes` le rangeait avec la matière
+**non notée**, et surtout le séparait de l'emplacement où le correcteur cherche les **10 points individuels**.
+
+La numérotation suivait le même glissement : la séance 7 employait `S7-03` pour le TD 1 et `S7-04` pour le
+TD 2, là où les séances 1 à 6 tiennent une nomenclature constante — `01` = TD 1, `03` = TD 2, `05` = TP 1,
+`06` = TP 2.
+
+| Avant | Après |
+|---|---|
+| `4-Working-notes/Seance-7-TD-S7-03-chiffrer-le-cout-de-l-inaction.md` | `1-CISO-desk/Seance-7-TD-**S7-01**-chiffrer-le-cout-de-l-inaction.md` |
+| `4-Working-notes/Seance-7-TD-S7-04-matrices-de-cotation-et-options-de-traitement.md` | `4-Working-notes/Seance-7-TD-**S7-03**-matrices-de-cotation-et-options-de-traitement.md` |
+
+Déplacement fait en `git mv` (l'historique suit), et le code corrigé **dans le titre de chaque fichier**. La
+règle est désormais écrite noir sur blanc dans le `README` du rendu, section *« Dans chaque séance »*, pour
+que la séance 8 ne la repose pas.
+
+### 2. Les trois autres emplacements de la séance manquaient — créés
+
+`1-CISO-desk/`, `2-Labs/` et `3-Evidence/` n'existaient pas. Chacun porte maintenant un `README` qui dit ce
+qu'il attend, de sorte qu'un dossier vide se lise comme un **vide documenté** et non comme un oubli — c'est
+le traitement déjà appliqué à `Session-1/3-Evidence/` et à `Piece-3-Proof-of-state/`.
+
+- `1-CISO-desk/README.md` — la question du jour, la consigne, les trois notions du matin, les références
+  chiffrées de l'exposé, les trois questions guidées, le barème sur 10 et **quatre angles distincts**
+  proposés pour les pages de Miguel et de Maxime.
+- `2-Labs/README.md` — les quatre étapes de l'atelier 4 et du registre (TP 1), les **quatre exigences
+  d'acceptation de D7**, le gabarit du plan de traitement, la saisie des coûts *build*/*run* dans l'outil au
+  taux de 500 €/jour, les cinq éléments de l'acceptation et les trois de plus de la dérogation, et le
+  raccord vers la déclaration d'applicabilité de la séance 8.
+- `3-Evidence/README.md` — les onze captures attendues, nommées `S7-05-…` / `S7-06-…`, plus le contrôle
+  d'empreintes qui a démasqué les doublons de la séance 6.
+
+### 3. Deux cellules de la matrice 4×4 étaient fausses — corrigées
+
+Le TD 2 ouvrait sur un rappel de la matrice `4x4 risk matrix from EBIOS-RM`. Confronté à la capture de
+l'instance (`Session-5/3-Evidence/S5-06-matrice-4x4-niveaux-de-risque.jpg`), deux croisements ne
+correspondaient pas :
+
+| Croisement | Écrit | Dans l'instance |
+|---|---|---|
+| **G4 `Critical` × V2 `Likely`** | `High` | **`Medium`** |
+| **G1 `Minor` × V3 `Very likely`** | `Low` | **`Medium`** |
+
+**Aucune des quatre cotations du TD ne tombe dans ces deux cellules** : les niveaux lus (A `High`,
+B `High`, C `High`, D `Medium`) sont justes, et les conclusions ne bougent pas. Mais la matrice est
+l'instrument sur lequel tout le registre de l'après-midi se lit, et le briefing du matin prévient qu'un
+auditeur ira vérifier que l'échelle n'a pas été refaite. La grille est corrigée, la capture citée en source,
+et les deux cellules contre-intuitives signalées en note pour qu'on ne les recopie pas de mémoire une
+seconde fois.
+
+### 4. Un chiffre du TD 1 n'était pas sourçable — retiré
+
+Le TD 1 s'impose sa propre règle — *« les chiffres qui entrent dans le dossier proviennent exclusivement du
+briefing du matin et du pack de filiale »* — et l'énoncé la redouble : *« s'interdire tout chiffre qui ne
+vient pas de l'exposé ou du dossier de filiale : l'exercice évalue la discipline de sourçage autant que
+l'argumentation »*.
+
+| # | Où | Écrit | Corrigé |
+|---|---|---|---|
+| 1 | Q2, durée haute | « Maersk a mis **dix jours** avant de retrouver un fonctionnement acceptable » | Ce nombre n'est ni dans le briefing ni dans le pack. Remplacé par la borne que le briefing donne en toutes lettres — « **des jours à des semaines** de mode manuel » — et par le fait qui, chez nous, rend cette durée **indéterminée** : les sauvegardes n'ont jamais été restaurées. Le premier test de restauration est nommé comme la mesure qui transformera la borne en chiffre |
+| 2 | Q2, synthèse | « 12 000 EUR × **10 j** = **120 000 EUR** » — dérivé du précédent | Exprimé en `12 000 € × d`, où *d* est la fourchette du briefing : quelques dizaines à quelques centaines de milliers d'euros, **ordre de grandeur dit comme tel** |
+| 3 | Q1, Norsk Hydro | « ~800 M NOK (**~80 M EUR**) » — la conversion n'est pas au briefing | Conservée mais **attribuée** : « ~80 M EUR, conversion faite par nous » |
+| 4 | partout | **« DAF (Directeur Administratif et Financier) »** — rôle qui n'existe ni au briefing ni au dossier | **« Directeur Financier »**, le titre employé par l'énoncé et déjà par `S3-01`, `S3-03` et le bureau du RSSI de la séance 4 |
+
+Une cinquième reprise, mineure : la citation de l'échelle G2 de D5 disait *« au plus une donnée non sensible
+exposée à un cercle restreint »* — D5 écrit « au plus une donnée **personnelle** non sensible ». Rendue
+verbatim.
+
+### Vérifié bon dans les deux TD — ne pas rouvrir
+
+Le reste du fond tient, confronté aux deux briefings, au pack de filiale, au reference pack, à D4, D5 et D6 :
+
+- **Les cinq références chiffrées** du TD 1 sont exactes au chiffre, à l'année et à la source près (Mærsk
+  250-300 M$ T3 2017 ; Norsk Hydro ~800 M NOK mars 2019 ; Equifax ≥ 575 M$ en 2019, ~147 millions de
+  personnes ; France Travail 5 M€ CNIL janvier 2026, fuite de 2024 pouvant toucher 43 millions de personnes ;
+  IBM France 3,85 M€ 2024, monde 4,44 M$ et 241 jours en 2025).
+- **La ligne « aucune référence ne colle »** est écrite pour la malveillance interne au lieu d'être comblée
+  par une approximation — c'est exactement ce que l'énoncé appelle *une réponse*.
+- **Les rattachements au registre sont justes** : couple n°1 → ER1/ER2, couple n°3 → ER2/ER7, couple n°4 →
+  ER4/ER6, conformes à D5 § *Confrontation sources de risque ↔ événements redoutés* ; SS1 `Critical`,
+  SS2 `Important`, scénario opérationnel `High`, conformes à D6 et à l'instance.
+- **Les échelles de D5 sont reprises telles quelles** dans le TD 2, G1-G4 et V1-V4, sans redéfinition — le
+  premier critère que le briefing annonce comme vérifié par un auditeur.
+- **Le TD 2 couvre les trois exercices au complet**, y compris les deux productions qu'on saute souvent :
+  les deux lignes sur le scénario le plus débattu (B, et ce qui ferait passer sa gravité à G4) et la
+  contrainte « au moins une option qui n'est pas *réduire* » — ici deux, transfert sur A et acceptation
+  formelle sur D.
+- **La phrase à ne jamais écrire** (*« Risque accepté par le RSSI »*) est évitée : l'acceptation de D est
+  portée par la Direction Générale, sur proposition du RSSI Groupe, avec mesure compensatoire, propriétaire
+  et réexamen à 12 mois.
+
+### Reste ouvert sur la séance 7
+
+1. **Les deux pages du bureau du RSSI** — `S7-bureau-du-RSSI-Miguel-Monereo.md` et `S7-bureau-du-RSSI-Maxime.md`,
+   une page chacune, angles distincts, closes par une recommandation. **10 points, coefficient 1.**
+2. **TP 1** — atelier 4 détaillé et registre de risques dans `translog-b`, plus la note d'écart.
+3. **TP 2** — plan de traitement, acceptations et dérogations : le livrable **`D7`, 5 points**.
+4. **Sous-section 7** de la note de stratégie.
+
+### 5. Le TD 2 n'était pas à la structure du dossier — réécrit
+
+Le fond du TD 2 était juste (cf. *« Vérifié bon »* ci-dessus), mais la note ne suivait pas le gabarit que les
+séances 2 à 6 tiennent pour leurs TD 2 : elle s'arrêtait à un rappel de minutage là où les autres portent une
+**auto-évaluation**, elle n'avait ni **« Rappel du cas »**, ni **cadrage des notions**, ni **« Ce qui entre
+dans la suite de la journée »**, ni **phrase de passage aux TP**, ni bloc de **sigles** — et elle était
+rédigée sans accents. Réécrite le 14 septembre 2026 au gabarit de `S5-03` et `S6-03`, en français accentué,
+**sans rien perdre du fond** :
+
+| Ajouté | Ce que ça apporte |
+|---|---|
+| **Rappel du cas** | Les trois faits qui cadrent la journée, dont la phrase de D5 qui fixait rendez-vous à la séance 7 (*« appliqué inchangé au registre complet »*) |
+| **Cadrage des deux notions** (matrice de cotation, ligne d'acceptation) en table *ce que c'est / mécanique / ce qu'elle ne fait **pas*** | Le format des trois notions de `S6-03` ; y compris le « pourquoi 4×4 et non 5×5 » que l'énoncé développe |
+| **Les trois manipulations** remontées au cadrage, avec la colonne *« où elle apparaît aujourd'hui »* | Elles étaient en fin de note, hors de portée du moment où elles servent : la n° 1 est l'objet même de l'exercice 2 |
+| **Mise en situation** par exercice, et le tableau des quatre scénarios de l'énoncé | Un lecteur qui n'a pas l'énoncé sous les yeux peut suivre |
+| **« Pourquoi pas le niveau au-dessus »** sur les quatre vraisemblances | La justification que la grille attend et qui manquait sur A, B et C |
+| **Porteurs repris de la carte du pouvoir** (pack §3, reference pack §2-§3) | Voir le point 6 ci-dessous — c'est la correction de fond de la réécriture |
+| **« Ce qui entre dans la suite de la journée »** (TP 1 · TP 2/`D7` · sous-section 7) | Le raccord aval, exigé par le format ; y compris les mesures transversales repérées d'avance (SOC pour A et B, comptes nommés + MFA pour A et C) |
+| **Auto-évaluation (grille du TD)** en huit critères | Ce que les séances 2, 3, 5 et 6 portent toutes et que la séance 7 n'avait pas |
+| **Phrase de passage aux TP** | La clôture du format |
+
+### 6. Les porteurs des mesures ignoraient la carte du pouvoir — corrigé
+
+Correction de fond trouvée à la réécriture, et la plus utile pour le TP 1 : l'énoncé du TP demande que chaque
+porteur soit **pris dans la carte du pouvoir du dossier de filiale (§3)**. Or la première version confiait à
+la « DSI de MERIDIAN Logistique » des mesures qui **ne sont pas de son ressort**. Le §3 est explicite :
+
+| Rôle | Décide de | Ne décide **pas** de |
+|---|---|---|
+| **Directeur de la filiale** | Budget, **contrats** (TMA, intégrateur, client pharmaceutique, transport) | Les règles communes au groupe |
+| **DSI de la filiale** (trois personnes, sans titre de RSSI) | Réseau bureautique, postes, **comptes de domaine**, relation à la TMA du WMS | **Réseau industriel et automates ; contrats** |
+| **Responsable Exploitation** | Organisation des entrepôts, **réseau industriel des automates**, appel à l'intégrateur | Le WMS (TMA) ; le réseau et les comptes bureautiques |
+
+Conséquence portée dans la note : l'avenant au contrat `TMA-WMS-2021` revient au **Directeur de la filiale**,
+la DSI tenant la recette ; les **comptes nommés** restent à la DSI (comptes de domaine) avec l'avenant au
+Directeur ; la **segmentation IT/OT** a **deux** porteurs (DSI pour l'IT, Responsable Exploitation pour l'OT)
+et un **point d'arbitrage écrit** — le Directeur de la filiale refuse toute intervention sur les automates en
+période de pointe, *« dix mois sur douze »* (§3). La règle d'arbitrage **`ARB-01`** de D1 est citée à sa
+valeur exacte : **veto suspensif du RSSI Groupe, arbitrage rendu sous 72 h**, et non « l'instance qui tranche
+entre filiale et groupe ».
+
+Deux extrapolations ont été retirées au passage : l'absence de MFA, documentée pour **Santé** seulement
+(constat 2), n'est plus invoquée pour le pôle Éducation & Territoires ; et la mesure « journaux du SIH au
+SOC » précise désormais que **le SOC reçoit déjà les journaux de Santé** (reference pack §2), ce qui change
+son coût et son échéance.
+
+### Réserve de forme, restreinte au TD 1
+
+`1-CISO-desk/Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md` reste rédigé **sans accents** (« Seance »,
+« cout », « reponse », « n-1 » pour « n°1 »), là où tout le reste du dossier est en français accentué. Le TD 2
+ne l'est plus depuis sa réécriture. Aucun point n'en dépend — c'est de la matière de travail, non notée en
+tant que telle — mais le contraste se voit désormais **entre les deux notes de la même séance**. À reprendre
+avant la remise du 17 septembre, à la main : une substitution automatique trancherait mal `a`/`à`, `ou`/`où`
+et `cote`/`côté`/`coté`.
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -404,4 +571,6 @@ réserve du couple SR/OV n°2 de D5). La page S5 de Miguel (F12) reste due.
 | 10 sept. 2026 | **Séance 6 — TD 1 rendu, puis relu** (**F13**). Fond juste et sourcé sur ~50 affirmations : trois notions distinguées, deux cas de référence exacts au chiffre près (le 85 % de la page de Maxime vient bien du CM S6), 16 dépendances traçables au § du pack, renvois D4 (M2/M4, recommandation n°5 sans date) et citations D5/appétence n°2 verbatim. **Deux formulations corrigées à la lumière de l'extrait de contrat TMA-WMS-2021** arrivé après coup : « clause absente » → « clause présente mais non opposable » (l'article 3 porte déjà une liste des habilités « sur demande ») en Q3(b) ; « le contrat ne prévoit rien » → distingue l'intégrateur (rien) de la TMA (art. 5/6 faibles) dans la page de Maxime ; le décompte « treize lignes sans exigence de sécurité » ramené à douze. **Trois imprécisions de forme** : « mobile personnel » → « mobile » (pages de Miguel et note collective), T1 nomme désormais APPLICA Services / `svc-applica`, l'extrait de contrat versé aux sources. Barème de la page toujours « repris du format des séances précédentes » — le corrigé officiel reste replié dans l'énoncé. **Restent dus** : la page S5 de Miguel (F12), et tout le reste de la séance 6 (TD 2, TP 1, TP 2, D6). |
 | 10 sept. 2026 | **Séance 6 — TD 2 fait** : `Session-6/4-Working-notes/Seance-6-TD-S6-03-management-des-tiers-infogerance-ateliers-3-4.md`. Contrat `TMA-WMS-2021` lu par les quatre familles de l'infogérance (réversibilité, droit d'audit, notification d'incident, maîtrise de la sous-traitance) ; carte de dangerosité de l'écosystème de `LOG-PA-01` — 5 parties prenantes cotées, seuil de criticité écrit (≥ 4,0), deux parties prenantes critiques (intégrateur 12,0, APPLICA 8,0), un scénario stratégique du couple n°1 coté G4 `Critical`. Matière prête pour l'atelier 3 (TP 1), les exigences de **D6** (TP 2) et la sous-section 6 de la note. |
 | 10 sept. 2026 | **Séance 6 — TP 1 fait** : écosystème et scénarios saisis dans `translog-b` (atelier 3 complet, amorce de l'atelier 4), à partir du mode opératoire écrit le jour même. **5 parties prenantes créées**, chacune adossée à une nouvelle `Entity` (`Third Parties → Entities`) — la fiche *stakeholder* refuse toute saisie tant qu'aucune entité n'existe dans le domaine, geste non anticipé par l'énoncé mais prévu en contingence dans le plan de séance. 4 notes par partie prenante, criticités **lues** : 12,0 (intégrateur) · 8,0 (APPLICA) · 1,0 (MERIDIAN Santé) · 0,5 (opérateur des liaisons) · **0,44** (client pharmaceutique — l'outil affiche le quotient exact 4/9, sans l'arrondir à 0,4 comme le calcul manuel du TD 2 ; classement inchangé, notes non retouchées). PP1 et PP2 seules `Selected`, seuil ≥ 4,0 appliqué. **2 scénarios stratégiques** — SS1 (couple n°1, `Critical`, 2 chemins d'attaque dont la résolution du couple n°2 mis en réserve à D5) et SS2 (couple n°4, `Important`, 1 chemin) — 3 chemins au total, chacun rattaché à une partie prenante critique. **Écart d'outil relevé** : le champ *Focused feared event* d'un scénario stratégique n'accepte qu'**un seul** événement redouté ; ER6, second événement visé par SS2, reste écrit en description plutôt que rattaché en objet. **1 scénario opérationnel** (kill chain en sept actions élémentaires sur les biens supports nommés, vraisemblance `Very likely`, justifiée par le socle de D5 et le *pourquoi pas V4*) — **second écart d'outil relevé** : la vraisemblance se règle à **deux niveaux distincts et non synchronisés** (le scénario opérationnel lui-même, et son sous-objet *Operating mode*), tous deux réglés à la main ; `Risk level` affiché `High`. Feuille de travail et 11 captures au dossier (`Session-6/2-Labs/` et `3-Evidence/`). Atelier 5 laissé vide, couple n°3 sans scénario (son chemin ne passe pas par l'écosystème) — deux choix de méthode écrits, pas des oublis. Restent le TP 2 et le livrable **D6**. |
+| 14 sept. 2026 | **Séance 7 — TD 2 réécrit au gabarit du dossier** (**F14**, points 5 et 6). `Seance-7-TD-S7-03-matrices-de-cotation-et-options-de-traitement.md` repris à la structure de `S5-03` et `S6-03` et en **français accentué** : ajout du **rappel du cas**, du **cadrage des deux notions** (matrice de cotation, ligne d'acceptation, avec ce qu'elles ne font pas et le « pourquoi 4×4 et non 5×5 »), des **trois manipulations** remontées au cadrage avec la colonne « où elle apparaît aujourd'hui », d'une **mise en situation par exercice**, du **« pourquoi pas le niveau au-dessus »** sur les quatre vraisemblances, de **« Ce qui entre dans la suite de la journée »** (TP 1 · `D7` · sous-section 7, mesures transversales repérées), d'une **auto-évaluation en huit critères** et de la **phrase de passage aux TP**. **Correction de fond** : les porteurs des mesures sont désormais pris dans la **carte du pouvoir** (pack §3) — l'avenant contractuel revient au **Directeur de la filiale** et non à la DSI, la segmentation IT/OT a **deux porteurs** et un point d'arbitrage écrit (refus d'intervention en période de pointe, « dix mois sur douze »), et **`ARB-01`** est cité à sa valeur exacte (veto suspensif du RSSI Groupe, 72 h). **Deux extrapolations retirées** : l'absence de MFA n'est plus étendue de Santé au pôle Édu-Terr ; la mesure « journaux du SIH au SOC » tient compte du fait que le SOC reçoit déjà ceux de Santé. Fond inchangé : mêmes cotations (A `High` · B `High` · C `High` · D `Medium`), même ligne d'acceptation, mêmes quatre décisions. |
+| 14 sept. 2026 | **Séance 7 — les deux TD relus et la séance rangée** (**F14**). Le TD 1 *« Chiffrer le coût de l'inaction »* déplacé de `4-Working-notes` vers **`1-CISO-desk`** et renuméroté **`S7-01`**, le TD 2 renuméroté **`S7-03`** : la séance 7 rentre dans la nomenclature des séances 1 à 6 (`01` TD 1 · `03` TD 2 · `05` TP 1 · `06` TP 2), et la règle est écrite dans le `README` du rendu. Les trois emplacements manquants **créés** — `1-CISO-desk/`, `2-Labs/`, `3-Evidence/` — chacun avec un `README` qui énonce ce qu'il attend (angles des deux pages individuelles ; quatre étapes de l'atelier 4 et quatre exigences d'acceptation de `D7` ; onze captures attendues). **Deux cellules de la matrice 4×4 corrigées** contre la capture de l'instance (G4×V2 `High` → **`Medium`**, G1×V3 `Low` → **`Medium`**) — aucune des quatre cotations du TD ne tombait dans ces cellules, les conclusions sont inchangées. **Un chiffre non sourçable retiré** du TD 1 (« Maersk a mis dix jours », et les 120 000 € qui en dérivaient) au profit de la borne du briefing, « des jours à des semaines » ; conversion Norsk Hydro attribuée ; **« DAF » remplacé par « Directeur Financier »**, le titre de l'énoncé et du dossier ; citation de l'échelle G2 rendue verbatim. Le reste du fond **vérifié bon** : cinq références chiffrées exactes, rattachements au registre conformes à D5 et D6, échelles reprises telles quelles, les trois exercices du TD 2 complets. **Restent dus** : les deux pages du bureau du RSSI S7, TP 1, TP 2, `D7` et la sous-section 7 — plus la page S5 de Miguel (F12). |
 | 10 sept. 2026 | **Séance 6 — TP 2 fait, livrable D6 assemblé (7 pts, le plus lourd du module).** `Session-6/2-Labs/D6-tiers-et-projets.md` + feuille de travail `Seance-6-TP-S6-06-fiche-projet-et-exigences-tiers.md`. **Pièce 1 — fiche projet** : reprise du flux d'approvisionnement d'urgence Logistique→Santé (le projet du pack qui traverse une frontière de filiale, coupé depuis 3 mois), choix tranché et écrit contre l'autre candidat (homologation du WMS de D4 §6) ; 6 jalons M1-M6, chacun avec un critère de passage **démontré par un fait** (test rejoué, PV signé, trace de présence de la RSSI de Santé au cadrage), M4 sous forme de décision d'autorisation ; 3 régimes explicités ligne par ligne ; propriétaire ultime unique par jalon ; 3 points d'arbitrage rattachés à `ARB-01`. **Pièce 2 — exigences du contrat `TMA-WMS-2021`** : les 5 familles (réversibilité, droit d'audit, notification, traçabilité/comptes nommés, sous-traitance), **formulation vérifiable** et **colonne justification tracée** à un scénario stratégique (SS1/SS2), un écart gradé de D4 (C3/C4/A.8.15) ou un silence du contrat (article par article) ; + dispositif de surveillance (3 indicateurs sourcés, comité de suivi trimestriel, preuve annuelle non sollicitée, ce qui ne se délègue jamais). **Critère « zéro exigence orpheline » relu.** **Instance vérifiée** (compte `maximebatista18@gmail.com`) : compteurs, 5 criticités (12 · 8 · 1 · 0,5 · 0,44), 2 `Selected`, gravités SS1 `Critical` / SS2 `Important`, scénario opérationnel `High` — **conformes chiffre pour chiffre** au TP 1 et au TD 2, rien à corriger. **Rapport de l'étude exporté** (capture pleine page — le bouton *Export PDF* ouvre l'impression du navigateur) : `Session-6/3-Evidence/S6-06-rapport-etude-EBIOS-RM-ateliers-3-4.jpg` et `S6-06-ecosystem-criticites-5PP-2-selected.jpg`. **Écart hérité comblé au passage** : la capture `S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`, citée par D5 et par la feuille S5-06 mais absente de `Session-5/3-Evidence/` (relevée au TP 1), est produite depuis la partie ateliers 1-2 du rapport consolidé — aucun texte de D5 modifié. **Sous-section 6 de la note de stratégie rédigée** (« tiers et projets », une demi-page, articulée aux sous-sections 1, 2 et 5 ; journal des amendements complété : S6 tient la promesse de S5 sur le prestataire des automates, elle ne la corrige pas). **Captures du TP 1 dédoublonnées** : le contrôle des empreintes a montré deux paires de fichiers `S6-05-*.jpg` identiques au bit près (`ex1`=`atelier5`, `ex2`=`ex3`) — les quatre captures reprises dans `translog-b`, chacune distincte, sans toucher aux objets de l'instance. **Séance 6 close côté dossier** — reste le CM et la page S5 de Miguel (F12). |

@@ -6,9 +6,11 @@
 
 ---
 
-## Avancement : séances 1 à 6 sur 9
+## Avancement : séances 1 à 6 closes, séance 7 ouverte
 
-Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits, livrables compris. La séance 6 est **close côté dossier** : bureau du RSSI clos (Miguel et Maxime), **TD 2** (management des tiers, lecture du contrat d'infogérance, ateliers 3-4 par écrit), **TP 1** (écosystème et scénarios saisis dans `translog-b` — 5 parties prenantes cotées, 2 critiques, 2 scénarios stratégiques, 1 scénario opérationnel), **TP 2** — livrable `D6` (fiche projet à six jalons + exigences du contrat APPLICA tracées + dispositif de surveillance + export de l'étude) et **sous-section 6** de la note. Reste le CM de la séance 6. **Les séances 7 à 9 n'ont pas encore eu lieu** — les emplacements correspondants n'existent donc pas encore dans ce dossier, et c'est normal à cette date.
+Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits, livrables compris. La séance 6 est **close côté dossier** : bureau du RSSI clos (Miguel et Maxime), **TD 2** (management des tiers, lecture du contrat d'infogérance, ateliers 3-4 par écrit), **TP 1** (écosystème et scénarios saisis dans `translog-b` — 5 parties prenantes cotées, 2 critiques, 2 scénarios stratégiques, 1 scénario opérationnel), **TP 2** — livrable `D6` (fiche projet à six jalons + exigences du contrat APPLICA tracées + dispositif de surveillance + export de l'étude) et **sous-section 6** de la note. Reste le CM de la séance 6.
+
+**La séance 7 est ouverte : ses deux TD sont rendus, ses deux TP ne sont pas faits.** `Session-7/` porte désormais les quatre emplacements constants ; `2-Labs/` et `3-Evidence/` sont vides et le disent, chacun par un `README` qui énonce ce qui y est attendu. **Les séances 8 et 9 n'ont pas eu lieu** — leurs emplacements n'existent pas encore, et c'est normal à cette date.
 
 | Séance | Thème | Livrable | Points | État |
 |---|---|---|---|---|
@@ -18,7 +20,8 @@ Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ **livrable assemblé**, bureau du RSSI clos, TP 1 et TP 2 faits |
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Appréciation initiale des risques | 3 | ✅ **livrable assemblé**, ateliers 1-2 saisis dans `translog-b` — reste la page S5 de Miguel *(F12)* |
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | 7 | ✅ **livrable assemblé**, bureau du RSSI clos, TD 2 + TP 1 + TP 2 faits — reste le CM |
-| S7–S9 | Traitement, SMSI, indicateurs | D7 à D9 | 10 | ⏳ séances non tenues |
+| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | 🔄 **TD 1 et TD 2 rendus** — restent les 2 pages du bureau du RSSI, TP 1, TP 2 et `D7` |
+| S8–S9 | SMSI, indicateurs | D8, D9 | 5 | ⏳ séances non tenues |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 6 sous-sections sur 9, **toutes rédigées** |
 
 **Barème des livrables : 40 points** (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note 3), convertis sur 20, coefficient 4 sur 10.
@@ -52,6 +55,12 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 | `2-Labs/` | Le livrable de la séance, D1 à D9 | ✅ barème des livrables |
 | `3-Evidence/` | Les captures de l'instance CISO Assistant qui prouvent l'état des objets | ✅ support du livrable |
 | `4-Working-notes/` | TD 2 et notes d'étude — matière de travail, non notée en tant que telle | ➖ |
+
+**Où va quel TD — la confusion à ne pas refaire.** Le **TD 1** de chaque séance est *« Le point du RSSI »* /
+*« The CISO's Desk »* : sa note collective va dans **`1-CISO-desk/`**, numérotée `S{n}-01`, à côté des deux
+pages individuelles qu'elle nourrit. Le **TD 2** de l'après-midi va dans **`4-Working-notes/`**, numéroté
+`S{n}-03`. Les deux TP sont `S{n}-05` et `S{n}-06`, dans `2-Labs/`. Cette numérotation est celle des séances 1
+à 6 ; la séance 7 y a été ramenée le 14 septembre 2026 (`fixes.md` **F14**).
 
 ---
 
@@ -92,6 +101,14 @@ La consigne exige que les séances soient **séparées et identifiables**, et qu
 - `1-CISO-desk/` — **les deux pages rendues** (Miguel sur la case vide de la détection, Maxime sur « le pivot est signé, pas piraté ») + la note collective du TD 1 (seize dépendances tierces). `fixes.md` F13.
 - `3-Evidence/` — 13 captures : TP 1 (étude reprise, 5 parties prenantes et criticités, notes de PP1/PP2, 2 scénarios stratégiques et 3 chemins, scénario opérationnel, atelier 5 vide) + TP 2 (rapport de l'étude ateliers 3-4, liste écosystème avec les 2 critiques `Selected`).
 - Dans `translog-b` : atelier 3 complet (5 parties prenantes cotées, 2 `Selected` : intégrateur 12, APPLICA 8), 2 scénarios stratégiques (SS1 `Critical`, SS2 `Important`), 1 scénario opérationnel (`High`).
+
+### Séance 7 — Traitement du risque *(D7)* 🔄 en cours
+- `1-CISO-desk/Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md` — **TD 1 fait** : la note collective des trois questions guidées. Les références de coût de l'exposé (Mærsk 250-300 M$, Norsk Hydro ~800 M NOK, Equifax ≥ 575 M$, France Travail 5 M€, IBM 3,85 M€ / 4,44 M$ / 241 jours) rattachées **une par une** aux trois familles de scénarios du registre, y compris la ligne « aucune référence ne colle » assumée pour la malveillance interne ; l'argument d'investissement pour le scénario d'indisponibilité, en fourchette aux quatre termes, avec les quatre **données à demander au Directeur Financier** nommées ; les trois objections et leurs réponses. **Les deux pages individuelles restent dues** — quatre angles proposés dans le `README` du dossier.
+- `4-Working-notes/Seance-7-TD-S7-03-matrices-de-cotation-et-options-de-traitement.md` — **TD 2 fait, réécrit au gabarit des séances 5 et 6** : rappel du cas · cadrage des deux notions (matrice de cotation, ligne d'acceptation — avec ce qu'elles *ne font pas*, et le « pourquoi 4×4 et non 5×5 ») · les trois manipulations à reconnaître, chacune rattachée à l'endroit où elle apparaît dans la journée · les quatre scénarios du groupe cotés sur les deux axes avec les échelles de D5 **reprises telles quelles** (A `High`, B `High`, C `High`, D `Medium`), chaque note adossée à un **signal vérifiable** et assortie de son **« pourquoi pas le niveau au-dessus »**, le scénario le plus débattu (B) et ce qui changerait sa cotation · la ligne d'acceptation défendue contre la proposition du Directeur de la Logistique (veto suspensif `ARB-01`, 72 h), la réponse au comité en trois phrases, **qui signe et pourquoi ce n'est ni le RSSI ni le directeur de filiale** · les quatre options de traitement (réduire · réduire · réduire + transférer · **accepter formellement**), **porteurs pris dans la carte du pouvoir du pack §3** — l'avenant contractuel au Directeur de la filiale, les comptes de domaine à la DSI, le réseau industriel au Responsable Exploitation —, la portée réelle de l'assurance cyber sur A en deux colonnes, l'acceptation de D aux cinq éléments · « ce qui entre dans la suite de la journée » · auto-évaluation en huit critères. Matière directe du registre (TP 1) et de `D7` (TP 2).
+- `2-Labs/` — **vide** : TP 1 et TP 2 non faits. Le `README` du dossier porte le mode d'emploi : les quatre étapes de l'atelier 4, les **quatre exigences d'acceptation de D7**, le gabarit du plan de traitement et la saisie des coûts *build*/*run* dans l'outil au taux de 500 €/jour.
+- `3-Evidence/` — **vide** : aucun objet de la séance 7 n'a encore été créé dans `translog-b`. Les onze captures attendues sont listées et nommées dans le `README` du dossier.
+
+> **Réserve de forme sur la séance 7** : la note du **TD 1** est encore rédigée sans accents, là où tout le reste du dossier est en français accentué. Le TD 2 ne l'est plus depuis sa réécriture du 14 septembre. Aucun point n'en dépend (matière de travail, non notée), mais le contraste se voit maintenant entre les deux notes de la même séance — reprise à faire à la main avant la remise (`fixes.md` **F14**).
 
 ---
 

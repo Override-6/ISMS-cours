@@ -3,7 +3,7 @@
 **Module M2-01-4-ISMS** — *Security governance and information system mapping*
 **Groupe 4 « Translog »** · Miguel Monereo, Maxime · filiale d'instruction **MERIDIAN Logistique**
 **Instance** `translog-b` (https://translog-b.lockbay.eu) · **périmètre** `MERIDIAN-LOGISTIQUE`
-**Remise : 17 septembre 2026** · dernière mise à jour du dépôt : **10 septembre 2026**
+**Remise : 17 septembre 2026** · dernière mise à jour du dépôt : **14 septembre 2026**
 
 > **La règle qui gouverne tout le rendu :**
 > *la sous-section n de la note **affirme** ; la séance n du dossier **prouve** ; l'export **montre** que l'objet existe dans l'outil.*
@@ -13,13 +13,13 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances tenues : 5 sur 9 ; la séance 6 est close côté dossier — TD 1, TD 2, TP 1 et TP 2 sont faits, seul le CM reste.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). Tout ce qui relève des séances 7 à 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances 1 à 6 closes côté dossier ; la séance 7 est ouverte — ses deux TD sont rendus, ses deux TP ne le sont pas.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). La séance 7 a été rangée le 14 septembre : le TD 1 remis dans `1-CISO-desk`, les deux TD renumérotés, les trois emplacements manquants créés (**F14**). Tout ce qui relève des séances 8 et 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
-| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **27 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · **D6 7**) | D7→D9 = 10 pts |
+| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **27 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · **D6 7**) | D7→D9 = 10 pts, dont **D7 (5 pts) en cours** |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | **6 sous-sections sur 9**, toutes rédigées | 3 sous-sections, une par séance restante |
-| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **11 pages** — S1→S4 complètes (F7 clos), S5 de Maxime, **S6 des deux** | 🔴 **S5 de Miguel** (F12) |
+| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **11 pages** — S1→S4 complètes (F7 clos), S5 de Maxime, **S6 des deux** | 🔴 **S5 de Miguel** (F12) · 🔴 **les deux pages S7** (F14) |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut, étude EBIOS RM comprise) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
@@ -33,9 +33,9 @@
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | ✅ assemblé — reste la page S5 du bureau du RSSI de Miguel (F12) | ✅ matrice 4x4 importée, étude créée, ateliers 1-2 saisis (7 ER, 5 couples) |
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | ✅ **assemblé** — TD 1 + TD 2 + TP 1 + TP 2 ; **D6** = fiche projet (6 jalons) + exigences du contrat APPLICA (5 familles tracées) + dispositif de surveillance + export de l'étude ; sous-section 6 rédigée. Reste le CM. | ✅ écosystème coté (5 parties prenantes, 2 critiques : intégrateur 12, APPLICA 8), 2 scénarios stratégiques (SS1 G4, SS2 G3), 1 scénario opérationnel V3 ; état vérifié, rapport exporté |
-| S7 | Traitement du risque | D7 | 5 | ⏳ | — |
-| S8 | Périmètre du SMSI | D8 | 2 | ⏳ | — |
-| S9 | Indicateurs, version finale | D9 | 3 | ⏳ | — |
+| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | 🔄 **TD 1 et TD 2 rendus, relus et rangés** (F14) ; restent les 2 pages du bureau du RSSI, TP 1, TP 2, `D7` | ⏳ atelier 4 et registre non saisis |
+| S8 | Périmètre du SMSI | D8 | 2 | ⏳ séance non tenue | — |
+| S9 | Indicateurs, version finale | D9 | 3 | ⏳ séance non tenue | — |
 
 ---
 
@@ -66,6 +66,7 @@
 - **Séance 6 — TD 2 fait** (`Session-6/4-Working-notes/`, management des tiers et ateliers 3-4 d'EBIOS RM) : **exercice 1** — l'extrait du contrat de tierce maintenance du WMS (`TMA-WMS-2021`, APPLICA Services) lu au prisme des **quatre familles de l'infogérance** (réversibilité, droit d'audit, notification d'incident, maîtrise de la sous-traitance), tableau d'exigences vérifiables et écart corrigé par ligne, la plus urgente isolée. **Exercice 2** — carte de dangerosité de l'écosystème de `LOG-PA-01` : **5 parties prenantes** de §3 et §6 cotées sur dépendance × pénétration (exposition) / maturité × confiance (fiabilité), classées, **seuil de criticité écrit** (dangerosité ≥ 4,0), **deux parties prenantes critiques** — l'intégrateur des automates (12,0) et APPLICA (8,0) — et un **scénario stratégique** du couple SR/OV n°1 (cybercriminel → chiffrement du WMS **en passant par la TMA**, mécanisme NotPetya) coté **G4 critique**. Entre dans la saisie de l'atelier 3 (TP 1), les exigences tiers de **D6** (TP 2) et la sous-section 6 de la note.
 - **Séance 6 — TP 1 saisi dans `translog-b`** (mode opératoire : `Session-6/2-Labs/PLAN-Seance-6-TP-S6-05-ecosysteme-et-scenarios.md` ; feuille de travail : `Session-6/2-Labs/Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md`) : étude de la séance 5 rouverte et vérifiée (7 événements redoutés, D5 fait foi) · **5 parties prenantes créées** (Entity + Category, friction anticipée par le plan et confirmée : le champ Entity était désactivé tant qu'aucune entité n'existait — 5 entités créées dans `Third Parties`) avec leurs 4 notes justifiées, criticités **lues** (8,0 · 12,0 · 1,0 · 0,5 · 0,44 — écart d'arrondi sur PP4, classement inchangé), **2 critiques** `Selected` · **2 scénarios stratégiques** (SS1 couple n°1, gravité `Critical` ; SS2 couple n°4, gravité `Important` — le champ *Focused feared event* n'accepte qu'un seul ER, ER6 resté en description) avec **3 chemins d'attaque** au total · **1 scénario opérationnel** (kill chain en sept actions, `Likelihood` réglé à deux niveaux distincts de l'outil — scénario **et** *Operating mode* — tous deux à `Very likely`, `Risk level` = `High`).
 - **Séance 6 — TP 2 fait · livrable D6 assemblé (7 pts).** `Session-6/2-Labs/D6-tiers-et-projets.md` + feuille de travail `Seance-6-TP-S6-06-fiche-projet-et-exigences-tiers.md`. **Pièce 1 — fiche projet** : la reprise du flux d'approvisionnement d'urgence Logistique→Santé (coupé depuis 3 mois), choisie et justifiée contre l'autre candidat, cadrée sur les 6 jalons de sécurité (chacun avec un critère de passage démontré par un fait), 3 régimes explicités, propriétaire unique par jalon, 3 points d'arbitrage. **Pièce 2 — exigences du contrat APPLICA** : les 5 familles (réversibilité, droit d'audit, notification, traçabilité/comptes nommés, sous-traitance), chacune en formulation vérifiable et tracée à un scénario stratégique / un écart de D4 / un silence du contrat ; + dispositif de surveillance (3 indicateurs, comité de suivi, preuve annuelle, ce qui reste au client). **État de l'instance vérifié** (compteurs, criticités, gravités — chiffre pour chiffre) et **rapport de l'étude exporté** (`Session-6/3-Evidence/S6-06-*`). La **capture du rapport d'étude citée par D5** et absente de `Session-5/3-Evidence/` a été produite au passage (`S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`).
+- **Séance 7 ouverte — les deux TD rendus, relus et la séance rangée** (**F14**). **TD 1** *« Chiffrer le coût de l'inaction »* (`Session-7/1-CISO-desk/`) : les références de l'exposé rattachées une par une aux trois familles de scénarios du registre — Mærsk **250-300 M$** (T3 2017) et Norsk Hydro **~800 M NOK** (mars 2019) sur l'indisponibilité du WMS, France Travail **5 M€** (CNIL, janvier 2026) et Equifax **≥ 575 M$** sur la fuite de données, IBM **3,85 M€** / **4,44 M$** / **241 jours** en ordre de grandeur — plus la ligne **« aucune référence ne colle »** assumée pour la malveillance interne ; l'argument d'investissement en fourchette aux quatre termes, avec les quatre **données à demander nommément au Directeur Financier** ; les trois objections et leurs réponses, chacune adossée à un fait du dossier. **TD 2** *« Matrices de cotation et options de traitement »* (`Session-7/4-Working-notes/`, **réécrit au gabarit des séances 5 et 6**) : les quatre scénarios du groupe cotés avec les échelles de D5 **inchangées** (A `High` · B `High` · C `High` · D `Medium`), chacun avec son signal vérifiable **et** son « pourquoi pas le niveau au-dessus » ; la ligne d'acceptation **défendue sans être confisquée** contre la proposition du Directeur de la Logistique, veto suspensif `ARB-01` à l'appui ; les quatre options de traitement dont **deux qui ne sont pas « réduire »** (transfert assuranciel encadré sur A, acceptation formelle de D par la Direction Générale avec mesure compensatoire et réexamen à 12 mois) ; et **les porteurs pris dans la carte du pouvoir du pack §3** — l'avenant contractuel au Directeur de la filiale, les comptes de domaine à la DSI, le réseau industriel au Responsable Exploitation. **Rangement** : TD 1 déplacé de `4-Working-notes` vers `1-CISO-desk` et renuméroté `S7-01`, TD 2 en `S7-03`, les trois emplacements manquants créés avec leurs `README`. **Corrections** : deux cellules de la matrice 4×4 rendues à la capture de l'instance (G4×V2 et G1×V3, sans effet sur les quatre cotations), un chiffre non sourçable retiré de la fourchette, « DAF » remplacé par « Directeur Financier ».
 - **F12** — **séance 5 ouverte et relue** : les deux TD sont rendus (appétence au risque le matin, ateliers 1 et 2 d'EBIOS RM l'après-midi) puis confrontés aux sources. Le fond tient — objets de D2 repris **à l'identique**, ce qui est le premier critère d'acceptation de D5 ; trois erreurs de citation corrigées ; un constat du reference pack (sauvegardes jamais restaurées) assumé comme **écart connu non gradé**. Les deux TP ont suivi (D5 assemblé, sous-section 5 rédigée) ; reste la page S5 du bureau du RSSI de Miguel.
 
 ### Preuves déjà au dossier
@@ -80,13 +81,18 @@
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 1 chantier
+### 🔴 Avant la remise du 17 septembre — 4 chantiers
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
-| **1** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
+| **1** | **F14 · TP 1 de la séance 7** — atelier 4 détaillé et **registre de risques** dans `translog-b` : décliner les chemins d'attaque de la séance 6 en scénarios opérationnels, coter les vraisemblances maillon par maillon, générer le registre (les événements redoutés sans scénario, ER3 et ER5, y entrent), coter les résiduels **après** décision, et tenir la **note d'écart** | `translog-b` + `Session-7/2-Labs/` et `3-Evidence/` | les deux | prérequis de **D7 (5 pts)** | Grande |
+| **2** | **F14 · TP 2 de la séance 7 — assembler `D7`** — plan de traitement par décision, coûts *build*/*run* saisis dans l'outil, fiches d'acceptation à cinq éléments, dérogations motivées, total annuel mis en face de la fourchette du coût de l'inaction ; puis la **sous-section 7** de la note de stratégie | `Session-7/2-Labs/` + `Piece-1-Strategy-note/` | les deux | **5 pts** + note de stratégie | Grande |
+| **3** | **F14 · Écrire les deux pages S7 du bureau du RSSI** — `Session-7/1-CISO-desk/S7-bureau-du-RSSI-{Miguel-Monereo,Maxime}.md`, une page chacune, angles distincts, closes par une recommandation (quatre angles proposés dans le `README` du dossier) | ce dépôt | Miguel · Maxime | **note individuelle — 10 pts, coef. 1** | Petite |
+| **4** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
 
-**Séance 6 — close côté dossier.** TD 1 + TD 2 + TP 1 + TP 2 faits, **D6 assemblé (7 pts)**, sous-section 6 de la note rédigée, écosystème coté dans `translog-b` et rapport exporté. Il reste le **CM** *Security by Design* (notes d'étude, non noté) et, au fil de l'eau, les captures si un objet bouge. Prochain livrable noté : **D7** (traitement du risque, séance 7).
+**Séance 6 — close côté dossier.** TD 1 + TD 2 + TP 1 + TP 2 faits, **D6 assemblé (7 pts)**, sous-section 6 de la note rédigée, écosystème coté dans `translog-b` et rapport exporté. Il reste le **CM** *Security by Design* (notes d'étude, non noté) et, au fil de l'eau, les captures si un objet bouge.
+
+**Séance 7 — ouverte, rangée, à finir.** Les deux TD sont rendus et relus ; les quatre emplacements de la séance existent et chacun dit ce qu'il attend. Les chantiers 1 à 3 ci-dessus la referment. Le **TD 2 a été réécrit** le 14 septembre au gabarit des séances 5 et 6 — rappel du cas, cadrage des deux notions, auto-évaluation, raccord aval — et ses porteurs de mesures sont désormais pris dans la carte du pouvoir du pack §3. **Réserve de forme restante** : la note du TD 1 est encore écrite sans accents, là où tout le reste du dossier est en français accentué — aucun point n'en dépend, la reprise est à faire à la main avant la remise (`fixes.md` F14).
 
 **F3 · Top 5 marqué dans l'instance — clos.** `SA-01`, `SA-04`, `SA-09`, `SA-05` et `SA-03` portent l'étiquette **`Top5`**, lisible dans la colonne `LABELS` de la liste des actifs sans ouvrir D2 ; liste recapturée dans `Session-2/3-Evidence/`.
 
@@ -96,7 +102,7 @@
 
 **F5 · Nommer les propriétaires — clos.** Authors confirmés sur l'évaluation de conformité et sur les **17 actifs** (`Assigned to`), statut posé (`In progress`) : le rapport de référentiel compte désormais l'audit (« 1 counted, 0 excluded »). Trois nouvelles captures dans `Session-3/3-Evidence/`.
 
-### ⏳ Au fil des séances 6 à 9 — le rythme à tenir
+### ⏳ Au fil des séances 8 et 9 — le rythme à tenir
 
 Chaque séance produit **trois choses**, et il n'y en a jamais eu d'autres :
 
@@ -108,9 +114,9 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 
 | Séance | Livrable attendu | Pts |
 |---|---|---|
-| S5 | **D5** — risques majeurs | 3 |
-| S6 | **D6** — tiers et projets *(le plus lourd du module)* | **7** |
-| S7 | **D7** — traitement du risque | 5 |
+| ~~S5~~ | ~~**D5** — risques majeurs~~ ✅ | 3 |
+| ~~S6~~ | ~~**D6** — tiers et projets *(le plus lourd du module)*~~ ✅ | **7** |
+| S7 | **D7** — plan de traitement et risque résiduel *(en cours)* | 5 |
 | S8 | **D8** — périmètre du SMSI | 2 |
 | S9 | **D9** — indicateurs + **version close de la note de stratégie** | 3 |
 | **S10** | **Pièce 3** — export daté de l'instance, 8h30–9h15, au dépôt | support |
@@ -133,16 +139,17 @@ ISMS/
 │   │
 │   ├── Piece-1-Strategy-note/         ← PIÈCE 1 · la note de stratégie, 9 sous-sections
 │   ├── Piece-2-File/                  ← PIÈCE 2 · le dossier, une séance par dossier
-│   │   └── Session-1|2|3|4|5/
+│   │   └── Session-1|2|3|4|5|6|7/
 │   │       ├── 1-CISO-desk/           ← bureau du RSSI — 1 page/étudiant · 10 pts, individuel
-│   │       ├── 2-Labs/                ← le livrable Dn · barème des livrables
+│   │       │                            + la note collective du TD 1 « Le point du RSSI » (Sn-01)
+│   │       ├── 2-Labs/                ← le livrable Dn (Sn-05, Sn-06) · barème des livrables
 │   │       ├── 3-Evidence/            ← captures de l'instance CISO Assistant
-│   │       └── 4-Working-notes/       ← TD 2 et notes d'étude · non noté
+│   │       └── 4-Working-notes/       ← TD 2 (Sn-03) et notes d'étude · non noté
 │   └── Piece-3-Proof-of-state/        ← PIÈCE 3 · export de l'instance (séance 10) — vide, normal
 │
 ├── Seance-1/, Seance-2/, Seance-3/   ← supports de cours reçus (CM / TD / TP), par séance
-├── S2 - Sources/, S3 - Sources/,     ← mêmes supports, export Lockbay Academy
-│   S4 - Sources/, S5 - Sources/         (S1 à S5 désormais complètes)
+├── S2 - Sources/ … S7 - Sources/     ← mêmes supports, export Lockbay Academy
+│                                        (S1 à S7 désormais complètes)
 ├── Correction/                        ← version française du support S4 TD 1
 ├── 00-Reference/                      ← dossier de référence MERIDIAN + accès à l'instance
 └── .FIRST_TP-backup-20260908-115436/ ← état du dossier avant la réorganisation du 8 sept. (archive)
@@ -164,6 +171,7 @@ ISMS/
 
 - **Instance** `translog-b`. Domaine ≠ périmètre : le **domaine** des objets de la filiale est `MERIDIAN-LOGISTIQUE` (un sous-domaine propre, enfant du domaine racine `Global` — vérifié dans `Domains`), et le **périmètre** est `MERIDIAN-LOGISTIQUE-FINAL`, à l'intérieur de ce sous-domaine. Ne pas confondre les deux, et ne pas supposer que le domaine affiché est littéralement `Global` sans l'avoir vérifié sur l'objet.
 - **Chaque objet créé dans l'instance porte un auteur nommé.** C'est la moitié du coefficient individuel, l'autre moitié étant la question individuelle en soutenance.
+- **Une séance, quatre emplacements, une numérotation.** `1-CISO-desk/` porte les pages individuelles **et** la note collective du **TD 1** *« Le point du RSSI »*, numérotée `Sn-01` ; `4-Working-notes/` porte le **TD 2**, `Sn-03` ; `2-Labs/` porte les TP, `Sn-05` et `Sn-06`, plus le livrable `Dn`. La séance 7 avait dérivé sur les deux points — corrigé le 14 septembre (`fixes.md` F14).
 - **La note de stratégie est en français** et ne mélange pas les langues. Le dossier (pièce 2) peut être dans l'autre langue, la consigne l'autorise.
 - **Un livrable ne se cache pas dans un compte rendu.** Il porte son nom `Dn-…`, il est autonome, il tient le format exigé ; les comptes rendus de TP restent à côté comme trace de méthode.
 - **Rien ne se supprime dans la note de stratégie.** Une sous-section qui en contredit une précédente l'amende d'une phrase datée au journal des amendements.

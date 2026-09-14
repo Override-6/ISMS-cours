@@ -1,4 +1,4 @@
-# Seance 7 — TD 1 (S7-03) : Chiffrer le cout de l'inaction — trois arguments pour le Comite Executif
+# Seance 7 — TD 1 (S7-01) : Chiffrer le cout de l'inaction — trois arguments pour le Comite Executif
 ### Reponses du Groupe 4 (Translog), dans le role du RSSI Groupe de MERIDIAN — appliquees a **MERIDIAN Logistique** (instance `translog-b`)
 
 > Enchainement de la journee : ce TD 1 du matin prepare les **arguments financiers** que le
@@ -25,8 +25,8 @@ initiale des risques), D6 (tiers et projets).
 ## Rappel du cas
 
 Lundi matin. Le bilan de suivi envoye a la fin de la seance 6 a montre au Comite Executif
-l'etat du dossier MERIDIAN, et la reaction a ete immediate : le Directeur Administratif et
-Financier (DAF) a demande, en marge de la reunion, *« combien tout cela va-t-il nous couter,
+l'etat du dossier MERIDIAN, et la reaction a ete immediate : le Directeur Financier du
+holding a demande, en marge de la reunion, *« combien tout cela va-t-il nous couter,
 et surtout, combien coute le fait de ne rien faire ? »*. La question est une occasion : c'est
 celle qui ouvre les budgets, a condition qu'on y reponde avec des faits.
 
@@ -51,17 +51,17 @@ reference ne correspond, l'ecrire dans la ligne : c'est une reponse.*
 | Scenario du registre | ER concernes | Reference du briefing | Nature du cout | Montant | Annee | Source | Pourquoi elle eclaire ce scenario |
 |---|---|---|---|---|---|---|---|
 | **Indisponibilite de l'actif critique** (chiffrement du WMS, arret du flux d'expedition — SS1, couple n-1, G4) | ER1, ER2, ER5 | **A.P. Moller-Maersk, NotPetya** | Interruption d'activite (Transport & Logistics) | **250-300 M USD** | 2017 (Q3) | Communications financieres de Maersk | Le mecanisme est identique a notre scenario strategique SS1 : un rancongiciel destructeur (NotPetya) chiffre le systeme de gestion logistique du groupe, arrete les flux d'expedition sur plusieurs sites pendant des jours. Maersk est un operateur logistique mondial — la difference d'echelle est un facteur 100 en chiffre d'affaires, mais la **nature** de la perte (arret de l'expedition, mode degrade manuel, pertes contractuelles) est la meme. La fourchette du pack de filiale — 12 000 EUR/jour de penalites pharmaceutiques, 40 % du volume expedie bloque — est un sous-ensemble de ce que Maersk a subi. |
-| | | **Norsk Hydro, rancongiciel** | Interruption d'activite + remediation | **~800 M NOK (~80 M EUR)** | 2019 (total consolide) | Site web de Norsk Hydro, estimations trimestrielles successives | Un groupe industriel, pas un logisticien, mais le mecanisme est proche : chiffrement des systemes de production, retour au mode manuel pendant des semaines, reconstruction complete. L'ecart d'echelle est moindre qu'avec Maersk ; le **cout de remediation** (reconstruction des systemes) est lisible dans les memes communications — c'est la composante que le pack de filiale ne chiffre pas (sauvegardes jamais restaurees, RTO/RPO non contractualises). |
+| | | **Norsk Hydro, rancongiciel** | Interruption d'activite + remediation | **~800 M NOK** (~80 M EUR, conversion faite par nous) | 2019 (total consolide) | Site web de Norsk Hydro, estimations trimestrielles successives | Un groupe industriel, pas un logisticien, mais le mecanisme est proche : chiffrement des systemes de production, retour au mode manuel pendant des semaines, reconstruction complete. L'ecart d'echelle est moindre qu'avec Maersk ; le **cout de remediation** (reconstruction des systemes) est lisible dans les memes communications — c'est la composante que le pack de filiale ne chiffre pas (sauvegardes jamais restaurees, RTO/RPO non contractualises). |
 | **Vol ou fuite de donnees personnelles** (donnees du client pharmaceutique, volumes, tournees, temperatures — SS2, couple n-4, G3) | ER4, ER6 | **France Travail, amende CNIL** | Amende regulateur (donnees personnelles) | **5 M EUR** | 2026 (janvier) | Deliberation de la CNIL | Le scenario vise la confidentialite des donnees du client pharmaceutique (ER6) et la tracabilite (ER4). France Travail illustre ce que coute un defaut de securisation quand des donnees personnelles sont en jeu — 43 millions de personnes potentiellement touchees, amende pour defaut de mesures de securite. Notre filiale ne traite pas des donnees de cette ampleur, mais les donnees de temperature et d'expedition du client pharma sont contractuellement protegees, et le **questionnaire de securite annonce par le client** (pack §2) est l'equivalent d'un controle regulateur dans notre contexte. L'ordre de grandeur sert de plafond, pas de prediction. |
 | | | **Equifax, settlement** | Amende et transaction (donnees personnelles) | **>= 575 M USD** | 2019 (settlement) | Accord avec le regulateur federal americain et 50 Etats | Sert de borne haute mondiale : 147 millions de personnes, juridiction americaine. N'est pas transposable a notre perimetre (pas de donnees de sante nominatives directes dans les flux de Logistique), mais rappelle que le **cout des amendes et des transactions** peut depasser de tres loin le cout de la mesure de securite. A utiliser comme argument de disproportion, pas comme prediction. |
 | | | **IBM, Cost of a Data Breach 2024 (France)** | Cout moyen d'une violation de donnees | **3,85 M EUR** | 2024 | IBM, Cost of a Data Breach Report 2024 | Ordre de grandeur quand aucun cas sectoriel comparable n'est disponible. Limite : c'est une moyenne, notre incident peut couter dix fois moins ou dix fois plus. |
-| **Malveillance ou erreur interne** (alteration des donnees WMS par un initie via le compte de service en clair — couple n-3) | ER2, ER7 | **Aucune reference directe dans le briefing** | — | — | — | — | Le briefing ne fournit pas de reference documentee sur le cout d'un acte malveillant interne dans un contexte logistique. C'est une reponse, pas un oubli. L'impact se mesure indirectement : ER2 (alteration des donnees de preparation) rejoint le scenario d'indisponibilite par ses consequences operationnelles (expeditions fausses, cascade vers Sante) ; ER7 (perte du savoir-faire) n'a pas d'equivalent chiffre dans les references du briefing. **Donnee a demander au DAF** : le cout d'une journee d'expeditions fausses non detectees (credit notes, retours, penalites client), et le cout de reconstruction du savoir operationnel si le Responsable Exploitation partait demain. |
+| **Malveillance ou erreur interne** (alteration des donnees WMS par un initie via le compte de service en clair — couple n-3) | ER2, ER7 | **Aucune reference directe dans le briefing** | — | — | — | — | Le briefing ne fournit pas de reference documentee sur le cout d'un acte malveillant interne dans un contexte logistique. C'est une reponse, pas un oubli. L'impact se mesure indirectement : ER2 (alteration des donnees de preparation) rejoint le scenario d'indisponibilite par ses consequences operationnelles (expeditions fausses, cascade vers Sante) ; ER7 (perte du savoir-faire) n'a pas d'equivalent chiffre dans les references du briefing. **Donnee a demander au Directeur Financier** : le cout d'une journee d'expeditions fausses non detectees (credit notes, retours, penalites client), et le cout de reconstruction du savoir operationnel si le Responsable Exploitation partait demain. |
 
 ---
 
 ## Question 2 — Argumentaire d'investissement pour le scenario d'indisponibilite de l'actif critique
 
-### Reponse au DAF — une phrase
+### Reponse au Directeur Financier — une phrase
 
 *Le cout du plan de securite est une depense certaine et maitrisee ; le cout de ne rien faire, c'est accepter qu'un incident comparable a ceux que des groupes logistiques et industriels ont documentes — 250 a 300 millions de dollars chez Maersk, 80 millions d'euros chez Norsk Hydro — puisse se produire sur notre propre WMS, dont les faiblesses connues rendent le scenario non pas hypothetique mais plausible, avec des pertes contractuelles certaines de 12 000 euros par jour de penalites et 40 % du volume expedie du groupe bloque.*
 
@@ -83,21 +83,21 @@ La fourchette s'exprime en quatre termes : **perte par jour d'arret x duree (bas
 #### Perte par jour d'arret
 
 - **Penalites contractuelles du client pharmaceutique** : **12 000 EUR/jour** d'arret (pack §2 — contractuel, certain).
-- **Chiffre d'affaires bloque** : 40 % du volume expedie du groupe est bloque des que l'arret depasse six heures (pack §2, §5). Le chiffre d'affaires quotidien de Logistique n'est pas dans le pack. **Donnee a demander au DAF** : le chiffre d'affaires moyen expedie par jour, pour chiffrer la perte de marge brute.
-- **Credits et retours** : les expeditions fausses non detectees (ER2) generent des retours, des avoirs et des surcouts de reexpedition. Pas chiffre dans le pack. **Donnee a demander au DAF** : le cout moyen d'un retour / avoir sur erreur de preparation.
+- **Chiffre d'affaires bloque** : 40 % du volume expedie du groupe est bloque des que l'arret depasse six heures (pack §2, §5). Le chiffre d'affaires quotidien de Logistique n'est pas dans le pack. **Donnee a demander au Directeur Financier** : le chiffre d'affaires moyen expedie par jour, pour chiffrer la perte de marge brute.
+- **Credits et retours** : les expeditions fausses non detectees (ER2) generent des retours, des avoirs et des surcouts de reexpedition. Pas chiffre dans le pack. **Donnee a demander au Directeur Financier** : le cout moyen d'un retour / avoir sur erreur de preparation.
 
 **Perte minimale documentable par jour d'arret** : **12 000 EUR** (penalites seules), **tres certainement sous-estimee** puisqu'elle n'inclut ni la perte de CA ni les couts de fonctionnement en mode degrade.
 
 #### Duree — fourchette basse et haute
 
 - **Duree basse** (l'arret que la filiale a deja vecu) : **une demi-journee** — l'arret WMS d'avril, resolu en debut d'apres-midi, cause jamais identifiee (pack §4). Cout minimal : 12 000 EUR (une journee entamee = une journee facturee par le client pharma). Mais en avril, rien n'a ete chiffre ni restitue : « chacun a appele qui il pouvait, personne n'a tenu de chronologie » (pack §5, constat 6).
-- **Duree haute** (ce que les cas documentes montrent) : **plusieurs jours a plusieurs semaines** de mode degrade. Maersk a mis **dix jours** avant de retrouver un fonctionnement acceptable de ses systemes logistiques (2017) ; Norsk Hydro a fonctionne en mode manuel pendant **plusieurs semaines** (2019). Pour Logistique, la duree haute est bornee par deux faits : les sauvegardes n'ont **jamais ete restaurees** (pack §4, constat 4) — le RTO reel est inconnu — et la reconstruction complete n'a jamais ete testee.
+- **Duree haute** (ce que les cas documentes montrent) : le briefing la borne en toutes lettres — **« des jours a des semaines de mode manuel »**, ce qu'illustrent Maersk (2017) et Norsk Hydro (mars 2019). Nous n'avancons **aucun nombre de jours precis** : ni le briefing ni le pack n'en donnent un, et une duree inventee serait exactement la « precision suspecte » que le Directeur Financier releverait. Pour Logistique, cette duree haute reste de surcroit **indeterminee par nos propres faits** : les sauvegardes n'ont **jamais ete restaurees** (pack §4, constat 4) — le RTO reel est inconnu — et la reconstruction complete n'a jamais ete testee. **Donnee a produire nous-memes** : le RTO mesure lors du premier test de restauration (mesure M du plan de traitement de cet apres-midi) ; c'est ce test, et lui seul, qui transformera cette borne en chiffre.
 
 #### Remediation
 
 Le pack ne chiffre pas la remediation (reconstruction, investigation, notification). Le contrat de TMA prevoit l'astreinte et le retablissement en 6 h (contrat art. 4), mais pas la reconstruction apres un chiffrement total. L'ordre de grandeur de reference : **IBM, Cost of a Data Breach Report 2025, cout moyen mondial : 4,44 M USD**, cycle moyen 241 jours (identification + confinement). A utiliser comme **ordre de grandeur** — *« les groupes qui ont documente leurs couts parlent de millions, pas de milliers »* — pas comme prediction.
 
-**Donnee a demander au DAF** : le budget annuel de la TMA (contrat APPLICA) et le cout d'une prestation de reconstruction d'urgence — ces deux chiffres bornent le plancher de la remediation.
+**Donnee a demander au Directeur Financier** : le budget annuel de la TMA (contrat APPLICA) et le cout d'une prestation de reconstruction d'urgence — ces deux chiffres bornent le plancher de la remediation.
 
 #### Penalite
 
@@ -107,8 +107,8 @@ Des donnees personnelles sont-elles en jeu dans ce scenario ? ER4 (tracabilite d
 
 | Terme | Fourchette basse | Fourchette haute | Source |
 |---|---|---|---|
-| Penalites contractuelles | 12 000 EUR (1 jour) | 12 000 EUR x 10 j = **120 000 EUR** | Pack §2 (contrat pharma) |
-| Perte de CA / marge | **A chiffrer — DAF** | **A chiffrer — DAF** | Pack §2 (40 % du volume) |
+| Penalites contractuelles | 12 000 EUR (1 jour, la panne d'avril) | 12 000 EUR x *d*, ou *d* = « des jours a des semaines » (briefing) : **quelques dizaines a quelques centaines de milliers d'EUR** | Pack §2 (contrat pharma) x duree du briefing |
+| Perte de CA / marge | **A chiffrer — Directeur Financier** | **A chiffrer — Directeur Financier** | Pack §2 (40 % du volume) |
 | Remediation | Astreinte TMA (contrat) | Ordre de grandeur : **plusieurs M EUR** | IBM 2025 (4,44 M USD mondial) |
 | Penalite CNIL (si donnees personnelles) | 0 (si pas de DP en jeu) | Ordre de grandeur : **5 M EUR** | France Travail, CNIL 2026 |
 | **Total documentable** | **>= 12 000 EUR** | **Ordre de grandeur : quelques M EUR** | — |
@@ -131,25 +131,25 @@ Le plan de traitement de l'apres-midi portera sur les mesures qui reduisent la v
 
 ---
 
-## Question 3 — Repondre au contre-interrogatoire du DAF
+## Question 3 — Repondre au contre-interrogatoire du Directeur Financier
 
-*Trois objections que le DAF formulera contre l'argumentaire, telles qu'il les dirait, et pour chacune la reponse du RSSI Groupe en une phrase, appuyee sur une piece du pack de filiale ou sur l'echelle de gravite du groupe, jamais sur une promesse.*
+*Trois objections que le Directeur Financier formulera contre l'argumentaire, telles qu'il les dirait, et pour chacune la reponse du RSSI Groupe en une phrase, appuyee sur une piece du pack de filiale ou sur l'echelle de gravite du groupe, jamais sur une promesse.*
 
 ---
 
-**Objection 1 du DAF** — *« Maersk, c'est un geant mondial du transport maritime — nous sommes six entrepots en France. Ces chiffres ne veulent rien dire rapportes a notre echelle. »*
+**Objection 1 du Directeur Financier** — *« Maersk, c'est un geant mondial du transport maritime — nous sommes six entrepots en France. Ces chiffres ne veulent rien dire rapportes a notre echelle. »*
 
 **Reponse du RSSI Groupe** — Les 250-300 millions de Maersk ne sont pas notre prediction ; ils illustrent le **mecanisme** — chiffrement du systeme logistique, arret des expeditions, mode degrade pendant des jours — qui est exactement celui de notre scenario SS1, et dont la vraisemblance chez nous ne depend pas de notre taille mais de nos faiblesses : le compte de service en clair depuis 2019 est le meme sur six sites (pack §4, constat 3), la segmentation IT/OT n'existe pas (constat C3 de D4), et nos sauvegardes n'ont jamais ete restaurees (constat 4) — ce sont des faits de notre diagnostic, pas un emprunt a Maersk.
 
 ---
 
-**Objection 2 du DAF** — *« Vous me parlez de millions, mais le seul chiffre contractuel que je connais c'est 12 000 euros par jour. Le reste, ce sont des ordres de grandeur flous. »*
+**Objection 2 du Directeur Financier** — *« Vous me parlez de millions, mais le seul chiffre contractuel que je connais c'est 12 000 euros par jour. Le reste, ce sont des ordres de grandeur flous. »*
 
 **Reponse du RSSI Groupe** — Les 12 000 euros par jour ne sont que la penalite du client pharmaceutique (pack §2) — ils ne comptent ni la perte de chiffre d'affaires sur 40 % du volume expedie du groupe (pack §2, §5), ni le cout de reconstruction d'un WMS dont la restauration n'a jamais ete testee, ni les avoirs et retours sur expeditions fausses ; je vous demande justement ces trois chiffres pour remplacer les ordres de grandeur par **nos** chiffres, et c'est en les assemblant, terme par terme, que la fourchette sera celle de MERIDIAN, pas celle d'IBM.
 
 ---
 
-**Objection 3 du DAF** — *« On a eu une panne en avril, c'est reparti dans l'apres-midi. Le systeme tient. »*
+**Objection 3 du Directeur Financier** — *« On a eu une panne en avril, c'est reparti dans l'apres-midi. Le systeme tient. »*
 
 **Reponse du RSSI Groupe** — En avril, personne n'a tenu de chronologie et la cause n'a jamais ete identifiee (pack §4 — « chacun a appele qui il pouvait ») : nous ne savons pas **ce qui a repris** ni **pourquoi**, et l'echelle de gravite du groupe classe un arret de plus de six heures en **G3 Important** ou **G4 Critique** selon les consequences — la seule raison pour laquelle avril n'a pas ete plus grave, c'est que la panne s'est resolue d'elle-meme ; un chiffrement delibere, lui, ne se resout pas d'un redemarrage, et notre absence de test de restauration (constat 4) signifie que nous ne pouvons pas promettre au Comite Executif en combien de temps nous reviendrions.
 
@@ -158,5 +158,5 @@ Le plan de traitement de l'apres-midi portera sur les mesures qui reduisent la v
 ## Methode de travail
 
 - **Question 1** : 15 minutes. Chaque reference citee repond aux trois questions (qui, quelle annee, quel scenario de notre registre). Quand aucune reference du briefing ne correspond a un scenario, l'absence est documentee — c'est l'integrite du chiffrage.
-- **Question 2** : 20 minutes. Chaque terme de la fourchette est tire du pack de filiale ou du briefing ; les termes manquants sont nommes comme des donnees a demander au DAF, pas comme des lacunes.
+- **Question 2** : 20 minutes. Chaque terme de la fourchette est tire du pack de filiale ou du briefing ; les termes manquants sont nommes comme des donnees a demander au Directeur Financier, pas comme des lacunes.
 - **Question 3** : 10 minutes. Chaque reponse s'appuie sur un fait du dossier (pack, diagnostic, echelle de gravite), jamais sur une promesse de resultat.
