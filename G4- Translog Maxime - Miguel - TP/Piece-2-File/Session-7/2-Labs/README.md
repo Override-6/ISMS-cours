@@ -1,15 +1,18 @@
 # Séance 7 — TP · livrable D7 (5 points)
 
-**État : rien n'est encore produit ici.** Les deux TD de la séance sont rendus ; les deux TP ne sont pas
-faits. Ce dossier reste vide jusqu'à ce qu'ils le soient — un vide documenté vaut mieux qu'un vide qui passe
-pour un oubli.
+**État : le mode opératoire et la saisie du TP 1 sont faits ; le livrable D7 (TP 2) reste à faire.**
 
-| Fichier attendu | Rôle | Noté |
+| Fichier | Rôle | État |
 |---|---|---|
-| `PLAN-Seance-7-TP-S7-05-atelier4-et-registre.md` | Le mode opératoire du TP 1, écrit **avant** la saisie (format des séances 4, 5 et 6) | trace de méthode |
-| `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md` | La feuille de travail du TP 1 : scénarios opérationnels, vraisemblances justifiées, registre, résiduels, **note d'écart** | trace de méthode |
-| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement priorisé sur trois ans, fiches d'acceptation, demandes de dérogation | ✅ **5 points** |
-| `Seance-7-TP-S7-06-acceptations-et-derogations.md` | La feuille de travail du TP 2 si D7 déborde | trace de méthode |
+| `PLAN-Seance-7-TP-S7-05-atelier4-et-registre.md` | Le mode opératoire du TP 1, écrit **avant** la saisie (format des séances 4, 5 et 6) : les deux kill chains prêtes à coller, les vraisemblances proposées et justifiées, les 8 lignes attendues du registre avec option / porteur / échéance, les résiduels visés, et la note d'écart déjà amorcée | ✅ **écrit** — trace de méthode |
+| `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md` | La feuille de travail du TP 1 : ce que la saisie a réellement produit — compteurs lus, libellés d'écran divergents, refus de l'outil (absent, contrairement à l'énoncé), **note d'écart** complétée | ✅ **remplie** — registre à 8 lignes, résiduels cotés, contrôle qualité au vert |
+| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement par décision, fiches d'acceptation, demandes de dérogation | 🔴 **à faire** (TP 2) · ✅ **5 points** |
+| `Seance-7-TP-S7-06-acceptations-et-derogations.md` | La feuille de travail du TP 2 si D7 déborde | 🔴 à faire |
+
+> **Ce que le plan a déjà tranché, et qui change le TP 2** : le registre appellera **six fiches
+> d'acceptation** (les six résiduels attendus en `Medium`, que D5 ne tolère que formalisés), là où le TD 2
+> n'en avait formalisé **qu'une**. Et **aucune dérogation** ne devrait être à demander — ce que l'énoncé du
+> TP 2 oblige alors à **écrire, en disant pourquoi**.
 
 ---
 

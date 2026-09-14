@@ -1,26 +1,28 @@
-# Preuves d'instance — séance 7 : à produire
+# Preuves d'instance — séance 7
 
-**État : vide, parce que le TP 1 n'a pas encore eu lieu.** Les deux TD de la séance sont rendus (matière
-écrite) ; aucun objet n'a encore été créé ni modifié dans `translog-b` au titre de la séance 7. Ce dossier se
-remplira pendant les TP.
+**État : TP 1 fait, dix captures produites.** Le TP 2 (D7, coûts, plan d'action) reste à faire.
 
-## Les captures attendues
+## Les captures
 
-Nommage repris des séances 4 à 6 : `S7-05-…` pour le TP 1, `S7-06-…` pour le TP 2.
+Nommage repris des séances 4 à 6 : `S7-05-…` pour le TP 1, `S7-06-…` pour le TP 2 (à venir).
 
-| Capture attendue | Ce qu'elle doit montrer | Pièce qu'elle appuie |
-|---|---|---|
-| `S7-05-ex1-scenarios-operationnels-liste.*` | Les scénarios opérationnels de l'atelier 4, **au moins deux**, chacun rattaché à son chemin d'attaque de la séance 6 | TP 1 étape 1 |
-| `S7-05-ex1-scenario-operationnel-SS2-detail.*` | Le détail d'un scénario : l'enchaînement d'actions élémentaires, chaque étape nommant un bien support de l'inventaire de la séance 2 | TP 1 étape 1 |
-| `S7-05-ex2-vraisemblances-justifiees.*` | La vraisemblance saisie par scénario opérationnel, **V1-V4 de D5**, avec sa justification | TP 1 étape 2 |
-| `S7-05-ex3-registre-de-risques-genere.*` | Le registre généré depuis l'étude (atelier 5, activité 1), avec les événements redoutés sans scénario ajoutés par l'outil (ER3, ER5) | TP 1 étape 3 |
-| `S7-05-ex3-registre-options-porteurs-echeances.*` | Chaque scénario avec son option de traitement, son porteur et son échéance — **aucune ligne sans décision** | TP 1 étape 3 · exigence 1 de D7 |
-| `S7-05-ex3-controle-qualite-au-vert.*` | Le contrôle qualité de l'outil **passé au vert** — l'énoncé en fait une pièce du livrable | TP 1 étape 3 |
-| `S7-05-ex4-residuels-cotes.*` | Le résiduel coté par scénario traité, cohérent avec le niveau actuel | TP 1 étape 4 · exigence 4 de D7 |
-| `S7-05-ex4-refus-outil-residuel-superieur.*` | Le refus de l'outil sur un résiduel supérieur au niveau actuel, s'il se produit — c'est la méthode rendue visible | note d'écart |
-| `S7-06-mesures-appliquees-couts-build-run.*` | La section *Coût* d'une mesure appliquée : coût fixe, jours-personnes, durée d'amortissement, build et run | TP 2 étape 1 |
-| `S7-06-plan-d-action-apercu-budgetaire.*` | L'onglet *Plan d'action* et son **aperçu budgétaire** — le total annuel du plan, mis en face de la fourchette du coût de l'inaction | TP 2 étape 1 |
-| `S7-06-rapport-etude-EBIOS-RM-ateliers-4-5.*` | Le rapport de l'étude exporté, ateliers 4 et 5 compris | D7 |
+| Capture | Ce qu'elle montre | Pièce qu'elle appuie | État |
+|---|---|---|---|
+| `S7-05-ex0-etude-compteurs-avant-saisie.jpg` | Les compteurs du *Summary* avant saisie — rien n'a été recréé | TP 1 prérequis | ✅ |
+| `S7-05-ex1-scenarios-operationnels-liste.jpg` | Les trois scénarios opérationnels (OS1 existant, OS2 et OS3 créés), chacun rattaché à son chemin d'attaque | TP 1 étape 1 | ✅ |
+| `S7-05-ex1-OS2-detail-kill-chain.jpg` | Le détail d'OS2 : l'enchaînement d'actions élémentaires, chaque étape nommant un bien support ou signalant son absence | TP 1 étape 1 | ✅ |
+| `S7-05-ex2-OS2-vraisemblance-justifiee.jpg` | La vraisemblance d'OS2 (`Very likely`) avec sa justification | TP 1 étape 2 | ✅ |
+| `S7-05-ex2-OS3-vraisemblance-justifiee.jpg` | La vraisemblance d'OS3 (`Likely`) avec sa justification | TP 1 étape 2 | ✅ |
+| `S7-05-ex3-registre-genere.jpg` | Le registre à 8 lignes (6 générées par l'outil + ER2 et ER6 créés à la main — voir note d'écart) | TP 1 étape 3 | ✅ |
+| `S7-05-ex3-registre-options-porteurs-echeances.jpg` | Chaque ligne avec son option de traitement et ses mesures appliquées — aucune ligne sans décision | TP 1 étape 3 · exigence 1 de D7 | ✅ |
+| `S7-05-ex3-controle-qualite-au-vert.jpg` | Le contrôle qualité (page `X-rays`) : le bucket rouge (résiduel non coté) a disparu | TP 1 étape 3 | ✅ |
+| `S7-05-ex4-residuels-cotes.jpg` | Le résiduel coté pour les 8 lignes, cohérent avec le niveau actuel | TP 1 étape 4 · exigence 4 de D7 | ✅ |
+| `S7-05-ex4-refus-outil-residuel-superieur.jpg` | Tentative d'un résiduel supérieur à l'actuel sur ER3 : **acceptée sans blocage** par l'outil (`successfully updated`) — écart avec l'énoncé, voir la note d'écart | note d'écart | ✅ |
+| `S7-06-mesures-appliquees-couts-build-run.*` | La section *Coût* d'une mesure appliquée : coût fixe, jours-personnes, durée d'amortissement, build et run | TP 2 étape 1 | 🔴 à faire |
+| `S7-06-plan-d-action-apercu-budgetaire.*` | L'onglet *Plan d'action* et son **aperçu budgétaire** — le total annuel du plan, mis en face de la fourchette du coût de l'inaction | TP 2 étape 1 | 🔴 à faire |
+| `S7-06-rapport-etude-EBIOS-RM-ateliers-4-5.*` | Le rapport de l'étude exporté, ateliers 4 et 5 compris | D7 | 🔴 à faire |
+
+Détail de ce que chaque capture appuie : `../2-Labs/Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md`.
 
 ## La règle qui vaut depuis la séance 2
 
@@ -39,3 +41,5 @@ shasum -a 256 *.jpg *.png 2>/dev/null | sort | awk '{print $1}' | uniq -d
 ```
 
 Une empreinte qui sort de cette commande est un doublon à reprendre.
+
+**Exécuté pour le TP 1** : aucune empreinte dupliquée sur les 10 captures `S7-05-…`.
