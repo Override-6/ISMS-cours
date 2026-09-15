@@ -17,7 +17,7 @@
 
 ## TP 1 — Atelier 4 détaillé et registre de risques dans `translog-b`
 
-**Source** : `../../../../S7 - Sources/TP 1/Atelier 4 détaillé et Registre de risques dans CISO Assistant _ Lockbay Academy.pdf`
+**Source** : `../../../../S7 - Sources/TP 1/Detailed Workshop 4 and Risk Register in CISO Assistant _ Lockbay Academy.pdf`
 
 Quatre étapes, et **rien ne se recrée** : l'étude ouverte en séance 5 et enrichie en séance 6 est le support.
 
@@ -48,7 +48,7 @@ Quatre étapes, et **rien ne se recrée** : l'étude ouverte en séance 5 et enr
 
 ## TP 2 — Plan de traitement, risque résiduel (D7) et note de stratégie
 
-**Source** : `../../../../S7 - Sources/TP 2/Plan de traitement, risque résiduel (D7) et Note de stratégie _ Lockbay Academy.pdf`
+**Source** : `../../../../S7 - Sources/TP 2/Risk Treatment Plan, Residual Risk (D7) and Strategy Note _ Lockbay Academy.pdf`
 
 ### Les quatre exigences d'acceptation de D7, vérifiées une par une
 

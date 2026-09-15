@@ -20,11 +20,12 @@ paragraphe du pack.
 
 **Ce n'est pas une surprise que nous découvririons aujourd'hui : c'est un angle mort que nous avions déjà
 écrit nous-mêmes.** D3 le disait noir sur blanc dès le choix du référentiel, en séance 3 : *« aucun
-périmètre ISO incluant l'industriel ne serait honnêtement déclarable »* avant le cloisonnement IT/OT,
-chantier alors sans date. Il en a une désormais — `PT-03` de D7, 14 juin 2027 — mais cette date est **après**
-n'importe quel audit de certification qu'on lancerait à un rythme normal. Ce que je veux que le Comité
-retienne, c'est que ce n'est plus un angle mort abstrait sur « le périmètre industriel » en général : c'est
-un site précis, nommé, dont le client pharmaceutique dépend déjà.
+périmètre ISO incluant l'industriel ne serait honnêtement déclarable »* avant le cloisonnement **IT/OT**
+(bureautique / industriel) — chantier alors inscrit à un **horizon de 24 mois**, sans échéance ferme. Il
+en a une désormais, et plus rapprochée que cet horizon : `PT-03` de D7, **14 juin 2027**. Mais cette date
+reste **après** n'importe quel audit de certification qu'on lancerait à un rythme normal. Ce que je veux
+que le Comité retienne, c'est que ce n'est plus un angle mort abstrait sur « le périmètre industriel » en
+général : c'est un site précis, nommé, dont le client pharmaceutique dépend déjà.
 
 **Deux façons de le découvrir, et une seule que nous choisissons.** Si nous déclarons un périmètre « E1 et
 E4, activités pharmaceutiques » sans écrire l'exclusion de l'automatisation, l'auditeur de certification qui
