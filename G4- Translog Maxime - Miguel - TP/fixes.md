@@ -3,7 +3,7 @@
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
 
-**Portée de ce journal : les livrables D1 à D6 (séances 1 à 6), plus les TD relus des séances 5, 6 et 7 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit ses deux TD, pas encore ses TP ni son D6 ; seul le **TD 1** a été relu (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
+**Portée de ce journal : les livrables D1 à D6 (séances 1 à 6), plus les TD relus des séances 5, 6, 7 et 8 et F7, qui les débordent.** D1 à D5 sont les seuls livrables **assemblés** à ce jour ; D6 à D9 (17 points sur 40) ne sont pas en retard, leurs séances ne sont pas closes au sens du livrable noté — la séance 6 a produit ses deux TD, pas encore ses TP ni son D6 ; seul le **TD 1** a été relu (**F13**). Seule autre exception : **F7**, note individuelle courant sur les neuf séances, traitée plus bas pour les séances tenues.
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ; l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ; une pièce dont la note ne dit rien est du travail perdu.
 
@@ -24,10 +24,14 @@
 | **F9** | La feuille de route chiffrée S1 ne doit **pas** figurer au rendu | hygiène D1 | 0 | Triviale | ✅ **fait** |
 | **F10** | **Aucune séance ne présente son livrable comme un livrable** — D1 à D3 sont enfouis dans des comptes rendus d'exercices | D1 · D2 · D3 | **13** | Moyenne | ✅ **fait** — D1, D2, D3 |
 | **F11** | La note de cadrage D1 n'énonce ni **enjeux** ni **contraintes** | D1 | 4 (partagé) | Petite | ✅ **fait** |
-| **F12** | **Séance 5, TD 1 et TD 2 relus** : trois erreurs de citation, un constat du reference pack non gradé, page du bureau du RSSI de Miguel absente | D5 (matière) + bureau du RSSI | **10** (coef. 1) + matière de D5 | Petite | 🔄 **citations corrigées** — reste la page de Miguel |
-| **F14** | **Séance 7 relue et rangée** : le TD 1 (*« Le point du RSSI »*) était classé en `4-Working-notes` et numéroté `S7-03`, le TD 2 en `S7-04` — hors de la nomenclature des séances 1 à 6 ; les trois autres emplacements de la séance manquaient ; deux cellules de la matrice 4×4 recopiées de mémoire, un chiffre non sourcé dans la fourchette du TD 1 ; **TD 2 réécrit** à la structure et au niveau des séances 5 et 6 | D7 (matière) + bureau du RSSI | matière de **D7** (5 pts) + **10** (coef. 1) | Moyenne | 🔄 **rangement, corrections et réécriture du TD 2 faits** — restent les 2 pages du bureau du RSSI, TP 1, TP 2, `D7` |
+| **F12** | **Séance 5, TD 1 et TD 2 relus** : trois erreurs de citation, un constat du reference pack non gradé, page du bureau du RSSI de Miguel absente | D5 (matière) + bureau du RSSI | **10** (coef. 1) + matière de D5 | Petite | ✅ **clos** (15 sept.) — citations corrigées **et** page S5 de Miguel rendue |
+| **F14** | **Séance 7 relue et rangée** : le TD 1 (*« Le point du RSSI »*) était classé en `4-Working-notes` et numéroté `S7-03`, le TD 2 en `S7-04` — hors de la nomenclature des séances 1 à 6 ; les trois autres emplacements de la séance manquaient ; deux cellules de la matrice 4×4 recopiées de mémoire, un chiffre non sourcé dans la fourchette du TD 1 ; **TD 2 réécrit** à la structure et au niveau des séances 5 et 6 | D7 (matière) + bureau du RSSI | matière de **D7** (5 pts) + **10** (coef. 1) | Moyenne | ✅ **clos** (15 sept.) — rangement, corrections, TD 2 réécrit, TP 1 et TP 2 faits, `D7` rédigé **et** les 2 pages S7 rendues |
 | **F13** | **Séance 6, TD 1 relu** : fond juste et sourcé ; l'extrait de contrat TMA-WMS-2021 arrivé après coup fait requalifier « clause absente » en « clause présente mais non opposable » (note collective) et corriger une phrase de la page de Maxime ; trois imprécisions de forme | D6 (matière) + bureau du RSSI | matière de D6 + **10** (coef. 1) | Petite | ✅ **fait** — 2 pages rendues, corrections portées |
 | **F15** | **Deux échéances différentes pour la même mesure** — rotation du secret de service `LOG-SA-04` : `M3` de D4 (8/11/2026) contre `PT-09` de D7 (14/01/2027) | D4 + D7 | exactitude | Triviale | ✅ **fait** — amendement daté croisé dans les deux fichiers, `D7`/`PT-09` fait foi |
+| **F16** | **Séance 8, TD 1 relu** : fond juste et intégralement sourçable ; une citation attribuée à la mauvaise page du bureau du RSSI, le §6 du pack déclaré en source mais jamais mobilisé alors que l'énoncé le désigne nommément pour la question 2, trois imprécisions de forme | matière de **D8** (2 pts) + bureau du RSSI **10** (coef. 1) | Petite | ✅ **fait** — six corrections portées, `D8` reste dû |
+| **F17** | **Contrôle de continuité sur les huit séances** : quatre citations de source pointant des fichiers renommés, une collision d'identifiants `M1`–`M6`, un périmètre de séances faux, une coquille — **plus cinq écarts de fond mis en attente**, dont trois mesures datées deux fois (classe F15) | tous | exactitude + matière de `D8` | Moyenne | 🔄 **les quatre corrections mécaniques faites** — les cinq écarts de fond restent ouverts, arbitrage à rendre |
+| **F18** | **La note de stratégie dépassait son plafond de pages** — « ≈ 3,5 pages » annoncées, ≈ 5,2 réelles avec **deux sous-sections encore à écrire** | note de stratégie | **3** | Moyenne | ✅ **fait** — corps ramené à 2 018 mots, 4,0 p. au pire, réserve de 250 mots par sous-section restante |
+| **F19** | **Le bureau du RSSI était incomplet** : 4 pages dues sur les 8 séances tenues — S5 de Miguel, les deux S7, S8 de Miguel | bureau du RSSI | **10** (coef. 1) | Moyenne | ✅ **fait** — 16 pages sur 16, F12 et F14 closes par la même occasion |
 
 ### Séance 3 — close au dossier
 
@@ -57,7 +61,7 @@ La sous-section 2 de la note de stratégie, que F3 bloquait, est **rédigée** :
 
 Barème : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note de stratégie 3 = **40 points**, convertis sur 20, coefficient 4 sur 10.
 
-**Ordre de travail conseillé** : la page du bureau du RSSI S5 de Miguel (**F12**, 10 points, individuel), puis le **TP 2 de la séance 5** (échelles G1-G4 / V1-V4, seuil d'acceptation sur la grille, livrable **D5**, sous-section 5 de la note). F1 + F2 + F3 + F4 + F5 + F6 sont désormais clos, comme F7 pour S1-S4. F8 et F9 se ferment quand on veut.
+**Ordre de travail conseillé** *(historique — F12 et F14 sont clos depuis le 15 septembre, voir F19)* : la page du bureau du RSSI S5 de Miguel (**F12**, 10 points, individuel), puis le **TP 2 de la séance 5** (échelles G1-G4 / V1-V4, seuil d'acceptation sur la grille, livrable **D5**, sous-section 5 de la note). F1 + F2 + F3 + F4 + F5 + F6 sont désormais clos, comme F7 pour S1-S4. F8 et F9 se ferment quand on veut.
 
 **Reste ouvert, hors écriture** : plus rien. Le marquage/capture de F3 est fait ; le TP 1 de la séance 5 a été saisi dans `translog-b` le 9 septembre. Ce qui reste est de l'écriture (page S5 de Miguel, D5, sous-section 5) plus la saisie des échelles au TP 2.
 
@@ -249,7 +253,7 @@ Les contraintes réelles existent pourtant dans le dossier et ne sont écrites n
 
 ---
 
-## F12 · Relecture de la séance 5 (TD 1 et TD 2) — 🔄 citations corrigées, reste la page de Miguel
+## F12 · Relecture de la séance 5 (TD 1 et TD 2) — ✅ clos
 
 **Ce qui a été relu** : `Session-5/1-CISO-desk/Seance-5-TD-S5-01-appetence-au-risque.md` (TD 1, appétence
 au risque) et `Session-5/4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md` (TD 2, ateliers 1
@@ -373,7 +377,7 @@ réserve du couple SR/OV n°2 de D5). La page S5 de Miguel (F12) reste due.
 
 ---
 
-## F14 · Relecture et rangement de la séance 7 — 🔄 rangement fait, les TP restent dus
+## F14 · Relecture et rangement de la séance 7 — ✅ clos
 
 **Constaté le 14 septembre 2026.** Les deux TD de la séance 7 avaient été déposés ensemble dans
 `Session-7/4-Working-notes/`, seul emplacement existant de la séance. Quatre écarts, dans l'ordre de gravité.
@@ -573,6 +577,361 @@ réel de la mesure, et aucune des deux dates écrites n'est effacée.
 
 ---
 
+## F16 · Relecture de la séance 8 (TD 1) — ✅ fait
+
+**Relu le 15 septembre 2026**, énoncé en main (`S8 - Sources/TD 1/The CISO's Desk_ The Certification
+Business Case _ Lockbay Academy.pdf`, corrigé et matrice d'évaluation compris), contre le pack de filiale
+et contre D1 à D7. Deux fichiers au dossier : le compte rendu collectif
+`Session-8/1-CISO-desk/Seance-8-TD-S8-01-le-business-case-de-la-certification.md` et la page individuelle
+`S8-bureau-du-RSSI-Maxime.md`.
+
+**Le fond tient.** Les cinq questions sont traitées, et les réponses rejoignent le corrigé officiel là où
+il est le plus exigeant : trois exigences emboîtées à la question 1 avec les deux lectures de
+l'équivalence et leur conséquence ; les deux limites obligatoires de la question 3 (réglementaire,
+sécurité réelle) plus une troisième de périmètre et une quatrième de fraîcheur ; à la question 4, le même
+périmètre que celui que le corrigé appelle « le plus défendable » — la filiale sous revue d'abord, les
+services que vise le tiers, extension au groupe à étudier — avec le contre-argument du périmètre étroit
+assumé par écrit ; à la question 5, trois phrases, aucune date de certificat, aucun coût inventé. **Tous
+les chiffres et toutes les citations sont sourçables**, et aucun n'est faux — vérification ligne à ligne
+plus bas.
+
+### 1. Une citation attribuée à la mauvaise page du bureau du RSSI — corrigé
+
+Le rappel du cas écrivait que *« le bureau du RSSI de la séance 4 »* opposait la demande du client
+pharmaceutique — *« un certificat couvrant le service qu'il achète »* — à celle de la Directrice Générale
+— *« toutes filiales, et vite »* — et renvoyait, pour les **deux** citations, au seul fichier
+`S4-bureau-du-RSSI-Maxime.md`. La seconde citation y est bien, mot pour mot. **La première n'y est pas** :
+elle vient de la page de **Miguel** (`S4-bureau-du-RSSI-Miguel-Monereo.md`, premier paragraphe), qui
+ouvrait précisément sur le fait que les deux commandes du matin ne portent pas sur le même objet.
+
+Ce n'est pas un détail de forme dans un dossier dont la règle est qu'*une affirmation sans pièce derrière
+elle ne compte pas* : un correcteur qui ouvre le fichier cité ne trouve pas la phrase citée. Le paragraphe
+est réécrit pour rendre à chaque page ce qu'elle a écrit — Miguel pose l'écart entre les deux périmètres
+demandés, Maxime en tire la conséquence de calendrier — avec **un renvoi par auteur**. Un accord fautif
+relevé au passage (« il **la** instruit ») est corrigé dans la même phrase.
+
+### 2. Le §6 du pack était déclaré en source sans être jamais mobilisé — corrigé
+
+L'énoncé ne laisse pas le choix des sections pour la question 2 : les audiences se prennent *« dans le pack
+de filiale (**§3 et §6**) »*. L'en-tête du compte rendu annonçait bien « §2, §3, §6 »… et le §6 —
+*ce qui franchit la frontière de la filiale* — n'apparaissait **nulle part** dans la réponse. Les quatre
+audiences retenues sortaient toutes du §3, de l'énoncé ou de nos propres livrables. Source déclarée, source
+non tenue : exactement le défaut que ce journal reproche ailleurs.
+
+Deux audiences manquaient, l'une et l'autre écrites noir sur blanc dans le pack :
+
+- **MERIDIAN Santé**, filiale sœur et **client interne** (§6). Le flux de réapprovisionnement d'urgence est
+  bloqué depuis trois mois à la demande du RSSI de Santé — *« their equipment cannot be trusted »* — pendant
+  que la Pharmacienne-chef le réclame — *« it will not last the winter »*. C'est **l'audience la plus
+  demandeuse de preuve de tout le dossier**, et la seule que **seul** le §6 donne. Le flux est déjà au
+  registre (`ER5`, traité par `PT-11`, jalons M1-M6 de D6) : un certificat couvrant le WMS et les scannettes
+  est exactement l'argument qui manque pour rouvrir la discussion, entre filiales, là où la confiance a été
+  retirée.
+- **L'Audit Interne du holding**, cité **deux fois** par le pack (§3 *et* §6) : il réclame la liste
+  nominative des porteurs du compte de la TMA et n'a reçu qu'un nom de compte, aucun nom de personne. Le
+  certificat ne lui livre pas la liste — il rend son absence intenable sur le périmètre couvert (constat C4
+  de D4, registre nominatif et journalisation `PT-02` de D7).
+
+Les deux lignes sont ajoutées au tableau de la question 2, chacune avec son bénéfice et sa source. La
+question passe de **quatre à six audiences**, et les deux sections que l'énoncé désigne sont désormais
+l'une et l'autre effectivement mobilisées. Le garde-fou qui suivait le tableau — *« ce que le pack ne nous
+donne pas, et qu'on n'invente pas »*, à savoir qu'il n'existe **aucun autre client externe** documenté pour
+Logistique — reste vrai et reste écrit ; il est simplement précisé que le seul autre client du dossier est
+**interne**, et que c'est la frontière de la filiale (§6) qui le donne, pas sa carte du pouvoir (§3).
+
+### 3. Quatre fichiers ne s'accordaient pas sur les sections du pack utilisées — corrigé
+
+| Fichier | Ce qui était écrit |
+|---|---|
+| en-tête du compte rendu | « §2, §3, §6 » |
+| `README.md` du dépôt | « (§2, §3, §6) » |
+| `README.md` de la séance 8, ligne « corpus mobilisé » | « §2, §3, §6 » |
+| ce journal, entrée du 15 sept. | « §2, §3, §4, §6 » |
+
+Le compte rendu s'appuie lourdement sur le **§4** — c'est de là que vient la citation d'entretien sur E4,
+celle qui porte toute la réserve de périmètre — et, avant la correction 2, pas du tout sur le §6. Les
+quatre fichiers portent désormais la même liste, **§2, §3, §4, §6**, et elle est exacte.
+
+### 4. « Chantier alors sans date » — corrigé dans la page de Maxime
+
+La page écrivait que le cloisonnement IT/OT était, en séance 3, un *« chantier alors sans date »*. D3 est
+plus précis que cela : *« Aucun périmètre ISO incluant l'industriel ne serait honnêtement déclarable avant
+ce chantier, **inscrit à 24 mois** »*. Un horizon n'est pas une échéance ferme, et l'argument de la page
+survit entier — mais « sans date » est vérifiable et légèrement faux. La phrase dit maintenant l'horizon de
+24 mois, et relève que `PT-03` (14 juin 2027) est en réalité **plus rapproché** que cet horizon, ce qui ne
+change rien à la conclusion : cette date reste postérieure à tout audit de certification lancé à un rythme
+normal.
+
+### 5. `IT/OT` n'était pas développé au premier emploi — corrigé
+
+Le barème de la page, rappelé dans le `README` de la séance, exige les sigles définis au premier emploi
+(SMSI, WMS, TMA, SoA). La page de Maxime employait `IT/OT` sans le développer — le sens était récupérable
+deux lignes plus haut (« réseau bureautique et industriel »), ce qui n'est pas la même chose que l'avoir
+écrit. Glose ajoutée au premier emploi : **IT/OT** (bureautique / industriel).
+
+### 6. Une réserve devenue sans objet sur le corrigé — levée
+
+Le `README` de la séance annonçait un barème « à confirmer avec le corrigé officiel replié dans l'énoncé »,
+et l'auto-évaluation du compte rendu se disait « à confronter en séance avec le corrigé officiel ». Or le
+corrigé **et** la matrice d'évaluation sont dépliés dans l'export PDF de la séance, et le compte rendu
+reprenait déjà la matrice mot pour mot. Il y a simplement **deux grilles distinctes**, et c'est ce que les
+deux fichiers disent désormais : la matrice de l'énoncé (cinq critères, trois niveaux) note le **compte
+rendu du cas** ; la grille 4/3/3 note la **page individuelle** et vient du format des séances 4 à 7, faute
+d'autre barème donné pour cet exercice. Ce qui reste à confronter en séance n'est pas la grille, c'est le
+**niveau** que nous nous attribuons dessus.
+
+### Vérifié bon sur la séance 8 — ne pas rouvrir
+
+Contrôle pièce par pièce, tout est exact :
+
+| Affirmation du dossier | Source vérifiée |
+|---|---|
+| *« E2 and E3 have sorting machines, E4 too since last year […] E1 and E4 are reserved for the pharma customer »* | pack §4, **verbatim**, les deux phrases dans le même paragraphe |
+| deux entrepôts dédiés, 12 000 €/jour de pénalités, audit chaîne du froid annuel, questionnaire de sécurité annoncé | pack §2 et §3 |
+| `LOG-PA-02`, `LOG-PA-04`, `LOG-SA-01`, `LOG-SA-05`, `LOG-SA-08`, `LOG-SA-11` | D2 |
+| *« Ce choix ne délivre aucune conformité réglementaire »* · *« Un certificat obtenu sur la filiale la mieux tenue n'aurait rien prouvé sur les trois autres »* · *« aucun périmètre ISO incluant l'industriel ne serait honnêtement déclarable »* | D3, **verbatim** les trois |
+| 0/12 exigences pleinement couvertes · C3 et C4 non-conformités majeures · l'auto-évaluation n'a pas l'indépendance normative | D4 |
+| ≈ 82 000 €/an · 51 000 build / 31 400 run · 13 mesures · aucun résiduel au-dessus de `Medium` | D7 |
+| `PT-03` au 14/06/2027 · `PT-09` au 14/01/2027 | D7 (et F15 pour la date qui fait foi) |
+| secret du compte de service identique sur les six entrepôts depuis 2019, en clair | pack §5(3), repris en D4 |
+| aucune autre audience « client externe » pour Logistique | pack §3 — la carte du pouvoir n'en cite effectivement aucune |
+
+**Forme** : la page de Maxime fait 679 mots, dans la fourchette de ses pages S4 à S6 (602 à 746) ; son
+angle est distinct de ceux que le `README` de la séance laisse à Miguel ; elle se clôt sur une
+recommandation explicite à la direction, comme le barème l'exige. Les chemins relatifs des deux fichiers
+résolvent tous. Rien de tout cela n'est à reprendre.
+
+### Deux appuis disponibles, non utilisés — pour `D8` et pour la page de Miguel
+
+Ni l'un ni l'autre n'est une erreur ; les signaler évite de les redécouvrir au moment d'écrire `D8`.
+
+- **D3 §5 mandate déjà le périmètre.** La décision demandée en séance 3 invitait le Comité à approuver
+  l'adoption d'ISO/IEC 27001:2022 *« en mandatant le RSSI Groupe pour arrêter filiale par filiale le
+  périmètre de déploiement »*. Le périmètre proposé à la question 4 **exécute un mandat existant** au lieu
+  d'en inventer un — argument gratuit et solide devant le Comité.
+- **D3 §4 a déjà écrit pourquoi le coût n'est pas chiffré** : *« Le coût de la certification n'est pas
+  chiffré : il se calcule une fois les périmètres arrêtés »*. C'est l'appui exact de la promesse de note
+  séparée faite à la question 5, et il vaut mieux qu'une prudence de rédaction.
+
+### Reste ouvert sur la séance 8
+
+Le CM (*architecture de l'ISO/IEC 27001:2022 et rôle de la direction*, non noté), la **page individuelle de
+Miguel** (angles 1, 3 et 4 encore libres dans le `README` de la séance), le TP 1 (évaluation de conformité
+et déclaration d'applicabilité dans `translog-b`), le TP 2, le livrable **`D8`** (2 points) et la
+sous-section 8 de la note de stratégie. La réserve sur E4 — portée par le compte rendu, instruite par la
+page de Maxime — attend d'être formalisée comme **exclusion motivée** de la déclaration d'applicabilité.
+
+---
+
+## F17 · Contrôle de continuité sur les huit séances — 🔄 les corrections mécaniques faites, cinq écarts de fond ouverts
+
+**Passe du 15 septembre 2026**, transversale et non plus séance par séance : identifiants, chiffres,
+échéances, rôles, échelles, liens relatifs, et la note de stratégie confrontée aux livrables qu'elle
+affirme. **Le tri est volontaire** : n'ont été corrigés que les points dont la cible est mécaniquement
+certaine — un fichier qui existe sous un autre nom, un décompte vérifiable, une coquille. Tout ce qui
+demande un arbitrage de fond est **décrit ici et laissé intact**, parce qu'une correction décidée à la
+place de l'auteur est une régression, pas une correction.
+
+### Ce qui tient — contrôlé, ne pas rouvrir
+
+La colonne vertébrale du dossier est cohérente, et c'est le résultat principal de cette passe. Les
+identifiants d'actifs `LOG-PA-01…04` / `LOG-SA-01…13` et le compte de **17 actifs** se transmettent sans
+dérive de la séance 2 à la séance 7. Les constats `C1`–`C8` sont définis une fois (TD 2 de la séance 4) et
+les trois de Logistique (`C3`, `C4`, `C7`) sont cités à l'identique dans D4, D6, D7 et la séance 8. Les
+échelles de D5 — `Minor / Significant / Important / Critical`, `Unlikely` → `Certain`, `Low / Medium /
+High` — sont déclarées une fois et employées sans glissement dans D7. `ARB-01`, `ARB-02`, `ARB-03` et les
+cinq directives `PSSI-CADRE-*` sont définis dans D1 et cités à leur valeur exacte partout. Les chiffres
+structurants concordent d'un bout à l'autre : 40 % du volume expédié, 12 000 €/jour, ≈ 82 400 €/an,
+51 000 *build* / 31 400 *run*, 13 mesures, 123 exigences et 93 contrôles. Le journal d'amendements de la
+note de stratégie est tenu comme sa règle l'exige. Le dossier `Session-1/3-Evidence/` est vide **et
+documenté comme tel** — un vide assumé n'est pas un oubli.
+
+### 1. Quatre citations de source pointaient des fichiers renommés — corrigé
+
+Le commit *« seance 7 remove french docs »* a remplacé les exports français de la séance 7 par leurs
+versions anglaises. **Quatre citations de source ne l'ont pas suivi** et nommaient encore des fichiers qui
+n'existent plus :
+
+| Fichier | Pointait vers | Pointe vers |
+|---|---|---|
+| `Session-7/1-CISO-desk/README.md` | *Le point du RSSI _ Chiffrer le coût de l'inaction* | *The CISO's Desk_ Quantifying the Cost of Inaction* |
+| `Session-7/2-Labs/README.md` (×2) | *Atelier 4 détaillé et Registre de risques…* · *Plan de traitement, risque résiduel (D7)…* | *Detailed Workshop 4 and Risk Register…* · *Risk Treatment Plan, Residual Risk (D7)…* |
+| `Session-7/2-Labs/PLAN-Seance-7-TP-S7-05-atelier4-et-registre.md` | *Atelier 4 détaillé et Registre de risques…* | *Detailed Workshop 4 and Risk Register…* |
+
+Toutes les autres séances citaient déjà les noms anglais présents sur le disque : l'écart était **isolé à
+la séance 7**. La correction a été passée sous garde-fou — la nouvelle cible doit exister, l'ancienne ne
+doit plus exister — puis l'ensemble des **60 liens relatifs du dossier** a été revérifié : **zéro cassé**.
+C'est la même faute que F16 §1 sous une autre forme : une pièce citée qui n'est pas là où la citation dit.
+
+### 2. `M1`–`M6` désignait deux choses, et une occurrence ne le disait pas — corrigé
+
+D4 numérote ses mesures correctives `M1`–`M4` ; D6 numérote les jalons de son projet `M1`–`M6`. Les deux
+séries se croisent **dans D6**, qui reprend les mesures de D4 *et* définit les jalons. D6 désambiguïse à sa
+ligne 104 (« Mesure `M4` de D4 »), D7 aussi (« jalons M1 à M6 de D6 ») — mais la ligne 118 de D6 écrivait
+« (mesure `M4`) » tout court, dans le fichier même où `M4 — Acceptation` est un jalon. Alignée sur la forme
+que le document emploie déjà douze lignes plus haut : **« (mesure `M4` de D4) »**. Aucun sens changé, une
+lecture rendue univoque.
+
+### 3. Le compte rendu collectif du TD ne commence pas à la séance 4 — corrigé
+
+Le `README` de la séance 8 écrivait que la note collective est la matière première des pages individuelles
+*« exactement comme aux séances 4 à 7 »*. Vérification faite dossier par dossier, **la séance 4 n'a pas de
+compte rendu collectif** : `Session-4/1-CISO-desk/` ne contient que le `README` et les deux pages. Le motif
+commence à la séance 5. La phrase le dit désormais, et précise ce que fait la séance 4 à la place.
+
+> Attention en relisant : la **même expression** « séances 4 à 7 » apparaît plus bas dans le même `README`,
+> à propos du **barème de la page individuelle** — et là elle est **juste**, la séance 4 ayant bien produit
+> ses deux pages. Une seule des deux occurrences devait bouger.
+
+### 4. Coquille — corrigé
+
+`D6-tiers-et-projets.md` : « cartographie de gro**o**urpe » → « groupe ».
+
+### Cinq écarts de fond, décrits et laissés intacts
+
+Aucun n'est corrigé ici : chacun demande une décision que ce journal ne peut pas prendre à la place des
+auteurs.
+
+**a. Trois mesures sont datées deux fois — la classe que F15 a ouverte et refermée sur un seul cas.**
+
+| D4 | D7 | Ce qui cloche |
+|---|---|---|
+| `M1` VLAN automates E2/E3/E4 — **12/07/2027** | `PT-03` segmentation IT/OT des six entrepôts — **14/06/2027** | Même `C3`/`A.8.22`. `M1` est **contenue** dans `PT-03` et se termine **quatre semaines après elle** |
+| `M2` schéma réseau, avis d'architecture, **clause au contrat de l'intégrateur** — 08/12/2026 | `PT-06` exigences de sécurité et réversibilité **au contrat de l'intégrateur** — 14/03/2027 | Clause commune, deux dates, deux porteurs |
+| `M4` registre nominatif, **journalisation nominative de la TMA** — 08/11/2026 | `PT-02` comptes nommés, MFA, **journalisation nominative** — 14/01/2027 | Même `C4`, deux dates, deux porteurs |
+
+L'inversion `M1`/`PT-03` est la plus visible : une mesure plus étroite qui referme après la mesure large
+qui la contient. Et la date de `M4` **se propage** : D6 la cite telle quelle à ses lignes 104 et 118.
+**Pourquoi c'est laissé ouvert** : `PT-09` reprenait `M3` *à l'identique*, ce qui rendait F15 mécanique.
+Ici, ce n'est pas acquis — `M1` peut être un premier pas légitime à l'intérieur de `PT-03`, `M2` porte un
+schéma réseau que `PT-06` ne porte pas. Décréter « supersédée » effacerait peut-être une distinction
+réelle. **Ce qu'il faut trancher, mesure par mesure** : même mesure (alors amendement croisé façon F15,
+`D7` faisant foi) ou mesures distinctes (alors un renvoi explicite, et l'ordre des échéances à remettre
+d'aplomb pour `M1`).
+
+**b. Le dirigeant de la filiale porte deux titres et deux genres.** « Directeur de la filiale » dans les
+séances 2, 3, 5, 6 et 7 — et dans la table de doctrine de **F14 §6 elle-même**, tirée de la carte du
+pouvoir du pack (§3) — contre « Directrice Générale de la filiale / de MERIDIAN Logistique » dans les
+séances 4 et 8. Le pack ne connaît qu'une fonction, et D7 lui confie les avenants contractuels. Le niveau
+groupe, lui, est **cohérent partout** (« Directrice Générale du groupe » pour la personne, « Direction
+Générale du groupe » pour l'instance qui signe) — il n'y a rien à y toucher. **Pourquoi c'est laissé
+ouvert** : normaliser veut dire réécrire de la prose narrative dans une page du bureau du RSSI et dans une
+note de TD, et le choix du titre comme celui du genre appartiennent aux auteurs. Le poids des pièces
+penche vers « Directeur de la filiale » (D1, D5, D6, D7, F14, pack §3).
+
+**c. Les porteurs des mesures de D4 sont des étudiants, pas des rôles.** `M2` et `M4` appartiennent à
+« Maxime + Miguel », sans rôle. C'est exactement ce que **F14 §6** a corrigé ailleurs en posant que tout
+porteur se prend dans la carte du pouvoir du pack §3 ; D6 et D7 s'y tiennent, D4 est resté en arrière.
+Réattribuer est une décision de fond.
+
+**d. La note de stratégie traduit les niveaux de risque sans déclarer la correspondance.** Sa
+sous-section 7 parle de résiduels `Élevé` / `Moyen` / `Faible` quand D5 et D7 tiennent les libellés de
+l'outil, `High` / `Medium` / `Low`. Sa règle de langue le justifie, mais aucune ligne ne fait le pont, et
+la note est sous **budget de pages** — ajouter y est un arbitrage, pas une évidence.
+
+**e. Les six jalons de D6 ne portent aucune date.** Le `14/09/2027` du jalon `M6` vit dans **D7**
+(§ fiche d'acceptation ER5, « au plus tard »), pas dans D6 ; la note de stratégie l'attribue au jalon comme
+si D6 l'avait posé. Rien de faux n'est écrit — mais le livrable dont le sujet *est* un projet à six jalons
+ne date aucun de ses jalons, ce qu'il vaut mieux savoir avant d'écrire `D8` et `D9`.
+
+**f. Pour mémoire, sans gravité** : D2 restera à 17 actifs jusqu'à ce que `PT-13` livre les deux biens
+supports découverts en séance 7 (échéance 14/10/2026). D7 raccroche correctement à la règle des trente
+jours de D2 §8 ; D2 ne porte simplement aucun renvoi vers l'avant.
+
+---
+
+## F18 · La note de stratégie dépassait son plafond de pages — ✅ fait
+
+**Trouvé en confrontant le rendu au fil rouge du module** (`ISMS module common thread.pdf`, v2 du
+8 septembre). La règle de la pièce 1 est chiffrée : *« trois à cinq pages de texte au total — trois est la
+cible, cinq le plafond ; tableaux, schémas et annexes ne comptent pas »*. La note **annonçait elle-même**
+« sept sous-sections rédigées ≈ **3,5 pages** ». Comptage fait, titres et tableaux exclus comme la règle le
+prévoit : **2 902 mots**, soit **4,8 à 5,8 pages** selon la densité de rendu — déjà au plafond ou au-delà,
+**avec les sous-sections 8 et 9 encore à écrire**. L'auto-estimation fausse d'environ une page et demie est
+précisément ce qui masquait le problème.
+
+**La dérive est datée et visible** : 147, 324, 288, 353, 477, 465, **555** mots pour les sous-sections 1 à
+7. Les trois dernières écrites pèsent 57 % du total. Le rituel de quinze minutes en fin d'après-midi
+s'allongeait à chaque séance.
+
+### Ce qui a été fait
+
+| Levier | Effet |
+|---|---|
+| **Renvois de preuve sortis en annexe** — un tableau *sous-section → pièces du dossier → preuve d'état* | −285 mots comptés ; l'annexe **ne compte pas** au budget, et la règle « la sous-section n affirme, la séance n prouve » devient vérifiable d'un seul coup d'œil au lieu d'être dispersée en sept notes de bas de sous-section |
+| **Récits d'exécution et redites retirés** | Ce que le fil rouge demande d'éliminer : *« une note qui raconte ce qui a été fait est descriptive ; une note qui dit ce qui est décidé, ce qui reste ouvert et ce que cela coûte est une stratégie »* |
+| **Deux passages mis en tableau** — les trois scénarios majeurs (sous-section 5), les trois points ouverts datés (sous-section 7) | Contenu réellement tabulaire, et les tableaux ne comptent pas. Aucun des six éléments n'est perdu : ils gagnent une colonne d'échéance |
+| **En-tête resserré** | La méta-page sur le document n'est pas de la stratégie |
+
+**Résultat** : corps des sept sous-sections **2 609 → 1 781 mots**, corps total **2 902 → 2 018**. Soit
+**4,0 pages** dans l'hypothèse la plus défavorable (500 mots/page), 3,4 à 3,5 en rendu courant. Réserve
+inscrite dans l'en-tête : **250 mots par sous-section restante**, ce qui place la note finale à neuf
+sous-sections à **5,0 pages au pire et 4,2 en rendu courant** — sous le plafond sur toutes les hypothèses.
+
+### Ce qui n'a pas bougé — la règle « rien ne se supprime » est tenue
+
+Cette règle porte sur les **positions prises**, pas sur le nombre de mots pour les dire. Contrôle passé
+terme à terme après coup, tout est en place : les **chiffres** (40 % du volume expédié, 12 000 €/jour,
+82 000 €/an, 250-300 M$ de Mærsk, trente jours, six lacunes, six jalons, quatre valeurs métier, treize
+biens supports) ; les **décisions** (adoption d'ISO/IEC 27001:2022 par le Comité Exécutif, seuil
+d'acceptation demandé à la Direction Générale et approuvé par le Conseil d'Administration, règle des trois
+exigences contractuelles opposables avant signature, treize mesures du plan de traitement) ; les **trois
+points ouverts avec leurs échéances** (RTO du WMS au 14/11/2026, plancher de l'intégrateur revu sous
+12 mois, jalon 6 du flux Santé au 14/09/2027) ; les **limites assumées** (l'auto-évaluation sans
+indépendance, l'absence de schéma réseau qui borne ce qu'on peut déclarer, « la filiale ne ferme aucun
+risque — tolérable-formalisé ») ; et les **articulations entre sous-sections**, qui sont le critère de
+notation et non le contenu. Le **journal des amendements** reçoit une ligne datée du 15 septembre
+expliquant le resserrement et son motif — la règle appliquée à elle-même.
+
+**Deux corrections de véracité au passage**, parce qu'une note qui se mesure faux est le défaut que cette
+fiche traite : l'en-tête annonce désormais un décompte **exact et refait** (1 781 mots, 3,1 à 3,6 pages) au
+lieu d'une estimation, et la ligne de journal cite les deux chiffres réels de la réduction.
+
+**Bénéfice de bord** : l'écart (d) relevé par F17 — la note traduisait `Élevé`/`Moyen`/`Faible` sans jamais
+donner la correspondance avec les libellés `High`/`Medium`/`Low` de D5 et D7 — est **fermé** au passage,
+d'une parenthèse dans la décision demandée à la sous-section 5. Il ne reste donc que quatre écarts de fond
+ouverts au titre de F17.
+
+**Sauvegarde de l'état antérieur** conservée hors dépôt pour comparaison le temps de la relecture.
+
+---
+
+## F19 · Les quatre pages manquantes du bureau du RSSI — ✅ fait
+
+Le fil rouge du module compte le bureau du RSSI pour **10 points, en note individuelle, coefficient 1** :
+*« une page par séance, dans la langue du dossier, séances 1 à 9 »*, soit **deux pages par séance tenue**.
+Quatre manquaient encore sur les huit séances tenues, et elles traînaient depuis longtemps : la page S5 de
+Miguel (reliquat de **F12**), les **deux** pages S7 (reliquat de **F14**), et la page S8 de Miguel. Le
+dossier est désormais complet à **16 pages sur 16** — les deux dernières viendront avec la séance 9, qui
+n'a pas eu lieu.
+
+| Page | Angle retenu | Distinct de |
+|---|---|---|
+| **S5 · Miguel** | *Le glissement appétence / tolérance / seuil* — une tolérance non datée se fait passer pour une appétence ; déroulé sur l'interconnexion IT/OT et les trois signatures qui lui manquent : la surveillance (le SOC ne reçoit **rien** des automates, de la liaison 4G ni du WMS), une échéance qui referme vraiment (« 12/7/2027, hors pic » est une cible adossée à une fenêtre, pas un engagement), un propriétaire qui ait les deux côtés du réseau | Maxime, qui traite **« qui fixe »** — le piège de posture de la DG |
+| **S7 · Miguel** | *Le chiffre qui manque est le constat* — 12 000 €/jour est le seul chiffre certain ; deux nombres se demandent nommément au Directeur Financier (CA expédié par jour, coût d'un avoir sur erreur de préparation), le troisième est chez nous : le RTO, inconnu tant que les sauvegardes n'ont jamais été restaurées. D'où le test de restauration en **première** mesure — la seule qui transforme une borne indéterminée en nombre | Maxime, qui traite l'**asymétrie des deux nombres** |
+| **S7 · Maxime** | *La sécurité ne demande pas un régime d'exception, elle demande d'entrer dans le régime commun* — le Directeur Financier arbitre déjà dépense certaine contre perte incertaine sur l'assurance, le change et les créances ; la contrepartie acceptée est la discipline de sourçage (source, année, scénario du registre). Clôt sur l'angle 3 : **ce que Mærsk ne prouve pas** — le mécanisme se transpose, pas le montant | Miguel, qui traite le **chiffre manquant** |
+| **S8 · Miguel** | *Le silence coûte plus cher que l'anticipation* — le questionnaire du client est **annoncé, pas reçu** ; attendre ses questions, c'est laisser son calendrier commander le nôtre alors que D3, D4 et D7 permettent de répondre dès cette semaine au titre de la démarche documentée équivalente. Ancré sur la phrase du pack §3 : *« ils vont demander qui a accès aux relevés de température, et je ne saurai pas répondre »* — question à laquelle `PT-10` répond, **si** elle est engagée avant la visite | Maxime, qui traite l'**exclusion écrite d'E4** dans `D8` |
+
+**La règle des angles distincts est tenue** — elle vaut depuis la séance 1 — et chaque page se clôt sur une
+recommandation explicite à la direction, comme le barème l'exige (posture de RSSI, 3 points sur 10).
+
+**Sourçage vérifié après rédaction** : la phrase de la Responsable Qualité et chaîne du froid est bien au
+pack §3 (elle est coupée par la mise en page du tableau à l'export, mais la phrase est intacte) ; le SOC qui
+ne reçoit rien de l'industriel est au pack §6 ; l'échéance 12/7/2027 de `M1` et la mesure de rotation du
+secret sont à D4 ; `PT-10` et son réexamen « avant l'audit client » sont à D7 ; les 12 000 €/jour, les 40 %
+du volume et les sauvegardes jamais restaurées sont au pack §2, §4 et §5.
+
+### Une réserve qui reste, et qui n'est pas propre à ces quatre pages
+
+Le barème du module demande **« une page au plus »**, et la tenue en longueur pèse 3 points sur les 10. Les
+quatre nouvelles pages font **612 à 659 mots** — écrites court exprès, elles se situent au bas de la
+fourchette du dossier, mais restent autour de **1,1 à 1,2 page** en rendu courant. **Les douze pages
+antérieures dépassent toutes également**, de 574 à 864 mots (les plus longues : S4 de Miguel 864, S6 de
+Miguel 818, S6 de Maxime 746). Le resserrement des seize pages à une page franche est un chantier distinct,
+non engagé ici, et c'est aujourd'hui le premier point ouvert sur cette note individuelle.
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -614,3 +973,7 @@ réel de la mesure, et aucune des deux dates écrites n'est effacée.
 | 14 sept. 2026 | **Séance 7 — coûts saisis dans `translog-b`, deux écarts corrigés dans l'outil.** L'extension de navigateur reconnectée : la section *Coût* des mesures appliquées est désormais saisie dans l'instance (build, run, amortissement — mêmes valeurs que le calcul manuel de `D7`), l'aperçu budgétaire de l'onglet *Plan d'action* lit **82 K €/an** (123 K € de build, 16 K € de run annuel), à l'euro près sur les postes vérifiés. **`PT-13` retrouvée orpheline** : la mesure existait déjà dans `translog-b` (créée plus tôt le même jour, coût et échéance déjà saisis), mais rattachée à **aucun** scénario de risque — donc absente du calcul du plan d'action, qui affichait 12/13 mesures. Rattachée à `AP.02` (OS2, son vecteur d'entrée) ; l'outil compte désormais **13/13**. **Deux objets `Risk acceptances` créés** (menu *Governance*, jusque-là vide malgré 2 acceptations décidées dans le registre) : `Acceptation formelle - ER3 chaine du froid (résiduel Medium)` (échéance 14/03/2027) et `Acceptation simple - ER6 divulgation données client (Low)` (échéance 14/12/2026), chacun rattaché à son scénario — le champ `Expiry date` de cet objet porte la date de réexamen que la note d'écart du TP 1 disait sans équivalent dans l'outil ; correction apportée à la feuille de travail. Le champ `Approver`, comme `Assigned to`, reste limité aux comptes de l'instance — la Direction Générale du groupe est nommée en texte dans la description de chaque acceptation, pas comme approbateur formel. **Rapport de l'étude capturé** : `Session-7/3-Evidence/S7-06-rapport-etude-EBIOS-RM-atelier-4.jpg` et `-atelier-5.jpg` (page *Report* de `translog-b`, ateliers 4 et 5). Quatorze captures au dossier, aucune empreinte dupliquée. `D7` et sa feuille de travail mis à jour en conséquence. **Séance 7 close côté outil.** |
 | 10 sept. 2026 | **Séance 6 — TP 2 fait, livrable D6 assemblé (7 pts, le plus lourd du module).** `Session-6/2-Labs/D6-tiers-et-projets.md` + feuille de travail `Seance-6-TP-S6-06-fiche-projet-et-exigences-tiers.md`. **Pièce 1 — fiche projet** : reprise du flux d'approvisionnement d'urgence Logistique→Santé (le projet du pack qui traverse une frontière de filiale, coupé depuis 3 mois), choix tranché et écrit contre l'autre candidat (homologation du WMS de D4 §6) ; 6 jalons M1-M6, chacun avec un critère de passage **démontré par un fait** (test rejoué, PV signé, trace de présence de la RSSI de Santé au cadrage), M4 sous forme de décision d'autorisation ; 3 régimes explicités ligne par ligne ; propriétaire ultime unique par jalon ; 3 points d'arbitrage rattachés à `ARB-01`. **Pièce 2 — exigences du contrat `TMA-WMS-2021`** : les 5 familles (réversibilité, droit d'audit, notification, traçabilité/comptes nommés, sous-traitance), **formulation vérifiable** et **colonne justification tracée** à un scénario stratégique (SS1/SS2), un écart gradé de D4 (C3/C4/A.8.15) ou un silence du contrat (article par article) ; + dispositif de surveillance (3 indicateurs sourcés, comité de suivi trimestriel, preuve annuelle non sollicitée, ce qui ne se délègue jamais). **Critère « zéro exigence orpheline » relu.** **Instance vérifiée** (compte `maximebatista18@gmail.com`) : compteurs, 5 criticités (12 · 8 · 1 · 0,5 · 0,44), 2 `Selected`, gravités SS1 `Critical` / SS2 `Important`, scénario opérationnel `High` — **conformes chiffre pour chiffre** au TP 1 et au TD 2, rien à corriger. **Rapport de l'étude exporté** (capture pleine page — le bouton *Export PDF* ouvre l'impression du navigateur) : `Session-6/3-Evidence/S6-06-rapport-etude-EBIOS-RM-ateliers-3-4.jpg` et `S6-06-ecosystem-criticites-5PP-2-selected.jpg`. **Écart hérité comblé au passage** : la capture `S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`, citée par D5 et par la feuille S5-06 mais absente de `Session-5/3-Evidence/` (relevée au TP 1), est produite depuis la partie ateliers 1-2 du rapport consolidé — aucun texte de D5 modifié. **Sous-section 6 de la note de stratégie rédigée** (« tiers et projets », une demi-page, articulée aux sous-sections 1, 2 et 5 ; journal des amendements complété : S6 tient la promesse de S5 sur le prestataire des automates, elle ne la corrige pas). **Captures du TP 1 dédoublonnées** : le contrôle des empreintes a montré deux paires de fichiers `S6-05-*.jpg` identiques au bit près (`ex1`=`atelier5`, `ex2`=`ex3`) — les quatre captures reprises dans `translog-b`, chacune distincte, sans toucher aux objets de l'instance. **Séance 6 close côté dossier** — reste le CM et la page S5 de Miguel (F12). |
 | 15 sept. 2026 | **Séance 8 ouverte — TD 1 fait** : `Session-8/1-CISO-desk/Seance-8-TD-S8-01-le-business-case-de-la-certification.md`, note collective des cinq questions guidées du cas *« The Certification Business Case »*, sourcée sur le pack de filiale (§2, §3, §4, §6) et sur D1, D2, D3, D4, D7 — aucun autre chiffre entré. Clause décomposée en trois exigences emboîtées, deux lectures de la « démarche documentée équivalente » ; quatre audiences / quatre limites pour ce que le certificat prouverait et ne prouverait pas ; **périmètre proposé** — MERIDIAN Logistique, chaîne du froid et flux WMS des entrepôts E1 et E4 — avec la réserve qu'E4 est à la fois dédié au client pharmaceutique et porteur des automates de tri, **les deux dans la même phrase du pack (§4)** : *« E2 and E3 have sorting machines, E4 too since last year [...] E1 and E4 are reserved for the pharma customer »*, à exclure explicitement tant que la segmentation IT/OT (`PT-03` de D7) n'est pas faite ; décision en trois phrases pour le Comité Exécutif, sans date de certificat ni coût improvisé. **Page individuelle de Maxime rendue** (`S8-bureau-du-RSSI-Maxime.md`, angle sur la tension E4) — la page de Miguel reste due. **F15 ouverte et close dans le même mouvement** : en sourçant la limite « sécurité réelle » du TD 1, une même mesure de rotation de secret s'est trouvée datée deux fois — `M3` de D4 (8/11/2026) et `PT-09` de D7 (14/01/2027) — corrigée par un amendement croisé dans les deux fichiers, `PT-09` faisant foi. **Restent à faire pour la séance 8** : le CM, la page de Miguel, TP 1, TP 2, `D8` et la sous-section 8 de la note. |
+| 15 sept. 2026 | **F16 · séance 8, TD 1 relu** — fond juste, toutes les citations et tous les chiffres sourçables (contrôle pièce par pièce conservé dans la fiche). Six corrections portées. **Une citation attribuée à la mauvaise page** : *« un certificat couvrant le service qu'il achète »* vient de la page S4 de **Miguel**, pas de celle de Maxime à laquelle les deux citations renvoyaient — paragraphe réécrit avec un renvoi par auteur. **Le §6 du pack était déclaré en source sans être mobilisé**, alors que l'énoncé désigne nommément « §3 et §6 » pour la question 2 : deux audiences ajoutées, **MERIDIAN Santé** (client interne, flux de réapprovisionnement bloqué depuis trois mois, `ER5`/`PT-11`) et **l'Audit Interne du holding** (liste nominative des porteurs du compte de la TMA jamais obtenue, C4/`PT-02`) — la question 2 passe de **quatre à six audiences**, l'entrée du 15 sept. ci-dessus n'est pas récrite. **Liste des sections du pack réalignée** sur §2, §3, §4, §6 dans les quatre fichiers qui la portaient différemment. Page de Maxime : « chantier alors sans date » corrigé en l'**horizon de 24 mois** que D3 avait bel et bien écrit, `IT/OT` développé au premier emploi. **Réserve sur le corrigé levée** : il est déplié dans l'export PDF, et les deux grilles (matrice du cas / barème de la page) sont désormais distinguées dans le `README` de la séance et dans l'auto-évaluation. Deux appuis disponibles signalés pour `D8` : le mandat de périmètre de D3 §5 et la raison, déjà écrite en D3 §4, pour laquelle le coût de la certification n'est pas chiffré. |
+| 15 sept. 2026 | **F17 · contrôle de continuité sur les huit séances** — passe transversale (identifiants, chiffres, échéances, rôles, échelles, liens, note de stratégie contre livrables). **La colonne vertébrale tient** : actifs `LOG-PA`/`LOG-SA` et compte de 17, constats `C1`–`C8`, échelles de D5, `ARB-01/02/03` et directives `PSSI-CADRE-*`, et tous les chiffres structurants se transmettent sans dérive de la séance 1 à la séance 8. **Quatre corrections mécaniques portées** : les quatre citations de source de la séance 7 qui nommaient encore les exports français supprimés par *« seance 7 remove french docs »* repointées sur les fichiers anglais réellement présents (les **60 liens relatifs du dossier** revérifiés, zéro cassé) ; la collision d'identifiants `M1`–`M6` (mesures de D4 / jalons de D6) levée à la seule occurrence ambiguë, D6 ligne 118 ; le `README` de la séance 8 corrigé — le compte rendu collectif du TD commence à la **séance 5**, pas à la 4 (attention : la même expression, plus bas et à propos du barème de la page, est juste et n'a pas bougé) ; une coquille dans D6. **Cinq écarts de fond décrits et laissés intacts, arbitrage dû** : trois mesures datées deux fois (`M1`/`PT-03` — la plus étroite referme après la plus large qui la contient —, `M2`/`PT-06`, `M4`/`PT-02`, la date de `M4` se propageant dans D6), le titre et le genre du dirigeant de la filiale (« Directeur de la filiale » dans S2/S3/S5/S6/S7 et dans F14, « Directrice Générale » dans S4/S8 ; le niveau groupe est cohérent), les porteurs des mesures de D4 encore nominatifs étudiants contre la doctrine de F14 §6, la traduction des niveaux de risque dans la note de stratégie sans table de correspondance, et les six jalons de D6 sans dates alors que D7 en porte une. |
+| 15 sept. 2026 | **F18 · note de stratégie ramenée sous son plafond de pages** — le fil rouge du module impose trois à cinq pages de texte ; la note en annonçait **3,5** et en faisait **4,8 à 5,8**, avec deux sous-sections encore à écrire. Corps des sept sous-sections **2 609 → 1 781 mots** (total **2 902 → 2 018**), soit **4,0 pages au pire** et une réserve inscrite de 250 mots par sous-section restante — la note finale à neuf sous-sections tiendra à 5,0 pages dans l'hypothèse la plus défavorable. Leviers : renvois de preuve sortis en **annexe** (qui ne compte pas) sous forme d'un tableau *sous-section → pièces → preuve d'état*, récits d'exécution et redites retirés, deux passages réellement tabulaires mis en tableau (les trois scénarios majeurs, les trois points ouverts datés), en-tête resserré. **Aucune décision, aucun chiffre, aucun point ouvert, aucune limite assumée et aucune articulation entre sous-sections n'a été supprimé** — contrôle terme à terme passé après coup, et le journal d'amendements de la note reçoit une ligne datée expliquant le resserrement. L'auto-mesure de l'en-tête, fausse d'environ une page et demie, est remplacée par un décompte exact. **Ferme au passage l'écart (d) de F17** : la correspondance `Élevé`/`Moyen`/`Faible` ↔ `High`/`Medium`/`Low` est désormais donnée. |
+| 15 sept. 2026 | **F19 · les quatre pages manquantes du bureau du RSSI écrites** — S5 de Miguel (reliquat de F12), les **deux** pages S7 (reliquat de F14) et S8 de Miguel. Le dossier passe à **16 pages sur 16** pour les huit séances tenues ; les deux dernières viendront avec la séance 9. Angles retenus, tous distincts de ceux du binôme : S5 Miguel, le glissement appétence/tolérance/seuil et les trois signatures qui manquent à la tolérance IT/OT ; S7 Miguel, le chiffre qui manque est le constat — le test de restauration en première mesure parce qu'il est le seul à transformer une borne indéterminée en nombre ; S7 Maxime, la sécurité entre dans le régime commun du risque plutôt que d'en demander l'exception, clos sur « ce que Mærsk ne prouve pas » ; S8 Miguel, répondre au client avant que son questionnaire n'arrive. Sourçage revérifié après rédaction (pack §2, §3, §4, §5, §6 · D4 · D7). **F12 et F14 closes** par la même occasion : leur dernier reliquat était précisément ces pages. **Réserve consignée** : le barème impose « une page au plus » et les quatre nouvelles font 612 à 659 mots, soit 1,1 à 1,2 page — les douze antérieures dépassent toutes aussi (574 à 864). Le resserrement des seize pages reste à faire. |

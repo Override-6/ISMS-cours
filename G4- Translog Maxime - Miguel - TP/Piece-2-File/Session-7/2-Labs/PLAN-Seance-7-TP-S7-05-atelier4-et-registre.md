@@ -3,7 +3,7 @@
 **Groupe 4 (Translog)** · instance `translog-b` (https://translog-b.lockbay.eu)
 **Domaine** `MERIDIAN-LOGISTIQUE` (sous-domaine de `Global`) · **périmètre** `MERIDIAN-LOGISTIQUE-FINAL`
 **Étude à rouvrir** : `Étude EBIOS RM MERIDIAN - Logistique et approvisionnement d'urgence vers Santé - cycle 1`
-**Source du TP** : `../../../../S7 - Sources/TP 1/Atelier 4 détaillé et Registre de risques dans CISO Assistant _ Lockbay Academy.pdf`
+**Source du TP** : `../../../../S7 - Sources/TP 1/Detailed Workshop 4 and Risk Register in CISO Assistant _ Lockbay Academy.pdf`
 **Matière à saisir** : `../4-Working-notes/Seance-7-TD-S7-03-matrices-de-cotation-et-options-de-traitement.md` (TD 2 — les cotations, la ligne d'acceptation, les quatre décisions) · `../1-CISO-desk/Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md` (TD 1 — la fourchette du coût de l'inaction) · `../../Session-5/2-Labs/D5-appreciation-initiale-des-risques.md` (**D5 fait foi** pour les échelles et le seuil) · `../../Session-6/2-Labs/D6-tiers-et-projets.md` (fiche projet et exigences tiers) · `../../Session-6/2-Labs/Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md` (l'état réel de l'étude à la sortie de la séance 6)
 
 **Ce fichier n'est pas un livrable** : c'est le mode opératoire, écrit **avant** la saisie. Le livrable de la séance 7 est **D7, plan de traitement et risque résiduel (5 points)**, assemblé au **TP 2** ; ce TP-ci fait entrer dans l'outil ce que le TD 2 a décidé sur le papier, et découvre ce que le papier n'avait pas demandé.

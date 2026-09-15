@@ -7,7 +7,7 @@ recommandation à la direction. Note individuelle — 10 points sur les neuf sé
 
 | Étudiant | Fichier | État |
 |---|---|---|
-| Miguel Monereo | `S5-bureau-du-RSSI-Miguel-Monereo.md` | ⬜ à rendre |
+| Miguel Monereo | `S5-bureau-du-RSSI-Miguel-Monereo.md` | ✅ rendu — angle 2 (appétence / tolérance / seuil : le glissement à rattraper) |
 | Maxime | `S5-bureau-du-RSSI-Maxime.md` | ✅ rendu — angle 1 (qui fixe : le piège de posture) |
 
 `Seance-5-TD-S5-01-appetence-au-risque.md` — le compte rendu collectif du TD (les cinq questions
@@ -50,13 +50,16 @@ veux votre proposition jeudi ; je la porte au Conseil d'Administration. »*
 | Posture de RSSI | **3** | une recommandation explicite à la direction · le piège de posture nommé et refusé (le RSSI propose, il ne fixe pas) · la transposition à Logistique, actifs et contrats nommés |
 | Rédaction | **3** | une page, lisible par un dirigeant non technicien · sigles définis (MFA, WMS, OT, SOC, PSSI, DICT) · des phrases à soi, pas de recopie du cours |
 
-## Pour Maxime — angles distincts
+## Les deux angles retenus, et ceux qui restaient disponibles
 
-La page de Maxime prend l'angle **« qui fixe »** : la DG tend au RSSI le stylo *et* la signature, et
-accepter serait devenir soi-même la règle — donc l'accepteur du risque. Ancrage Norsk Hydro et arrêt
-WMS d'avril.
+**Maxime — angle « qui fixe »** : la DG tend au RSSI le stylo *et* la signature, et accepter serait devenir
+soi-même la règle — donc l'accepteur du risque. Ancrage Norsk Hydro et arrêt WMS d'avril.
 
-Trois autres angles, également défendables — pour la page de Miguel :
+**Miguel — angle 2 ci-dessous, « comment se rédige-t-elle »** : le glissement par lequel une tolérance non
+datée se fait passer pour une appétence, déroulé sur l'interconnexion IT/OT et les trois signatures qui lui
+manquent (surveillance, échéance ferme, propriétaire des deux côtés).
+
+Les trois angles proposés à l'origine pour la seconde page :
 
 1. **« Comment se rédige-t-elle » — la testabilité.** Une appétence qui ne tranche aucune décision
    réelle est un vœu, pas un outil (CM). Dérouler le test sur les décisions réelles de Logistique : le

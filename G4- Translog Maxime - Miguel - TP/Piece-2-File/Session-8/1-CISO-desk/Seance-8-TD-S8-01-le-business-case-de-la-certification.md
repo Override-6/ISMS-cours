@@ -17,7 +17,7 @@ Filiale sous revue : **MERIDIAN Logistique** (instance `translog-b`). Besoins de
 **SMSI** (système de management de la sécurité de l'information, *ISMS*), **SoA** (déclaration
 d'applicabilité, *Statement of Applicability*), **IT/OT** (bureautique / industriel).
 **Sources utilisées** : le briefing *« The CISO's Desk: The Certification Business Case »* (séance 8,
-TD 1), le pack de filiale MERIDIAN Logistique (version 1, 3 septembre 2026) §2, §3, §6, la gouvernance de
+TD 1), le pack de filiale MERIDIAN Logistique (version 1, 3 septembre 2026) §2, §3, §4, §6, la gouvernance de
 D1, la cartographie D2, le référentiel adopté D3, l'audit initial D4, le plan de traitement D7.
 
 ---
@@ -43,12 +43,17 @@ je veux votre recommandation : lançons-nous un effort de certification, sur que
 répondons-nous à ce tiers en attendant. Pas de lyrisme, des faits. »* Le travail du matin prépare ce
 dossier.
 
-**Ce que la séance 4 avait déjà entrouvert.** La tension n'est pas neuve : le bureau du RSSI de la séance 4
-opposait déjà la demande du client pharmaceutique (*« un certificat couvrant le service qu'il achète »*) à
-celle de la Directrice Générale du groupe (*« toutes filiales, et vite »*), et concluait qu'un périmètre
-ingagnable ne produit pas une échéance disciplinante, il en produit une qu'on repousse puis qu'on tait
+**Ce que la séance 4 avait déjà entrouvert.** La tension n'est pas neuve : les **deux** pages du bureau du
+RSSI de la séance 4 l'avaient posée, chacune de son côté. Miguel y opposait les deux commandes du matin —
+le client pharmaceutique demande *« un certificat couvrant **le service qu'il achète** »*, la Directrice
+Générale du groupe en veut un couvrant *« le groupe »*, et ce ne sont pas deux tailles du même document
+mais deux projets, deux budgets, deux calendriers
+(`../../Session-4/1-CISO-desk/S4-bureau-du-RSSI-Miguel-Monereo.md`). Maxime en tirait la conséquence de
+calendrier : le *« toutes filiales, et vite »* de la Directrice Générale l'inquiétait moins pour ce qu'il
+coûte que pour ce qu'il romprait, parce qu'un périmètre ingagnable ne produit pas une échéance
+disciplinante, il en produit une qu'on repousse puis qu'on tait
 (`../../Session-4/1-CISO-desk/S4-bureau-du-RSSI-Maxime.md`). Ce matin ne réinvente pas cette position : il
-la **instruit** avec ce que D2, D4 et D7 ont produit depuis.
+l'**instruit** avec ce que D2, D4 et D7 ont produit depuis.
 
 ---
 
@@ -111,14 +116,18 @@ que la séance 3 a établi sur ce qu'atteste une certification.*
 | Audience | Ce que le certificat lui prouverait | Source |
 |---|---|---|
 | **Le client pharmaceutique** — le tiers qui demande | Qu'un organisme accrédité a vérifié que la chaîne du froid et le WMS qui l'alimentent sont gouvernés selon une norme internationale : transforme la promesse commerciale (*« dites-moi qu'on l'a »*) en preuve opposable, réponse exacte au questionnaire de sécurité annoncé (pack §3) et à l'audit chaîne du froid annuel (pack §2) | Pack §2, §3 |
+| **MERIDIAN Santé** — filiale sœur et **client interne**, la seule audience que **seul** le §6 donne | Que les scannettes d'entrepôt et le WMS qui les alimente sont gouvernés selon la même norme que le reste du groupe : c'est exactement l'argument qui manque aujourd'hui pour rouvrir le flux de réapprovisionnement d'urgence, bloqué depuis trois mois à la demande du RSSI de Santé (*« their equipment cannot be trusted »*, pack §6) alors que la Pharmacienne-chef le réclame (*« it will not last the winter »*). Entre deux filiales du même groupe, une vérification faite de l'extérieur pèse plus qu'une promesse — précisément là où la confiance a été retirée | Pack §6 ; D6 (jalons M1-M6), D7 (`ER5`, `PT-11`) |
 | **La Direction Générale et les actionnaires du holding** | Que l'effort engagé depuis six séances (référentiel adopté, audit mené, 82 000 €/an de plan de traitement) produit un **actif durable et visible**, pas seulement une dépense — le club reste assez fermé pour que l'appartenance se remarque (un peu plus de mille organisations certifiées en France fin 2023, AFNOR) | Énoncé du TD, D7 |
+| **L'Audit Interne du holding** — cité deux fois par le pack, au §3 et au §6 | Qu'un tiers accrédité vérifiera chaque année ce qu'il réclame en vain : la **liste nominative** des porteurs du compte de la TMA, dont il n'a reçu qu'un nom de compte et aucun nom de personne. Le certificat ne lui livre pas la liste — il rend son absence intenable sur le périmètre couvert, puisque l'imputabilité y devient auditable de l'extérieur (constat C4 de D4, registre nominatif et journalisation `PT-02` de D7) | Pack §3, §6 ; D4 (C4), D7 (`PT-02`) |
 | **Les filiales et les équipes de Logistique elles-mêmes** | Que les règles du groupe (PSSI-cadre, directives `ACC-01`, `ACC-02`, `INC-01`, `JRN-01`, `COR-01` de D1) ne sont pas un caprice du RSSI mais un système vérifié de l'extérieur — déplace le débat interne de « faut-il le faire » à « comment le faire », notamment sur les deux non-conformités majeures encore ouvertes (C3, C4 de D4) | D1, D4 |
 | **Le régulateur** — audience acceptée, avec une nuance | Une gouvernance démontrée **sur le périmètre certifié uniquement** — jamais une présomption de conformité réglementaire, cf. la limite posée en question 3 | D3 §4 |
 
 **Ce que le pack ne nous donne pas, et qu'on n'invente pas** : contrairement à Territoires (une trentaine de
 collectivités clientes) ou Éducation, le pack de filiale ne documente **aucun autre client externe** que le
 client pharmaceutique pour Logistique — la carte du pouvoir (§3) n'en cite pas d'autre. Nous ne rajoutons
-donc pas une audience « autres clients » qui ne figure nulle part au dossier.
+donc pas une audience « autres clients » qui ne figure nulle part au dossier. Le seul autre client que le
+dossier documente est **interne** — MERIDIAN Santé, ligne ci-dessus — et c'est le §6 qui le donne, pas le
+§3 : c'est bien la frontière de la filiale, pas sa carte du pouvoir, qui porte cette audience-là.
 
 ---
 
@@ -210,13 +219,15 @@ l'occasion.
 | Critère | Niveau visé | Justification |
 |---|---|---|
 | **Lecture de la clause** | Excellent | Les trois exigences emboîtées décomposées, deux lectures de l'équivalence, et la conséquence de chaque lecture tirée pour la réponse du groupe (Q1) |
-| **Équilibre du dossier** | Excellent | Quatre audiences avec un bénéfice chacune (Q2) et quatre limites dont une réglementaire et une opérationnelle (Q3), chaque énoncé rattaché à un fait établi en séances 1 à 7 |
+| **Équilibre du dossier** | Excellent | **Six** audiences avec un bénéfice chacune (Q2) — les deux sections que l'énoncé désigne sont effectivement mobilisées, le §3 (client pharmaceutique, Audit Interne) **et** le §6 (MERIDIAN Santé, Audit Interne) — et quatre limites dont une réglementaire et une opérationnelle (Q3), chaque énoncé rattaché à un fait établi en séances 1 à 7 |
 | **Périmètre** | Excellent | Un périmètre proposé, défendu par la cartographie et les écarts de l'audit (Q4), **et** la réserve de périmètre étroit assumée par écrit (la tension E4 automatisé/dédié pharma) |
 | **Décision demandée** | Excellent | Close, décidable jeudi, aucun engagement invérifiable, réponse au tiers dans l'intervalle incluse (Q5) |
 | **Honnêteté** | Excellent | La distinction démarche/certificat tenue partout, et le dossier énonce ce qu'il ne peut pas encore chiffrer (le coût de la certification elle-même, distinct du plan de traitement) |
 
-*Auto-évaluation à confronter en séance avec le corrigé officiel replié dans l'énoncé (« cliquer pour
-révéler »).*
+*La grille ci-dessus **est** celle de l'énoncé : le corrigé et la matrice d'évaluation sont dépliés dans
+l'export PDF de la séance (`../../../../S8 - Sources/TD 1/`), et les cinq critères sont repris mot pour
+mot. Ce qui reste à confronter en séance n'est donc pas la grille, mais le **niveau** que nous nous
+attribuons sur chacun de ses critères.*
 
 ---
 

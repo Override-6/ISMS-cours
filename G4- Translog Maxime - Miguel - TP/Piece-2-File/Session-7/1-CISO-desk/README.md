@@ -10,15 +10,15 @@ direction. Note individuelle — 10 points sur les neuf séances, coefficient 1.
 
 | Étudiant | Fichier | État |
 |---|---|---|
-| Miguel Monereo | `S7-bureau-du-RSSI-Miguel-Monereo.md` | 🔴 **à écrire** |
-| Maxime | `S7-bureau-du-RSSI-Maxime.md` | 🔴 **à écrire** |
+| Miguel Monereo | `S7-bureau-du-RSSI-Miguel-Monereo.md` | 🟢 **fait** — angle 1 (le chiffre qui manque est le constat ; financer d'abord le test de restauration) |
+| Maxime | `S7-bureau-du-RSSI-Maxime.md` | 🟢 **fait** — angle 2 (l'asymétrie des deux nombres ; la sécurité entre dans le régime commun), clos sur l'angle 3 (ce que Mærsk ne prouve pas) |
 
 `Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md` — le **compte rendu collectif** du TD (les trois
 questions guidées), conservé comme matière de travail. **Ce n'est pas le bureau du RSSI** : il est collectif
 et bien plus long qu'une page. C'est la matière première des deux pages individuelles, exactement comme aux
 séances 4, 5 et 6.
 
-**Source** : `../../../../S7 - Sources/TD 1/Le point du RSSI _ Chiffrer le coût de l'inaction _ Lockbay Academy.pdf`
+**Source** : `../../../../S7 - Sources/TD 1/The CISO's Desk_ Quantifying the Cost of Inaction _ Lockbay Academy.pdf`
 (énoncé ; corrigé et barème repliés dans la page, « cliquer pour révéler »). Corpus mobilisé : pack de
 filiale §2, §4, §5, §6 · reference pack §3, §5, §7 · D4 (constats C3, C4, recommandations), D5 (échelles,
 couples SR/OV, événements redoutés), D6 (écosystème coté, scénarios stratégiques) · CM de la séance 7

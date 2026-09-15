@@ -12,17 +12,18 @@ direction. Note individuelle — 10 points sur les neuf séances, coefficient 1.
 
 | Étudiant | Fichier | État |
 |---|---|---|
-| Miguel Monereo | `S8-bureau-du-RSSI-Miguel-Monereo.md` | 🔴 **à écrire** |
+| Miguel Monereo | `S8-bureau-du-RSSI-Miguel-Monereo.md` | 🟢 **fait** — angle 1 (le silence coûte plus cher que l'anticipation : répondre au client avant son questionnaire) |
 | Maxime | `S8-bureau-du-RSSI-Maxime.md` | 🟢 **fait** — angle : la tension E4 (dédié au client pharmaceutique **et** équipé d'automates sur un réseau non cloisonné, constat C3) |
 
 `Seance-8-TD-S8-01-le-business-case-de-la-certification.md` — le **compte rendu collectif** du TD (les cinq
 questions guidées), conservé comme matière de travail. **Ce n'est pas le bureau du RSSI** : il est collectif
 et bien plus long qu'une page. C'est la matière première des deux pages individuelles, exactement comme aux
-séances 4 à 7.
+séances 5 à 7 — la séance 4, elle, n'a pas de compte rendu collectif : ses deux pages individuelles
+partent directement de l'énoncé.
 
 **Source** : `../../../../S8 - Sources/TD 1/The CISO's Desk_ The Certification Business Case _ Lockbay Academy.pdf`
 (énoncé ; corrigé et grille d'évaluation repliés dans la page, « cliquer pour révéler »). Corpus mobilisé :
-pack de filiale §2, §3, §6 · D1 (gouvernance, rôles de décision) · D2 (cartographie, valeurs métier `PA-02`
+pack de filiale §2, §3, §4, §6 · D1 (gouvernance, rôles de décision) · D2 (cartographie, valeurs métier `PA-02`
 et `PA-04`) · D3 (référentiel adopté, angles morts déjà posés) · D4 (audit initial, écarts C3/C4) · D7
 (plan de traitement daté et chiffré).
 
@@ -64,8 +65,16 @@ deux, et un client, un assureur ou un acheteur public ne s'y trompera pas.
 
 ## Barème de la page, sur 10
 
-*Grille reprise du format des séances précédentes — à confirmer avec le corrigé officiel replié dans
-l'énoncé.*
+*Deux grilles, et il ne faut pas les confondre.* Celle ci-dessous, sur 10 points, est la grille de la
+**page individuelle**, et ce n'est pas une reprise du format des séances précédentes : c'est le barème
+officiel du module, donné par le fil rouge (`ISMS module common thread.pdf`, p. 4, *Marking scale for the
+CISO's desk, written*) — exactitude et pertinence 4, posture de RSSI 3, rédaction 3. L'énoncé, lui, porte la **matrice d'évaluation du cas** (cinq critères — lecture de la
+clause, équilibre du dossier, périmètre, décision demandée, honnêteté — en trois niveaux :
+*insuffisant / attendu / excellent*) : elle est dépliée dans l'export PDF de la séance, elle note le
+**compte rendu collectif**, et c'est à ce titre que
+`Seance-8-TD-S8-01-le-business-case-de-la-certification.md` la reprend mot pour mot en auto-évaluation.
+Rien ne reste « à confirmer » : les deux grilles sont connues, elles ne portent simplement pas sur le
+même objet.
 
 | Bloc | Points | Détail |
 |---|---|---|
@@ -77,7 +86,7 @@ l'énoncé.*
 
 Les deux étudiants prennent des **angles distincts** — c'est la règle du dossier depuis la séance 1.
 
-1. **Le silence coûte plus cher que l'anticipation.** Le questionnaire de sécurité n'est pas encore arrivé,
+1. **Le silence coûte plus cher que l'anticipation** *(pris par Miguel, voir `S8-bureau-du-RSSI-Miguel-Monereo.md`)*. Le questionnaire de sécurité n'est pas encore arrivé,
    mais la Directrice Générale a déjà fixé jeudi comme échéance : attendre la question précise du client
    pour commencer à y répondre revient à laisser le calendrier du tiers dicter celui du groupe, alors que
    D3, D4 et D7 permettent de répondre dès aujourd'hui. Angle : *une démarche documentée n'attend pas le
