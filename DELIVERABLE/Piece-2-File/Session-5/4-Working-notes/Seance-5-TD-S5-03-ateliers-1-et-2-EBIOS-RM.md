@@ -1,17 +1,9 @@
 # Séance 5 — TD 2 (S5-03) : Ateliers 1 et 2 d'EBIOS Risk Manager — socle de sécurité et sources de risque
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — appliquées à **MERIDIAN Logistique** et à son flux d'approvisionnement d'urgence vers **MERIDIAN Santé**
-
-> Enchaînement de la journée : le CM a donné le vocabulaire du risque et la mécanique des cinq
-> ateliers ; le TD 1 du matin a préparé l'**appétence** ; ce TD déroule les **ateliers 1 et 2** sur
-> MERIDIAN, dans l'ordre du guide et avec ses livrables. Chaque exercice produit un élément qui entre
-> **tel quel** dans le livrable D5 (assemblé au TP 2) — rien ici n'est jetable. Les ateliers 3, 4 et 5
-> restent vides aujourd'hui : ils relèvent des séances 6 et 7.
+### Réponses du Groupe 4 (Translog) — appliquées à **MERIDIAN Logistique** et à son flux d'approvisionnement d'urgence vers **MERIDIAN Santé**
 
 **Règle du jour** : les valeurs métier et les biens supports sont **repris à l'identique** de la
 cartographie de la séance 2 (D2) — les recréer ou les renommer serait une faute de méthode.
 Références D2 : valeurs métier `LOG-PA-01` à `LOG-PA-04`, biens supports `LOG-SA-01` à `LOG-SA-13`.
-Corrigés de l'énoncé repliés (« cliquer pour révéler »), non extractibles — réponses bâties sur le
-corpus (CM S5, pack de filiale, reference pack, D1, D2, D4).
 
 ---
 
@@ -249,8 +241,3 @@ même valeur métier**.*
 (aucun recréé, aucun renommé) ; chaque couple SR/OV motivé en une phrase ; échelles réutilisables
 telles quelles en séance 7.
 
----
-> **Phrase de passage à la séance 6** : les couples source de risque / objectif visé et les événements
-> redoutés arrêtés aujourd'hui deviennent la matière première de la séance 6, qui construira les
-> scénarios stratégiques puis opérationnels à travers l'écosystème du groupe, ses prestataires et ses
-> projets ; les échelles fixées au TP 2 serviront, inchangées, à coter le registre complet en séance 7.

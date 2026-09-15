@@ -2,7 +2,7 @@
 
 **Que vaut une certification ISO 27001, et que répond-on au tiers qui l'exige ?**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -23,5 +23,3 @@ Le certificat que réclame le client pharmaceutique et celui que veut la Directr
 > Je recommande à la Directrice Générale de lancer l'audit initial sur le seul périmètre de Logistique — transport, entreposage sous température dirigée, WMS et six entrepôts — et d'en fixer la date maintenant, précisément parce qu'elle sera extérieure à nous. Je propose que la préparation de cet audit serve de test grandeur réelle à la directive de notification en deux heures, restée lettre morte en avril : si elle ne tient pas sous le regard d'un auditeur, elle ne tiendra pas davantage sans lui. Le groupe entier attendra que ce premier périmètre ait prouvé que nos échéances, une fois écrites, sont tenues.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même question, avec son propre angle.*

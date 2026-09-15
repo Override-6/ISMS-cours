@@ -2,11 +2,6 @@
 ### Revue rendue par le **Groupe 4 (Translog)**, filiale sous revue MERIDIAN **Logistique**
 ### Note relue : note de business case du binôme, filiale sous revue MERIDIAN **Éducation** (2 pages, 5 sections)
 
-> **Contrat de la revue, rappelé avant le premier constat.**
-> Le relecteur s'engage sur la grille, **rien que la grille**. L'auteur s'engage à traiter chaque constat — par une correction ou par un refus motivé en une ligne — **jamais** en l'ignorant.
->
-> **Ce que cette revue ne fait pas** : elle ne juge pas la **justesse du choix**. Le binôme recommande ISO/IEC 27001:2022, nous aussi, et cela ne rend sa note ni meilleure ni pire. Une note recommandant le ReCyF passerait la même grille. **Le relecteur n'est pas un second décideur.**
-
 ---
 
 ## Verdict par ligne de grille
@@ -74,7 +69,7 @@
 
 ---
 
-## Restitution en trois minutes — script
+## Restitution en trois minutes
 
 1. **« Ta section 4 n'a pas d'angle mort à vous. »** Quatre limites, toutes sur les référentiels, aucune sur MERIDIAN. Trois candidats disponibles, une phrase suffit.
 2. **« Ta section 1 n'a pas de déclencheur, et pas de source. »** Elle promet « et déclencheur » et ne répond pas à *pourquoi maintenant* ; la parenthèse (applicabilité) manque à toute la note alors que la matinée a caractérisé les quatre filiales.

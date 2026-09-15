@@ -1,14 +1,5 @@
 # Séance 6 — TD 2 (S6-03) : Management des tiers, infogérance et ateliers 3-4 d'EBIOS RM
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — appliquées à **MERIDIAN Logistique** (instance `translog-b`)
-
-> Enchaînement de la journée : le TD 1 du matin a **inventorié** seize dépendances tierces et qualifié
-> chacune en chemin de pivot ; le CM *Security by Design* a montré que chacune a un **point de naissance —
-> un projet** et distingué les trois régimes (acheter / développer / faire faire) ; ce TD 2 **cote** cet
-> écosystème (atelier 3) et **amorce** les scénarios (atelier 4), et lit un contrat d'infogérance au
-> prisme de la sécurité. Rien ici n'est jetable : le tableau de l'exercice 1 devient les **exigences
-> applicables aux tiers** de **D6** (TP 2) ; la carte de dangerosité et le scénario stratégique de
-> l'exercice 2 se saisissent dans `translog-b` (TP 1) et alimentent la **sous-section 6** de la note de
-> stratégie. Les ateliers 3 à 5 étaient vides dans D5 ; ce TD ouvre l'atelier 3.
+### Réponses du Groupe 4 (Translog) — appliquées à **MERIDIAN Logistique** (instance `translog-b`)
 
 **Règle du jour** : valeurs métier et biens supports **repris à l'identique** de D2 (`LOG-PA-01` à `04`,
 `LOG-SA-01` à `13`) ; sources de risque, objectifs visés et événements redoutés **repris de D5** —
@@ -17,7 +8,6 @@ D5 fait foi. Aucun objet recréé ni renommé.
 gestion d'entrepôt), **PAS** (plan d'assurance sécurité), **SR/OV** (source de risque / objectif visé),
 **ER** (événement redouté), **SOC** (centre de supervision de la sécurité), **IT/OT** (bureautique /
 industriel), **VLAN** (réseau local virtuel), **RTO/RPO** (délai / perte de données maximaux admissibles).
-**Corrigé de l'énoncé replié** (« cliquer pour révéler »), non extractible — réponses bâties sur le corpus
 (CM S6, énoncé du TD 2, extrait de contrat `TMA-WMS-2021`, pack de filiale, reference pack, D1, D2, D4, D5,
 TD 1 de la séance 6).
 
@@ -42,7 +32,7 @@ revue* que l'exercice 1 demande de lire.
 
 ## Les trois notions à poser avant de manipuler quoi que ce soit (cadrage, 10 min)
 
-*Le CM a intégré la sécurité aux projets ; ce TD traite des tiers **durablement installés**, ceux que
+*Le cadre de référence intègre la sécurité aux projets ; ce travail traite des tiers **durablement installés**, ceux que
 désigne le régime « faire développer / externaliser », et entre dans les ateliers 3 et 4 par l'angle de
 l'écosystème.*
 
@@ -106,7 +96,7 @@ Générale), la tenue du registre nominatif des comptes à privilèges (mesure *
 
 ### Objet étudié : `LOG-PA-01` **Exécution des flux logistiques**, événement redouté **ER1**
 
-*L'énoncé demande « le premier actif critique de la filiale, la valeur métier dont l'événement redouté est
+*Le travail porte sur « le premier actif critique de la filiale, la valeur métier dont l'événement redouté est
 coté le plus haut dans D5 ».*
 
 Trois événements redoutés de D5 sont cotés **Critique** : **ER1** (`LOG-PA-01`, disponibilité), **ER3**
@@ -276,13 +266,6 @@ marqueurs `Very likely` de D5 §1.*
 | Destination | Ce qui vient d'ici |
 |---|---|
 | **TP 1** (`translog-b`, ateliers 3-4) | Les **5 parties prenantes** (PP1-PP5) créées et reliées à l'étude, avec leurs **4 notes justifiées** ; la **dangerosité recalculée** par l'outil, **PP1 et PP2 cochées « Selected »** ; **deux scénarios stratégiques** rattachés à des couples SR/OV retenus, chacun avec un chemin d'attaque « Selected » par une partie prenante critique, **gravité affichée depuis l'événement redouté** ; l'amorce d'un **scénario opérationnel** sur le chemin le plus préoccupant (celui par APPLICA). |
-| **TP 2 — livrable D6** (7 pts) | Le **tableau des exigences vérifiables** de l'exercice 1 (quatre familles + la plus urgente) devient les **exigences de sécurité du contrat d'infogérance** de D6, chacune tracée à un scénario stratégique de l'exercice 2, à un écart de D4 (C3, C4, A.5.17, A.8.15) ou à un silence de l'extrait `TMA-WMS-2021` ; le **dispositif de surveillance du tiers** (3 indicateurs, comité de suivi, preuve annuelle, ce qui ne se délègue pas) complète la pièce. La **fiche projet** de D6 traitera un projet réel du pack (cadrage de l'homologation du WMS, déjà amorcé en D4). |
+| **TP 2 — livrable D6** | Le **tableau des exigences vérifiables** de l'exercice 1 (quatre familles + la plus urgente) devient les **exigences de sécurité du contrat d'infogérance** de D6, chacune tracée à un scénario stratégique de l'exercice 2, à un écart de D4 (C3, C4, A.5.17, A.8.15) ou à un silence de l'extrait `TMA-WMS-2021` ; le **dispositif de surveillance du tiers** (3 indicateurs, comité de suivi, preuve annuelle, ce qui ne se délègue pas) complète la pièce. La **fiche projet** de D6 traitera un projet réel du pack (cadrage de l'homologation du WMS, déjà amorcé en D4). |
 | **Sous-section 6 de la note de stratégie** (« tiers et projets ») | La position du groupe : *ce qui n'est pas exigé au contrat ne sera jamais dû* ; **aucun contrat donnant accès à un actif critique n'est signé ni renouvelé sans les trois clauses** — journalisation par utilisateur nommé, notification sous 24 h d'une compromission chez le prestataire, réversibilité (règle de contractualisation demandée au ComEx au TD 1, message 3, qui opérationnalise l'énoncé d'appétence n°2 de D5) ; lien explicite à la gouvernance de la séance 1 (`ARB-01`, acceptation du risque résiduel par la DG) et aux actifs critiques de la séance 2 (Top 5). Une demi-page, sans recopier D6. |
 
----
-> **Phrase de passage aux TP.** L'écosystème est coté : deux parties prenantes critiques, un scénario
-> stratégique à G4 qui relie un cybercriminel à l'arrêt du flux d'expédition **en passant par la TMA du
-> WMS**. Le TP 1 saisit tout cela dans `translog-b` et amorce l'atelier 4 ; le TP 2 transforme le tableau
-> de l'exercice 1 en exigences de D6 et rédige la fiche projet ; la sous-section 6 de la note affirme la
-> règle des trois clauses. Les échelles de D5 serviront, inchangées, à coter le registre complet en
-> séance 7.

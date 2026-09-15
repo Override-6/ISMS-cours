@@ -1,10 +1,6 @@
 # Séance 3 — TP (S3-05) : Qualifier et importer le référentiel dans l'outil
 ### Livrable du Groupe 4 (Translog), instance **translog-b** (https://translog-b.lockbay.eu), périmètre d'instruction **MERIDIAN** (`MERIDIAN-LOGISTIQUE`)
 
-> Règle d'or de la journée, rappelée avant tout clic : **rien ne se recrée.** Ce TP se branche sur l'instance CISO Assistant montée en séance 2 (S2-05) — périmètre `MERIDIAN-LOGISTIQUE`, actifs primaires et supports déjà saisis — et sur la décision de référentiel argumentée au TD du matin (S3-03) : **ISO/IEC 27001:2022** comme colonne vertébrale. On **vérifie**, on **importe**, on **rattache**. On ne recrée aucun objet de la séance 2.
->
-> **Deux mots à ne jamais confondre** (piège d'entretien et de comité) — *voir encadré en tête d'Exercice 1.*
-
 ---
 
 ## Ce que ce TP fait, et ce qu'il ne fait pas
@@ -76,8 +72,6 @@ Chaîne des trois gestes : **Vérifier** (fiche d'identité) → **Importer** (l
 - L'arbre montre **deux blocs** : les **clauses numérotées 4 à 10** d'un côté, l'**Annexe A** de l'autre.
 - Les trois lectures donnent **123** au total, dont **93** contrôles d'Annexe A répartis **37 / 8 / 14 / 34**.
 
-> **Si les comptes diffèrent, ne pas passer outre** : soit l'import est incomplet, soit une autre bibliothèque a été importée. Les deux se corrigent **en deux minutes maintenant** — ou en deux jours, le jour de l'audit. **Un import se refait :** l'outil est un bac à sable avant d'être un registre.
-
 **À noter au passage** — le nom que l'outil donne au bloc Annexe A : **« Déclaration d'applicabilité » (Statement of Applicability, SoA)**. Ce document, qui décide **contrôle par contrôle** ce qui s'applique au groupe, est le grand travail de la **séance 8** et n'a de sens **qu'après l'analyse de risque**. Aujourd'hui, ce n'est qu'un libellé à l'écran.
 
 ---
@@ -109,7 +103,7 @@ Chaîne des trois gestes : **Vérifier** (fiche d'identité) → **Importer** (l
 
 ## Exercice 4 — Reconnaître et trier (sans importer)
 
-Le dernier geste est contemplatif : la liste des bibliothèques de l'outil est une **carte du monde des référentiels**. On **trouve** les quatre entrées ci-dessous **sans les importer**, et on les **classe** dans une famille du CM du matin (S3-02).
+Le dernier geste est contemplatif : la liste des bibliothèques de l'outil est une **carte du monde des référentiels**. On **trouve** les quatre entrées ci-dessous **sans les importer**, et on les **classe** dans une famille de référentiels.
 
 | Bibliothèque | Éditeur affiché | Famille (CM S3-02) | Justification (une ligne) |
 |---|---|---|---|

@@ -1,5 +1,5 @@
 # Séance 1 — TD (S1-03) : Structuring principles and anchoring activity
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
+### Réponses du Groupe 4 (Translog)
 
 ---
 

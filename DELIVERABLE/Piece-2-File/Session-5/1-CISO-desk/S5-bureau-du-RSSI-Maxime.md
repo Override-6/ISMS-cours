@@ -2,7 +2,7 @@
 
 **Qui fixe l'appétence au risque, et comment se rédige-t-elle ?**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -56,6 +56,3 @@ refuse de perdre (la chaîne du froid, l'imputabilité d'un accès) est un choix
 > figure pas sous la règle : il figure sous la proposition et sous son application.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même
-question, avec son propre angle.*

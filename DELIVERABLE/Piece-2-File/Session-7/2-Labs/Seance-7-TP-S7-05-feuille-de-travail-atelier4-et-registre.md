@@ -133,7 +133,7 @@ Test effectué sur ER3 : résiduel actuel `Medium` (V2×G4) remplacé délibér�
 
 ### Le refus de l'outil sur un résiduel supérieur
 
-**Ne se produit pas** dans cette instance — voir §4, « Le test du refus ». Écart avec l'énoncé du TP.
+**Ne se produit pas** dans cette instance — voir §4, « Le test du refus ». Écart avec le comportement attendu.
 
 ---
 
@@ -150,8 +150,3 @@ Renvoyé au TP 2 :
 
 Saisie effectuée avec le compte nominatif de l'instance (`miguel.monereodelasota@ynov.com`), conformément à la consigne — jamais `admin@lockbay.eu`.
 
----
-
-## 8. Ce qui sort de ce TP
-
-Vers **TP 2 / D7** : le registre à 8 lignes complet (décision, mesures, porteur en texte, échéance, résiduel coté), les six fiches d'acceptation à rédiger pour les lignes `Medium`, la phrase qui explique l'absence de dérogation, et la mesure `PT-13` (inventaire des deux biens supports découverts). Vers la sous-section 7 de la note de stratégie : le constat qu'aucun traitement ne referme un risque — tous passent de `High`/`Medium` à `Medium`/`Low`, jamais à zéro — et le cas ER5 (le risque le plus certain du portefeuille est celui que personne n'attaque, traité par un projet et non par une mesure technique).

@@ -1,7 +1,7 @@
 # D1 — NOTE DE CADRAGE ET GOUVERNANCE CIBLE DU GROUPE MERIDIAN
 
 **Émetteur** RSSI Groupe · **Destinataires** Direction Générale, Comité Exécutif, Conseil d'Administration
-**Groupe 4 (Translog)** · filiale sous revue MERIDIAN Logistique · **Séance 1** · deux pages
+**Groupe 4 (Translog)** · filiale sous revue MERIDIAN Logistique · **Séance 1**
 
 ---
 

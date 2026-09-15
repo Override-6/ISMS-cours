@@ -2,7 +2,7 @@
 
 **« Ce qui est arrivé aux clients de ce logiciel de comptabilité, est-ce que ça peut nous arriver ? »**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -61,6 +61,3 @@ problème est un problème de groupe ; c'est ce qui le rend traitable par une r�
 > fenêtre hors pic de 2027 : un écart qu'on ne surveille pas n'est pas une tolérance, c'est un pari.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même
-question, avec son propre angle.*

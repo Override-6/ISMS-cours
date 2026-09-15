@@ -3,7 +3,7 @@
 **Groupe 4 (Translog)** · instance `translog-b` (https://translog-b.lockbay.eu) · périmètre `MERIDIAN-LOGISTIQUE/MERIDIAN-LOGISTIQUE-FINAL`
 **Évaluation de conformité utilisée** : `MERIDIAN - ISO/IEC 27001:2022 - initial assessment`, créée en séance 3 (S3-05), **remplie aujourd'hui** — aucun objet recréé ni renommé.
 **Auteurs (comptes nominatifs)** : Miguel.monereodelasota@ynov.com, maximebatista18@gmail.com.
-**Correspondance de nom** : le PDF du TP désigne l'évaluation « MERIDIAN-SUBSIDIARY - ISO/IEC 27001:2022 - initial assessment » ; c'est un libellé générique de l'énoncé — l'objet réel du groupe, `MERIDIAN - ISO/IEC 27001:2022 - initial assessment`, n'a pas été renommé.
+**Correspondance de nom** : le PDF du TP désigne l'évaluation « MERIDIAN-SUBSIDIARY - ISO/IEC 27001:2022 - initial assessment » ; ce libellé générique désigne l'objet du groupe, `MERIDIAN - ISO/IEC 27001:2022 - initial assessment`, n'a pas été renommé.
 
 ---
 

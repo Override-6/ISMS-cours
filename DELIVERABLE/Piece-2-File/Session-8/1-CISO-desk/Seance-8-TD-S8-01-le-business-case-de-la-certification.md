@@ -1,14 +1,5 @@
 # Séance 8 — TD (S8-01) : The CISO's Desk — Le business case de la certification
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — appliquées à **MERIDIAN Logistique** (instance `translog-b`)
-
-> Enchaînement de la journée : ce TD du matin **construit le dossier de décision** — le certificat que le
-> tiers demande n'existe pas encore, mais une démarche réelle, oui — que le RSSI Groupe présente au Comité
-> Exécutif jeudi. Le CM qui suit (*architecture de l'ISO/IEC 27001:2022 et rôle de la direction*) ouvre
-> enfin la norme elle-même ; le TP 1 évalue la conformité et la déclaration d'applicabilité dans
-> `translog-b` ; le TP 2 en sort le livrable **D8** — périmètre du SMSI, contrôles retenus, exclusions
-> justifiées par écrit, taux de couverture, écarts restants — et la sous-section 8 de la note de stratégie.
-> Rien de ce qui est écrit ici n'est jetable : le périmètre défendu à la question 4 est celui que D8 devra
-> déclarer, et les limites de la question 3 nourrissent directement les exclusions que D8 doit justifier.
+### Réponses du Groupe 4 (Translog) — appliquées à **MERIDIAN Logistique** (instance `translog-b`)
 
 **Vocabulaire** : business case de certification, valeur métier du SMSI — au sens du TD de la séance 8.
 Filiale sous revue : **MERIDIAN Logistique** (instance `translog-b`). Besoins de sécurité notés **DICT**
@@ -64,7 +55,7 @@ l'**instruit** avec ce que D2, D4 et D7 ont produit depuis.
 | **Business case de certification** | Le document court qui organise une décision que la direction ne peut pas prendre seule : ce que le certificat prouverait, et à qui ; ce qu'il ne prouverait pas ; l'effort et la trajectoire pour l'obtenir ; la décision demandée | Il ne **décide** pas — il **rend la décision possible**. Si la direction dit non, un bon dossier aura quand même clarifié ce que le groupe attend de sa sécurité |
 | **Valeur métier du SMSI** | Ce que le groupe gagne à faire *vivre* un système de management, au-delà du confort du RSSI : confiance démontrable, constance (les contrôles survivent aux départs), arbitrages informés, réutilisation (un système répond à plusieurs obligations) | Elle ne se matérialise **que si le système vit** — un SMSI papier a un coût certain et une valeur nulle, ce que D7 illustre déjà : 31 400 €/an de fonctionnement (*run*), pas seulement 51 000 €/an d'investissement amorti (*build*) |
 
-**Un repère de marché, cité par l'énoncé** : selon l'AFNOR, qui reprend l'*ISO Survey* internationale, la
+**Un repère de marché** : selon l'AFNOR, qui reprend l'*ISO Survey* internationale, la
 France comptait un peu plus de mille organisations certifiées ISO/IEC 27001 fin 2023 — trois fois plus
 qu'en 2019, avec une progression déjà de 11 % en France et 22 % dans le monde en 2020. Traduction pour le
 Comité : être certifié différencie encore, et la croissance du club dit que les donneurs d'ordre le
@@ -144,8 +135,7 @@ sécurité réelle des systèmes.*
    vulnérabilité : le secret du compte de service WMS↔automates, identique sur les six entrepôts depuis
    2019 et en clair dans un fichier de configuration (constat de D4, rotation `PT-09` du plan de traitement
    de D7 échéance 14/01/2027, donc **encore ouvert à ce jour**), pourrait très bien coexister avec un
-   certificat valide. Le rappel le plus connu de cet écart entre conformité affichée et sécurité réelle reste **Equifax, 2017** (cité
-   par l'énoncé).
+   certificat valide. Le rappel le plus connu de cet écart entre conformité affichée et sécurité réelle reste **Equifax, 2017**.
 3. **Limite de périmètre.** Le certificat ne prouve rien au-delà de son périmètre déclaré : un certificat
    limité à Logistique ne dira **rien** des trois autres filiales du groupe (Santé, Éducation, Territoires),
    chacune porteuse de ses propres écarts — position déjà posée en D3 : *« Un certificat obtenu sur la
@@ -212,10 +202,3 @@ Trois phrases, aucune date de certificat, aucun chiffre inventé — le seul mon
 déjà arrêté et confirmé dans `translog-b` depuis D7, pas un coût de certification improvisé pour
 l'occasion.
 
----
-> **Suite immédiate.** Le périmètre défendu en question 4 est celui que **D8** devra déclarer comme
-> périmètre du SMSI ; la réserve sur E4 devient une **exclusion à justifier par écrit** dans la déclaration
-> d'applicabilité ; les quatre limites de la question 3 nourrissent directement la section « écarts
-> restants » de D8. Le CM qui suit (*architecture de l'ISO/IEC 27001:2022 et rôle de la direction*) ouvre la
-> norme elle-même ; le TP 1 évalue la conformité et la SoA dans `translog-b` ; le TP 2 assemble **D8** et la
-> sous-section 8 de la note de stratégie.

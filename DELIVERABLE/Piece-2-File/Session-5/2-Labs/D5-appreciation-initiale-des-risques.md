@@ -3,13 +3,13 @@
 **Émetteur** RSSI Groupe · **Destinataires** Direction Générale du groupe (accepte le risque résiduel), Comité Exécutif (valide la déclinaison et les budgets), Direction et DSI de MERIDIAN Logistique (agissent)
 **Groupe 4 (Translog)** · instance `translog-b` · étude `Étude EBIOS RM MERIDIAN - Logistique et approvisionnement d'urgence vers Santé - cycle 1` · **Séance 5**
 
-> **Note d'accompagnement des ateliers 1 et 2 d'EBIOS Risk Manager** : l'étude vit dans `translog-b`, ce document dit ce qui a été décidé et pourquoi. Valeurs métier et biens supports **repris à l'identique** de D2 ; ateliers 3 à 5 vides, ils relèvent des séances 6 et 7.
+> **Ateliers 1 et 2 d'EBIOS Risk Manager.** L'étude vit dans `translog-b`. Valeurs métier et biens supports **repris à l'identique** de D2 ; ateliers 3 à 5 vides, ils relèvent des séances 6 et 7.
 
 ---
 
 ## 1. Cadrage de l'étude
 
-*Le cadrage de l'atelier 1 tient dans le tableau ci-dessous ; l'étude elle-même vit dans `translog-b`, dont ce document est la note d'accompagnement.*
+*Cadrage de l'atelier 1.*
 
 | Élément de cadrage | Valeur retenue |
 |---|---|

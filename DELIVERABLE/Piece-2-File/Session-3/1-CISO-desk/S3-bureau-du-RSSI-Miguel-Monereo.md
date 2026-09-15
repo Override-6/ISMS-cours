@@ -2,7 +2,7 @@
 
 **Sommes-nous dans le champ de NIS 2, et à quel titre ?**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -29,5 +29,3 @@ Enfin, un point pratique souvent oublié : le dossier d'enregistrement auprès d
 > Je recommande de **préparer la filiale sur l'hypothèse haute — entité essentielle —** tout en portant la question de qualification à l'arbitrage du Comité Exécutif plutôt qu'en la tranchant nous-mêmes. Se préparer au régime le plus exigeant puis se voir classer « importante » coûte quelques mois d'avance ; l'inverse coûte un plan de mise en conformité à refaire sous contrainte de calendrier. J'y ajoute une demande immédiate et sans coût : obtenir du Directeur Financier du holding le chiffre d'affaires et le bilan des filiales. Ces données nous manquent, elles seront exigées au dossier d'enregistrement, et sans elles nous ne savons pas chiffrer notre propre exposition.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même question, avec son propre angle.*

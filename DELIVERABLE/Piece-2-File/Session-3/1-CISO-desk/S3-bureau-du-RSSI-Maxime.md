@@ -2,7 +2,7 @@
 
 **Sommes-nous dans le champ de NIS 2, et à quel titre ?**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -25,5 +25,3 @@ Quand une Direction Générale entend parler de « dirigeants personnellement re
 > Je recommande d'inscrire, dès le prochain Comité Exécutif, deux décisions distinctes de l'arbitrage de qualification en cours : d'abord désigner formellement l'organe de direction qui portera le devoir de l'article 20 pour Logistique ; ensuite programmer sa première session de formation sous quatre-vingt-dix jours et lui faire approuver, à cette occasion, la trajectoire de remédiation déjà engagée. Ainsi, quel que soit le sort de l'arbitrage transport / expédition, une trace d'approbation existera avant qu'un contrôle ne la réclame — plutôt que d'être reconstituée dans l'urgence après.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même question, avec son propre angle.*

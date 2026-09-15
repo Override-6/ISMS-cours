@@ -1,13 +1,5 @@
 # Séance 6 — TD (S6-01) : The CISO's Desk — Supply Chain Attack
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
-
-> Enchaînement de la journée : ce TD du matin **inventorie** les tiers déjà installés dans le système et
-> qualifie chacun comme chemin de pivot ; le CM (*Security by Design*) montre que chacun de ces liens a
-> un **point de naissance — un projet** ; l'après-midi (TD 2, ateliers 3 et 4 d'EBIOS RM) **cote** cet
-> écosystème et en tire les scénarios stratégiques ; le TP saisit l'écosystème dans `translog-b` et le
-> livrable **D6** en sort. Rien de ce qui est écrit ici n'est jetable : le tableau de la question 1 est
-> la matière première de l'atelier 3, et la décision de la question 4 devient une exigence contractuelle
-> de D6.
+### Réponses du Groupe 4 (Translog)
 
 **Vocabulaire** : chaîne d'approvisionnement du SI, attaque par rebond (*pivot*), risque tiers — au sens
 du TD de la séance 6. Filiale sous revue : **MERIDIAN Logistique** (instance `translog-b`).
@@ -72,7 +64,7 @@ d'organisations touchées, et l'attaquant choisit ensuite ses vraies cibles dans
 
 *Sources : pack de filiale §3 (carte du pouvoir), §4 (inventaire tel qu'envoyé), §5 (constats du
 diagnostic), §6 (ce qui franchit la frontière) ; reference pack §5 (dépendances inter-filiales) et §3 ;
-les quatre constats rappelés dans l'énoncé ; l'extrait du **contrat TMA-WMS-2021** versé au dossier comme
+les quatre constats rappelés au dossier ; l'extrait du **contrat TMA-WMS-2021** versé au dossier comme
 activité d'ancrage de la séance 6 (prestataire APPLICA Services, articles 1 à 8). La qualification de la
 question 2 tient dans la dernière colonne, comme le demande la méthode de travail. Les références
 `LOG-SA-xx` sont celles de **D2**.*
@@ -95,7 +87,7 @@ question 2 tient dans la dernière colonne, comme le demande la méthode de trav
 ### B. Le niveau groupe — dépendances inter-filiales et tiers des autres filiales
 
 *Reference pack §5 (les trois liens qui font du groupe autre chose qu'une somme de filiales), §3 et §6,
-et les quatre constats rappelés par l'énoncé. Le RSSI Groupe parle depuis cette chaise : ces lignes sont
+et les quatre constats rappelés au dossier. Le RSSI Groupe parle depuis cette chaise : ces lignes sont
 à la même table que les précédentes.*
 
 | # | Tiers ou flux entrant | Filiale(s) | Nature de l'accès ou de la dépendance | Ce qu'il peut atteindre | **Q2 — pourquoi c'est un chemin de pivot attirant** |
@@ -280,9 +272,3 @@ qu'il *« relève d'abord d'un risque de dépendance qui se traite au contrat et
 prenante critique de l'écosystème en séance 6 (atelier 3) »*. C'est ce matin qui vient d'en faire la
 démonstration ; c'est cet après-midi qui le cotera.
 
----
-> **Suite immédiate.** Le tableau de la question 1 est la **liste des parties prenantes** saisie à
-> l'atelier 3 (TP 1, `translog-b`) ; les deux clauses rédigées à la question 3 entrent dans les
-> **exigences de sécurité applicables aux tiers** du livrable **D6** (TP 2) ; la décision de la question 4
-> devient la règle de contractualisation que D6 porte et que la **sous-section 6 de la note de stratégie**
-> affirme ; la limite de la question 5 est le sujet du TD 2 de l'après-midi.

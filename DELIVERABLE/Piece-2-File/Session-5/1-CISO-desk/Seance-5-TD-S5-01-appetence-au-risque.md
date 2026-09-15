@@ -1,14 +1,8 @@
 # Séance 5 — TD (S5-01) : The CISO's briefing — Risk appetite
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
-
-> Enchaînement de la journée : ce TD du matin **prépare** la proposition d'appétence que la Direction
-> Générale fixera ; l'après-midi (TD 2, ateliers 1 et 2 d'EBIOS RM) transforme cette appétence en
-> **seuil d'acceptation** matérialisé sur une grille, et alimente le livrable D5. Rien de ce qui est
-> écrit ici n'est jetable : les deux énoncés d'appétence de la question 2 entrent tels quels dans D5
-> et dans la sous-section 5 de la note de stratégie.
+### Réponses du Groupe 4 (Translog)
 
 **Vocabulaire** : appétence au risque, tolérance au risque, seuil d'acceptation des risques — au sens
-du CM de la séance 5. Filiale sous revue : **MERIDIAN Logistique** (instance `translog-b`).
+du guide ANSSI / AMRAE. Filiale sous revue : **MERIDIAN Logistique** (instance `translog-b`).
 Besoins de sécurité notés **DICT** (Disponibilité, Intégrité, Confidentialité, Traçabilité).
 
 ---
@@ -38,7 +32,7 @@ formes exigées par la gouvernance du groupe.
 
 ## Les trois notions, posées avant l'exercice
 
-*Reprises du CM de la séance 5 — définitions du guide ANSSI / AMRAE 2019 « Maîtrise du risque numérique —
+*Définitions du guide ANSSI / AMRAE 2019 « Maîtrise du risque numérique —
 l'atout confiance » pour les deux premières, définition « pour le module » pour la tolérance (aucun
 texte officiel du corpus ne la fixe).*
 
@@ -161,7 +155,7 @@ d'une tolérance à formaliser ? Et que manque-t-il encore à cette tolérance p
 ### Ce qui manque à chaque tolérance pour en être une
 
 Aucune des quatre déviations n'est aujourd'hui **exprimée** comme une tolérance : ce sont des **écarts
-non datés**. Une tolérance, au sens du CM, a trois signatures — **datée / surveillée / propriétaire
+non datés**. Une tolérance, au sens strict, a trois signatures — **datée / surveillée / propriétaire
 nommé** — plus une **mesure compensatoire intérimaire**. Application :
 
 - **Santé (MFA généralisée)** : il manque *tout* — une échéance, un propriétaire nommé, un indicateur
@@ -294,9 +288,3 @@ que la Direction Générale a posée après cet arrêt, « si ça s'arrête pend
 et qui décide de prévenir le client ? » (pack §7), est mot pour mot une question d'appétence convenue à
 l'avance.
 
----
-> **Suite immédiate (après-midi)** : les deux énoncés de la question 2 entrent dans le livrable D5
-> (atelier 1, socle de sécurité et événements redoutés) ; le seuil d'acceptation de la question 1.C
-> prend forme sur les échelles de vraisemblance et de gravité construites au TD 2 ; la confrontation de
-> la question 3 alimente la sous-section 5 de la note de stratégie (« les événements redoutés qui
-> justifient l'effort »).

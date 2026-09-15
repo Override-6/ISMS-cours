@@ -1,7 +1,6 @@
 # Séance 4, TP 2 — Exercice 1 : fiche de cadrage de l'homologation du WMS · Exercice 3 : recommandations réparées
 
 **Groupe 4 (Translog)** · filiale sous revue MERIDIAN Logistique
-**Source** : `../../../../S4 - Sources/TP 2/Initial Audit Report and Strategy Note _ Lockbay Academy.pdf`
 
 ---
 

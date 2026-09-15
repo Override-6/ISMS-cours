@@ -22,7 +22,7 @@ Toutes réglées à **Status = Done**. Résultats obtenus, comptés dans l'outil
 - **Non compliant (8), chacune avec son observation** : 7.2 (compétence), 7.3 (sensibilisation), 7.5.1
   (information documentée, général), 7.5.3 (maîtrise de l'information documentée), 9.1 (mesure et
   surveillance), 9.3.1/9.3.2/9.3.3 (revue de direction, ses trois sous-clauses). Cinq des huit portent sur
-  les deux clauses que le CM annonçait comme les plus faibles — support (7) et évaluation des performances
+  les deux clauses attendues comme les plus faibles — support (7) et évaluation des performances
   (9) — confirmé par la saisie, pas supposé.
 - **Partially compliant (20)** : le reste — 4.1-4.4, 5.1-5.3, 6.1.1, 6.2, 6.3, 7.1, 7.4, 7.5.2, 8.1-8.3,
   9.2.1, 9.2.2, 10.1, 10.2.

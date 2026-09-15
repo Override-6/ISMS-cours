@@ -1,13 +1,11 @@
 # Séance 1 — TP (S1-05) : Framing the MERIDIAN case and target governance
-### Livrables du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
-
-> Objectif de l'heure : à la fin, la gouvernance du groupe existe **sur papier**. Trois documents produits : l'analyse d'écart, la gouvernance cible (2 pages, 4 sections), le premier tableau de bord d'indicateurs.
+### Livrables du Groupe 4 (Translog)
 
 ---
 
 ## Exercice 1 — L'analyse d'écart du groupe (20 min)
 
-*Cible = les principes du TD + l'architecture de gouvernance du CM. État observé = les constats de la journée + 2 signalements reçus en direct : Santé (mots de passe locaux sans MFA sur applis métier) et Territoires (logs conservés localement, non centralisés).*
+*Cible = les principes du TD + l'architecture de gouvernance de référence. État observé = les constats de la journée + 2 signalements reçus en direct : Santé (mots de passe locaux sans MFA sur applis métier) et Territoires (logs conservés localement, non centralisés).*
 
 ### Le tableau
 
@@ -33,7 +31,7 @@
 
 *Document : « Target governance of MERIDIAN group security », 2 pages max, 4 sections.*
 
-### Section 1 — Instances et appétence au risque (reprise du CM)
+### Section 1 — Instances et appétence au risque
 
 | Instance | Rôle en gouvernance | Rôle sur l'appétence au risque |
 |---|---|---|

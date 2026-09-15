@@ -1,6 +1,5 @@
 # TD 2 — Exercice 1 : gradation des constats du cycle d'audit groupe
 
-**Source** : `../../../../S4 - Sources/TD 2/Qualification of Findings and Security Authorization Process _ Lockbay Academy.pdf`
 **Critères en vigueur** : ISO/IEC 27001:2022 (Annexe A) + directives PSSI cadre codifiées en séance 1 (`ACC-01` à `COR-01`), qui font foi quel que soit le libellé adopté par la filiale.
 **Règle de gradation** : la gravité **ressentie** n'entre jamais dans la justification — seuls comptent **l'exigence citée** et **l'étendue mesurée** de l'écart.
 
@@ -17,7 +16,7 @@
 | **C5** | Éducation | Comptes d'administration partagés entre les équipes des deux filiales du cluster (DSI mutualisée), personne ne pouvant dire qui a fait quoi | A.5.16, A.8.2 | **Non-conformité majeure** | L'imputabilité est inopérante **entre deux filiales**, pas sur un cas isolé — c'est le fonctionnement courant de la DSI mutualisée, pas un incident ponctuel |
 | **C6** | Territoires | Journaux conservés localement six mois, **jamais transmis** au SOC centralisé du groupe, consultés sur demande seulement ; demande de contact du SOC restée sans réponse | `JRN-01`, A.8.15 | **Non-conformité majeure** *(débattue — voir ci-dessous)* | La collecte centralisée exigée par `JRN-01` est **totalement absente** pour cette filiale, qui relève en outre du RGS — un cadre où la traçabilité outillée n'est pas un confort |
 | **C7** | Logistique↔Santé | VLAN dédié et pare-feu d'inspection en place sur l'API de réapprovisionnement d'urgence, **seul cloisonnement du groupe** ; flux suspendu depuis trois mois à la demande du RSSI Santé | A.8.22 | **Conforme** *(sur ce flux)* | Le cloisonnement exigé par A.8.22 est en place et documenté sur l'interconnexion concernée ; la nuance à écrire ailleurs (TP 1, TP 2) est que ce point conforme porte sur un flux **à l'arrêt** — un conforme hors périmètre utile ne couvre rien d'autre |
-| **C8** | Éducation | Onze abonnements à des services en ligne souscrits par les équipes pédagogiques hors DSI, sans contrat ni analyse d'impact (shadow IT vu en séance 2) | *aucune exigence précise directement violée* | **Observation** *(débattue — voir ci-dessous)* | L'énoncé le dit lui-même : aucune exigence précise du périmètre d'audit n'est directement violée — c'est la définition même de l'observation, un signal que l'auditeur ne peut pas accrocher à une exigence, consigné parce que le taire serait malhonnête |
+| **C8** | Éducation | Onze abonnements à des services en ligne souscrits par les équipes pédagogiques hors DSI, sans contrat ni analyse d'impact (shadow IT vu en séance 2) | *aucune exigence précise directement violée* | **Observation** *(débattue — voir ci-dessous)* | Le constat le dit lui-même : aucune exigence précise du périmètre d'audit n'est directement violée — c'est la définition même de l'observation, un signal que l'auditeur ne peut pas accrocher à une exigence, consigné parce que le taire serait malhonnête |
 
 ---
 
@@ -30,7 +29,7 @@
 
 ### C8 — Éducation, shadow IT
 
-- **Argument pour « observation »** *(gradation retenue ci-dessus)* : l'énoncé exclut lui-même une exigence précisément violée ; on est dans le signal qu'il serait malhonnête de taire, pas dans l'écart mesurable contre un critère.
+- **Argument pour « observation »** *(gradation retenue ci-dessus)* : aucune exigence n'est précisément violée ; on est dans le signal qu'il serait malhonnête de taire, pas dans l'écart mesurable contre un critère.
 - **Argument pour « non-conformité mineure »** : onze abonnements sans contrat ni analyse d'impact touchent concrètement A.5.19 (relations fournisseurs — aucune clause de sécurité sur ces services) et, en creux, l'inventaire des actifs informationnels (A.5.9) puisque personne ne sait ce qui y transite ; sous cet angle l'écart est réel, seulement circonscrit et pas encore relié à un incident.
 
 ---

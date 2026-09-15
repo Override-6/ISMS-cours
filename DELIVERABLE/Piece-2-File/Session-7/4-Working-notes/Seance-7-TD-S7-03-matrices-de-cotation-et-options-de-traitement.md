@@ -1,15 +1,5 @@
 # Séance 7 — TD 2 (S7-03) : Matrices de cotation et options de traitement
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — appliquées au **groupe MERIDIAN** (les quatre filiales)
-
-> Enchaînement de la journée : le TD 1 du matin a **chiffré le coût de l'inaction** pour le scénario
-> d'indisponibilité de l'actif critique de la filiale instruite ; le CM a posé le **processus ISO/IEC
-> 27005:2022** et son vocabulaire (appréciation, évaluation, traitement, risque résiduel, registre). Ce
-> TD 2 **outille la décision** : il cote les scénarios sur la matrice 4×4, pose la ligne d'acceptation, et
-> choisit une option de traitement pour chacun. Rien ici n'est jetable : les quatre cotations de l'exercice 1
-> se retrouvent dans le **registre de risques** saisi cet après-midi dans `translog-b` (TP 1) ; les décisions
-> de l'exercice 3 — avec leurs porteurs et leurs échéances — deviennent les lignes du **plan de traitement**
-> de **D7** (TP 2) ; la position tenue à l'exercice 2 devient la **sous-section 7** de la note de stratégie.
-> C'est ici que l'appétence écrite en séance 5 cesse d'être une phrase et devient un arbitrage.
+### Réponses du Groupe 4 (Translog) — appliquées au **groupe MERIDIAN** (les quatre filiales)
 
 **Règle du jour** : les échelles de gravité **G1-G4** et de vraisemblance **V1-V4**, rédigées et justifiées
 dans **D5** (séance 5), sont **reprises telles quelles**. Recoter avec une échelle neuve rendrait
@@ -25,7 +15,6 @@ sécurité), **MFA** (authentification multifacteur), **DLP** (*data loss preven
 de données), **HDS** (hébergeur de données de santé), **SR/OV** (source de risque / objectif visé),
 **ER** (événement redouté), **IT/OT** (bureautique / industriel), **DP** (données personnelles),
 **ComEx** (Comité Exécutif).
-**Corrigé de l'énoncé replié** (« cliquer pour révéler »), non extractible — réponses bâties sur le corpus :
 énoncé du TD 2 *« Matrices de cotation et options de traitement »*, CM de la séance 7 (processus ISO/IEC
 27005:2022), TD 1 du matin, reference pack MERIDIAN (version 1, 31 août 2026), pack de filiale MERIDIAN
 Logistique (version 1, 3 septembre 2026), D1 (gouvernance et RACI), D4 (constats gradés), D5 (échelles,
@@ -60,7 +49,7 @@ portefeuille de groupe.
 
 ## Les deux notions à outiller avant de coter (cadrage, 15 min)
 
-*Le CM les a nommées sans les outiller. Un quart d'heure suffit, à condition d'écrire aussi ce qu'elles ne
+*Le cadre de référence les nomme sans les outiller. Un quart d'heure suffit, à condition d'écrire aussi ce qu'elles ne
 font pas.*
 
 | Notion | Ce que c'est | Sa mécanique | Ce qu'elle ne fait **pas** |
@@ -350,7 +339,7 @@ Les quatre scénarios sont cotés et la ligne est arrêtée. Pour chaque risque 
 décision, un porteur et une échéance**. Le Directeur Financier assistera à la séance et posera la même
 question à chaque ligne : **combien, et pourquoi maintenant ?**
 
-*Contrainte de l'énoncé : au moins une des quatre options n'est pas « réduire », faute de quoi les autres
+*Contrainte de méthode : au moins une des quatre options n'est pas « réduire », faute de quoi les autres
 familles n'ont pas été examinées. **Ici, deux ne le sont pas** — un transfert partiel sur A, une acceptation
 formelle sur D. Les porteurs sont pris dans la carte du pouvoir (pack §3 pour Logistique, reference pack §2
 et §3 pour les autres filiales) : **une mesure sans porteur est un souhait.** Chaque décision est écrite pour
@@ -480,20 +469,7 @@ direction d'une filiale — sans que le RSSI se substitue à la direction pour a
 
 | Destination | Ce qui vient d'ici |
 |---|---|
-| **TP 1** — atelier 4 et registre dans `translog-b` | Les **cotations des quatre scénarios**, dont le scénario **C** qui est celui de la filiale instruite : sa gravité G4 et sa vraisemblance V3 sont à **vérifier contre l'affichage de l'outil** (l'énoncé du TP le demande explicitement pour le scénario déjà coté au TD). Le **seuil d'acceptation** s'applique inchangé au registre complet, **y compris aux événements redoutés sans scénario** que l'outil ajoutera — chez nous **ER3** (chaîne du froid) et **ER5** (réapprovisionnement de Santé), signalés dans D5 comme restés sans source de risque retenue. Les **options de traitement** de l'exercice 3 se saisissent comme statuts, et **les porteurs pris dans la carte du pouvoir §3** sont déjà nommés, avec la distinction contrat / réseau bureautique / réseau industriel qui évite de confier un avenant à quelqu'un qui ne signe pas les contrats. |
-| **TP 2 — livrable D7** (5 pts) | Les quatre décisions deviennent les lignes du **plan de traitement**, organisé **par décision et non par scénario**, avec l'effet attendu sur la cotation qui justifiera le résiduel. La fiche d'acceptation du scénario **D** est déjà écrite aux **cinq éléments** exigés (risque coté, raison, instance, date, réexamen) et porte en plus sa mesure compensatoire. Les **mesures transversales sont identifiées et se regrouperont** : l'intégration au SOC sert A **et** B ; les comptes nommés avec MFA servent A **et** C. Le **test de restauration du WMS** est nommé comme la mesure qui transformera la borne haute de la fourchette du TD 1 en chiffre — c'est le raccord direct entre le coût de l'inaction du matin et le total budgétaire du plan. |
+| **TP 1** — atelier 4 et registre dans `translog-b` | Les **cotations des quatre scénarios**, dont le scénario **C** qui est celui de la filiale instruite : sa gravité G4 et sa vraisemblance V3 sont à **vérifier contre l'affichage de l'outil** (vérification requise pour le scénario déjà coté). Le **seuil d'acceptation** s'applique inchangé au registre complet, **y compris aux événements redoutés sans scénario** que l'outil ajoutera — chez nous **ER3** (chaîne du froid) et **ER5** (réapprovisionnement de Santé), signalés dans D5 comme restés sans source de risque retenue. Les **options de traitement** de l'exercice 3 se saisissent comme statuts, et **les porteurs pris dans la carte du pouvoir §3** sont déjà nommés, avec la distinction contrat / réseau bureautique / réseau industriel qui évite de confier un avenant à quelqu'un qui ne signe pas les contrats. |
+| **TP 2 — livrable D7** | Les quatre décisions deviennent les lignes du **plan de traitement**, organisé **par décision et non par scénario**, avec l'effet attendu sur la cotation qui justifiera le résiduel. La fiche d'acceptation du scénario **D** est déjà écrite aux **cinq éléments** exigés (risque coté, raison, instance, date, réexamen) et porte en plus sa mesure compensatoire. Les **mesures transversales sont identifiées et se regrouperont** : l'intégration au SOC sert A **et** B ; les comptes nommés avec MFA servent A **et** C. Le **test de restauration du WMS** est nommé comme la mesure qui transformera la borne haute de la fourchette du TD 1 en chiffre — c'est le raccord direct entre le coût de l'inaction du matin et le total budgétaire du plan. |
 | **Sous-section 7 de la note de stratégie** | La position du groupe sur l'**acceptabilité du risque** : la ligne d'acceptation est celle de la séance 5, **elle n'a pas bougé** — et l'épisode de l'exercice 2 est ce qui le prouve, puisqu'on a refusé de la déplacer sous la pression d'une direction de filiale. Les **décisions structurantes** : trois réductions engagées, un transfert assurantiel **encadré** (complément, jamais substitut), une acceptation formelle signée au niveau où l'appétence est fixée. Ce qui **reste ouvert** : la fenêtre d'intervention sur les automates — que le Directeur de la filiale refuse « dix mois sur douze », et qui remontera au ComEx, au besoin par le veto suspensif `ARB-01` — et la décision d'architecture sur le projet Éducation → Territoires, dont le déploiement ferait passer le scénario B en G4. Une demi-page, sans recopier D7. |
 
----
-
-référence du module (replié dans l'énoncé, « cliquer pour révéler »).*
-
----
-
-> **Phrase de passage aux TP.** Les quatre scénarios du groupe ont une place sur la grille, une décision, un
-> porteur et une échéance ; la ligne d'acceptation a tenu, et c'est la Direction Générale qui la signe. Le
-> **TP 1** fait entrer tout cela dans `translog-b` — atelier 4 décliné maillon par maillon, registre généré,
-> résiduels cotés **après** décision — parce qu'un risque qui n'est pas au registre est un risque que
-> personne ne suivra. Le **TP 2** en tire le plan de traitement et le dossier **D7**, et met son coût annuel
-> **en face de la fourchette du coût de l'inaction chiffrée ce matin** : c'est l'arbitrage promis au
-> Directeur Financier, un coût certain contre une perte plausible.

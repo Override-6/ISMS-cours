@@ -2,7 +2,7 @@
 
 **Pourquoi tout inventaire d'actifs est-il faux, et qu'en fait-on ?**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -23,5 +23,3 @@ Il y a deux façons pour un inventaire d'être faux, et elles n'appellent pas la
 > Je recommande que le Comité Exécutif étende sans attendre le prochain cycle d'inventaire le critère « données transitées / alternative validée » de la séance 2 au compte partagé de la TMA de Logistique, avec un passage à des accès nominatifs sous trente jours — le même délai que la règle de groupe déjà proposée pour tout élément hors inventaire. Le coût est nul : l'alternative existe, seule la nomination manque. Je recommande aussi que la valorisation de la découverte, actée pour Éducation, devienne une règle écrite avant le prochain incident, pas après.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même question, avec son propre angle.*

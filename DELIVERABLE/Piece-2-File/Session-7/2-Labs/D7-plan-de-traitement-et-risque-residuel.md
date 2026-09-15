@@ -176,7 +176,7 @@
 Si un résiduel devait, au prochain cycle, rester `High` malgré le traitement engagé — par exemple si le test de restauration (`PT-04`) révélait un RTO incompatible avec l'appétence — la dérogation porterait alors les trois éléments supplémentaires exigés : pourquoi le traitement complémentaire n'est pas engagé, ce qu'il faudrait pour l'engager, et à quelle condition la dérogation tomberait. Ce cas ne se présente pas aujourd'hui.
 
 ---
-## 6. Ce qui s'emporte vers la séance 8 — déclaration d'applicabilité
+## 6. Rapprochement des mesures aux exigences ISO/IEC 27001:2022
 
 Chaque mesure du plan est formulée en **objectif vérifiable**, pas en intention générale, pour pouvoir être rapprochée d'une exigence d'ISO/IEC 27001:2022 (référentiel retenu en séance 3) :
 

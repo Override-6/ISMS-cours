@@ -1,8 +1,6 @@
 # Séance 2 — TP (S2-05) : Entering the mapping into CISO Assistant
 ### Livrable du Groupe 4 (Translog), instance **translog-b**, filiale sous revue **MERIDIAN Logistique**
 
-> Rappel de la règle d'or de la saisie : **ne jamais entrer ce qui n'a pas été décidé sur papier.** Tout ce qui suit reprend, sans invention, les valeurs métier, biens supports et notations DICT déjà produits dans `Seance-2-TD-S2-03-valeurs-metier-DICT.md`. Ce TP ne crée pas de contenu, il **transpose**.
-
 ---
 
 ## Ce que ce TP apporte, et ce qu'il n'apporte pas
@@ -102,7 +100,7 @@ Correspondance de vocabulaire (identique à l'ISO 27005 / EBIOS RM vus en TD) :
 | VLAN dédié + pare-feu d'inspection | « Seul cloisonnement réseau du groupe ; sépare le flux Logistique→Santé décrit ci-dessus. Rattachement inter-filiale non représentable nativement dans l'outil : documenté ici en description, faute d'objet "instance croisée". » |
 | API d'approvisionnement d'urgence | « Interface partagée avec l'instance Santé (medsecure) ; TLS 1.3 + MFA exigés côté urgence (cf. gouvernance cible, S1-05). » |
 
-**Limite de l'outil** : chaque instance CISO Assistant étant propre à une seule filiale, l'actif primaire « réapprovisionnement d'urgence » lui-même n'existe que côté Santé (medsecure) — notre instance translog-b ne peut pas le porter, seulement documenter, **dans la description** de nos propres biens supports, qu'ils l'alimentent. C'est exactement la limite annoncée par l'énoncé : *« c'est la description qui porte le lien aujourd'hui »*. Une vraie cartographie de groupe supposerait un objet de niveau supérieur aux instances filiale — un jalon plausible pour la feuille de route triennale (S1-06) plutôt qu'un correctif de cette séance.
+**Limite de l'outil** : chaque instance CISO Assistant étant propre à une seule filiale, l'actif primaire « réapprovisionnement d'urgence » lui-même n'existe que côté Santé (medsecure) — notre instance translog-b ne peut pas le porter, seulement documenter, **dans la description** de nos propres biens supports, qu'ils l'alimentent. C'est la description qui porte le lien aujourd'hui. Une vraie cartographie de groupe supposerait un objet de niveau supérieur aux instances filiale — un jalon plausible pour la feuille de route triennale (S1-06) plutôt qu'un correctif de cette séance.
 
 **Preuve d'état dans `translog-b`** :
 1. Export ou capture d'écran de la liste des actifs de `MERIDIAN-LOGISTIQUE` : 4 actifs primaires + 13 actifs support rattachés (les 11 de l'étape 3 + les 2 actifs réseau/interface de l'étape 5).
@@ -114,7 +112,7 @@ Correspondance de vocabulaire (identique à l'ISO 27005 / EBIOS RM vus en TD) :
 ---
 # Annexe A — Fiches de saisie complètes (formulaire *Asset* de CISO Assistant)
 
-> **Pourquoi cette annexe.** Le formulaire réel de l'outil est plus riche que le tableau du TD : il demande un ID, un domaine, une classe, un assigné, un type, **deux sens de dépendance**, des *security targets*, des *disaster recovery objectives* et un bloc *DORA specific*. La règle d'or ne change pas pour autant : **on ne saisit que ce qui a été décidé sur papier**. Chaque champ ci-dessous est donc dans l'un de ces trois états, et jamais un quatrième :
+> **Conventions de saisie.** Le formulaire de l'outil demande un ID, un domaine, une classe, un assigné, un type, **deux sens de dépendance**, des *security targets*, des *disaster recovery objectives* et un bloc *DORA specific*. La règle d'or ne change pas pour autant : **on ne saisit que ce qui a été décidé sur papier**. Chaque champ ci-dessous est donc dans l'un de ces trois états, et jamais un quatrième :
 > - **valeur reprise** du S2-01 / S2-03 / S2-05 → saisie telle quelle ;
 > - **proposition** non encore arbitrée → saisie préfixée `[À VALIDER]`, pour qu'un lecteur ne la confonde jamais avec une décision ;
 > - **champ vide assumé** → laissé vide, avec la raison écrite ici (un champ vide documenté vaut mieux qu'un champ rempli au jugé).

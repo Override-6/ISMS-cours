@@ -2,7 +2,7 @@
 
 **Émetteur** RSSI Groupe (auto-évaluation outillée, premier cycle du programme d'audit interne)
 **Destinataires** Direction Générale de MERIDIAN Logistique (décide), Comité Exécutif Groupe (informé), DSI et Exploitation de la filiale (agissent)
-**Groupe 4 (Translog)** · instance `translog-b` · **Séance 4** · trois pages
+**Groupe 4 (Translog)** · instance `translog-b` · **Séance 4**
 
 ---
 

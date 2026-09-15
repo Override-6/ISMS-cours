@@ -1,5 +1,5 @@
 # Séance 2 — TD (S2-01) : The CISO's briefing — The asset inventory
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
+### Réponses du Groupe 4 (Translog)
 
 ---
 

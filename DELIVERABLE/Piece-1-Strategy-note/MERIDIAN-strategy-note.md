@@ -3,10 +3,7 @@
 **Groupe 4 (Translog)** · Miguel Monereo, Maxime Batista · filiale **MERIDIAN Logistique** · instance `translog-b`, périmètre `MERIDIAN-LOGISTIQUE`
 **Version du 15 septembre 2026** · huit sous-sections, une par séance de travail
 
-> **Objet.** Ce document répond à quatre questions, et à celles-là seules : **où en est la filiale, où
-> elle doit aller, comment elle y va, ce que cela coûte.** Il n'est pas un résumé des livrables. Chaque
-> sous-section s'articule aux précédentes ; rien n'y est supprimé — une sous-section qui en contredit une
-> autre l'amende par une phrase datée au journal, elle ne l'efface pas.
+> **Objet.** Où en est MERIDIAN Logistique, où elle doit aller, comment elle y va, ce que cela coûte.
 
 | # | Séance | Sous-section | Question servie |
 |---|---|---|---|

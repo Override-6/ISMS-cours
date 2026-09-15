@@ -15,7 +15,7 @@ scénarios stratégiques et opérationnel — et le a relit en fin de séance.
 | 1b | Matrice `4x4 risk matrix from EBIOS-RM`, méthode `Manual` (constatée dans la liste des études avant ouverture) | Oui |
 | 1d | `Assets` = 17 | Oui |
 | 1e | `Audits` = 1 | Oui |
-| 1f | `Feared events` = **7**, tous Selected | Oui — écart avec l'énoncé (qui annonce six) **confirmé et non corrigé**, cf. §0 du plan : ER7 a été ajouté au TP 2 de la séance 5, D5 fait foi |
+| 1f | `Feared events` = **7**, tous Selected | Oui — écart avec le compte attendu (six) **confirmé et non corrigé** : ER7 a été ajouté au TP 2 de la séance 5, D5 fait foi |
 | 1g | `RO/TO couples` = 5, Selected sur n°1, 3, 4 | Oui |
 | 1h | Ateliers 3, 4, 5 vides avant saisie | Oui |
 
@@ -86,7 +86,7 @@ confirmé** : le champ *Focused feared event* n'accepte **qu'un seul** événeme
 sélection unique, pas de multi-sélection). ER6 n'a donc **pas** pu être rattaché en objet : il reste écrit
 dans la description du scénario et dans celle du chemin d'attaque, exactement comme le plan l'anticipait en
 alternative. Un seul chemin créé (`AP.01`), rattaché à APPLICA — le seul chemin exigé par le critère de
-l'énoncé (« au moins un chemin par scénario, relié à une partie prenante critique »).
+la règle (« au moins un chemin par scénario, relié à une partie prenante critique »).
 
 Couple n°3 (`Avenger`) **non traité** : son chemin ne passe pas par l'écosystème (initié de l'Exploitation),
 conforme à la règle de méthode écrite dans le plan — geste à documenter en séance 7.
@@ -122,14 +122,14 @@ saisie.
 
 ---
 
-## 6. Ce qui reste volontairement vide
+## 6. Hors du périmètre de ce travail — vide
 
 - **Atelier 5** : aucun objet, aucune mesure de traitement. Capture `S6-05-atelier5-vide-et-compteurs.jpg`.
 - **Couple SR/OV n°3** : sans scénario stratégique (méthode, cf. §4).
 - **Valeurs résiduelles des parties prenantes** : identiques aux valeurs courantes, aucun traitement engagé.
 - **Deuxième scénario opérationnel** (chemin `AP.02` de SS1, chemin de SS2) : la règle « un scénario
   opérationnel par chemin retenu » sera honorée en séance 7 ; un seul amorce l'atelier 4 aujourd'hui,
-  conformément à l'énoncé.
+  conformément à la méthode.
 
 ---
 

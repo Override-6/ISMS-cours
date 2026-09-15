@@ -1,7 +1,5 @@
 # Séance 2 — TD (S2-03) : Business assets, supporting assets and DICT needs
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — appliquées à **MERIDIAN Logistique**
-
-> Note de méthode : le TD officiel illustre l'Exercice 1 avec la filiale Santé. Notre filiale sous revue étant **MERIDIAN Logistique**, nous rejouons l'Exercice 1 sur notre propre dossier de filiale (au lieu de Santé) — c'est plus utile pour notre livrable réel, et l'Exercice 2 du TD porte de toute façon déjà sur Logistique par construction.
+### Réponses du Groupe 4 (Translog) — appliquées à **MERIDIAN Logistique**
 
 ---
 
@@ -51,7 +49,7 @@
 
 *4 faits réels servant d'étalon : CH Simone Veil de Cannes 2024 (ransomware, 15 % des postes chiffrés → disponibilité) ; amende CNIL Free/Free Mobile 2026, 42 M€ (confidentialité) ; France Travail 2024, 43 millions de personnes (l'échelle que peut prendre l'atteinte à une seule valeur métier) ; ENISA 2024, 32 % des opérateurs énergie européens sans supervision SOC de leurs processus OT critiques (traçabilité absente en monde industriel).*
 
-### Q1. Deux valeurs métier de la filiale (imposées par l'énoncé du TD)
+### Q1. Deux valeurs métier de la filiale
 
 1. **La traçabilité du fret** (l'information qui rend le service valorisable pour les clients, notamment le client pharmaceutique)
 2. **L'exécution des flux logistiques** (déjà identifiée en Exercice 1 — le TD réutilise volontairement la même valeur métier pour la noter)

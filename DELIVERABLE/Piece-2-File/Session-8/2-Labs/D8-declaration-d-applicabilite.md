@@ -4,8 +4,6 @@
 **Date d'établissement** : 15 septembre 2026 · **cycle 1** · **référentiel** : ISO/IEC 27001:2022, retenu par le Comité Exécutif en séance 3 (D3)
 **Source d'état** : évaluation *« MERIDIAN - ISO/IEC 27001:2022 - initial assessment »* (`0f757e40-a51a-4563-9eb2-3ccd18c31d02`), renseignée au TP 1 de la séance 8 · captures `../3-Evidence/S8-05-*`
 
-> **Document destiné à un lecteur extérieur** — auditeur de certification, client, successeur. Il ne suppose aucune connaissance de MERIDIAN : chaque sigle est développé à son premier emploi, chaque renvoi nomme sa pièce, chaque affirmation porte sa preuve.
->
 > **Sigles** : **SMSI** système de management de la sécurité de l'information (*ISMS*) · **SoA** déclaration d'applicabilité (*Statement of Applicability*) · **WMS** logiciel de gestion d'entrepôt (*warehouse management system*) · **TMA** tierce maintenance applicative · **IT/OT** réseau bureautique / réseau industriel · **SOC** centre de supervision de la sécurité (*security operations center*) · **DSI** direction des systèmes d'information de la filiale · **MFA** authentification multifacteur · **RTO** durée maximale d'interruption admissible.
 
 ---

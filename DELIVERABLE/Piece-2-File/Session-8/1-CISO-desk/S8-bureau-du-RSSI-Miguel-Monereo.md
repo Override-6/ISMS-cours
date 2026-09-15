@@ -2,7 +2,7 @@
 
 **« ... une certification ISO/IEC 27001 valide couvrant les services fournis à ce tiers, ou une démarche documentée équivalente. »**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -50,6 +50,3 @@ certitude, et il vaut mieux que le Comité le tienne de moi que d'un juriste du 
 > reste une décision distincte, que le Comité prend jeudi sur le dossier que nous lui remettons.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même
-question, avec son propre angle.*

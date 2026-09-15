@@ -2,7 +2,7 @@
 
 **Pourquoi tout inventaire d'actifs est-il faux, et qu'en fait-on ?**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -27,5 +27,3 @@ Tout inventaire est faux, et pour trois raisons qui n'ont rien d'accidentel — 
 > Je recommande d'inscrire au plan de la filiale, à moyens constants et **sous quatre-vingt-dix jours**, la mise par écrit de l'organisation des six entrepôts aujourd'hui détenue par le seul Responsable Exploitation — sites, circuits, interlocuteurs, gestes d'exploitation — et de la faire relire par un chef d'entrepôt qui n'en est pas l'auteur. C'est le seul actif de notre Top 5 qu'aucun budget ne remplace après coup, et le seul dont la perte est certaine à terme plutôt que probable. J'y ajoute l'adoption de la règle de groupe : un propriétaire par actif, tout élément hors inventaire traité sous trente jours.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même question, avec son propre angle.*

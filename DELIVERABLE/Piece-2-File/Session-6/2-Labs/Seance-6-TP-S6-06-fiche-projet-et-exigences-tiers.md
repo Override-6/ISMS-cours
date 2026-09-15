@@ -5,8 +5,6 @@
 **Date** : 10 septembre 2026 · **compte utilisé pour la vérification et l'export** : `maximebatista18@gmail.com` (compte nominatif, jamais `admin@lockbay.eu`)
 **Matière** : TD 2 (`../4-Working-notes/Seance-6-TD-S6-03-management-des-tiers-infogerance-ateliers-3-4.md`), TP 1 (`Seance-6-TP-S6-05-feuille-de-travail-ecosysteme-et-scenarios.md`), extrait de contrat `TMA-WMS-2021`, CM séance 6 (six jalons, trois régimes), énoncé du TP 2 (gabarits), D2, D4, D5.
 
-> **Ce fichier n'est pas le livrable.** C'est la trace du TP 2 : le choix du projet et sa justification, les écarts outil, la répartition nominative, le geste sur la capture manquante de la séance 5. Le livrable est **D6** (`D6-tiers-et-projets.md`), et la note de stratégie gagne sa sous-section 6.
-
 ---
 
 ## 0. Répartition nominative
@@ -25,20 +23,20 @@ TP 1 (saisie de l'écosystème et des scénarios) : fait par Miguel Monereo le 1
 
 ## 1. Pièce 1 — Le choix du projet, et pourquoi celui-là
 
-**L'énoncé demande « un projet réel du pack de filiale, celui que le pack porte, cadré comme s'il était lancé aujourd'hui ».** Le CM donne le modèle : pour le cluster Éducation & Territoires, c'est la plateforme pédagogique qui se raccorde aux bases administratives de Territoires — un flux qui **traverse une frontière de filiale** ; *« Santé et Logistique appliqueront la même grille au projet de leur propre pack »*.
+**Le projet retenu doit être un projet réel du pack de filiale, cadré comme s'il était lancé aujourd'hui.** Le cas de référence donne le modèle : pour le cluster Éducation & Territoires, c'est la plateforme pédagogique qui se raccorde aux bases administratives de Territoires — un flux qui **traverse une frontière de filiale** ; *« Santé et Logistique appliqueront la même grille au projet de leur propre pack »*.
 
 **Projet retenu : la reprise sécurisée du flux d'approvisionnement d'urgence MERIDIAN Logistique → MERIDIAN Santé.** Quatre raisons :
 
-1. **C'est le projet que le pack de filiale porte** qui traverse une frontière de filiale — l'exact équivalent, côté Logistique, du cas du CM. Pack §6 « Ce qui franchit la frontière → Vers Santé » ; reference pack §5.1 (« le seul actif dont deux filiales dépendent »).
+1. **C'est le projet que le pack de filiale porte** qui traverse une frontière de filiale — l'exact équivalent, côté Logistique, du cas de référence. Pack §6 « Ce qui franchit la frontière → Vers Santé » ; reference pack §5.1 (« le seul actif dont deux filiales dépendent »).
 2. **C'est une décision réelle que le groupe a devant lui** : le flux est **coupé depuis trois mois** à la demande de la RSSI de Santé (« leur matériel n'est pas fiable ») ; le Pharmacien chef de Santé en demande la reprise (« on gère avec des commandes manuelles, ça ne tiendra pas l'hiver »). C'est un arbitrage `ARB-01` de D1.
 3. **Security by Design est exactement ce qui manque** : Santé a coupé pour une raison de sécurité ; la reprise doit **démontrer** des exigences, pas les affirmer. Cadrer la reprise comme un projet lancé aujourd'hui, avec les six jalons, répond à l'objection au lieu de la contourner.
 4. **Il porte l'événement redouté `ER5` de D5** (Critique, sans source de risque retenue à ce jour — D5 §4). Le traiter comme **projet** est une réponse méthodologiquement propre à cette recommandation de D5, sans forcer un couple SR/OV.
 
 **Projet écarté, et pourquoi** : l'**homologation du WMS et de ses échanges avec le portail du client pharmaceutique**, cadrée mais incomplète en séance 4 (D4 §6). C'est un bon candidat, mais (a) c'est la continuation d'un cadrage déjà ouvert, pas un projet « lancé aujourd'hui », (b) il ne traverse pas une frontière de filiale, et (c) la pièce 2 de D6 traite déjà la relation WMS ↔ APPLICA — la fiche projet apporte plus en couvrant un terrain distinct (le flux inter-filiales). À reprendre en séance 7 si le registre l'exige.
 
-**Régime du projet** : mixte, explicité ligne par ligne dans D6 §2.3 — développer/exploiter en interne (VLAN, pare-feu, parc scannettes), faire faire (correction de l'interface, contrat APPLICA art. 2), partenaire (système de Santé). Aucun des trois régimes du CM ne le décrit seul, et le dire est le critère de l'énoncé.
+**Régime du projet** : mixte, explicité ligne par ligne dans D6 §2.3 — développer/exploiter en interne (VLAN, pare-feu, parc scannettes), faire faire (correction de l'interface, contrat APPLICA art. 2), partenaire (système de Santé). Aucun des trois régimes ne le décrit seul, et le dire est le critère retenu.
 
-**Jalon M4 sous forme d'autorisation** : l'énoncé le prévoit — *« pour un système soumis à autorisation, le critère de M4 est la décision d'autorisation prononcée par l'autorité désignée en séance 4 »*. Ici l'autorité n'est pas la DSI d'une filiale mais l'instance qui engage le groupe sur un flux inter-filiales (D6 §2.5) : la décision de reprise signée des deux filiales, sous l'acceptation du risque résiduel par la DG.
+**Jalon M4 sous forme d'autorisation** : la méthode le prévoit — *« pour un système soumis à autorisation, le critère de M4 est la décision d'autorisation prononcée par l'autorité désignée en séance 4 »*. Ici l'autorité n'est pas la DSI d'une filiale mais l'instance qui engage le groupe sur un flux inter-filiales (D6 §2.5) : la décision de reprise signée des deux filiales, sous l'acceptation du risque résiduel par la DG.
 
 ---
 
@@ -54,9 +52,9 @@ Les cinq familles et leurs exigences vérifiables **sont celles du TD 2, exercic
 | Traçabilité / comptes nommés | SS1 **et** SS2 (intrusion / exfiltration indistinguables d'une maintenance) + écart `C4` **majeur** + mesure `M4` de D4 (8/11/2026) + silence art. 3 (`svc-applica` partagé) |
 | Maîtrise de la sous-traitance | SS2 `AP.01` (sous-traitant d'un développement « sur devis », non déclaré) + silence art. 2 + contrôles `A.5.19`–`A.5.22` |
 
-**Dispositif de surveillance** (indicateurs, comité de suivi, preuve annuelle, ce qui reste au client) : repris du TD 2 §« Ce qui maintient ces exigences en vie après signature », mis au gabarit de l'énoncé (Indicateur 1/2/3, Follow-up committee, Evidence due every year, What stays with the client). Rien inventé : les trois indicateurs sont des métriques de directives déjà écrites (`COR-01`, `INC-01`, la moitié « comptes » de `ACC-02`).
+**Dispositif de surveillance** (indicateurs, comité de suivi, preuve annuelle, ce qui reste au client) : repris du TD 2 §« Ce qui maintient ces exigences en vie après signature », mis au gabarit retenu (Indicateur 1/2/3, Follow-up committee, Evidence due every year, What stays with the client). Rien inventé : les trois indicateurs sont des métriques de directives déjà écrites (`COR-01`, `INC-01`, la moitié « comptes » de `ACC-02`).
 
-**Le contrat vient à renouvellement le 8 novembre 2026** (art. 7 : 4 ans depuis le 8/11/2021, puis périodes d'un an) — les exigences vont *« au cahier des charges de son renouvellement ou de son avenant »*, exactement la fenêtre de l'énoncé. C'est aussi la date des mesures `M3` et `M4` de D4.
+**Le contrat vient à renouvellement le 8 novembre 2026** (art. 7 : 4 ans depuis le 8/11/2021, puis périodes d'un an) — les exigences vont *« au cahier des charges de son renouvellement ou de son avenant »*, exactement la fenêtre utile. C'est aussi la date des mesures `M3` et `M4` de D4.
 
 ---
 
@@ -67,7 +65,7 @@ Les cinq familles et leurs exigences vérifiables **sont celles du TD 2, exercic
 | 1. Objet et principe | TD 1 (16 dépendances) + TD 2 (atelier 3) + guide ANSSI infogérance (cité au TD 2) |
 | 2. Fiche projet (M1–M6, responsabilités, arbitrages) | CM séance 6 (six jalons, trois régimes, propriétaire unique) + pack §6, §7 + reference pack §5.1 + D2 §5 + D1 (`ARB-01`, RACI) + D4 §6 (forme d'autorisation) + D5 (`ER5`, `ER2`) |
 | 3.1 Exigences vérifiables tracées | TD 2 exercice 1 + extrait de contrat article par article + scénarios SS1/SS2 de l'étude + écarts `C3`/`C4`/`A.8.15`/`A.5.17` de D4 + mesures `M3`/`M4` de D4 |
-| 3.2 Dispositif de surveillance | TD 2 § surveillance + gabarit de l'énoncé + directives `PSSI-CADRE` de D1 |
+| 3.2 Dispositif de surveillance | TD 2 § surveillance + gabarit retenu + directives `PSSI-CADRE` de D1 |
 | 4. Étude EBIOS RM à l'appui | Feuille de travail du TP 1 + captures `S6-05-*` + export généré aujourd'hui (§5 ci-dessous) |
 | 5. Ce qui reste (S7) | Feuille de travail du TP 1 §6 + D5 §4 |
 
@@ -79,7 +77,7 @@ Les cinq familles et leurs exigences vérifiables **sont celles du TD 2, exercic
 
 | # | Point | Traitement |
 |---|---|---|
-| 1 | L'énoncé du TP 2 parle du projet « du pack de filiale » au singulier — le pack en porte deux lisibles (flux Santé ; homologation WMS). | Choix tranché et **écrit** (§1) : le flux Santé, quatre raisons. L'homologation WMS reste disponible pour la séance 7. |
+| 1 | Le travail porte sur « le » projet du pack de filiale, au singulier — le pack en porte deux lisibles (flux Santé ; homologation WMS). | Choix tranché et **écrit** (§1) : le flux Santé, quatre raisons. L'homologation WMS reste disponible pour la séance 7. |
 | 2 | La pièce 2 demande le contrat « du prestataire le plus exposé » — l'atelier 3 du TP 1 classe l'**intégrateur** (12,0) devant **APPLICA** (8,0) en dangerosité. | Pas de contradiction : « exposé » = **exposition** (dépendance × pénétration), et APPLICA a l'exposition la plus forte (**16**). L'intégrateur est le plus **dangereux** (fiabilité au plancher), APPLICA le plus **exposé**. Le module fournit le contrat d'APPLICA (`TMA-WMS-2021`) — c'est celui de la pièce 2. Les deux sont critiques ; l'intégrateur relève de la mesure `M2` de D4 (clause au contrat, 8/12/2026). |
 | 3 | `ER5` (réappro Santé, Critique) était sans source de risque retenue dans D5, avec une recommandation d'« ajouter un couple pivot Logistique → Santé avant l'atelier 3 » (D5 §4). Le TP 1 ne l'a pas ajouté. | `ER5` est traité ici comme **projet** (fiche projet, pièce 1), réponse méthodologiquement propre. Le couple SR/OV « pivot Logistique → Santé » et le couple « fournisseur des sondes » (pour `ER3`) restent à trancher en séance 7, comme le note la feuille de travail du TP 1 §6. |
 | 4 | Capture `S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg` citée par D5 et par la feuille S5-06, **absente** de `Session-5/3-Evidence/` (relevé au TP 1 §7-§8). | Traité aujourd'hui pendant que l'instance est ouverte — voir §5. |
@@ -125,17 +123,3 @@ rattaché, les 3 couples SR/OV retenus) a été extraite de la capture pleine pa
 exact que citent D5 (§ preuves à l'appui) et la feuille `S5-06` :
 `Session-5/3-Evidence/S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg`. L'affirmation de D5 est désormais
 tenue par une pièce. Aucun texte de D5 n'est modifié.
-
----
-
-## 6. Ce qui sort de ce TP
-
-| Sortie | Où | État |
-|---|---|---|
-| **Livrable D6** `D6-tiers-et-projets.md` | `Session-6/2-Labs/` | fiche projet (M1–M6) + exigences APPLICA (5 familles tracées) + dispositif de surveillance + étude à l'appui + reste S7 |
-| **Feuille de travail** (ce fichier) | `Session-6/2-Labs/` | choix du projet justifié, traçage, écarts, répartition nominative |
-| **Sous-section 6 de la note de stratégie** | `Piece-1-Strategy-note/MERIDIAN-strategy-note.md` | « tiers et projets », une demi-page, articulée aux sous-sections 1, 2 et 5 ; journal des amendements complété (S6 tient la promesse de S5) |
-| **Export de l'étude** | `Session-6/3-Evidence/` | `S6-06-rapport-etude-EBIOS-RM-ateliers-3-4.jpg` + `S6-06-ecosystem-criticites-5PP-2-selected.jpg` — composant « export » de D6 |
-| **Capture manquante de la séance 5** | `Session-5/3-Evidence/` | `S5-06-rapport-etude-EBIOS-RM-ateliers-1-2.jpg` produite (écart n°4) |
-
-**Fini quand** : D6 porte ses deux pièces cohérentes + l'export ; chaque exigence est tracée ; chaque jalon a un critère de passage factuel ; la sous-section 6 s'articule aux précédentes sans rien supprimer ; l'état de l'étude dans `translog-b` est vérifié et l'export est au dossier.

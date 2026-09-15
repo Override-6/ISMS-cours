@@ -2,7 +2,7 @@
 
 **« Ce qui est arrivé aux clients de ce logiciel de comptabilité, est-ce que ça peut nous arriver ? »**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -59,6 +59,3 @@ vaudra que si elle est opposable **avant** la signature.
 > inventaire qui continue de grandir dans notre dos.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même
-question, avec son propre angle.*

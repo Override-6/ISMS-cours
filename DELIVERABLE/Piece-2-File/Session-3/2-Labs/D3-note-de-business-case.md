@@ -1,7 +1,7 @@
 # D3 — NOTE DE BUSINESS CASE : CHOIX DU RÉFÉRENTIEL DE SÉCURITÉ DU GROUPE
 
 **Émetteur** RSSI Groupe · **Destinataire** Comité Exécutif · **Objet** décision d'adoption d'un référentiel unique
-**Groupe 4 (Translog)** · instance `translog-b` · **Séance 3** · deux pages
+**Groupe 4 (Translog)** · instance `translog-b` · **Séance 3**
 
 ---
 

@@ -1,7 +1,5 @@
 # Séance 1 — TP (S1-06) : Drafting the scoping document and strategy note
-### Livrables du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
-
-> Rappel du test qui sépare les 3 documents : la note de cadrage répond à *« quelle est ma mission ? »*, la feuille de route à *« quoi, et quand ? »*, la note de stratégie à *« où va-t-on, et pourquoi ? »* — celle-ci cite les deux autres, ne les recopie jamais.
+### Livrables du Groupe 4 (Translog)
 
 ---
 
@@ -18,7 +16,7 @@
 **Contreparties** : Direction Générale, à qui le RSSI Groupe propose ; Comité Exécutif, à qui il reporte, notamment via la revue trimestrielle ; Conseil d'Administration, informé via la Direction Générale ; Auditeur Interne, informé et jamais dirigé par le RSSI Groupe.
 
 **Limites** *(au moins 3 exclusions réalistes, ancrées dans la posture CISO de la séance du matin)* :
-1. Le RSSI Groupe **ne fixe pas** l'appétence au risque du groupe — il la propose et en informe les instances, conformément au tableau du CM (Responsible = Direction Générale, Accountable = Conseil d'Administration).
+1. Le RSSI Groupe **ne fixe pas** l'appétence au risque du groupe — il la propose et en informe les instances, conformément à la matrice de responsabilité (Responsible = Direction Générale, Accountable = Conseil d'Administration).
 2. Le RSSI Groupe **n'administre aucun système** — l'exploitation appartient aux filiales (ex. le WMS de Logistique reste sous la responsabilité de son DSI et de sa TMA).
 3. Le RSSI Groupe **ne se substitue pas** aux RSSI de filiale dans l'adaptation de la PSSI-cadre — il la valide, il ne la rédige pas à leur place.
 

@@ -3,7 +3,7 @@
 **Émetteur** RSSI Groupe · **Destinataires** Direction Générale du groupe (fixe la règle de contractualisation, accepte le risque résiduel), Comité Exécutif (en fait une condition de signature, arbitre budgets et priorités), Direction Juridique (rend la règle opposable), Direction et DSI de MERIDIAN Logistique + RSSI de MERIDIAN Santé (agissent sur le projet)
 **Groupe 4 (Translog)** · instance `translog-b` · étude `Étude EBIOS RM MERIDIAN - Logistique et approvisionnement d'urgence vers Santé - cycle 1` · **Séance 6**
 
-> **Livrable D6 — tiers et projets (7 points, le plus lourd du module).** Deux pièces écrites, cohérentes entre elles, plus l'export de l'étude EBIOS RM enrichie de son écosystème coté et de ses scénarios stratégiques (§4).
+> **Livrable D6 — tiers et projets.** Deux pièces écrites, cohérentes entre elles, plus l'export de l'étude EBIOS RM enrichie de son écosystème coté et de ses scénarios stratégiques (§4).
 > **Pièce 1 — la fiche projet** : *Security by Design* appliqué à un projet réel du pack de filiale, cadré comme s'il était lancé aujourd'hui, avec la discipline des six jalons (CM séance 6).
 > **Pièce 2 — les exigences de sécurité du contrat d'infogérance du WMS** (APPLICA Services), tracées à un scénario stratégique de l'atelier 3, à un écart gradé de l'audit de la séance 4 ou à un silence du contrat, complétées du dispositif qui les tient vivantes après signature.
 > **Le principe des deux pièces, et le critère d'acceptation** : *zéro exigence orpheline.* Un jalon sans critère de passage, une exigence sans justification, est un vœu — la grille d'acceptation le refuse. Chaque critère de passage se démontre par un **fait**, jamais par une déclaration ; on part du risque et on remonte à l'exigence, jamais l'inverse.
@@ -21,7 +21,7 @@ D6 traite ce sujet là où il se décide : **avant la signature**, au cadrage d'
 
 ## 2. Pièce 1 — Fiche projet : reprise sécurisée du flux d'approvisionnement d'urgence MERIDIAN Logistique → MERIDIAN Santé
 
-*Le projet que le pack de filiale porte, et qui traverse une frontière de filiale — l'équivalent, côté Logistique, du projet de plateforme pédagogique Éducation ↔ Territoires du CM. Le flux est **coupé depuis trois mois** à la demande de la RSSI de Santé (« leur matériel n'est pas fiable ») ; le Pharmacien chef de Santé en demande la reprise (« on gère avec des commandes manuelles, ça ne tiendra pas l'hiver »). La reprise est cadrée ici comme un projet lancé aujourd'hui.*
+*Le projet que le pack de filiale porte, et qui traverse une frontière de filiale — l'équivalent, côté Logistique, du projet de plateforme pédagogique Éducation ↔ Territoires pris en exemple par le cadre de référence. Le flux est **coupé depuis trois mois** à la demande de la RSSI de Santé (« leur matériel n'est pas fiable ») ; le Pharmacien chef de Santé en demande la reprise (« on gère avec des commandes manuelles, ça ne tiendra pas l'hiver »). La reprise est cadrée ici comme un projet lancé aujourd'hui.*
 
 ### 2.1 Objet et périmètre
 
@@ -46,7 +46,7 @@ D6 traite ce sujet là où il se décide : **avant la signature**, au cadrage d'
 
 ### 2.3 Régime du projet
 
-*Trois régimes du CM : développer / acheter / faire faire. Le projet est **mixte** et le tableau le dit ligne par ligne.*
+*Trois régimes : développer / acheter / faire faire. Le projet est **mixte** et le tableau le dit ligne par ligne.*
 
 | Composant | Régime | Ce que le groupe maîtrise / ne maîtrise pas | Levier de sécurité principal |
 |---|---|---|---|
@@ -133,7 +133,7 @@ D6 traite ce sujet là où il se décide : **avant la signature**, au cadrage d'
 
 ---
 
-## 5. Ce qui reste — séance 7
+## 5. Points ouverts
 
 - **Atelier 4 complet** : un scénario opérationnel pour chaque chemin d'attaque `Selected` (aujourd'hui : un seul, sur `AP.01` de SS1).
 - **Atelier 5** : le registre complet des risques coté sur les échelles **inchangées** de D5 (§1), le seuil `Low`/`Medium`/`High` appliqué, le plan de traitement chiffré sur trois ans — c'est **D7**.

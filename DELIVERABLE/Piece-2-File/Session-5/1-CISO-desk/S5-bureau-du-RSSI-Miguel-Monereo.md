@@ -2,7 +2,7 @@
 
 **« Qui fixe l'appétence au risque, et comment se rédige-t-elle ? »**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -55,6 +55,3 @@ Dater, surveiller et nommer un propriétaire sont trois décisions de direction.
 > à la direction, c'est de refuser d'en inscrire une qui n'aurait pas de date.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même
-question, avec son propre angle.*

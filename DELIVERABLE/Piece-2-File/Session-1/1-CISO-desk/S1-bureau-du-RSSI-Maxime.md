@@ -2,7 +2,7 @@
 
 **De quoi un conseil d'administration a-t-il réellement besoin de son RSSI ?**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -25,5 +25,3 @@ Un conseil d'administration arbitre des budgets, pas des risques abstraits. Ce d
 > Je recommande que le Comité Exécutif adopte une règle permanente : aucun sujet de sécurité n'est inscrit à son ordre du jour sans un chiffrage à deux colonnes — coût de la décision, coût de son absence. Le test de restauration du WMS en est le premier cas d'application immédiat : il ne demande aucun budget nouveau, seulement d'être présenté avec, en face, ce que coûterait de continuer à ne pas savoir si nous pouvons redémarrer.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même question, avec son propre angle.*

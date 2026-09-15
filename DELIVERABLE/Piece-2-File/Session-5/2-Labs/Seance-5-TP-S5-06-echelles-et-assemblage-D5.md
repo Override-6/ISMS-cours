@@ -3,9 +3,7 @@
 **Groupe 4 (Translog)** · instance `translog-b` (https://translog-b.lockbay.eu)
 **Domaine** `MERIDIAN-LOGISTIQUE` · **étude** `Étude EBIOS RM MERIDIAN - Logistique et approvisionnement d'urgence vers Santé - cycle 1`
 **Date** : 9 septembre 2026 · **compte utilisé** : `maximebatista18@gmail.com` (compte nominatif, jamais `admin@lockbay.eu`)
-**Matière** : TD 2 (`../4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md`), échelles de l'énoncé du TP 2, appétence du bureau du RSSI (`../1-CISO-desk/Seance-5-TD-S5-01-appetence-au-risque.md`)
-
-> **Ce fichier n'est pas le livrable.** C'est la trace du TP 2 : les échelles décrites niveau par niveau, l'ajout d'ER7 dans l'outil et son arbitrage, les écarts outil/papier. Le livrable est **D5** (`D5-appreciation-initiale-des-risques.md`), et la note de stratégie gagne sa sous-section 5.
+**Matière** : TD 2 (`../4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md`), échelles du TP 2, appétence du bureau du RSSI (`../1-CISO-desk/Seance-5-TD-S5-01-appetence-au-risque.md`)
 
 ---
 
@@ -69,7 +67,7 @@ La matrice `4x4 risk matrix from EBIOS-RM` importée au TP 1 est un **objet de b
 | **`Medium` — Moyen** | **Tolérable sous conditions** | Acceptable **uniquement** formalisé en tolérance — datée, surveillée, avec un propriétaire nommé et une mesure compensatoire intérimaire ; à défaut, il rejoint `High`. C'est la machinerie de la question 3 du bureau du RSSI (interconnexion IT/OT, journaux locaux de Territoires) : un écart qu'on garde le temps de le fermer, pas un état stable. |
 | **`High` — Élevé** | **Inacceptable en l'état** | Appelle une décision de traitement avant mise en production ou avant d'être porté plus longtemps ; l'activité concernée peut être suspendue si le traitement n'est pas engagé. L'appétence refuse, quel qu'en soit le coût, l'arrêt d'expédition non planifié au-delà de six heures, la rupture de la chaîne du froid et l'action à privilèges non imputable — tout risque coté Élevé touche l'un de ces refus. |
 
-**Coïncidence avec la matrice, vérifiée à l'écran** : le texte des trois niveaux de la matrice importée (`Acceptable as is` / `Tolerable under control…` / `Unacceptable…`) dit déjà cela. Le seuil dérivé de l'appétence **ne réécrit rien**, il nomme la même ligne dans le vocabulaire du groupe. C'est le passage attendu par l'énoncé : « l'appétence cesse d'être un discours et devient une ligne sur une grille ».
+**Coïncidence avec la matrice, vérifiée à l'écran** : le texte des trois niveaux de la matrice importée (`Acceptable as is` / `Tolerable under control…` / `Unacceptable…`) dit déjà cela. Le seuil dérivé de l'appétence **ne réécrit rien**, il nomme la même ligne dans le vocabulaire du groupe. C'est le passage attendu : « l'appétence cesse d'être un discours et devient une ligne sur une grille ».
 
 > La cotation du registre complet — quel événement redouté et quel scénario tombent dans `Low`, `Medium` ou `High` — est le travail de la **séance 7** (atelier 5), avec ces échelles **inchangées**. Le TP 2 pose les échelles, il ne cote pas.
 

@@ -2,7 +2,7 @@
 
 **Que vaut une certification ISO 27001, et que répond-on au tiers qui l'exige ?**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -27,5 +27,3 @@
 > Je recommande de **répondre au client cette semaine par les preuves équivalentes, sans aucune date**, puis de **découpler les deux demandes** : instruire un premier périmètre limité à *transport et entreposage sous température dirigée*, et ne rouvrir la question du groupe entier qu'ensuite. Je demande qu'aucun objectif de certification ne soit annoncé, ni au marché ni en interne, avant que l'état des lieux ouvert aujourd'hui soit mesuré — c'est mon engagement de la séance, pas une manière de gagner du temps. Une date annoncée aujourd'hui ne serait tenue par personne et retenue par tout le monde, et nous la paierions devant le client même que nous cherchons à garder.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même question, avec son propre angle.*

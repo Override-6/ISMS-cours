@@ -2,7 +2,7 @@
 
 **« Combien tout cela va nous coûter, et surtout, combien coûte le fait de ne rien faire ? »**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -52,6 +52,3 @@ taille, elle tient à nos propres faiblesses diagnostiquées.
 > devant ce Comité aucun chiffre dont je ne puisse dire la source, l'année et le scénario qu'il éclaire.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même
-question, avec son propre angle.*

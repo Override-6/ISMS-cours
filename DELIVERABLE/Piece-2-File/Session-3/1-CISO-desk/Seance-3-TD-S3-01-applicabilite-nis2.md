@@ -1,5 +1,5 @@
 # Séance 3 — TD (S3-01) : The CISO's briefing — Applicabilité de NIS 2
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
+### Réponses du Groupe 4 (Translog)
 
 ---
 
@@ -33,7 +33,7 @@ Lundi matin, 8h40. La Directrice Générale du groupe MERIDIAN interpelle le RSS
 | **Entité essentielle** | secteur de l'**annexe I** **et** ≥ 250 salariés, ou CA > 50 M€ et bilan > 43 M€ | Supervision **ex ante *et* ex post** ; amende plafonnée à **2 % du CA mondial** (plancher ~10 M€) |
 | **Entité importante** | à défaut d'être essentielle : ≥ 50 salariés, ou CA et bilan > 10 M€ | Supervision **ex post uniquement** (sur signalement ou incident) ; amende plafonnée à **1,4 % du CA mondial** (plancher ~7 M€) |
 
-> **Réflexe de méthode appliqué à tout le document** : l'applicabilité **déclenche des obligations, elle ne mesure rien**. Une entité peut être dans le champ et bien protégée, hors champ et vulnérable. Et l'on sépare systématiquement **ce que dit le texte européen** (stable, publié) de **ce que dit le droit national** (ici : encore en construction).
+> **Applicabilité et maturité ne se confondent pas** : l'applicabilité **déclenche des obligations, elle ne mesure rien**. Une entité peut être dans le champ et bien protégée, hors champ et vulnérable. Et l'on sépare systématiquement **ce que dit le texte européen** (stable, publié) de **ce que dit le droit national** (ici : encore en construction).
 
 ---
 
@@ -50,7 +50,7 @@ Lundi matin, 8h40. La Directrice Générale du groupe MERIDIAN interpelle le RSS
 
 ### MERIDIAN Logistique — **deux lectures**, toutes deux conservées à ce stade
 
-L'énoncé demande explicitement deux lectures possibles. Elles ne s'opposent pas sur les faits, elles s'opposent sur **la qualification de l'activité réellement exercée** — et c'est bien ce que fait la filiale qui tranchera, pas son nom.
+Deux lectures sont possibles. Elles ne s'opposent pas sur les faits, elles s'opposent sur **la qualification de l'activité réellement exercée** — et c'est bien ce que fait la filiale qui tranchera, pas son nom.
 
 - **Fait** : 2 800 salariés, 6 entrepôts, trois activités mêlées — **transport** (flotte de véhicules avec télématique, entre entrepôts et vers les clients), **entreposage sous température dirigée**, et **expédition** pour compte de tiers (portail d'expéditions du client pharmaceutique, un compte par entrepôt).
 
@@ -148,7 +148,7 @@ L'activité d'**expédition** pour compte du client pharmaceutique, avec entrepo
 
 ## Question 5 — Rattachement à la cartographie de la séance 2 — **MERIDIAN Logistique uniquement**
 
-*Question traitée pour notre seule filiale sous revue, conformément à l'énoncé : c'est la cartographie de Logistique que le Groupe 4 a construite en séance 2 (S2-01, S2-03, S2-05), et elle seule peut être confrontée aux exigences de l'article 3.*
+*Question traitée pour notre seule filiale sous revue : c'est la cartographie de Logistique que le Groupe 4 a construite en séance 2 (S2-01, S2-03, S2-05), et elle seule peut être confrontée aux exigences de l'article 3.*
 
 *Ce que l'article 3 de la directive imposera de communiquer à l'autorité nationale si la filiale est dans le champ, et ce que l'inventaire de la séance 2 sait déjà fournir.*
 

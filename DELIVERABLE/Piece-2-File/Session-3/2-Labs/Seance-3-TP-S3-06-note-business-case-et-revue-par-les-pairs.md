@@ -1,9 +1,5 @@
 # Séance 3 — TP (S3-06) : Rédiger la note de business case et revue par les pairs
-### Livrables du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN — instance **translog-b**, périmètre `MERIDIAN-LOGISTIQUE`
-
-> **Règle de la fin de journée** : rédiger, ici, c'est **assembler**. Aucun argument de la note ci-dessous n'est inventé ce soir — chacun renvoie à une pièce produite dans la journée : l'applicabilité filiale par filiale (S3-01), la grille pondérée et les correspondances (S3-03), la fiche d'identité et l'import prouvé dans l'outil (S3-05). Le contexte vient du CM (S3-02) et du dossier des séances 1 et 2.
->
-> Trois livrables : **la note de business case** (2 pages, 5 sections), **la revue par les pairs** (grille à 5 lignes, constats traités un par un), **la sous-section 3 de la note de stratégie** (demi-page, articulée aux deux précédentes).
+### Livrables du Groupe 4 (Translog) — instance **translog-b**, périmètre `MERIDIAN-LOGISTIQUE`
 
 ---
 
@@ -153,8 +149,6 @@ Verdict de grille et constats, dans l'ordre de restitution :
 
 # Exercice 3 — Note de stratégie : la sous-section « Choix du référentiel »
 
-> **Discipline du document** : trois pages au plus pour l'ensemble, **rien ne se supprime**, tout peut s'amender d'une phrase justifiée. La sous-section ne **recopie rien** de la note de business case : la note de stratégie porte la **trajectoire du groupe**, pas le dossier de décision.
-
 ### Sous-section 3 — Choix du référentiel *(demi-page max)*
 
 > « Conformément à la gouvernance arrêtée en ouverture de ce document — instances, matrice de responsabilité à propriétaire unique et règles d'arbitrage —, le Comité Exécutif a retenu **ISO/IEC 27001:2022** comme référentiel de sécurité du groupe, sur proposition raisonnée du RSSI Groupe. La décision est un **produit de cette gouvernance**, non une préférence technique : elle a suivi le circuit que la première sous-section décrit, proposition du RSSI Groupe et arbitrage du Comité.
@@ -177,22 +171,3 @@ Verdict de grille et constats, dans l'ordre de restitution :
 | **Rien n'est supprimé, tout est amendable** | Aucun amendement aux sous-sections 1 et 2 n'a été nécessaire. Un seul est à prévoir plus tard, d'une phrase : quand le périmètre de déploiement sera arrêté filiale par filiale, la sous-section 1 gagnera la mention de cet arbitrage. |
 
 > **Note de traçabilité honnête** : la sous-section 2 (« actifs critiques ») et le Top 5 consolidé du groupe ont été produits en séance 2 (S2-06) ; ils ne figurent pas dans le dossier écrit de notre groupe, qui a instruit la filiale Logistique (S2-05). La sous-section ci-dessus les traite donc **par renvoi**, ce qui est exactement la discipline imposée à la note de stratégie — mais le renvoi vaut engagement de vérifier, avant remise finale, que les cinq lignes citées sont bien celles arrêtées en plénière.
-
----
-
-## Phrase de transmission vers la séance 4
-
-> Le référentiel choisi et importé aujourd'hui devient **le référentiel d'audit de la séance 4** : le groupe y mesurera, exigence par exigence, l'écart entre ce qu'il affirme et ce qu'il fait. **La note de business case acceptée sera la première pièce de ce dossier** — c'est elle qui dit devant quoi nous acceptons d'être mesurés, et sur quel périmètre.
-
----
-
-## Ce que nous n'affirmons pas (et pourquoi c'est volontaire)
-
-1. **« La note prouve que le choix est le bon. »** Non : elle rend la délibération **transparente et contestable**. Le test de sensibilité de la grille (S3-03 Q3) montre qu'une doctrine différente sur la preuve opposable inverserait le classement — c'est écrit en section 4, pas dissimulé.
-2. **« La revue par les pairs valide la recommandation. »** Elle valide la **solidité du document**. Une note recommandant le ReCyF peut sortir excellente de la même grille ; le relecteur n'est pas un second décideur.
-3. **« Le référentiel est adopté. »** Il est **recommandé**. La décision appartient au Comité Exécutif, et la note est écrite pour qu'un « non » soit une réponse possible — sans quoi ce ne serait pas une décision demandée.
-4. **« Nous sommes prêts à être certifiés. »** Non : sans schéma réseau de Logistique et sans cloisonnement IT/OT, aucun périmètre incluant l'industriel ne serait honnêtement déclarable aujourd'hui. La note le dit avant qu'un auditeur ne le découvre.
-
----
-
-> **Livrables cités** : S1-05 (gouvernance cible / RACI), S1-06 (cadrage, feuille de route, note de stratégie §1), S2-01 (inventaire), S2-03 (valeurs métier / DICT), S2-05 (cartographie CISO Assistant), S2-06 (Top 5 / note de stratégie §2, par renvoi), S3-01 (applicabilité NIS 2), S3-02 (CM référentiels), S3-03 (grille de sélection & correspondances), S3-05 (fiche d'identité, import, évaluation initiale). Instance : `translog-b` — https://translog-b.lockbay.eu · Périmètre : `MERIDIAN-LOGISTIQUE`.

@@ -5,8 +5,6 @@
 **Date de saisie** : 9 septembre 2026 · **compte utilisé** : `Miguel.monereodelasota@ynov.com` (compte nominatif, jamais `admin@lockbay.eu`)
 **Matière saisie** : TD 2 (`../4-Working-notes/Seance-5-TD-S5-03-ateliers-1-et-2-EBIOS-RM.md`), quatre exercices
 
-> **Ce fichier n'est pas un livrable.** C'est la trace de ce qui a été fait dans l'outil, et surtout de **chaque écart entre le TD sur papier et ce que l'outil accepte**. Le livrable de la séance est **D5**, assemblé au TP 2.
-
 ---
 
 ## 0. Répartition nominative de la saisie
@@ -25,7 +23,7 @@ Tous les objets de l'étude portent les deux auteurs (`maximebatista18@gmail.com
 
 ## 1. Exercice 1 — Inventaire de l'existant
 
-Table demandée par l'énoncé, avec le **nom exact observé à l'écran** (et non le nom supposé).
+Table de vérification, avec le **nom exact observé à l'écran** (et non le nom supposé).
 
 | # | Objet attendu | Présent ? | Nom exact observé |
 |---|---|---|---|
@@ -42,9 +40,9 @@ Table demandée par l'énoncé, avec le **nom exact observé à l'écran** (et n
 `LOG-PA-01` Exécution des flux logistiques · `LOG-PA-02` Maintien de la chaine du froid · `LOG-PA-03` Savoir-faire operationnel des six entrepots · `LOG-PA-04` Conformite contractuelle avec le client pharmaceutique
 `LOG-SA-01` WMS (2 serveurs + BDD, site E1) · `LOG-SA-02` Scannettes d'entrepot (~300, Wi-Fi) · `LOG-SA-03` Automates de tri (E2/E3/E4) · `LOG-SA-04` Compte de service WMS-automates · `LOG-SA-05` Logiciel des sondes de temperature · `LOG-SA-06` Local serveur E1 · `LOG-SA-07` Entrepots E1-E6 · `LOG-SA-08` Chambres froides et remorques refrigerees · `LOG-SA-09` Responsable Exploitation · `LOG-SA-10` Prestataire TMA du WMS · `LOG-SA-11` Responsable Qualite (repond aux audits) · `LOG-SA-12` VLAN dedie + pare-feu d'inspection · `LOG-SA-13` **API** d'approvisionnement d'urgence
 
-> **Écart de libellé n° 1** — le plan et D2 écrivent « **interface** d'approvisionnement d'urgence », l'outil affiche « **API** d'approvisionnement d'urgence ». Divergence mineure, **rien n'a été renommé** : c'est le nom de l'outil qui fait foi pour la traçabilité, et D5 doit citer les deux.
+> **Écart de libellé n° 1** — D2 écrit « **interface** d'approvisionnement d'urgence », l'outil affiche « **API** d'approvisionnement d'urgence ». Divergence mineure, **rien n'a été renommé** : c'est le nom de l'outil qui fait foi pour la traçabilité, et D5 doit citer les deux.
 
-> **Écart n° 2 — le domaine `MERIDIAN-SANTE` existe**, alors que le plan du TP l'annonçait « probablement absent ». Le groupe avait donc bien instancié les deux bouts de la dépendance du §6 au niveau **domaine**. Ce qui n'existe pas, c'est la **valeur métier** de Santé comme actif primaire dans notre domaine — voir ER5 au §4. La phrase à porter dans D5 change : ce n'est pas « le second domaine manque », c'est « le domaine existe, mais la valeur métier qu'il porte n'est pas modélisée chez nous ».
+> **Écart n° 2 — le domaine `MERIDIAN-SANTE` existe**, alors qu'il était supposé absent. Le groupe avait donc bien instancié les deux bouts de la dépendance du §6 au niveau **domaine**. Ce qui n'existe pas, c'est la **valeur métier** de Santé comme actif primaire dans notre domaine — voir ER5 au §4. La phrase à porter dans D5 change : ce n'est pas « le second domaine manque », c'est « le domaine existe, mais la valeur métier qu'il porte n'est pas modélisée chez nous ».
 
 **Captures** : `S5-05-ex1-inventaire-domaines.jpg`, `S5-05-ex1-inventaire-perimetres.jpg`, `S5-05-ex1-inventaire-17-actifs.jpg`, `S5-05-ex1-inventaire-audit-seance-4.jpg`, `S5-05-ex1-ebios-rm-studies-liste-vide.jpg`
 
@@ -56,11 +54,11 @@ Table demandée par l'énoncé, avec le **nom exact observé à l'écran** (et n
 
 **Pourquoi c'est bloquant** : l'outil refuse de créer une étude EBIOS RM sans matrice. Coter sans échelle ne veut rien dire ; sur ce point l'outil est plus strict que beaucoup d'organisations.
 
-### Les trois phrases demandées par l'énoncé
+### Les trois constats
 
 1. **La case la plus élevée** est le croisement **`Certain` × `Critical`**, dans le coin supérieur droit de la grille, en rouge (`High`).
 2. **La diagonale** est une bande en escalier de cellules **`Medium`** (orange/tan) qui va du coin supérieur gauche au coin inférieur droit. Elle sépare le `Low` (teal, coin inférieur gauche) du `High` (rouge, coin supérieur droit) : **c'est sur cette bande que viendra se poser le seuil d'acceptation dérivé de l'appétence** (TD 1), au TP 2. C'est le passage du tolérable à l'inacceptable.
-3. **Non, les libellés ne sont pas exactement ceux de l'échelle d'exemple du guide vue au TD.** L'énoncé demandait de regarder V4 et G3 de près : le guide gradue jusqu'à « quasi-certain » là où l'outil écrit **`Certain`**, et le TD dit « grave » là où l'outil écrit **`Important`**. Ce ne sont pas les mêmes mots, c'est la même échelle.
+3. **Non, les libellés ne sont pas exactement ceux de l'échelle d'exemple du guide vue au TD.** V4 et G3 méritent un regard : le guide gradue jusqu'à « quasi-certain » là où l'outil écrit **`Certain`**, et le TD dit « grave » là où l'outil écrit **`Important`**. Ce ne sont pas les mêmes mots, c'est la même échelle.
 
 ### Libellés réels relevés à l'écran
 
@@ -70,7 +68,7 @@ Table demandée par l'énoncé, avec le **nom exact observé à l'écran** (et n
 | Gravité (horizontal) | **`Impact`** | `Minor`, `Significant`, `Important`, `Critical` |
 | Croisement | — | 3 niveaux : `Low`, `Medium`, `High` |
 
-> **Écart n° 3 — le mot de l'axe horizontal.** L'énoncé du TP annonce « **Consequence** », le CM et le TD disent « **gravité** », et l'instance affiche en réalité « **Impact** ». **Trois mots pour un seul concept.** Point de méthode gratuit à porter dans D5 : l'**ISO 27005 parle de conséquences** là où **EBIOS RM parle d'événements redoutés et de gravité** — et l'outil, lui, a choisi un troisième terme. Rien n'a été renommé.
+> **Écart n° 3 — le mot de l'axe horizontal.** La méthode dit « **gravité** », et l'instance affiche en réalité « **Impact** ». **Trois mots pour un seul concept.** Point de méthode gratuit à porter dans D5 : l'**ISO 27005 parle de conséquences** là où **EBIOS RM parle d'événements redoutés et de gravité** — et l'outil, lui, a choisi un troisième terme. Rien n'a été renommé.
 
 > **Correspondance des libellés de gravité, vérifiée à l'écran.** La correspondance *mineure / significative / grave / critique* → `Minor` / `Significant` / `Important` / `Critical`, présumée au TD 2, est constatée dans l'instance, mot pour mot.
 
@@ -96,11 +94,11 @@ Table demandée par l'énoncé, avec le **nom exact observé à l'écran** (et n
 
 Les cinq paragraphes du TD 2 sont dans le champ description de l'étude : **objectif**, **finalité retenue** (étude complète des scénarios de risque, les cinq ateliers sur deux cycles — ni socle seul, ni homologation), **participants et rôles** (métier / SI / cyber / décision), **responsable de l'acceptation des risques résiduels** (la **Direction Générale du groupe**), **cycles** (stratégique 3 ans, opérationnel 1 an).
 
-*Critère de l'énoncé tenu* : un lecteur qui ouvre l'étude dans six mois y trouve le cadrage **sans aller chercher le compte rendu du TD**.
+*Critère tenu* : un lecteur qui ouvre l'étude dans six mois y trouve le cadrage **sans aller chercher le compte rendu du TD**.
 
 ### 3.3 Activité 2 — les 17 actifs sont **reliés**, pas recréés
 
-Les 17 actifs de la séance 2 ont été **sélectionnés** via le champ `Assets` (bouton « sélectionner un actif »). Le bouton voisin « ajouter un actif » — le piège explicite de l'énoncé — n'a **pas** été touché. **Aucun doublon dans `Assets`** : la liste en compte toujours 17, vérifié après coup.
+Les 17 actifs de la séance 2 ont été **sélectionnés** via le champ `Assets` (bouton « sélectionner un actif »). Le bouton voisin « ajouter un actif » — le piège classique — n'a **pas** été touché. **Aucun doublon dans `Assets`** : la liste en compte toujours 17, vérifié après coup.
 
 C'est le premier critère d'acceptation de D5 (« valeurs métier et biens supports **identiques** à ceux de la cartographie de la séance 2 »), et il se joue ici.
 
@@ -148,7 +146,7 @@ C'est la limite que l'**atelier 3 (écosystème), en séance 6**, aura à lever.
 
 ### 4.3 ER7 — non saisi aujourd'hui, et pourquoi
 
-Le TD 2 recommande d'ajouter à D5 un septième événement pour `LOG-PA-03` (« la connaissance opérationnelle des six entrepôts est perdue », `Proof`, gravité *grave*). **Il n'a pas été saisi** : le critère de validation de l'énoncé est explicite, le compteur *Feared events* doit afficher **6**. L'arbitrage se fait au **TP 2** : si D5 adopte ER7, on l'ajoute dans l'outil dans la foulée, on recapture, et on écrit la raison de l'écart de compteur. L'ordre inverse fait rater le critère.
+Le TD 2 recommande d'ajouter à D5 un septième événement pour `LOG-PA-03` (« la connaissance opérationnelle des six entrepôts est perdue », `Proof`, gravité *grave*). **Il n'a pas été saisi** : le critère de validation est explicite, le compteur *Feared events* doit afficher **6**. L'arbitrage se fait au **TP 2** : si D5 adopte ER7, on l'ajoute dans l'outil dans la foulée, on recapture, et on écrit la raison de l'écart de compteur. L'ordre inverse fait rater le critère.
 
 **Captures** : `S5-05-ex4-6-evenements-redoutes-liste.jpg`, `S5-05-ex4-ER5-detail-formulaire.jpg`
 
@@ -170,7 +168,7 @@ Chaque couple porte sa **justification écrite** dans le champ prévu, fondée s
 
 ### 5.1 Écart n° 4 — couple 2 en `Other`, et pas en `Avenger`
 
-L'énoncé range « le prestataire malveillant » en `Avenger`. Notre couple 2 **n'est pas l'intégrateur qui se venge** : c'est un attaquant qui **passe par** l'intégrateur — une compromission de la chaîne d'approvisionnement. `Other` est la catégorie juste, et la raison est écrite dans le champ `Justification` du couple. C'est exactement le réflexe que l'énoncé demande quand l'outil et le cas ne se recouvrent pas.
+La typologie range « le prestataire malveillant » en `Avenger`. Notre couple 2 **n'est pas l'intégrateur qui se venge** : c'est un attaquant qui **passe par** l'intégrateur — une compromission de la chaîne d'approvisionnement. `Other` est la catégorie juste, et la raison est écrite dans le champ `Justification` du couple. C'est exactement le réflexe que l'énoncé demande quand l'outil et le cas ne se recouvrent pas.
 
 ### 5.2 Écart n° 5 — les trois positions « à cheval » tranchées vers le bas
 
@@ -190,7 +188,7 @@ Le cas prévu par le TD 2 s'est produit exactement : le **couple 4** (motivation
 
 Symétriquement, le **couple 2** affiche `Fairly relevant` — plus que le couple 4 retenu — et reste **non sélectionné**.
 
-> **La sélection n'a pas été changée pour faire plaisir à la colonne.** L'énoncé le dit mot pour mot : *la justification écrite prévaut sur le calcul de l'outil.*
+> **La sélection n'a pas été changée pour faire plaisir à la colonne.** La règle est explicite : *la justification écrite prévaut sur le calcul de l'outil.*
 
 ### 5.4 Ce que le geste « relier même les couples non retenus » fait apparaître
 
@@ -239,7 +237,7 @@ Les cinq biens supports du Top 5 de D2 portent désormais l'étiquette **`Top5`*
 
 ---
 
-## 8. Compteurs finaux — « fini quand »
+## 8. Compteurs finaux
 
 | Compteur de la carte *Summary* | Attendu | Constaté |
 |---|---|---|

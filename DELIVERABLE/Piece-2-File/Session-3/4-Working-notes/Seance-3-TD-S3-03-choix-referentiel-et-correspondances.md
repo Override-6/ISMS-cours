@@ -1,7 +1,5 @@
 # Séance 3 — TD (S3-03) : Selecting a framework and mapping tables
-### Réponses du Groupe 4 (Translog), dans le rôle du RSSI Groupe de MERIDIAN
-
-> Enchaînement de la journée : le CM (S3-02) a dressé la carte, le TD du matin (S3-01) a caractérisé l'applicabilité NIS 2 filiale par filiale, **ce TD transforme la carte en décision** — une grille pour choisir, un tableau pour réutiliser. La version complète et argumentée sera la note de business case du TP de fin de journée (S3-06).
+### Réponses du Groupe 4 (Translog)
 
 ---
 
@@ -13,7 +11,7 @@ Jeudi. Le Comité Exécutif attend du RSSI Groupe la proposition d'**un référe
 
 **Un tableau de correspondance** (*mapping*) met en regard, ligne à ligne, les exigences d'un référentiel **source** et celles d'un référentiel **cible**, pour réutiliser ce qui est déjà fait et repérer ce qui manque. Anatomie d'une ligne réelle, tirée du jeu NIST CSF → ISO 27001 livré avec CISO Assistant (180 lignes) : **exigence source** `ID.AM-1` · **exigence cible** `A.5.9` · **relation** `intersect` · **justification** `semantic`. Deux enseignements décisifs : dans tout ce jeu, **aucune ligne ne déclare deux exigences équivalentes**, toutes disent « intersection » ; et « semantic » signifie que la correspondance est un **jugement de sens**, pas une équivalence juridique. L'ANSSI le dit elle-même en tête de son outil de comparaison, mis à disposition « à titre purement informatif et indicatif ».
 
-> **Règle appliquée dans tout ce document** : un tableau de correspondance aide à comprendre et à réutiliser, il **ne transfère jamais la conformité**. Être conforme à la source ne rend pas conforme à la cible ; cela donne une avance, qui reste à prouver dans les termes de la cible.
+> **Ce qu'un tableau de correspondance fait, et ne fait pas** : il aide à comprendre et à réutiliser, il **ne transfère jamais la conformité**. Être conforme à la source ne rend pas conforme à la cible ; cela donne une avance, qui reste à prouver dans les termes de la cible.
 
 ---
 
@@ -67,7 +65,7 @@ L'écart à combler est de **25 points**. Le ReCyF ne devance ISO que sur **un**
 | Test | Manipulation | Résultat | Lecture |
 |---|---|---|---|
 | **Transfert de pondération** | Faire passer « caractère obligatoire » de 30 à **39** et « maturité » de 15 à **6** | ISO **212**, ReCyF **223** → **bascule** | Il faut toujours déplacer **9 points sur 100**, soit près d'un tiers du poids du critère déjà le plus lourd, ET réduire la stabilité du texte à presque rien : c'est un **changement de doctrine**, pas un réglage fin. Mais depuis la correction du 8 sept., la bascule est plus large (11 points au lieu de 1) — l'arithmétique protège moins qu'on ne le croyait. |
-| **Suppression d'un critère** | Retirer purement et simplement « preuve opposable » (20 points) | ISO **170**, ReCyF **185** → **bascule** | Ce test dit ce qui protège réellement notre recommandation : **les clients de Territoires et le questionnaire du client pharma**. Si le ComEx juge la preuve accessoire, il choisit un autre référentiel — et il doit le dire explicitement. |
+| **Suppression d'un critère** | Retirer purement et simplement « preuve opposable » | ISO **170**, ReCyF **185** → **bascule** | Ce test dit ce qui protège réellement notre recommandation : **les clients de Territoires et le questionnaire du client pharma**. Si le ComEx juge la preuve accessoire, il choisit un autre référentiel — et il doit le dire explicitement. |
 
 **Ce que cette sensibilité enseigne** — et la correction du 8 septembre l'a rendu plus vrai, pas moins : **ce n'est pas la grille qui porte la recommandation, c'est la règle de veto.** Les deux tests basculent désormais plus largement, et l'écart de base n'est plus que de 25 points. Si notre choix ne tenait qu'à l'arithmétique, il serait fragile. Il tient à une **condition** — couvrir une filiale hors champ NIS 2 — que le ReCyF ne remplit pas quelle que soit sa note. La recommandation reste **robuste sans être inattaquable**, et elle repose sur deux jugements de contexte que le ComEx **doit valider explicitement** : que la preuve opposable aux tiers compte, et que la stabilité du texte compte. Les deux scénarios seront présentés dans la note de business case (S3-06), conformément au réflexe attendu : *une analyse qui ne teste pas sa propre bascule est une mise en scène, pas une analyse.*
 
@@ -110,7 +108,7 @@ L'écart à combler est de **25 points**. Le ReCyF ne devance ISO que sur **un**
 
 > Identifier les **informations et serveurs les plus sensibles** et **maintenir un schéma du réseau**.
 
-**1. Correspondance côté ISO/IEC 27001:2022** — **Annexe A, thème organisationnel** : `A.5.9` (inventaire) et `A.5.12` (classification). L'inventaire et la topologie relèvent des **mesures**, pas du management : c'est le test proposé par l'énoncé — *la mesure organise-t-elle le pilotage, ou déploie-t-elle un contrôle ?* Ici, elle déploie un contrôle. *(Le schéma réseau alimente ensuite les mesures du thème technologique — `A.8.20` sécurité des réseaux, `A.8.22` cloisonnement — mais il n'en est pas une lui-même.)*
+**1. Correspondance côté ISO/IEC 27001:2022** — **Annexe A, thème organisationnel** : `A.5.9` (inventaire) et `A.5.12` (classification). L'inventaire et la topologie relèvent des **mesures**, pas du management : c'est le test appliqué — *la mesure organise-t-elle le pilotage, ou déploie-t-elle un contrôle ?* Ici, elle déploie un contrôle. *(Le schéma réseau alimente ensuite les mesures du thème technologique — `A.8.20` sécurité des réseaux, `A.8.22` cloisonnement — mais il n'en est pas une lui-même.)*
 
 **2. Verdict : intersection** avec ISO, **et intersection avec l'exigence A** — et c'est le point qui méritait d'être écrit : **les correspondances se composent, mais chaque recouvrement est partiel et les pertes s'additionnent**. Le « schéma réseau simplifié » du guide est **moins exigeant** que l'inventaire complet de l'exigence A : *une organisation conforme à C n'a pas fini A.*
 

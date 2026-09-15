@@ -2,7 +2,7 @@
 
 **« Combien tout cela va nous coûter, et surtout, combien coûte le fait de ne rien faire ? »**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -51,6 +51,3 @@ et la liste explicite de ce qu'elle ne sait pas encore.
 > rapporterai au Comité sera celle de MERIDIAN, et non plus un ordre de grandeur emprunté à d'autres.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même
-question, avec son propre angle.*

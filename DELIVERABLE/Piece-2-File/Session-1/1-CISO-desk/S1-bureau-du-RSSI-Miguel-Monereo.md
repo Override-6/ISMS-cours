@@ -2,7 +2,7 @@
 
 **De quoi un conseil d'administration a-t-il réellement besoin de son RSSI ?**
 
-**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Miguel Monereo** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -27,5 +27,3 @@ Trois choses, et pas davantage.
 > Je recommande d'inscrire à l'ordre du jour du prochain Comité Exécutif **une seule question fermée** : *le groupe accepte-t-il de dépendre, pour 40 % de son volume expédié, d'un système dont la capacité de redémarrage n'a jamais été vérifiée ?* Si la réponse est non, le test de restauration du logiciel de gestion d'entrepôt doit être exécuté et daté sous soixante jours, à moyens constants. Cette question ne demande aucun budget nouveau pour être posée — seulement d'être posée à quelqu'un qui a le pouvoir d'y répondre.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Maxime rend la sienne, sur la même question, avec son propre angle.*

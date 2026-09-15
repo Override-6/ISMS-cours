@@ -2,7 +2,7 @@
 
 **« ... une certification ISO/IEC 27001 valide couvrant les services fournis à ce tiers, ou une démarche documentée équivalente. »**
 
-**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique · une page
+**Maxime** · Groupe 4 (Translog) · filiale MERIDIAN Logistique
 
 ---
 
@@ -54,6 +54,3 @@ filiales, et c'est tout aussi vrai à l'intérieur d'un seul entrepôt.
 > un futur auditeur, qu'une limite qu'on nous fait découvrir.
 
 ---
-
-*Note : cette page est individuelle et engage son seul auteur. Miguel rend la sienne, sur la même
-question, avec son propre angle.*
