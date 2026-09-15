@@ -4,7 +4,7 @@
 
 > **Pièce 1 du rendu.** Le fil rouge : le document qu'un directeur général lit, et qui ouvre le dossier de soutenance. Il répond à quatre questions et à celles-là seules — **où en est la filiale, où elle doit aller, comment elle y va, ce que cela coûte** — et n'est pas un résumé des livrables. Ses trois règles sont tenues : trois à cinq pages de texte, **rien ne se supprime** (une sous-section qui en contredit une autre l'amende, datée au journal, elle ne l'efface pas), **chaque sous-section s'articule aux précédentes**. Document tenu en français de bout en bout ; le dossier de la pièce 2 peut être dans l'autre langue, la note ne mélange pas.
 
-**État : 7 sous-sections sur 9** — les séances 8 et 9 n'ont pas eu lieu. Version close en séance 9, déposée en séance 10.
+**État : 8 sous-sections sur 9** — la séance 9 n'a pas eu lieu. Version close en séance 9, déposée en séance 10.
 
 | # | Séance | Sous-section | Question servie | État |
 |---|---|---|---|---|
@@ -15,10 +15,10 @@
 | 5 | S5 | Risques majeurs | Où elle doit aller | ✅ rédigée |
 | 6 | S6 | Tiers et projets | Comment elle y va | ✅ rédigée |
 | 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ✅ rédigée |
-| 8 | S8 | Périmètre du SMSI | Comment elle y va | ⏳ séance non tenue |
+| 8 | S8 | Périmètre du SMSI | Comment elle y va | ✅ rédigée |
 | 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
 
-**Budget de pages, compté et non estimé** : corps des sept sous-sections **1 781 mots**, titres, tableaux et annexe exclus comme la règle le prévoit — **3,1 à 3,6 pages** selon la densité de rendu. Réserve pour les sous-sections 8 et 9 : **250 mots chacune**. Les renvois de preuve sont en **annexe**, qui ne compte pas.
+**Budget de pages, compté et non estimé** : corps des huit sous-sections **1 875 mots**, titres, tableaux et annexe exclus comme la règle le prévoit — **3,3 à 3,8 pages** selon la densité de rendu. Réserve pour la sous-section 9 : **250 mots**. Les renvois de preuve sont en **annexe**, qui ne compte pas.
 
 ---
 
@@ -110,6 +110,16 @@
 
 ---
 
+## Sous-section 8 — Périmètre du SMSI *(séance 8)*
+
+> Le périmètre initial du système de management de la sécurité de l'information (SMSI) porte sur les activités qui servent le client pharmaceutique — chaîne du froid et flux du système de gestion d'entrepôt des deux sites qui lui sont dédiés — soit deux des cinq actifs critiques arrêtés en sous-section 2 (le système de gestion d'entrepôt, le logiciel des sondes de température). L'automatisation de tri de l'un de ces deux sites en reste exclue jusqu'au cloisonnement des réseaux bureautique et industriel ; l'extension au reste du groupe est à étudier ensuite.
+>
+> **La décision demandée au Comité Exécutif** : lancer l'effort de certification ISO/IEC 27001:2022 sur ce périmètre, sans date ni coût de certification promis. Au client, la filiale répond dès aujourd'hui au titre d'une démarche documentée équivalente — le référentiel adopté, l'audit initial et le plan de traitement chiffré des sous-sections 3, 4 et 7 en sont les pièces.
+>
+> **Ce que l'évaluation initiale confirme** : la planification du risque tient — c'est elle que la sous-section 7 chiffre, et c'est elle qui fonde aujourd'hui les contrôles retenus de la déclaration d'applicabilité (16,1 % de couverture, quinze contrôles sur quatre-vingt-treize) — quand l'information documentée et la mesure de la performance restent les deux chantiers les plus nus du dossier, désignés pour la séance 9.
+
+---
+
 ## Journal des amendements
 
 *Règle : rien n'est supprimé ; toute contradiction entre deux sous-sections s'amende d'une phrase de justification, datée.*
@@ -118,6 +128,7 @@
 |---|---|---|---|
 | — | — | Aucun amendement à ce jour | Les sous-sections 1 à 6 ne se contredisent pas. La sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques). La sous-section 6 **tient** celle de la sous-section 5 : le prestataire des automates, « tenu en veille et traité en séance 6 avec le reste de l'écosystème », est désormais coté comme partie prenante critique — la sous-section 6 complète la 5, elle ne la corrige pas. |
 | 14 sept. 2026 | Sous-section 6 | Précision, pas correction : *« aucune de ces décisions ne demande de budget nouveau la première année »* (sous-section 6) portait sur les **deux** décisions qu'elle traitait — la règle des trois exigences contractuelles et la discipline des six jalons de cadrage — pas sur l'ensemble de la trajectoire de traitement du risque. La sous-section 7 engage un budget nouveau (**≈ 82 000 €/an**) sur les mesures techniques du registre ; les deux affirmations coexistent, chacune sur son périmètre exact. |
+| 15 sept. 2026 | Sous-section 8 | Aucun amendement — confirmation | La sous-section 8 **tient** la promesse de la sous-section 2 (le périmètre choisi reprend deux des cinq actifs critiques, sans en inventer un nouveau) et celle de la sous-section 7 (le plan de traitement chiffré fonde la déclaration d'applicabilité, cité en un chiffre : 16,1 % de couverture). |
 | 15 sept. 2026 | Toutes | **Resserrement de forme, aucune décision touchée.** Le corps des sept sous-sections a été ramené de **2 609 à 1 781 mots** (corps total de la note, en-tête et journal compris : 2 902 → 2 018) pour tenir le plafond de cinq pages avec les sous-sections 8 et 9 encore à écrire : récits d'exécution et redites d'une sous-section à l'autre retirés, renvois de preuve réunis en annexe. **Aucune décision, aucun chiffre, aucun point ouvert et aucune articulation entre sous-sections n'a été supprimé** — la règle « rien ne se supprime » porte sur les positions prises, et toutes sont en place. Motif : l'estimation précédente du budget de pages (« ≈ 3,5 pages ») était fausse d'environ une page et demie. |
 
 ---
@@ -135,5 +146,5 @@
 | **5** — Risques majeurs | `Session-5/2-Labs/D5-appreciation-initiale-des-risques.md` (cadrage, socle, sources de risque, événements redoutés, échelles justifiées), `Session-5/1-CISO-desk/` (appétence), `Session-5/4-Working-notes/` (ateliers 1 et 2) | `Session-5/3-Evidence/` · étude EBIOS RM dans `translog-b` : 17 actifs, 7 événements redoutés, 5 couples source de risque / objectif visé |
 | **6** — Tiers et projets | `Session-6/2-Labs/D6-tiers-et-projets.md` (fiche projet à six jalons, exigences du contrat d'infogérance, surveillance du tiers), `Session-6/1-CISO-desk/` (seize dépendances tierces), `Session-6/4-Working-notes/` (carte de dangerosité) | `Session-6/3-Evidence/` · étude EBIOS RM : 5 parties prenantes cotées, 2 scénarios stratégiques, 1 scénario opérationnel |
 | **7** — Traitement du risque | `Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md` (plan par décision, sept fiches d'acceptation, aucune dérogation et pourquoi, total budgétaire contre coût de l'inaction), feuille de travail du registre (S7-05), `Session-7/1-CISO-desk/` (coût de l'inaction), `Session-7/4-Working-notes/` (matrice de cotation, ligne d'acceptation) | `Session-7/3-Evidence/` · registre dans `translog-b` : 8 scénarios, contrôle qualité au vert |
-| **8** — Périmètre du SMSI | ⏳ séance non tenue | ⏳ |
+| **8** — Périmètre du SMSI | `Session-8/2-Labs/D8-declaration-d-applicabilite-et-perimetre-smsi.md` (périmètre en quatre paragraphes, déclaration d'applicabilité sur 15 contrôles, registre des exclusions, synthèse), feuille de travail du TP 1 (S8-05), `Session-8/1-CISO-desk/` (business case de certification, deux pages individuelles) | `Session-8/3-Evidence/` · évaluation dans `translog-b` : 30 exigences de clauses évaluées, 15 contrôles d'annexe A investigués, 16,1 % de couverture |
 | **9** — Indicateurs et version finale | ⏳ séance non tenue | ⏳ |

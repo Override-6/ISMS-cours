@@ -1,0 +1,62 @@
+# Séance 8 — TP · livrable D8 (2 points)
+
+**État : TP 1 et TP 2 entièrement faits.** Évaluation des 30 exigences de clauses 4-10 et déclaration
+d'applicabilité sur 15 contrôles d'annexe A saisies dans `translog-b` ; livrable `D8` assemblé ; sous-section 8
+de la note de stratégie rédigée.
+
+| Fichier | Rôle | État |
+|---|---|---|
+| `PLAN-Seance-8-TP-S8-05-evaluation-clauses-et-SoA.md` | Le mode opératoire du TP 1, écrit **avant** la saisie : verdict décidé pour les 30 exigences de clauses et les 15 contrôles d'annexe A, sourcé sur D1-D7 et le pack de filiale | ✅ **écrit** — trace de méthode |
+| `Seance-8-TP-S8-05-feuille-de-travail-evaluation-et-SoA.md` | La feuille de travail du TP 1 : compteurs lus dans l'outil, écart d'outil trouvé et corrigé (le champ Observation n'enregistrait rien au premier passage), captures listées | ✅ **remplie** — 30 clauses et 15 contrôles évalués, comptes vérifiés à l'écran |
+| **`D8-declaration-d-applicabilite-et-perimetre-smsi.md`** | **Le livrable D8** — périmètre du SMSI en quatre paragraphes, déclaration d'applicabilité (16,1 % de couverture, cohérence croisée avec D4 et D7 vérifiée), registre des exclusions (A.8.28), synthèse pour la direction en dix lignes | ✅ **rédigé** · ✅ **2 points** |
+
+## TP 1 — Évaluation des clauses 4-10 et déclaration d'applicabilité
+
+**Source** : `../../../../S8 - Sources/TP 1/ISO 27001 and SoA Assessment on CISO Assistant _ Lockbay Academy.pdf`
+
+Travaille entièrement **dans** l'évaluation existante (« MERIDIAN - ISO/IEC 27001:2022 - initial assessment »,
+créée en séance 3, complétée en séance 4 sur douze exigences d'annexe A) : rien n'est recréé.
+
+1. **Vérifier l'état de départ** — 123 exigences évaluables, 93 contrôles d'annexe A ; clauses à *not
+   assessed*/*to do*, annexe A porteuse des douze statuts de la séance 4.
+2. **Évaluer les 30 exigences des clauses 4 à 10** — résultat et progression `Done` pour chacune, observation
+   uniquement pour les résultats non conformes. Interdits : `Not applicable` sur une clause, `Compliant` de
+   complaisance. Résultat : 2 conformes, 8 non conformes, 20 partiellement conformes.
+3. **Marquer l'applicabilité sur les quinze contrôles déjà investigués** (douze de la séance 4, trois du CM,
+   cinq communs) — statut, résultat, justification tracée à une pièce du dossier ; l'unique exclusion en
+   trois lignes (fait, vérification, réexamen). Résultat : 11 non conformes, 3 partiellement conformes, 1
+   non applicable (`A.8.28`).
+
+## TP 2 — Déclaration d'applicabilité (D8) et note de stratégie
+
+**Source** : `../../../../S8 - Sources/TP 2/Justification of Exclusions (D8) and Strategy Note _ Lockbay Academy.pdf`
+
+Quatre sections attendues, toutes dans `D8-…md` : le **périmètre du SMSI** (activités, entités et systèmes,
+interfaces, exclusions assumées) ; la **déclaration d'applicabilité**, taux de couverture affiché en tête et
+comptes lus dans l'outil, jamais recopiés à la main ; le **registre des exclusions**, repris tel que saisi le
+matin, non réécrit ; la **synthèse pour la direction**, dix lignes — profil de l'évaluation, deux clauses les
+plus faibles, chantier désigné, décision attendue.
+
+**Cohérence croisée vérifiée** (exigée par l'énoncé) : chaque écart majeur de D4 (`C3`, `C4`) mène à un
+contrôle inclus et non conforme parmi les quinze — aucun orphelin ; côté D7, trois mesures « réduire »
+(`PT-01`, `PT-04`, `PT-12`) n'ont encore aucun contrôle investigué qui les couvre, et trois contrôles inclus
+ce jour (`A.5.24`, `A.6.3`, `A.7.4`) n'ont pas encore de mesure de traitement au registre — chantiers
+signalés, pas des oublis de saisie.
+
+> **Réserve héritée de `fixes.md` F17** : trois mesures de D4 (`M1`, `M2`, `M4`) portent sur les mêmes
+> contrôles que trois mesures de D7 (`PT-03`, `PT-06`, `PT-02`) avec des dates différentes — écart décrit et
+> délibérément laissé ouvert par F17, une décision d'auteur. `D8` cite `D7`, la lecture la plus récente et la
+> plus chiffrée, sans que l'écart soit refermé pour autant.
+
+### Sous-section 8 de la note de stratégie
+
+Trois éléments, une demi-page : le périmètre choisi en deux phrases, articulé à la sous-section 2 (actifs
+critiques) ; la décision de certification recommandée le matin (TD 1) avec la réponse au client dans
+l'intervalle ; le constat de l'évaluation initiale en une phrase, articulé à la sous-section 7 (le plan de
+traitement fonde la déclaration d'applicabilité). Rien n'est réécrit dans les sous-sections 1 à 7.
+
+---
+
+**Deux points de vigilance, constants depuis la séance 1.** Le livrable, c'est `D8-…` : autonome, nommé, au
+format exigé ; les feuilles de travail restent à côté comme trace de méthode. Chaque objet modifié dans
+`translog-b` se capture dans `../3-Evidence/` — c'est la moitié du coefficient individuel.
