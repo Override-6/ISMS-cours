@@ -20,6 +20,26 @@
 
 Sur les douze exigences ISO évaluées, **aucune n'est pleinement couverte** ; deux sont partielles et neuf ne le sont pas, concentrées sur le cloisonnement réseau, les accès à privilèges et la gouvernance des comptes tiers. Le point le plus solide du jour est aussi le plus étroit : le seul cloisonnement réseau du groupe existe bel et bien entre Logistique et Santé, mais sur un flux suspendu depuis trois mois — un point conforme qui ne protège rien tant qu'il reste à l'arrêt. Ce qui reste inconnu est nommé, pas deviné : la sensibilisation à la sécurité (A.6.3) n'a fait l'objet d'aucune preuve, ni pour ni contre, faute d'avoir posé la question à la filiale. Le point urgent est celui qui relie deux non-conformités majeures au même système : le réseau bureautique, non cloisonné du réseau industriel, et le compte de domaine partagé avec la TMA du WMS exposent directement le système dont l'arrêt bloque 40 % du volume expédié du groupe et déclenche des pénalités de 12 000 €/jour. Quatre mesures correctives sont déjà assignées à un propriétaire nommé et à une échéance ; ce qui reste à faire est nommé en section 6, notamment l'approche d'homologation du WMS, cadrée mais incomplète.
 
+### 2.1 Taux de conformité par thème de l'annexe A
+
+*Douze exigences évaluées sur les 93 contrôles de l'annexe A d'ISO/IEC 27001:2022, répartis en quatre thèmes — 37 organisationnels, 8 sur les personnes, 14 physiques, 34 technologiques (comptes établis en D3). Le taux pondéré compte un « partiellement couvert » pour une demi-exigence ; il est calculé **sur les exigences effectivement évaluées**, jamais sur le thème entier, ce qui donnerait un taux flatteur et faux.*
+
+| Thème (annexe A) | Contrôles du thème | Évalués | Pleinement couverts | Partiels | Non couverts | Non évalué | **Taux pondéré sur les évalués** | Part du thème effectivement regardée |
+|---|---|---|---|---|---|---|---|---|
+| **A.5 — Organisationnel** | 37 | 6 | 0 | 1 *(A.5.9)* | 5 | 0 | **8 %** | 6/37 = **16 %** |
+| **A.6 — Personnes** | 8 | 1 | 0 | 0 | 0 | 1 *(A.6.3)* | **non calculable** | 1/8 = **13 %**, et la seule exigence regardée n'a pas pu être statuée |
+| **A.7 — Physique** | 14 | **0** | — | — | — | — | **aucune exigence évaluée** | 0/14 = **0 %** |
+| **A.8 — Technologique** | 34 | 5 | 0 | 1 *(A.8.15)* | 4 | 0 | **10 %** | 5/34 = **15 %** |
+| **Ensemble** | **93** | **12** | **0** | **2** | **9** | **1** | **9 %** | 12/93 = **13 %** |
+
+**Ce que la ventilation par thème montre, et que le total masquait.** Trois lectures s'ajoutent au « aucune exigence pleinement couverte » de la synthèse.
+
+1. **Le thème physique n'a pas été regardé du tout.** Zéro exigence évaluée sur quatorze, alors que la filiale exploite **six entrepôts**, des **chambres froides et remorques réfrigérées** et un **local serveur unique sur le site E1** — trois biens supports de la cartographie de la séance 2, dont deux au Top 5. Ce n'est pas un résultat, c'est un angle mort de l'évaluation elle-même, et il s'ajoute à celui déjà nommé sur A.6.3.
+2. **Les deux thèmes réellement mesurés sont au même niveau.** 8 % à l'organisationnel, 10 % au technologique : l'écart n'est pas significatif, et il contredit l'idée reçue selon laquelle il n'y aurait ici qu'un problème technique. Le compte de domaine partagé, l'absence de clause de réversibilité et l'absence de contrôle des changements de la tierce maintenance sont des défauts **d'organisation**, pas de configuration.
+3. **Le taux global de 9 % ne porte que sur 13 % de l'annexe A.** Il se lit « sur ce que nous avons regardé, presque rien n'est en place », jamais « le groupe est conforme à 9 % ». La différence compte devant un tiers : la seconde formulation serait invérifiable et se retournerait contre nous au premier contrôle.
+
+> **Conséquence pour le prochain cycle** : l'évaluation suivante ouvre le thème **A.7** et statue **A.6.3**, faute de quoi le taux continuera de se calculer sur un périmètre que nous avons choisi, et non sur celui qui nous expose.
+
 ---
 
 ## 3. Constats gradués

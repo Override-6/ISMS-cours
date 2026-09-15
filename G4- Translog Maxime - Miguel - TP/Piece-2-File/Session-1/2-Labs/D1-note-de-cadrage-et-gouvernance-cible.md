@@ -90,4 +90,23 @@ Chacune passe le test du sceptique — *comment saurait-on qu'elle n'est pas res
 
 ---
 
-> **Engagement de trajectoire** : chaque filiale adapte la PSSI-cadre **sous six mois**. C'est le premier jalon opposable, et la première chose que ce document rend vérifiable.
+## Charte de gouvernance de la sécurité du groupe MERIDIAN
+
+*L'acte qui rend opposable tout ce qui précède. Une charte est courte par construction : elle ne recopie ni le schéma, ni la matrice, ni les directives — elle les **adopte**, dit à quel niveau elle est signée, sur quel périmètre elle s'applique, à partir de quand, et comment on saurait qu'elle n'est pas respectée.*
+
+**Article 1 — Objet et corps de règles adoptés.** La présente charte adopte, pour les quatre filiales du groupe MERIDIAN et pour l'ensemble de leurs flux inter-filiales, les quatre corps de règles établis ci-dessus : le **schéma de gouvernance à trois niveaux** et ses fréquences de réunion ; la **matrice de responsabilité** à propriétaire unique par ligne ; les **cinq directives codifiées** de la PSSI-cadre (`PSSI-CADRE-ACC-01`, `ACC-02`, `INC-01`, `JRN-01`, `COR-01`) ; les **trois règles d'arbitrage** inter-filiales (`ARB-01`, `ARB-02`, `ARB-03`).
+
+**Article 2 — Exigence de vérifiabilité.** Aucune règle n'est adoptée sans **propriétaire nommé** et sans **moyen d'en constater le non-respect**. Les cinq directives portent chacune leur métrique de vérification dans le tableau qui précède ; les trois règles d'arbitrage portent chacune leur délai ferme — 72 h, 48 h, et l'immédiateté pour l'isolement d'urgence. Une règle que l'on ne saurait pas dire enfreinte n'a pas sa place dans cette charte et doit être reformulée avant d'y entrer.
+
+**Article 3 — Entrée en vigueur, adaptation, révision.** La charte entre en vigueur à sa signature. Chaque filiale **adapte la PSSI-cadre sous six mois** — premier jalon opposable, et première chose que ce document rend vérifiable. Toute dérogation suit `ARB-03`. La charte est **revue annuellement** par le Comité sécurité groupe, qui propose ses amendements à la Direction Générale ; elle est révisée hors cycle si une décision de gouvernance la contredit, auquel cas l'amendement est daté et motivé plutôt que la version antérieure effacée.
+
+**Article 4 — Signature.** La charte est signée au niveau qui engage le groupe, non au niveau qui la rédige.
+
+| Rôle | Qualité au titre de la charte | Ce qu'il signe |
+|---|---|---|
+| **Direction Générale du groupe** | **Autorité signataire** | La charte elle-même, et l'appétence au risque dont elle découle |
+| **Conseil d'Administration** | **Approbateur** | L'appétence, dans son cycle annuel |
+| **Comité Exécutif** | **Validation de la déclinaison** | Les budgets et les arbitrages qu'elle engage |
+| **RSSI Groupe** | **Rédacteur et garant de l'application** — il **ne signe pas la règle** | La proposition, et le compte rendu trimestriel de son application |
+
+> **Pourquoi le RSSI Groupe ne signe pas.** Si la règle porte sa signature, chaque incident se lit « la règle du RSSI a échoué » et les dirigeants deviennent spectateurs de leur propre exposition. La ligne doit avoir un propriétaire visible qui n'est pas celui qui la rédige.

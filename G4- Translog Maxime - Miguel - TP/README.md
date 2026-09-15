@@ -20,10 +20,10 @@ Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits
 | **S2** | Cartographie du SI | **D2** Cartographie de la filiale | 5 | ✅ **livrable assemblé**, Top 5 marqué dans l'instance *(F3 clos)* |
 | **S3** | Choix du référentiel | **D3** Note de business case | 4 | ✅ **livrable assemblé** |
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ **livrable assemblé**, bureau du RSSI clos, TP 1 et TP 2 faits |
-| **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Appréciation initiale des risques | 3 | ✅ **livrable assemblé**, ateliers 1-2 saisis dans `translog-b` — reste la page S5 de Miguel *(F12)* |
+| **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Appréciation initiale des risques | 3 | ✅ **livrable assemblé**, ateliers 1-2 saisis dans `translog-b`, bureau du RSSI clos *(F12 close)* |
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | 7 | ✅ **livrable assemblé**, bureau du RSSI clos, TD 2 + TP 1 + TP 2 faits — reste le CM |
-| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | ✅ **livrable rédigé**, TD 1 + TD 2 + TP 1 + TP 2 faits, coûts saisis dans l'outil (82K €/an, 13/13 mesures) — restent les 2 pages du bureau du RSSI |
-| **S8** | Périmètre du SMSI · business case de certification | **D8** Déclaration d'applicabilité | 2 | 🔄 **TD 1 fait**, page de Maxime rendue — restent le CM, la page de Miguel, TP 1, TP 2 et `D8` |
+| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | ✅ **livrable rédigé**, TD 1 + TD 2 + TP 1 + TP 2 faits, coûts saisis dans l'outil (82K €/an, 13/13 mesures), bureau du RSSI clos *(F14 close)* |
+| **S8** | Périmètre du SMSI · business case de certification | **D8** Déclaration d'applicabilité | 2 | 🔄 **TD 1 fait**, **bureau du RSSI clos** (les deux pages) — restent le CM, TP 1, TP 2 et `D8` |
 | S9 | Indicateurs, version finale | D9 | 3 | ⏳ séance non tenue |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 7 sous-sections sur 9, **toutes rédigées** |
 
