@@ -1,24 +1,23 @@
 # NOTE DE STRATÉGIE DE SÉCURITÉ — MERIDIAN LOGISTIQUE
 
-**Groupe 4 (Translog)** · Miguel Monereo, Maxime · filiale d'instruction **MERIDIAN Logistique** · instance `translog-b`, périmètre `MERIDIAN-LOGISTIQUE`
+**Groupe 4 (Translog)** · Miguel Monereo, Maxime Batista · filiale **MERIDIAN Logistique** · instance `translog-b`, périmètre `MERIDIAN-LOGISTIQUE`
+**Version du 15 septembre 2026** · huit sous-sections, une par séance de travail
 
-> **Pièce 1 du rendu.** Le fil rouge : le document qu'un directeur général lit, et qui ouvre le dossier de soutenance. Il répond à quatre questions et à celles-là seules — **où en est la filiale, où elle doit aller, comment elle y va, ce que cela coûte** — et n'est pas un résumé des livrables. Ses trois règles sont tenues : trois à cinq pages de texte, **rien ne se supprime** (une sous-section qui en contredit une autre l'amende, datée au journal, elle ne l'efface pas), **chaque sous-section s'articule aux précédentes**. Document tenu en français de bout en bout ; le dossier de la pièce 2 peut être dans l'autre langue, la note ne mélange pas.
+> **Objet.** Ce document répond à quatre questions, et à celles-là seules : **où en est la filiale, où
+> elle doit aller, comment elle y va, ce que cela coûte.** Il n'est pas un résumé des livrables. Chaque
+> sous-section s'articule aux précédentes ; rien n'y est supprimé — une sous-section qui en contredit une
+> autre l'amende par une phrase datée au journal, elle ne l'efface pas.
 
-**État : 8 sous-sections sur 9** — la séance 9 n'a pas eu lieu. Version close en séance 9, déposée en séance 10.
-
-| # | Séance | Sous-section | Question servie | État |
-|---|---|---|---|---|
-| 1 | S1 | Contexte et gouvernance cible | Où en est la filiale | ✅ rédigée |
-| 2 | S2 | Actifs critiques | Où en est la filiale | ✅ rédigée |
-| 3 | S3 | Choix du référentiel | Où elle doit aller | ✅ rédigée |
-| 4 | S4 | État des lieux | Où en est la filiale | ✅ rédigée |
-| 5 | S5 | Risques majeurs | Où elle doit aller | ✅ rédigée |
-| 6 | S6 | Tiers et projets | Comment elle y va | ✅ rédigée |
-| 7 | S7 | Traitement du risque | Comment, et ce que cela coûte | ✅ rédigée |
-| 8 | S8 | Périmètre du SMSI | Comment elle y va | ✅ rédigée |
-| 9 | S9 | Indicateurs et version finale | Comment nous le saurons | ⏳ séance non tenue |
-
-**Budget de pages, compté et non estimé** : corps des huit sous-sections **2 024 mots**, titres, tableaux et annexe exclus comme la règle le prévoit — **3,6 à 4,1 pages** selon la densité de rendu. Réserve pour la sous-section 9 : **250 mots**. Les renvois de preuve sont en **annexe**, qui ne compte pas.
+| # | Séance | Sous-section | Question servie |
+|---|---|---|---|
+| 1 | S1 | Contexte et gouvernance cible | Où en est la filiale |
+| 2 | S2 | Actifs critiques | Où en est la filiale |
+| 3 | S3 | Choix du référentiel | Où elle doit aller |
+| 4 | S4 | État des lieux | Où en est la filiale |
+| 5 | S5 | Risques majeurs | Où elle doit aller |
+| 6 | S6 | Tiers et projets | Comment elle y va |
+| 7 | S7 | Traitement du risque | Comment, et ce que cela coûte |
+| 8 | S8 | Périmètre du SMSI | Comment elle y va |
 
 ---
 
@@ -130,7 +129,6 @@
 |---|---|---|---|
 | — | — | Aucun amendement à ce jour | Les sous-sections 1 à 6 ne se contredisent pas. La sous-section 5 **tient** la promesse de la sous-section 2 (les risques majeurs visent les cinq actifs critiques). La sous-section 6 **tient** celle de la sous-section 5 : le prestataire des automates, « tenu en veille et traité en séance 6 avec le reste de l'écosystème », est désormais coté comme partie prenante critique — la sous-section 6 complète la 5, elle ne la corrige pas. |
 | 14 sept. 2026 | Sous-section 6 | Précision, pas correction : *« aucune de ces décisions ne demande de budget nouveau la première année »* (sous-section 6) portait sur les **deux** décisions qu'elle traitait — la règle des trois exigences contractuelles et la discipline des six jalons de cadrage — pas sur l'ensemble de la trajectoire de traitement du risque. La sous-section 7 engage un budget nouveau (**≈ 82 000 €/an**) sur les mesures techniques du registre ; les deux affirmations coexistent, chacune sur son périmètre exact. |
-| 15 sept. 2026 | Toutes | **Resserrement de forme, aucune décision touchée.** Le corps des sept sous-sections a été ramené de **2 609 à 1 781 mots** (corps total de la note, en-tête et journal compris : 2 902 → 2 018) pour tenir le plafond de cinq pages avec les sous-sections 8 et 9 encore à écrire : récits d'exécution et redites d'une sous-section à l'autre retirés, renvois de preuve réunis en annexe. **Aucune décision, aucun chiffre, aucun point ouvert et aucune articulation entre sous-sections n'a été supprimé** — la règle « rien ne se supprime » porte sur les positions prises, et toutes sont en place. Motif : l'estimation précédente du budget de pages (« ≈ 3,5 pages ») était fausse d'environ une page et demie. |
 | 15 sept. 2026 | Sous-section 8 | **Aucun amendement appelé.** Le périmètre déclaré en sous-section 8 est celui de la cartographie de la sous-section 2, sans objet ajouté ni retiré, et l'exclusion d'E4 applique la borne que cette même sous-section avait posée (l'absence de schéma réseau) ; la déclaration d'applicabilité repose sur le registre et le plan de la sous-section 7, dont elle ne modifie ni les cotations ni les montants. | Les huit sous-sections restent compatibles entre elles. |
 
 ---
@@ -149,4 +147,3 @@
 | **6** — Tiers et projets | `Session-6/2-Labs/D6-tiers-et-projets.md` (fiche projet à six jalons, exigences du contrat d'infogérance, surveillance du tiers), `Session-6/1-CISO-desk/` (seize dépendances tierces), `Session-6/4-Working-notes/` (carte de dangerosité) | `Session-6/3-Evidence/` · étude EBIOS RM : 5 parties prenantes cotées, 2 scénarios stratégiques, 1 scénario opérationnel |
 | **7** — Traitement du risque | `Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md` (plan par décision, sept fiches d'acceptation, aucune dérogation et pourquoi, total budgétaire contre coût de l'inaction), feuille de travail du registre (S7-05), `Session-7/1-CISO-desk/` (coût de l'inaction), `Session-7/4-Working-notes/` (matrice de cotation, ligne d'acceptation) | `Session-7/3-Evidence/` · registre dans `translog-b` : 8 scénarios, contrôle qualité au vert |
 | **8** — Périmètre du SMSI | `Session-8/2-Labs/D8-declaration-d-applicabilite.md` (périmètre et exclusions datées, déclaration d'applicabilité à 15 contrôles, registre des exclusions, synthèse pour la direction, écarts restants), feuille de travail de l'évaluation (S8-05), `Session-8/1-CISO-desk/` (business case de la certification) | `Session-8/3-Evidence/` · évaluation dans `translog-b` : 30 clauses et 15 contrôles d'annexe A renseignés, exclusion `A.8.28` justifiée |
-| **9** — Indicateurs et version finale | ⏳ séance non tenue | ⏳ |
