@@ -2,14 +2,14 @@
 
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
-**Journal à jour au 15 septembre 2026** · 21 corrections ouvertes depuis le 8 septembre : **19 closes**, une partiellement traitée (**F17**), une ouverte (**F20**).
+**Journal à jour au 15 septembre 2026** · 22 corrections ouvertes depuis le 8 septembre : **20 closes**, une partiellement traitée (**F17**), une ouverte (**F20**).
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ;
 > l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ;
 > une pièce dont la note ne dit rien est du travail perdu.
 
 **Comment lire ce journal.** La section **« Ce qui reste »** ci-dessous est la seule à consulter pour savoir
-quoi faire : elle est classée par points en jeu. Vient ensuite le **relevé des corrections** (F1 à F20) en
+quoi faire : elle est classée par points en jeu. Vient ensuite le **relevé des corrections** (F1 à F22) en
 une ligne chacune, puis leurs **fiches détaillées**, dans l'ordre où elles ont été traitées — le relevé sert d'index. Rien ne
 se supprime : une correction close garde sa fiche, elle change d'état dans le relevé.
 
@@ -28,7 +28,8 @@ se supprime : une correction close garde sa fiche, elle change d'état dans le r
 > RSSI (**F19**), le **TP 1** (clauses 4 à 10 évaluées, déclaration d'applicabilité à 15 contrôles,
 > exclusion `A.8.28` justifiée) et le **TP 2** — livrable **`D8`** (périmètre du SMSI, 16,1 % de couverture,
 > cohérence croisée avec D4/D7 vérifiée, registre des exclusions, synthèse) et la **sous-section 8** de la
-> note — sont faits. Détail dans `Session-8/2-Labs/` et le relevé F1-F21 ci-dessous.
+> note — sont faits, puis **relus contre les énoncés et les corrigés** (**F22**). Détail dans
+> `Session-8/2-Labs/` et le relevé F1-F22 ci-dessous.
 
 ## 2 · Éléments exigés — portés le 15 septembre ✅
 
@@ -72,7 +73,7 @@ dossier à 18 pages sur 18.
 
 ---
 
-# Relevé des corrections — F1 à F21
+# Relevé des corrections — F1 à F22
 
 | # | Objet | État |
 |---|---|---|
@@ -97,6 +98,7 @@ dossier à 18 pages sur 18.
 | **F19** | Les quatre pages manquantes du bureau du RSSI | ✅ 16 pages sur 16 — 🟡 réserve de longueur ouverte (§4) |
 | **F20** | Conformité au fil rouge du module, élément par élément | 🔄 **les 3 éléments exigés portés** le 15 sept. (charte `D1`, taux par thème `D4`, `D5` resserré) — restent les 2 pièces à produire (§1) |
 | **F21** | Deux fichiers `D8` écrits en parallèle par les deux auteurs, dans le même dossier | ✅ **clos** (15 sept.) — version de Miguel retenue (plus complète), réserve F17 récupérée depuis l'autre avant suppression |
+| **F22** | Les deux TP de la séance 8 relus contre leurs énoncés et leurs corrigés, état vérifié dans `translog-b` | ✅ **clos** (15 sept.) — saisie conforme au chiffre près ; 4 corrections portées (dont 2 dans l'outil), sévérité assumée par écrit |
 
 **Barème** : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · **D7 5** · D8 2 · D9 3 · note de stratégie 3 =
 **40 points**, convertis sur 20, coefficient 4 sur 10.
@@ -1094,6 +1096,132 @@ tire son poids : « une page, tenue en longueur » est explicitement l'un des tr
 
 ---
 
+## F22 · Les deux TP de la séance 8 relus contre leurs énoncés et leurs corrigés — ✅ fait
+
+**Ce qui a été relu** : l'énoncé du TP 1 (*ISO 27001 and SoA Assessment on CISO Assistant*) et celui du
+TP 2 (*Justification of Exclusions (D8) and Strategy Note*), **corrigés compris** — les deux PDF portent
+une section « Answer keys and assessment criteria » qui n'avait pas été confrontée à la saisie. Relu aussi
+le CM du matin, qui porte la liste des **huit contrôles calibrés**, et l'état réel de `translog-b`, lu
+exigence par exigence plutôt que sur les seules captures.
+
+### Ce qui tient — vérifié dans l'outil, ne pas rouvrir
+
+- **123 exigences évaluables**, comptées dans l'outil et non recopiées ; **93 contrôles d'annexe A**.
+- **30 exigences de clauses sur 30** à `Done`, résultats **2 / 8 / 20** (conforme / non conforme /
+  partiellement conforme), **aucune** à *not assessed*, **aucune** à *not applicable* — les deux interdits
+  de l'énoncé sont tenus.
+- **15 contrôles d'annexe A** marqués, et ce sont **les bons quinze** : le CM calibre `A.5.9`, `A.5.17`,
+  `A.5.19`, `A.5.24`, `A.6.3`, `A.7.4`, `A.8.8`, `A.8.28` ; la séance 4 avait évalué douze contrôles ;
+  l'intersection fait **cinq**, l'union **quinze**. Le compte de l'énoncé est retrouvé exactement.
+- **Chaque** clause non conforme et **chacun** des quinze contrôles portent une observation réelle —
+  vérifié dans le formulaire, le texte d'invite de l'outil (*« Double-click to add content… »*) étant
+  distingué d'une observation vide.
+- Les comptes de `D8` sont ceux de l'outil : **2 / 19 / 23 / 1 / 78** sur 123, **45** exigences à `Done`
+  (36,59 %), **16,1 %** de couverture sur l'annexe A, **84 %** non investigué.
+- Le **profil des clauses correspond au corrigé du TP 1** presque ligne à ligne : contexte servi par la
+  cartographie avec la réserve sur le périmètre, leadership porté par la gouvernance de la séance 1,
+  planification la plus solide, support en retard, fonctionnement engagé mais non exécuté, évaluation des
+  performances nue, amélioration amorcée. **Les deux clauses les plus faibles ressortent être le support
+  (7) et l'évaluation des performances (9)** — exactement la paire que le corrigé annonce.
+- La **discipline d'exclusion** est celle du corrigé : une seule exclusion, fondée sur une absence d'objet,
+  vérifiée, datée, avec sa condition de réexamen ; et les deux contre-exemples que le corrigé nomme sont
+  explicitement refusés dans `D8` §3 (`A.7.4` n'est pas renvoyée au bailleur, `A.6.3` n'est pas renvoyée
+  au groupe).
+- `D8` porte **ses quatre sections**, le taux de couverture **en tête** de la section 2, les 78 contrôles
+  non investigués déclarés comme tels et **comptés conformes nulle part**, la cohérence croisée **dans les
+  deux sens**, la synthèse en dix lignes. La **sous-section 8** de la note est à sa place, articulée aux
+  sous-sections 2 et 7, sans rien réécrire avant elle.
+
+### 1. `D8` §2.3 comptait la clause 7 sur six exigences — corrigé
+
+Le tableau du profil donnait « **4 non conformes sur 6** » pour le support. La clause 7 porte **sept**
+exigences — `7.1`, `7.2`, `7.3`, `7.4`, `7.5.1`, `7.5.2`, `7.5.3`, recomptées dans l'outil — et le tableau
+tel qu'écrit sommait à **29** au lieu de 30. Corrigé en « sur 7 ». La ligne de la clause 9, elle, était
+juste (`9.1`, `9.2.1`, `9.2.2`, `9.3.1`, `9.3.2`, `9.3.3`).
+
+### 2. Deux observations de la séance 3 étaient restées dans l'outil — corrigé dans `translog-b`
+
+Les exigences **`4.1`** et **`5.3`** portaient encore leur observation de la séance 3, celle du repérage
+sans notation, qui se termine par *« Statut inchangé (évaluation initiale vierge) ; 1ere preuve prévue
+pour l'audit S4 »*. Les deux sont désormais à `Done` / *Partially compliant* sur des pièces des séances 1
+à 8 : l'observation **affirmait dans l'outil que l'évaluation était vierge**, à côté d'un résultat qui
+prouve le contraire — et un auditeur lit l'observation avant le badge. Les dix-huit autres exigences
+partiellement conformes n'en portaient aucune ; l'incohérence ne touchait que ces deux-là, héritées et
+jamais relues.
+
+Les deux observations ont été **réécrites sur les pièces réellement disponibles** — `4.1` sur D1, D2, D3
+et le pack §2, avec la raison du « partiellement » (le contexte n'est pas tenu comme un processus, et le
+périmètre n'a été formalisé qu'en `D8`) ; `5.3` sur la matrice RACI de D1 et les propriétaires nommés de
+D2, avec sa raison (pas de RSSI dans la filiale, trois zones non arbitrées au pack §3). Persistance
+vérifiée par rechargement, selon la méthode que la feuille de travail avait documentée. **Aucun compte ne
+bouge** : ni résultat ni progression touchés, compteurs revérifiés identiques après correction. Captures
+`Session-8/3-Evidence/S8-05-clause-4-1-observation-reprise-seance-8.jpg` et
+`…-clause-5-3-observation-reprise-seance-8.jpg`. Consigné en **§5 bis** de la feuille de travail avec la
+règle pour la séance 9 : *une exigence dont le résultat change doit voir son observation relue*.
+
+### 3. `D8` §2.4 rapprochait deux contrôles de mesures que `D7` §6 ne leur donne pas — déclaré
+
+La table mesure ↔ exigence de `D7` §6 rattache `PT-02` à `A.5.16`, `A.8.2`, `A.8.5`, et `PT-01` à
+`A.8.32`. `D8` citait pourtant **`PT-02` pour `A.5.15`** et **`PT-01` pour `A.8.8`**, puis ne retenait que
+`A.5.24`, `A.6.3` et `A.7.4` comme contrôles sans mesure. Le rapprochement est juste sur le fond — `PT-02`
+ferme bien l'écart de contrôle d'accès, et l'écart de `A.8.8` **est** l'absence de maîtrise des mises à
+jour que `PT-01` recette — mais il **étendait `D7` en silence**, ce que le critère « cohérence croisée
+vérifiée dans les deux sens, orphelins traités » ne pardonne pas.
+
+§2.4 est réécrit en tableau par ligne de registre, avec trois colonnes qui séparent ce que `D7` §6 porte
+réellement, ce qui tombe parmi les 78 non investigués, et ce que `D8` ajoute. Les deux ajouts sont
+signalés dans le tableau des quinze contrôles, justifiés en clair, et **inscrits comme une troisième ligne
+d'orphelins** — « orphelins de `D7`, pas de la déclaration » — avec la correction due dans `D7` §6 en
+séance 9. Deux renvois erronés sont corrigés au passage : `OS3` citait `A.5.15` là où `D7` donne `A.5.16`,
+et `ER2` citait `A.8.5` là où `PT-09` porte `A.5.17` et `A.8.24` (ce dernier parmi les 78). La conclusion
+du contrôle ne change pas : **un seul trou de couverture, `ER7`**, dont l'unique ancrage `A.5.37` n'est
+pas investigué.
+
+### 4. La notation est plus sévère que l'état présumé du CM — assumée par écrit, pas corrigée
+
+Le CM donne, pour chacun des huit contrôles calibrés, un état présumé. Il présume **partiel** sur
+`A.5.17`, `A.5.19`, `A.5.24`, `A.6.3` et `A.8.8` ; la saisie les porte **non conformes**. Le corrigé du
+TP 1 attend par ailleurs « une majorité de partiellement conformes » sur l'annexe A, là où les quinze
+donnent 11 non conformes pour 3 partiels — et il nomme « tout non conforme est de la posture » comme l'un
+des deux profils faux.
+
+**Les notes n'ont pas été changées, et c'est un arbitrage, pas une omission.** Les adoucir aurait
+contredit `D4`, qui avait déjà noté `A.5.17`, `A.5.19` et `A.8.8` non conformes, **sans aucun fait
+nouveau pour le justifier** — une révision qu'un auditeur lit comme de la complaisance, et que le module
+sanctionne plus lourdement que la sévérité. Ce qui manquait n'était pas la bonne note, c'était la **règle
+de notation écrite** : `D8` §2.2 la porte désormais — l'état constaté au 15 septembre 2026, jamais
+l'intention, donc un contrôle dont la seule couverture est une mesure à échéance future est non conforme
+avec un traitement daté, pas « partiellement en place ». `A.5.17` sert de cas type (le secret partagé en
+clair depuis 2019 est intact ; `PT-09` ne referme qu'au 14/01/2027). Les trois partiels sont, eux,
+justifiés par ce qui existe réellement : une cartographie tenue, un SOC qui reçoit une partie des
+journaux, une investigation à conduire. L'écart avec le CM est **écrit dans le livrable** et se défend
+contrôle par contrôle.
+
+### 5. La note de stratégie annonçait six exclusions et en listait quatre — corrigé
+
+La sous-section 8 écrivait « six exclusions nommées » suivi d'une parenthèse qui n'en portait que quatre.
+Le compte de six était exact dans `D8` §1 ; c'est la citation dans la note qui était tronquée. Les deux
+manquantes — la **valeur métier de réapprovisionnement d'urgence**, qui appartient à MERIDIAN Santé, et la
+**flotte de véhicules avec sa télématique** — sont rétablies. Corps de la note : 1 922 → **1 939 mots**,
+sans effet sur le plafond de pages (réserve de 250 mots pour la sous-section 9 intacte), et le journal
+d'amendements de la note reçoit sa ligne datée.
+
+### 6. La feuille de travail donnait encore le TP 2 comme dû — corrigé
+
+Le §8 « Ce qui reste dû » listait *« le TP 2 de l'après-midi »*, fait depuis. Remplacé par ce qui reste
+réellement — les 78 contrôles non investigués — avec la **priorité d'investigation** que le contrôle
+croisé a produite : les huit contrôles que `D7` rapproche déjà d'une mesure sans qu'ils soient évalués
+(`A.5.20`, `A.5.30`, `A.5.37`, `A.8.13`, `A.8.16`, `A.8.20`, `A.8.24`, `A.8.32`), `A.5.37` en tête.
+
+### Ce qui reste ouvert après F22
+
+Rien de propre à la séance 8. La **réserve F17** sur les dates `M1`/`M2`/`M4` de `D4` contre
+`PT-03`/`PT-06`/`PT-02` de `D7` reste ouverte, comme F17 l'a décidé, et `D8` continue de citer `D7` sans
+refermer l'écart. La **correction de `D7` §6** (ajouter `A.5.15` à `PT-02` et `A.8.8` à `PT-01`) est
+inscrite au chantier de la séance 9.
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -1143,3 +1271,4 @@ tire son poids : « une page, tenue en longueur » est explicitement l'un des tr
 | 15 sept. 2026 | **F21 · deux fichiers `D8` écrits en parallèle, un seul retenu** — les deux auteurs ont saisi le TP 1 dans la même instance `translog-b` (partagée) puis rédigé chacun sa version du livrable `D8` à partir du même état de l'outil, sans se coordonner : `D8-declaration-d-applicabilite-et-perimetre-smsi.md` (Maxime) et `D8-declaration-d-applicabilite.md` (Miguel), dans le même dossier `Session-8/2-Labs/`. Les deux versions concordent chiffre pour chiffre (16,1 % de couverture, 11/3/1 sur les quinze contrôles, exclusion `A.8.28`) puisqu'elles lisent le même état de l'outil, mais la version de Miguel va plus loin : elle distingue le **périmètre du SMSI** (la filiale entière) du **périmètre de certification visé** (plus étroit, chaîne du froid et flux WMS), porte un **test du tiers** dedans/dehors système par système (§1.5), et vérifie la **cohérence croisée dans les deux sens** avec le registre de D7 jusqu'au niveau du risque (elle isole notamment **ER7**, dont l'unique ancrage `A.5.37` n'est pas encore investigué — une précision que l'autre version n'avait pas). **Retenue comme version canonique** ; l'autre version supprimée après y avoir récupéré ce qu'elle seule portait — la réserve F17 sur les dates `M1`/`M2`/`M4` de D4 contre `PT-03`/`PT-06`/`PT-02` de D7, absente de la version de Miguel. La sous-section 8 de la note de stratégie et les renvois du dossier sont alignés sur le nom de fichier retenu. |
 | 15 sept. 2026 | **F20 · rendu confronté au fil rouge du module, élément par élément** — les trois pièces, les éléments exigés de D1 à D9, les tailles imposées, les barèmes. **L'essentiel passe** : D2 (7 éléments), D3 (5, deux pages plus export), D6 (4), D7 (5, dont le chiffrage **sur trois ans** que le total annuel seul n'aurait pas satisfait), D5 sur le fond (7 événements redoutés pour 6 demandés, 3 couples sur 5 avec les raisons des écartés) ; feuille de route de la séance 1 bien hors rendu ; pièce 3 vide et documentée ; points réconciliés à 40. **Cinq écarts ouverts** : `D1` **n'a pas de charte de gouvernance** alors que la sous-section 1 de la note y renvoie explicitement — affirmation sans pièce derrière elle, ce que le module disqualifie ; `D4` ne donne **pas de taux de conformité par thème** alors que D3 a établi les quatre thèmes et que l'outil porte le taux en capture ; `D5` fait ≈ 2,9 pages contre une demi-page demandée ; la note de stratégie **n'existe pas en PDF** alors que la pièce 1 est « un fichier PDF » ; **aucun support de soutenance** n'existe alors que la soutenance vaut 30 points, coefficient 3. **Confirmé au passage** : le barème du bureau du RSSI (4/3/3) est le barème **officiel** du module, page 4 — non une convention des séances antérieures, comme le `README` de la séance 8 l'affirmait à tort (corrigé). |
 | 15 sept. 2026 | **F20 · les trois éléments exigés manquants sont portés.** **`D1` reçoit sa charte de gouvernance** — quatre articles et un tableau de signature, à la définition que les notes de la séance 1 donnaient elles-mêmes : elle **adopte** le schéma à trois niveaux, la matrice RACI, les cinq directives `PSSI-CADRE-*` et les trois règles `ARB-*` sans les recopier, pose l'exigence de vérifiabilité, fixe entrée en vigueur, adaptation à six mois et révision annuelle, et nomme l'autorité signataire — le RSSI Groupe y signe la proposition et le compte rendu, **jamais la règle**. L'affirmation de la sous-section 1 de la note de stratégie a désormais sa pièce derrière elle. **`D4` reçoit son taux de conformité par thème** (§2.1) : 8 % à l'organisationnel, 10 % au technologique, non calculable sur A.6, **zéro exigence évaluée sur les quatorze du thème physique** alors que la filiale exploite six entrepôts, des chambres froides et un local serveur unique — angle mort que seule la ventilation par thème fait apparaître ; 9 % d'ensemble, portant sur 13 % de l'annexe A seulement, à lire « sur ce que nous avons regardé, presque rien n'est en place ». **`D5` est resserré** de 1 415 à 724 mots de prose (−49 %) par la méthode de F18 — cadrage, vraisemblance et seuil passés en tableaux — **sans descendre à la demi-page demandée** : ce qui reste est la justification que le module exige (raisons des couples écartés, seuil des six heures d'ER1, événements critiques sans source), et la couper aurait échangé une consigne de taille contre une consigne de contenu. **Réserve** : la charte porte `D1` à ~1 010 mots de prose contre « deux pages » annoncées. **Restent ouverts** : la note de stratégie en PDF (écartée par les auteurs pour l'instant) et les supports de soutenance, 30 points coefficient 3. |
+| 15 sept. 2026 | **F22 · les deux TP de la séance 8 relus contre leurs énoncés et leurs corrigés, état confronté à `translog-b`** — relecture conduite sur les deux PDF **corrigés compris** (la section « Answer keys and assessment criteria » n'avait pas été confrontée à la saisie) et sur l'état réel de l'outil, lu exigence par exigence. **La saisie est conforme au chiffre près** : 123 exigences évaluables, 30 clauses sur 30 à `Done` (2 / 8 / 20, aucune non évaluée, aucun *not applicable* — les deux interdits tenus), 15 contrôles d'annexe A marqués et ce sont **les bons quinze** (les huit du CM ∪ les douze de la séance 4, intersection de cinq, union de quinze — le compte de l'énoncé retrouvé exactement), observation réelle sur chaque clause non conforme et sur chacun des quinze, compteurs 2/19/23/1/78 et 45 à `Done` identiques à ceux que `D8` affiche. **Le profil des clauses correspond au corrigé presque ligne à ligne**, jusqu'aux deux clauses les plus faibles — support (7) et évaluation des performances (9), la paire même que le corrigé annonce. **Quatre corrections portées, deux dans l'outil.** `D8` §2.3 comptait la clause 7 **sur six** exigences au lieu de sept, le tableau sommant à 29 au lieu de 30 — corrigé. Les exigences **`4.1` et `5.3` portaient encore leur observation de la séance 3**, qui affirmait dans l'outil que *« l'évaluation initiale [est] vierge »* à côté d'un résultat `Done` / partiellement conforme qui prouve le contraire — les deux réécrites sur leurs pièces réelles, persistance vérifiée par rechargement, **aucun compte touché**, deux captures ajoutées, règle consignée pour la séance 9 (*une exigence dont le résultat change doit voir son observation relue*). `D8` §2.4 **rapprochait `A.5.15` de `PT-02` et `A.8.8` de `PT-01`, que `D7` §6 ne leur donne pas** : juste sur le fond, mais étendant `D7` en silence — §2.4 réécrit en tableau par ligne de registre séparant ce que `D7` porte, ce qui tombe parmi les 78, et ce que `D8` ajoute, les deux ajouts signalés et **inscrits comme troisième ligne d'orphelins**, deux renvois erronés corrigés (`OS3` citait `A.5.15` pour `A.5.16` ; `ER2` citait `A.8.5` pour `A.8.24`) ; conclusion inchangée — **un seul trou de couverture, `ER7`**. La note de stratégie annonçait « six exclusions » et n'en listait que quatre — rétablies, corps 1 922 → **1 939 mots**, ligne datée au journal d'amendements. **Un arbitrage, non une correction** : la notation est plus sévère que l'état présumé du CM sur **cinq des huit contrôles calibrés** (`A.5.17`, `A.5.19`, `A.5.24`, `A.6.3`, `A.8.8`, présumés *partiels*, notés non conformes). Les notes **n'ont pas été changées** — les adoucir aurait contredit `D4` sans fait nouveau, ce qu'un auditeur lit comme de la complaisance ; ce qui manquait était la **règle de notation écrite**, que `D8` §2.2 porte désormais : l'état constaté au 15 septembre, jamais l'intention, donc un contrôle dont la seule couverture est une mesure à échéance future est non conforme avec un traitement daté. **Chantier ouvert pour la séance 9** : corriger `D7` §6 en y ajoutant les deux rapprochements. |

@@ -87,6 +87,36 @@ contournement trouvé via `form.requestSubmit(bouton)`, qui a fonctionné à cha
 la plupart du temps, l'avance automatique vers l'exigence suivante de l'arbre (pratique pour les 30
 exigences de clauses, saisies dans l'ordre).
 
+## 5 bis. Troisième écart, trouvé à la relecture — deux observations de séance 3 restées en place
+
+**Constat.** Les exigences **4.1** et **5.3** portaient encore leur observation de la séance 3, celle du
+repérage sans notation (« *Repérage sans notation (S3-05 Ex.3)… Statut inchangé (évaluation initiale
+vierge) ; 1ere preuve prévue pour l'audit S4* »). Les deux exigences sont désormais à `Done` et
+*Partially compliant* sur des pièces de séances 1 à 8 : l'observation affirmait donc, dans l'outil, que
+l'évaluation était vierge, à côté d'un résultat qui prouve le contraire. Un auditeur qui ouvre l'instance
+lit l'observation avant le badge. Les dix-huit autres exigences partiellement conformes ne portaient,
+elles, aucune observation — l'incohérence ne touchait que ces deux-là, héritées et non réécrites.
+
+**Correction.** Les deux observations ont été reprises sur les pièces réellement disponibles, et la
+persistance vérifiée par rechargement (méthode du §5 : bouton *Edit* d'abord, jamais le champ de
+prévisualisation) :
+
+- **4.1** — contexte décrit par D1, D2 et D3 ; partiellement conforme parce que le contexte n'est pas tenu
+  comme un processus (aucune revue périodique) et que le périmètre qui en découle n'a été formalisé
+  qu'aujourd'hui, en D8.
+- **5.3** — rôles et autorités portés par la matrice RACI de D1 et les propriétaires nommés de D2 ;
+  partiellement conforme parce que la filiale n'a pas de RSSI et que trois zones du pack §3 (WMS, réseau
+  industriel, télématique) restent non arbitrées.
+
+**Aucun compte ne bouge** : ni résultat ni progression n'ont été touchés, les compteurs du §6 sont
+inchangés après correction (revérifiés à l'écran). Captures
+`../3-Evidence/S8-05-clause-4-1-observation-reprise-seance-8.jpg` et
+`../3-Evidence/S8-05-clause-5-3-observation-reprise-seance-8.jpg`.
+
+> **Règle à tenir en séance 9** : une exigence dont le résultat change doit voir son observation relue.
+> Une observation héritée d'une séance antérieure n'est pas neutre — elle date le jugement, et un
+> jugement daté d'avant le résultat qu'il accompagne est un écart de traçabilité.
+
 ## 6. Comptes finaux vérifiés à l'écran (donuts de synthèse de l'évaluation)
 
 - **Compliance** : 1,63 % compliant (2/123) · 15,45 % non compliant (19/123) · 18,70 % partiellement
@@ -107,10 +137,16 @@ Dans `../3-Evidence/`, préfixe `S8-05-` :
   compteurs par résultat visibles sur les badges de synthèse.
 - `S8-05-A8-28-exclusion-secure-coding-justification-3-lignes.jpg` — détail du contrôle A.8.28, résultat
   *Not applicable* et justification en trois lignes.
+- `S8-05-clause-4-1-observation-reprise-seance-8.jpg` et `S8-05-clause-5-3-observation-reprise-seance-8.jpg`
+  — les deux observations de séance 3 reprises (§5 bis), résultat et progression inchangés à l'écran.
 
 ## 8. Ce qui reste dû
 
-Les 78 contrôles d'annexe A non investigués aujourd'hui (temps de projet supervisé, si le groupe va
-jusqu'au bout de la déclaration d'applicabilité) ; le TP 2 de l'après-midi (Step 4 de l'énoncé — lecture du
-profil, message à deux phrases pour la direction, livrable **D8** et sous-section 8 de la note de
-stratégie).
+Les 78 contrôles d'annexe A non investigués aujourd'hui — temps de projet supervisé, si le groupe va
+jusqu'au bout de la déclaration d'applicabilité. **Priorité d'investigation arrêtée en TP 2** : les huit
+contrôles que le plan de traitement de D7 rapproche déjà d'une mesure sans qu'ils soient évalués (A.5.20,
+A.5.30, A.5.37, A.8.13, A.8.16, A.8.20, A.8.24, A.8.32), A.5.37 en tête — seul ancrage du traitement d'ER7.
+
+> **Fait depuis** : le TP 2 de l'après-midi (Step 4 de l'énoncé — lecture du profil, message pour la
+> direction, livrable **D8** et sous-section 8 de la note de stratégie) est **rédigé**, voir
+> `D8-declaration-d-applicabilite.md` et `../../../Piece-1-Strategy-note/MERIDIAN-strategy-note.md`.

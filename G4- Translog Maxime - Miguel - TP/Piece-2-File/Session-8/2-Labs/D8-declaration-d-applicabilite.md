@@ -71,7 +71,7 @@ Le SMSI couvre la filiale entière ; le **périmètre de certification** propos�
 | Contrôle | Intitulé | Applicable | Justification du maintien — risque du registre ou exigence nommée | État constaté | Contrôle en place ou mesure du plan |
 |---|---|---|---|---|---|
 | **A.5.9** | Inventaire des informations et des autres actifs associés | Oui | Exigence de connaître le système d'information, portée par la règle de tenue de D2 §8 ; scénario **OS2** (entrée par la liaison 4G de l'intégrateur, bien support absent de l'inventaire) | **Partiellement conforme** | Cartographie D2 : 17 actifs à propriétaire nommé dans l'instance ; deux biens supports découverts en séance 7 — `PT-13`, **14/10/2026** |
-| **A.5.15** | Contrôle d'accès | Oui | Constat **C4** de D4 (non-conformité majeure) ; scénarios **OS1**, **OS3** ; directive `ACC-01` de D1 | **Non conforme** | `PT-02` — comptes nommés et MFA pour les accès de la TMA, **14/01/2027** |
+| **A.5.15** | Contrôle d'accès | Oui | Constat **C4** de D4 (non-conformité majeure) ; scénarios **OS1**, **OS3** ; directive `ACC-01` de D1 | **Non conforme** | `PT-02` — comptes nommés et MFA pour les accès de la TMA, **14/01/2027** *(rapprochement ajouté en §2.4 : D7 §6 ne nommait pas A.5.15)* |
 | **A.5.16** | Gestion des identités | Oui | Constat **C4** ; demande de l'Audit Interne du holding, restée sans réponse nominative ; scénarios **OS1**, **OS3** | **Non conforme** | `PT-02`, **14/01/2027** |
 | **A.5.17** | Informations d'authentification | Oui | Secret du compte de service `LOG-SA-04` identique sur les six entrepôts depuis 2019, en clair dans un fichier de configuration ; scénario **ER2** | **Non conforme** | `PT-09` — un secret par site, en coffre, **14/01/2027** |
 | **A.5.19** | Sécurité de l'information dans les relations avec les fournisseurs | Oui | Constat **C4** ; contrat de l'intégrateur sans aucune exigence de sécurité ; scénarios **OS1**, **OS2**, **OS3** ; règle des trois exigences contractuelles de D6 | **Non conforme** | `PT-02`, `PT-06` (**14/03/2027**), `PT-08` (**14/03/2027**) |
@@ -81,10 +81,14 @@ Le SMSI couvre la filiale entière ; le **périmètre de certification** propos�
 | **A.7.4** | Surveillance de la sécurité physique | Oui | Local serveur d'E1 situé au fond de l'atelier de maintenance ; scénario **OS1** (disponibilité du WMS) | **Partiellement conforme** | Aucune surveillance physique nommée ; investigation site par site à programmer — **aucune mesure du plan** |
 | **A.8.2** | Droits d'accès privilégiés | Oui | Constat **C4** ; compte de domaine partagé avec la TMA, nombre de porteurs inconnu ; scénarios **OS1**, **OS3** | **Non conforme** | `PT-02`, **14/01/2027** |
 | **A.8.5** | Authentification sécurisée | Oui | Directive `ACC-01` de D1 ; secret partagé en clair ; scénarios **OS1**, **ER2** | **Non conforme** | `PT-02`, `PT-09` |
-| **A.8.8** | Gestion des vulnérabilités techniques | Oui | Directive `COR-01` de D1, non mesurée ; mises à jour du WMS non maîtrisées ; scénario **OS1** | **Non conforme** | `PT-01`, **14/12/2026** |
+| **A.8.8** | Gestion des vulnérabilités techniques | Oui | Directive `COR-01` de D1, non mesurée ; mises à jour du WMS non maîtrisées ; scénario **OS1** | **Non conforme** | `PT-01`, **14/12/2026** *(rapprochement ajouté en §2.4 : D7 §6 rattachait `PT-01` à A.8.32)* |
 | **A.8.15** | Journalisation | Oui | Le SOC du groupe ne reçoit que le réseau bureautique — ni automates, ni liaison 4G, ni WMS ; scénario **OS2** ; directive `JRN-01` de D1 | **Partiellement conforme** | `PT-07` — raccordement des journaux OT et WMS au SOC, **14/03/2027** |
 | **A.8.22** | Cloisonnement des réseaux | Oui | Constat **C3** de D4 (non-conformité majeure, réseaux bureautique et industriel interconnectés sur les six sites) ; scénarios **OS1**, **OS2** | **Non conforme** | `PT-03` — segmentation IT/OT des six entrepôts, **14/06/2027**. Point conforme sur le seul flux Logistique↔Santé (constat **C7**), aujourd'hui suspendu |
 | **A.8.28** | Codage sécurisé | **Non** | **Exclusion unique** — absence d'objet démontrée, §3 | *Sans objet* | *Sans objet* |
+
+**Onze non conformes et trois partiels : la règle de notation, dite avant qu'on nous la demande.** Le profil est sévère, et il l'est délibérément. La règle appliquée aux quinze est celle de l'**état constaté au 15 septembre 2026**, pas celle de l'intention : un contrôle dont la seule couverture est une mesure du plan à échéance future n'est pas « partiellement en place », il est **non conforme avec un traitement daté**. A.5.17 en est le cas type — le secret du compte de service est en clair, identique sur les six sites, depuis 2019 ; il l'est encore ce soir, et `PT-09` ne referme qu'au 14/01/2027. Marquer « partiellement conforme » y reviendrait à créditer la filiale d'un travail non fait.
+
+Trois conséquences, assumées. **D'abord**, cette lecture est plus exigeante que l'état présumé du cours sur cinq des huit contrôles calibrés (A.5.17, A.5.19, A.5.24, A.6.3, A.8.8, présumés *partiels*) : l'écart est ici, écrit, et il se défend contrôle par contrôle sur la colonne « état constaté » ci-dessus. **Ensuite**, elle est la seule compatible avec D4, qui avait déjà noté A.5.17, A.5.19 et A.8.8 non conformes : les adoucir aujourd'hui aurait contredit le rapport d'audit sans qu'aucun fait nouveau ne le justifie, ce qu'un auditeur lit comme une révision de complaisance. **Enfin**, les trois partiellement conformes sont ceux, et seulement ceux, où quelque chose existe réellement et se montre : une cartographie tenue (A.5.9), un SOC qui reçoit une partie des journaux (A.8.15), une investigation à conduire avant de trancher (A.7.4). Aucun contrôle n'est noté conforme : au cycle 1, aucun ne l'est.
 
 **Les 78 contrôles non investigués.** Ils ne sont ni applicables ni exclus à ce jour : ils sont **non évalués**, et le tableau ci-dessus ne les couvre pas. Les déclarer conformes serait la faute que la déclaration d'applicabilité sert précisément à empêcher. Leur investigation est un chantier ouvert ; §2.4 désigne les huit par lesquels commencer.
 
@@ -95,7 +99,7 @@ Le SMSI couvre la filiale entière ; le **périmètre de certification** propos�
 | **4** Contexte de l'organisme | Partiellement conforme (4/4) | Contexte, parties intéressées et périmètre écrits en D1 et dans le présent document |
 | **5** Leadership | Partiellement conforme (3/3) | Gouvernance à trois niveaux, matrice de responsabilité et charte adoptées en D1 ; l'engagement de direction n'est pas encore tracé par des revues |
 | **6** Planification | **2 conformes**, 3 partiellement | L'appréciation (6.1.2) et le traitement des risques (6.1.3) sont la pièce la plus complète du dossier : D5, D7, registre à 8 lignes, zéro résiduel au-dessus de `Medium` |
-| **7** Support | **4 non conformes** sur 6 | Compétence (7.2), sensibilisation (7.3), information documentée générale (7.5.1) et sa maîtrise (7.5.3) : aucune politique documentaire, aucun programme de sensibilisation |
+| **7** Support | **4 non conformes** sur 7 | Compétence (7.2), sensibilisation (7.3), information documentée générale (7.5.1) et sa maîtrise (7.5.3) : aucune politique documentaire, aucun programme de sensibilisation |
 | **8** Fonctionnement | Partiellement conforme (3/3) | Les processus existent et produisent des sorties datées, sans planification ni maîtrise formalisées |
 | **9** Évaluation des performances | **4 non conformes** sur 6 | Aucun indicateur mesuré (9.1), aucune revue de direction institutionnalisée (9.3.1 à 9.3.3) |
 | **10** Amélioration | Partiellement conforme (2/2) | Les actions correctives de D4 existent et sont suivies dans l'instance, sans processus écrit |
@@ -106,7 +110,20 @@ Le SMSI couvre la filiale entière ; le **périmètre de certification** propos�
 
 *Vérification conduite dans l'instance, plan d'action et registre en vis-à-vis. L'outil montre les liens ; il ne fait pas le contrôle.*
 
-**Sens 1 — chaque risque traité par une réduction conduit-il à au moins un contrôle retenu ?** Les six lignes du registre décidées `Mitigated` sont couvertes : OS1 par A.5.15, A.5.16, A.5.19, A.8.2, A.8.5, A.8.8 et A.8.22 ; OS2 par A.8.22, A.8.15, A.5.19 et A.5.9 ; OS3 par A.5.19, A.5.22, A.8.2 et A.5.15 ; ER2 par A.5.17 et A.8.5 ; ER5 par A.5.22 ; ER7 par **aucun contrôle investigué** — son unique ancrage, A.5.37 (procédures d'exploitation documentées), fait partie des 78. Le risque accepté ER3 est couvert par A.5.22 ; ER6, accepté sans mesure, n'en appelle aucun.
+**Sens 1 — chaque risque traité par une réduction conduit-il à au moins un contrôle retenu ?** Le rapprochement se lit sur le tableau mesure ↔ exigence de **D7 §6**, et rien n'y est ajouté en silence : les rapprochements que D7 ne portait pas sont signalés comme tels. Les six lignes du registre décidées `Mitigated` sont couvertes.
+
+| Ligne | Mesures (D7 §2) | Contrôles investigués atteints, **par D7 §6** | Ancrages hors des quinze | Rapprochement **ajouté ici** |
+|---|---|---|---|---|
+| **OS1** | PT-01, PT-02, PT-03, PT-04 | A.5.16, A.8.2, A.8.5, A.8.22 | A.8.32, A.8.13, A.5.30 *(parmi les 78)* | A.5.15 *(par `PT-02`)*, A.8.8 *(par `PT-01`)* |
+| **OS2** | PT-05, PT-06, PT-03, PT-07 | A.5.9, A.5.19, A.8.15, A.8.22 | A.8.20, A.5.20, A.8.16 | — |
+| **OS3** | PT-02, PT-08 | A.5.16, A.5.19, A.5.22, A.8.2, A.8.5 | — | A.5.15 *(par `PT-02`)* |
+| **ER2** | PT-09 | A.5.17 | A.8.24 | — |
+| **ER5** | PT-11 | A.5.22 | A.5.30 | — |
+| **ER7** | PT-12 | **aucun** | A.5.37 — son **unique** ancrage | — |
+
+Le risque accepté ER3 est couvert par A.5.22 (`PT-10`) ; ER6, accepté sans mesure, n'en appelle aucun. **Un seul trou de couverture : ER7**, la perte du savoir-faire opérationnel, dont l'unique ancrage A.5.37 (procédures d'exploitation documentées) fait partie des 78 non investigués — d'où sa priorité au tableau des orphelins.
+
+**Les deux rapprochements ajoutés ici, et pourquoi.** `PT-02` (comptes nommés, MFA, journalisation nominative) est rapproché en D7 §6 de A.5.16, A.8.2 et A.8.5 ; il ferme aussi, de fait, l'écart de **A.5.15** (contrôle d'accès), que D7 n'avait pas nommé. `PT-01` (recette formalisée avant toute mise à jour du WMS) est rapproché en D7 §6 de A.8.32 ; c'est par lui que passe le traitement de **A.8.8** (gestion des vulnérabilités techniques), puisque l'écart de A.8.8 *est* l'absence de maîtrise de ces mises à jour. Les deux rapprochements sont des lectures de la présente déclaration, pas des lignes de D7 : à corriger dans D7 §6 en séance 9, ou à défaut A.5.15 et A.8.8 rejoignent les orphelins ci-dessous.
 
 **Sens 2 — chaque non-conformité majeure de l'audit initial conduit-elle à un contrôle retenu, non conforme ou partiel ?** C3 conduit à A.8.22, non conforme ; C4 conduit à A.5.15, A.5.16, A.5.19 et A.8.2, toutes non conformes. C7 est un point conforme, pas un écart. Aucune non-conformité majeure sans contrôle porteur.
 
@@ -116,6 +133,7 @@ Le SMSI couvre la filiale entière ; le **périmètre de certification** propos�
 |---|---|---|
 | **A.5.24**, **A.6.3**, **A.7.4** | Contrôles retenus, non conformes ou partiels, **qu'aucune mesure du plan de traitement de la séance 7 ne porte** | Le plan de traitement traite les risques du registre, pas les écarts de conformité : trois écarts restent donc sans mesure. A.5.24 (gestion des incidents) et A.6.3 (sensibilisation) entrent au chantier documentaire de la séance 9 ; A.7.4 appelle d'abord une investigation site par site, avant toute mesure |
 | **A.5.20**, **A.5.30**, **A.5.37**, **A.8.13**, **A.8.16**, **A.8.20**, **A.8.24**, **A.8.32** | Huit contrôles rapprochés d'une mesure du plan (D7 §6) mais **non encore investigués** : le plan les traite, la déclaration ne les couvre pas | Ce sont les huit premiers à investiguer lors de l'extension de la déclaration aux 78 restants. A.5.37 est prioritaire : il est le seul ancrage du traitement d'ER7 |
+| **A.5.15**, **A.8.8** | Orphelins **de D7, pas de la déclaration** : retenus et non conformes ici, avec un traitement nommé (`PT-02`, `PT-01`), mais **absents du tableau mesure ↔ exigence de D7 §6** | Rapprochement justifié ci-dessus et assumé comme une lecture de D8. Correction due dans D7 §6 en séance 9 ; tant qu'elle n'est pas faite, les deux contrôles sont traités *de fait* et orphelins *au registre* |
 
 > **Réserve méthodologique, héritée de `fixes.md` F17.** Les renvois ci-dessus vers `PT-02` (A.5.15,
 > A.5.16, A.5.19, A.8.2, A.8.5), `PT-03` (A.8.22) et `PT-06` (A.5.19) retiennent la lecture du plan de

@@ -7,7 +7,7 @@ de la note de stratégie rédigée.
 | Fichier | Rôle | État |
 |---|---|---|
 | `PLAN-Seance-8-TP-S8-05-evaluation-clauses-et-SoA.md` | Le mode opératoire du TP 1, écrit **avant** la saisie : verdict décidé pour les 30 exigences de clauses et les 15 contrôles d'annexe A, sourcé sur D1-D7 et le pack de filiale | ✅ **écrit** — trace de méthode |
-| `Seance-8-TP-S8-05-feuille-de-travail-evaluation-et-SoA.md` | La feuille de travail du TP 1 : compteurs lus dans l'outil, écart d'outil trouvé et corrigé (le champ Observation n'enregistrait rien au premier passage), captures listées | ✅ **remplie** — 30 clauses et 15 contrôles évalués, comptes vérifiés à l'écran |
+| `Seance-8-TP-S8-05-feuille-de-travail-evaluation-et-SoA.md` | La feuille de travail du TP 1 : compteurs lus dans l'outil, trois écarts d'outil trouvés et corrigés (le champ Observation n'enregistrait rien au premier passage ; les boutons de soumission ; deux observations de séance 3 restées en place sur `4.1` et `5.3`, §5 bis), captures listées | ✅ **remplie** — 30 clauses et 15 contrôles évalués, comptes vérifiés à l'écran |
 | **`D8-declaration-d-applicabilite.md`** | **Le livrable D8** — deux périmètres distingués (SMSI de la filiale entière / certification visée sur le seul périmètre pharmaceutique) avec test du tiers dedans/dehors, déclaration d'applicabilité (16,1 % de couverture, cohérence croisée avec D4 et D7 vérifiée dans les deux sens), registre des exclusions (`A.8.28`), synthèse pour la direction en dix lignes | ✅ **rédigé** · ✅ **2 points** |
 
 > **Note de rangement (15 sept.)** : deux versions du livrable ont été écrites en parallèle par les deux
@@ -52,6 +52,15 @@ réduit du registre mène à au moins un contrôle retenu, sauf **ER7** (perte d
 ancrage `A.5.37` fait partie des 78 contrôles non investigués ; huit contrôles au total sont rapprochés d'une
 mesure du plan sans être encore investigués, et trois contrôles inclus ce jour (`A.5.24`, `A.6.3`, `A.7.4`)
 n'ont pas encore de mesure de traitement au registre — chantiers signalés, pas des oublis de saisie.
+Le rapprochement se lit ligne à ligne sur le tableau mesure ↔ exigence de **D7 §6** : les deux seuls
+rapprochements que D7 ne portait pas (`A.5.15` par `PT-02`, `A.8.8` par `PT-01`) sont signalés comme des
+lectures de D8 et inscrits au tableau des orphelins, correction due dans D7 en séance 9.
+
+**Sévérité assumée, pas subie.** Le CM présumait un état *partiel* sur cinq des huit contrôles calibrés
+(`A.5.17`, `A.5.19`, `A.5.24`, `A.6.3`, `A.8.8`) ; ils sont notés **non conformes** ici. La règle de
+notation — l'état constaté au 15 septembre 2026, jamais l'intention — est écrite dans `D8` §2.2 avec ses
+trois conséquences, dont la cohérence avec `D4`, qui avait déjà noté trois de ces cinq contrôles non
+conformes. L'écart avec le CM est donc défendu, pas ignoré.
 
 > **Réserve héritée de `fixes.md` F17** : trois mesures de D4 (`M1`, `M2`, `M4`) portent sur les mêmes
 > contrôles que trois mesures de D7 (`PT-03`, `PT-06`, `PT-02`) avec des dates différentes — écart décrit et
