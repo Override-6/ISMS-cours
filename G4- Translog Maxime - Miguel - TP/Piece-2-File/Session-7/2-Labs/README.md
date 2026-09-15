@@ -1,12 +1,12 @@
 # Séance 7 — TP · livrable D7 (5 points)
 
-**État : TP 1 et TP 2 faits ; reste la saisie des coûts dans `translog-b`.**
+**État : TP 1 et TP 2 entièrement saisis dans `translog-b`, y compris les coûts, le rattachement de `PT-13` et les deux `Risk acceptances` (ER3, ER6).**
 
 | Fichier | Rôle | État |
 |---|---|---|
 | `PLAN-Seance-7-TP-S7-05-atelier4-et-registre.md` | Le mode opératoire du TP 1, écrit **avant** la saisie (format des séances 4, 5 et 6) : les deux kill chains prêtes à coller, les vraisemblances proposées et justifiées, les 8 lignes attendues du registre avec option / porteur / échéance, les résiduels visés, et la note d'écart déjà amorcée | ✅ **écrit** — trace de méthode |
 | `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md` | La feuille de travail du TP 1 : ce que la saisie a réellement produit — compteurs lus, libellés d'écran divergents, refus de l'outil (absent, contrairement à l'énoncé), **note d'écart** complétée | ✅ **remplie** — registre à 8 lignes, résiduels cotés, contrôle qualité au vert |
-| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement par décision (13 mesures, 2 transversales), sept fiches d'acceptation (six résiduels `Medium` + une `Low`), aucune dérogation (écrit et justifié), total budgétaire ≈ 82 000 €/an mis en face du coût de l'inaction, table de rapprochement ISO/IEC 27001:2022 | ✅ **rédigé** · ✅ **5 points** — 🟡 coûts calculés à la main, **saisie dans l'outil restant due** (section *Coût* des 13 mesures + capture de l'aperçu budgétaire du *Plan d'action* — extension de navigateur indisponible à la clôture de cette version) |
+| **`D7-plan-de-traitement-et-risque-residuel.md`** | **Le livrable D7** — plan de traitement par décision (13 mesures, 2 transversales), sept fiches d'acceptation (six résiduels `Medium` + une `Low`), aucune dérogation (écrit et justifié), total budgétaire ≈ 82 000 €/an mis en face du coût de l'inaction, table de rapprochement ISO/IEC 27001:2022 | ✅ **rédigé** · ✅ **5 points** · ✅ coûts lus dans l'outil (82K €/an, 13/13 mesures) |
 
 > **Le calcul tenu par D7** : le registre appelle **six fiches d'acceptation formelles** (les six résiduels
 > `Medium` — OS1, OS2, ER2, ER3, ER5, ER7) et **une acceptation simple** (ER6, `Low`), là où le TD 2 n'en

@@ -13,12 +13,12 @@
 
 ## 1. Où nous en sommes, en un coup d'œil
 
-**Séances 1 à 6 closes côté dossier ; la séance 7 est ouverte — ses deux TD sont rendus, ses deux TP ne le sont pas.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). La séance 7 a été rangée le 14 septembre : le TD 1 remis dans `1-CISO-desk`, les deux TD renumérotés, les trois emplacements manquants créés (**F14**). Tout ce qui relève des séances 8 et 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
+**Séances 1 à 7 closes côté dossier et côté outil ; ne restent que les pages individuelles du bureau du RSSI.** La séance 5 est close côté livrable (D5 assemblé, sous-section 5 rédigée) ; il lui manque encore la page S5 du bureau du RSSI de Miguel (F12). La séance 7 est **entièrement faite** : les deux TD, les deux TP, le livrable `D7` (5 pts) et la sous-section 7 de la note — coûts du plan de traitement lus dans `translog-b` (82K €/an, 13/13 mesures), les deux acceptations formelles créées comme objets `Risk acceptances`. Ne restent que les deux pages S7 du bureau du RSSI (**F14**). Tout ce qui relève des séances 8 et 9 n'est pas « en retard » — ces séances n'ont pas eu lieu.
 
 | Bloc noté | Poids | Acquis aujourd'hui | Reste |
 |---|---|---|---|
-| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **27 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · **D6 7**) | D7→D9 = 10 pts, dont **D7 (5 pts) en cours** |
-| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | **6 sous-sections sur 9**, toutes rédigées | 3 sous-sections, une par séance restante |
+| **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **32 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · **D7 5**) | D8→D9 = 5 pts, séances non tenues |
+| **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | **7 sous-sections sur 9**, toutes rédigées | 2 sous-sections, une par séance restante |
 | **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **11 pages** — S1→S4 complètes (F7 clos), S5 de Maxime, **S6 des deux** | 🔴 **S5 de Miguel** (F12) · 🔴 **les deux pages S7** (F14) |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut, étude EBIOS RM comprise) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
@@ -33,7 +33,7 @@
 | **S4** | Audit · valeur de la certification | **D4** Rapport d'audit initial | 4 | ✅ assemblé, bureau du RSSI clos | ✅ auto-évaluation + suivi des constats |
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Risques majeurs | 3 | ✅ assemblé — reste la page S5 du bureau du RSSI de Miguel (F12) | ✅ matrice 4x4 importée, étude créée, ateliers 1-2 saisis (7 ER, 5 couples) |
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | **7** | ✅ **assemblé** — TD 1 + TD 2 + TP 1 + TP 2 ; **D6** = fiche projet (6 jalons) + exigences du contrat APPLICA (5 familles tracées) + dispositif de surveillance + export de l'étude ; sous-section 6 rédigée. Reste le CM. | ✅ écosystème coté (5 parties prenantes, 2 critiques : intégrateur 12, APPLICA 8), 2 scénarios stratégiques (SS1 G4, SS2 G3), 1 scénario opérationnel V3 ; état vérifié, rapport exporté |
-| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | 🔄 **TD 1 et TD 2 rendus, relus et rangés** (F14) ; restent les 2 pages du bureau du RSSI, TP 1, TP 2, `D7` | ⏳ atelier 4 et registre non saisis |
+| **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | ✅ **assemblé** — TD 1 + TD 2 + TP 1 + TP 2 ; plan de traitement par décision (13 mesures), sept fiches d'acceptation, zéro dérogation, sous-section 7 rédigée. Restent les 2 pages du bureau du RSSI (F14) | ✅ registre à 8 lignes, résiduels cotés, coûts saisis (82K €/an, 13/13 mesures), 2 `Risk acceptances` créées |
 | S8 | Périmètre du SMSI | D8 | 2 | ⏳ séance non tenue | — |
 | S9 | Indicateurs, version finale | D9 | 3 | ⏳ séance non tenue | — |
 
@@ -81,20 +81,18 @@
 
 ## 3. Ce qui **manque** — les prochains objectifs, dans l'ordre
 
-### 🔴 Avant la remise du 17 septembre — 2 chantiers, 1 action d'appoint
+### 🔴 Avant la remise du 17 septembre — 2 chantiers
 
 | # | Objectif | Où ça se passe | Qui | Enjeu | Charge |
 |---|---|---|---|---|---|
 | **1** | **F14 · Écrire les deux pages S7 du bureau du RSSI** — `Session-7/1-CISO-desk/S7-bureau-du-RSSI-{Miguel-Monereo,Maxime}.md`, une page chacune, angles distincts, closes par une recommandation (quatre angles proposés dans le `README` du dossier) | ce dépôt | Miguel · Maxime | **note individuelle — 10 pts, coef. 1** | Petite |
 | **2** | **F12 · Écrire la page S5 du bureau du RSSI de Miguel** — `Session-5/1-CISO-desk/S5-bureau-du-RSSI-Miguel-Monereo.md`, une page, close par une recommandation à la direction, sur un angle distinct de celui de Maxime (trois angles proposés dans le `README` du dossier) | ce dépôt | Miguel | **note individuelle — 10 pts, coef. 1** | Petite |
 
-**Action d'appoint (`D7` déjà rédigé)** : saisir la section *Coût* des **13 mesures appliquées** `PT-01` à `PT-13` dans `translog-b` (build, run, amortissement — le calcul est déjà fait à la main dans `D7`, il s'agit de le reproduire dans l'outil) et capturer l'aperçu budgétaire de l'onglet *Plan d'action* — l'extension de navigateur était indisponible à la clôture de cette version. `Session-7/2-Labs/` + `translog-b` · les deux · Petite.
-
-**F14 · TP 1 et TP 2 de la séance 7 — clos, `D7` rédigé (5 pts).** TP 1 : atelier 4 détaillé et registre saisis dans `translog-b`, les deux scénarios opérationnels créés et cotés conformes au plan, le registre porté à ses 8 lignes (l'outil n'en générait que 6 — ER2 et ER6 créés à la main, note d'écart), les 8 décisions prises et leurs résiduels cotés après coup, le contrôle qualité passé au vert. **Découverte notable** : contrairement à l'énoncé, l'outil n'a pas refusé un résiduel saisi au-dessus du niveau actuel — capturé pour la note d'écart. TP 2 : le registre réorganisé en **plan de traitement par décision** (`Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md`), sept fiches d'acceptation signées Direction Générale (six résiduels `Medium` formalisés, une `Low` simple), **zéro dérogation demandée et justifié**, coût du plan calculé à la main (≈ 82 400 €/an) en face de la fourchette du coût de l'inaction du TD 1, table de rapprochement ISO/IEC 27001:2022 pour la séance 8. **Sous-section 7 de la note de stratégie rédigée** dans le même mouvement. Détail dans `Session-7/2-Labs/` et `fixes.md`.
+**F14 · TP 1 et TP 2 de la séance 7 — clos, `D7` rédigé (5 pts), coûts saisis dans l'outil.** TP 1 : atelier 4 détaillé et registre saisis dans `translog-b`, les deux scénarios opérationnels créés et cotés conformes au plan, le registre porté à ses 8 lignes (l'outil n'en générait que 6 — ER2 et ER6 créés à la main, note d'écart), les 8 décisions prises et leurs résiduels cotés après coup, le contrôle qualité passé au vert. **Découverte notable** : contrairement à l'énoncé, l'outil n'a pas refusé un résiduel saisi au-dessus du niveau actuel — capturé pour la note d'écart. TP 2 : le registre réorganisé en **plan de traitement par décision** (`Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md`), sept fiches d'acceptation signées Direction Générale (six résiduels `Medium` formalisés, une `Low` simple), **zéro dérogation demandée et justifié**, coût du plan **≈ 82 400 €/an**, confirmé dans `translog-b` (82K €/an, 13/13 mesures) en face de la fourchette du coût de l'inaction du TD 1, table de rapprochement ISO/IEC 27001:2022 pour la séance 8. **Deux corrections apportées à l'outil après coup** : `PT-13` existait mais orpheline (rattachée à aucun scénario) — rattachée à `AP.02` ; les deux acceptations formelles (ER3, ER6) créées comme objets `Risk acceptances` (menu *Governance*), jusque-là vides malgré les décisions prises dans le registre. **Sous-section 7 de la note de stratégie rédigée** dans le même mouvement. Détail dans `Session-7/2-Labs/` et `fixes.md`.
 
 **Séance 6 — close côté dossier.** TD 1 + TD 2 + TP 1 + TP 2 faits, **D6 assemblé (7 pts)**, sous-section 6 de la note rédigée, écosystème coté dans `translog-b` et rapport exporté. Il reste le **CM** *Security by Design* (notes d'étude, non noté) et, au fil de l'eau, les captures si un objet bouge.
 
-**Séance 7 — TD, TP 1, TP 2 et `D7` faits.** Les deux TD sont rendus et relus, les deux TP sont saisis dans `translog-b` avec leurs feuilles de travail et leurs captures, le livrable `D7` est rédigé et la sous-section 7 de la note l'accompagne. Le chantier 1 ci-dessus (bureau du RSSI) referme la séance côté note individuelle ; l'action d'appoint ci-dessus referme `D7` côté outil. Le **TD 2 a été réécrit** le 14 septembre au gabarit des séances 5 et 6 — rappel du cas, cadrage des deux notions, auto-évaluation, raccord aval — et ses porteurs de mesures sont désormais pris dans la carte du pouvoir du pack §3. **Réserve de forme restante** : la note du TD 1 est encore écrite sans accents, là où tout le reste du dossier est en français accentué — aucun point n'en dépend, la reprise est à faire à la main avant la remise (`fixes.md` F14).
+**Séance 7 — TD, TP 1, TP 2 et `D7` faits, séance close côté outil.** Les deux TD sont rendus et relus, les deux TP sont saisis dans `translog-b` avec leurs feuilles de travail et leurs captures, le livrable `D7` est rédigé, ses coûts sont lus dans l'outil et la sous-section 7 de la note l'accompagne. Le chantier 1 ci-dessus (bureau du RSSI) referme la séance côté note individuelle. Le **TD 2 a été réécrit** le 14 septembre au gabarit des séances 5 et 6 — rappel du cas, cadrage des deux notions, auto-évaluation, raccord aval — et ses porteurs de mesures sont désormais pris dans la carte du pouvoir du pack §3. **Réserve de forme restante** : la note du TD 1 est encore écrite sans accents, là où tout le reste du dossier est en français accentué — aucun point n'en dépend, la reprise est à faire à la main avant la remise (`fixes.md` F14).
 
 **F3 · Top 5 marqué dans l'instance — clos.** `SA-01`, `SA-04`, `SA-09`, `SA-05` et `SA-03` portent l'étiquette **`Top5`**, lisible dans la colonne `LABELS` de la liste des actifs sans ouvrir D2 ; liste recapturée dans `Session-2/3-Evidence/`.
 
@@ -118,7 +116,7 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 |---|---|---|
 | ~~S5~~ | ~~**D5** — risques majeurs~~ ✅ | 3 |
 | ~~S6~~ | ~~**D6** — tiers et projets *(le plus lourd du module)*~~ ✅ | **7** |
-| S7 | **D7** — plan de traitement et risque résiduel *(en cours)* | 5 |
+| ~~S7~~ | ~~**D7** — plan de traitement et risque résiduel~~ ✅ | 5 |
 | S8 | **D8** — périmètre du SMSI | 2 |
 | S9 | **D9** — indicateurs + **version close de la note de stratégie** | 3 |
 | **S10** | **Pièce 3** — export daté de l'instance, 8h30–9h15, au dépôt | support |

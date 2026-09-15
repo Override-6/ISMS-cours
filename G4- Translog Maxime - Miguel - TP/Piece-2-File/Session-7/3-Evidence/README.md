@@ -1,6 +1,6 @@
 # Preuves d'instance — séance 7
 
-**État : TP 1 fait, dix captures produites.** Le TP 2 (D7, coûts, plan d'action) reste à faire.
+**État : TP 1 et TP 2 entièrement saisis dans `translog-b`, quatorze captures produites.**
 
 ## Les captures
 
@@ -18,9 +18,14 @@ Nommage repris des séances 4 à 6 : `S7-05-…` pour le TP 1, `S7-06-…` pour 
 | `S7-05-ex3-controle-qualite-au-vert.jpg` | Le contrôle qualité (page `X-rays`) : le bucket rouge (résiduel non coté) a disparu | TP 1 étape 3 | ✅ |
 | `S7-05-ex4-residuels-cotes.jpg` | Le résiduel coté pour les 8 lignes, cohérent avec le niveau actuel | TP 1 étape 4 · exigence 4 de D7 | ✅ |
 | `S7-05-ex4-refus-outil-residuel-superieur.jpg` | Tentative d'un résiduel supérieur à l'actuel sur ER3 : **acceptée sans blocage** par l'outil (`successfully updated`) — écart avec l'énoncé, voir la note d'écart | note d'écart | ✅ |
-| `S7-06-mesures-appliquees-couts-build-run.*` | La section *Coût* d'une mesure appliquée : coût fixe, jours-personnes, durée d'amortissement, build et run | TP 2 étape 1 | 🔴 à faire |
-| `S7-06-plan-d-action-apercu-budgetaire.*` | L'onglet *Plan d'action* et son **aperçu budgétaire** — le total annuel du plan, mis en face de la fourchette du coût de l'inaction | TP 2 étape 1 | 🔴 à faire |
-| `S7-06-rapport-etude-EBIOS-RM-ateliers-4-5.*` | Le rapport de l'étude exporté, ateliers 4 et 5 compris | D7 | 🔴 à faire |
+| `S7-06-mesures-appliquees-couts-build-run.jpg` | La section *Coût* d'une mesure appliquée (`PT-02`) : coût fixe, jours-personnes, durée d'amortissement, build et run — valeurs identiques à D7 §1 | TP 2 étape 1 | ✅ |
+| `S7-06-plan-d-action-apercu-budgetaire.jpg` | L'onglet *Plan d'action* et son **aperçu budgétaire** : `82K €` de coût annuel total, `123K €` de build, `16K €` de run annuel — cohérent au millier d'euros près avec le calcul manuel de D7 §1 (~82 400 €/an) | TP 2 étape 1 | ✅ *(capturée sur 12/13 mesures — voir note ci-dessous)* |
+| `S7-06-rapport-etude-EBIOS-RM-atelier-4.jpg` | La page **Report** de l'étude (`/ebios-rm/.../report#workshop-4`) : les trois scénarios opérationnels AP.01/AP.02, likelihood, gravité, niveau de risque et justification, tels qu'ils ressortent du rapport exportable | D7 | ✅ |
+| `S7-06-rapport-etude-EBIOS-RM-atelier-5.jpg` | La même page, section atelier 5 : la matrice du registre à 8 lignes, niveau actuel, résiduel et décision par ligne | D7 | ✅ |
+
+> **Note post-capture** : `PT-13` était orpheline dans `translog-b` au moment de la capture `S7-06-plan-d-action-apercu-budgetaire.jpg` (créée mais rattachée à aucun scénario, donc hors du calcul du *Plan d'action*, qui affichait 114 jours-personnes de build sur 12/12 contrôles). Elle a depuis été rattachée à `AP.02` ; l'outil lit maintenant **13/13 contrôles, 115 jours-personnes de build**, toujours **82K €/an** au total (l'écart est sous le seuil d'arrondi de la vignette). La capture reste valable pour la répartition build/run/coût ; à reprendre uniquement si le correcteur veut voir le compte 13/13 à l'écran.
+>
+> Les deux captures `S7-06-rapport-etude-EBIOS-RM-atelier-4/5.jpg` montrent la page **Report** consultée dans le navigateur (qui porte aussi un bouton `Export PDF`), pas le fichier PDF exporté lui-même — l'export n'a pas été déclenché cette session.
 
 Détail de ce que chaque capture appuie : `../2-Labs/Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md`.
 
@@ -43,3 +48,4 @@ shasum -a 256 *.jpg *.png 2>/dev/null | sort | awk '{print $1}' | uniq -d
 Une empreinte qui sort de cette commande est un doublon à reprendre.
 
 **Exécuté pour le TP 1** : aucune empreinte dupliquée sur les 10 captures `S7-05-…`.
+**Exécuté après le TP 2** : aucune empreinte dupliquée sur les 14 captures `S7-05-…` + `S7-06-…`.

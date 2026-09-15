@@ -4,7 +4,7 @@
 **Registre source** : `Registre de risques MERIDIAN Logistique - cycle 1 - 1.0` (`translog-b`), assemblé au TP 1 — 8 lignes, chacune décidée et résiduel coté. Trace complète : `Seance-7-TP-S7-05-feuille-de-travail-atelier4-et-registre.md`.
 **Échelle et appétence** : D5 (`../../Session-5/2-Labs/D5-appreciation-initiale-des-risques.md`), ligne d'acceptation confirmée au TD du matin (`Seance-7-TD-S7-03-matrices-de-cotation-et-options-de-traitement.md`).
 
-> **État d'une donnée de ce fichier** : les coûts par mesure (colonne *Coût*) sont **calculés à la main** ci-dessous, à partir des estimations posées à la sous-section 1, avec le même taux journalier que l'instance (500 €/jour, laissé tel quel dans *Paramètres → Général → Paramètres financiers*). **La saisie de la section *Coût* sur chacune des 13 mesures appliquées dans `translog-b`, et la capture de l'aperçu budgétaire de l'onglet *Plan d'action*, restent dues** — l'extension de navigateur n'était pas connectée à la clôture de cette version. Le calcul manuel ci-dessous est celui que l'outil doit reproduire ; un écart entre les deux ira à la note d'écart de la séance et sera corrigé avant la remise.
+> **État d'une donnée de ce fichier** : les coûts par mesure (colonne *Coût*) sont **calculés à la main** ci-dessous, à partir des estimations posées à la sous-section 1, avec le même taux journalier que l'instance (500 €/jour, laissé tel quel dans *Paramètres → Général → Paramètres financiers*). **La section *Coût* est saisie dans `translog-b` sur les 13 mesures** (captures `S7-06-mesures-appliquees-couts-build-run.jpg` et `S7-06-plan-d-action-apercu-budgetaire.jpg`) : l'aperçu budgétaire de l'onglet *Plan d'action* lit **82 K €/an** de coût total (123 K € de build fixe sur 115 jours-personnes, 16 K € de run annuel fixe sur 31 jours-personnes) — cohérent au millier d'euros près avec le calcul manuel ci-dessous. **`PT-13` existait dans `translog-b` sans être rattachée à un scénario de risque** (« orpheline », donc absente du plan d'action) ; elle a été rattachée à `AP.02` (OS2, son vecteur d'entrée) et compte désormais dans les 13/13 contrôles du registre. Les deux **`Risk acceptances`** formelles (ER3, ER6) ont également été créées dans l'outil (menu *Governance*, champs `Approver` + `Expiry date` — voir note d'écart de la feuille S7-05). Reste dû : l'export du rapport d'étude (`S7-06-rapport-etude-EBIOS-RM-ateliers-4-5`).
 
 ---
 
@@ -62,7 +62,7 @@
 | dont **OPEX** (part `run`) | ≈ 31 400 €/an |
 | **Investissement `build` cumulé** (payé une fois, réparti années 1-3) | ≈ 180 500 € |
 
-*Calcul détaillé, colonne par colonne, ci-dessus. À faire lire dans l'aperçu budgétaire de l'onglet **Plan d'action** de l'évaluation de risques dans `translog-b` une fois la section Coût saisie sur chacune des 13 mesures — action restant due (voir bandeau en tête de fichier).*
+*Calcul détaillé, colonne par colonne, ci-dessus. Confirmé dans l'outil : l'aperçu budgétaire de l'onglet **Plan d'action** de `translog-b` lit **82 K €/an**, 123 K € de build (115 jp), 16 K € de run annuel (31 jp), sur les **13 mesures** (`PT-13` rattachée à `AP.02` — voir bandeau en tête de fichier). Capture `S7-06-plan-d-action-apercu-budgetaire.jpg`.*
 
 **Mis en face de la fourchette du coût de l'inaction** (TD 1 du matin, `../1-CISO-desk/Seance-7-TD-S7-01-chiffrer-le-cout-de-l-inaction.md`) : le plan complet coûte de l'ordre de **82 000 €/an**, contre une fourchette documentable allant de **12 000 € minimum** (une seule journée d'arrêt, pénalités pharmaceutiques seules — **déjà** le tiers du coût annuel du plan pour **un seul jour** de l'incident qu'il traite) à un **ordre de grandeur de plusieurs millions d'euros** (remédiation IBM 2025 : 4,44 M$ ; pénalité CNIL France Travail : 5 M€ si des données personnelles sont en jeu). C'est l'arbitrage promis au Directeur Financier : **un coût certain, annuel, borné, contre une perte plausible, non bornée, qui se réalise en un jour de plus que le plan n'en coûte en un an.**
 
@@ -92,6 +92,8 @@
 **Pourquoi sept fiches et non une** : D5 pose que `Medium` n'est tolérable **que formalisé** — tolérance datée, surveillée, propriétaire nommé, mesure compensatoire — à défaut traité comme `High`. Les **six lignes résiduelles `Medium`** en appellent chacune une, y compris les cinq qui portent par ailleurs une décision **Réduire** : la mesure abaisse le niveau, elle ne le fait pas disparaître, et ce qui reste à `Medium` doit être formalisé au même titre que ce qui y était déjà. `ER6`, seule ligne `Low`, reçoit une acceptation simple, plus légère (D5 : `Low` acceptable en l'état).
 
 > **La phrase à ne jamais écrire** : *« Risque accepté par le RSSI. »* Aucune des sept fiches ci-dessous n'est signée par un RSSI — la Direction Générale du groupe signe, au niveau où l'appétence a été fixée (D1, D5 §1) ; le RSSI Groupe prépare et propose.
+
+> **Dans l'outil** : les deux acceptations formelles au sens de l'objet dédié de `translog-b` (`Risk acceptances`, menu *Governance*) sont créées — ER3 (échéance 14/03/2027) et ER6 (échéance 14/12/2026), chacune rattachée à son scénario de risque. Les cinq autres résiduels `Medium` (OS1, OS2, ER2, ER5, ER7) restent des acceptations documentées ici, dans D7, et non comme objets `Risk acceptances` séparés — l'outil réserve cet objet à la tolérance formelle au sens strict de D5 ; les mesures `Réduire` en cours n'en sont pas une.
 
 ### Fiche d'acceptation — OS1 (résiduel `Medium`)
 
@@ -183,7 +185,7 @@ Si un résiduel devait, au prochain cycle, rester `High` malgré le traitement e
 | **Dérogations justifiées** | Chaque résiduel au-dessus de l'appétence porte sa justification et son instance | ✅ par le fait — zéro résiduel au-dessus (§4) |
 | **Cotations cohérentes** | Les niveaux cités sont ceux de D5, sans exception | ✅ vérifié à la matrice de l'instance |
 | **Traçabilité des mesures** | Risque visé, mesure, porteur, échéance, effet attendu | ✅ §1 |
-| **Effort et coût annuel** | Chaque mesure porte ses jours-personnes et son coût annuel lu dans l'outil, build et run distingués ; le plan porte son total en face du coût de l'inaction | 🟡 calculé à la main (§1) ; **lecture dans l'outil restant due** — voir bandeau en tête de fichier |
+| **Effort et coût annuel** | Chaque mesure porte ses jours-personnes et son coût annuel lu dans l'outil, build et run distingués ; le plan porte son total en face du coût de l'inaction | ✅ lu dans l'outil (82 K €/an, 123 K € build/115 jp, 16 K € run/31 jp) — 13/13 mesures |
 | **Résiduels cohérents** | Coté après décision, jamais supérieur à l'actuel | ✅ vérifié ligne par ligne (§2) ; l'outil lui-même **n'impose pas** cette contrainte (constaté au TP 1, note d'écart) — c'est une discipline appliquée ici, pas un garde-fou technique |
 | **Légitimité des signatures** | Acceptations et dérogations au niveau où l'appétence a été fixée | ✅ Direction Générale du groupe pour les sept fiches (§3), jamais un directeur de filiale sur un risque de groupe |
 | **Lisibilité** | Chaque ligne se comprend sans son auteur | ✅ testé (§1) |

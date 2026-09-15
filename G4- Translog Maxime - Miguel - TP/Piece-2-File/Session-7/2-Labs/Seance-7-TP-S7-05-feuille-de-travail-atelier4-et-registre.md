@@ -113,6 +113,8 @@ Test effectué sur ER3 : résiduel actuel `Medium` (V2×G4) remplacé délibér�
 | **Liaison 4G de l'intégrateur des automates** | Maillon 3 d'OS2 — vecteur d'entrée du scénario | Absente de l'inventaire de la séance 2 ; couverte au registre par la mesure **PT-05** (raccorder/supprimer la liaison) et par **PT-13** (inventorier et rattacher à un propriétaire les deux biens supports découverts à l'atelier 4) |
 | **Liaisons opérateur E1 ↔ E2-E6** | Maillon 5 d'OS2, propagation d'OS1 | Idem — couverte par **PT-13** |
 
+> **Correction post-TP 2** : `PT-13` existait déjà dans `translog-b` (créée le 14/09/2026, coût et échéance déjà saisis) mais **orpheline** — rattachée à aucun scénario de risque, donc absente du plan d'action et du compte 12/13 constaté plus haut. Elle a été rattachée à `AP.02` (OS2) le 14/09/2026 ; le registre lit désormais **13/13 contrôles avec coût**.
+
 ### Libellés d'écran divergents
 
 - Le **contrôle qualité** de l'outil n'est pas un bouton du registre ni de l'étude EBIOS RM : c'est la page **`X-rays`**, menu `Operations`, onglet `Risk assessments`.
@@ -122,7 +124,7 @@ Test effectué sur ER3 : résiduel actuel `Medium` (V2×G4) remplacé délibér�
 ### Champs sans équivalent dans l'outil
 
 - **`Assigned to`** (porteur) n'accepte que des **comptes de l'instance** — les rôles du pack §3 (Directeur de la filiale, Responsable Informatique/DSI, Responsable Exploitation, RSSI Groupe, Responsable Qualité, Direction Générale) n'y sont pas nommables directement. Ils ont donc été **nommés en texte libre dans le champ Justification** de chaque scénario, avec leur périmètre de décision — la correspondance porteur ↔ scénario vivra formellement dans **D7**.
-- Aucun champ pour l'**instance signataire** d'une acceptation, ni pour sa **date de réexamen** — ces deux éléments, prévus par le TD 2 pour chaque acceptation formelle, vivent également dans **D7**, comme les descriptions d'échelles vivent dans D5. Ils ont néanmoins été consignés en texte dans la Justification d'ER3 et ER6 (signataire Direction Générale du groupe, D1/D5 §1 ; échéance de réexamen précisée).
+- ~~Aucun champ pour l'instance signataire d'une acceptation, ni pour sa date de réexamen~~ — **correction post-TP 2** : l'outil porte en réalité un objet dédié **`Risk acceptances`** (menu `Governance`), avec un champ `Approver` et un champ `Expiry date` (« date à laquelle l'objet n'est plus valide ») — exactement la date de réexamen. **Créés le 14/09/2026** : `Acceptation formelle - ER3 chaine du froid (résiduel Medium)` (échéance 14/03/2027, avant l'audit client) et `Acceptation simple - ER6 divulgation données client (Low)` (échéance 14/12/2026, revue trimestrielle ComEx), chacun rattaché à son scénario de risque. Le champ `Approver`, comme `Assigned to`, **n'accepte que des comptes de l'instance** — la Direction Générale du groupe n'y est donc nommable qu'en texte (dans `Description`), pas comme approbateur formel ; c'est là que la limite réelle se situe, pas dans l'absence du champ — le compte de saisie porte l'objet, la Justification en texte porte le nom de l'instance qui décide réellement.
 - Le champ **`Risk tolerance`** de l'étude ne porte qu'un **niveau** (`Low` acceptable en l'état, `Medium` tolérable) et ne sait pas exprimer la **condition de formalisation** que D5 attache à `Medium` (tolérance datée, surveillée, propriétaire nommé, mesure compensatoire). Cette condition est donc reportée dans la description du registre et dans D7, pas dans un champ dédié.
 
 ### Nombre de lignes du registre
