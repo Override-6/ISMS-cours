@@ -76,6 +76,8 @@ Sur les douze exigences ISO évaluées, **aucune n'est pleinement couverte** ; d
 
 **Test SMART vérifié pour les quatre** : chacune mesurable, datée, non reformulable en objectif de sensibilisation. Détail complet : `Seance-4-TP-S4-05-feuille-de-travail-auto-evaluation.md`, section 4.
 
+> **Amendement du 15 septembre 2026 (F15)** : l'échéance de **M3** ci-dessus (8/11/2026) est **supersédée** par celle de **`PT-09`** dans le plan de traitement de la séance 7 (`../../Session-7/2-Labs/D7-plan-de-traitement-et-risque-residuel.md`, §1) — même mesure (rotation du secret de service `LOG-SA-04`, un secret par site, en coffre), reprise dans l'atelier 4 d'EBIOS RM et replanifiée à **14/01/2027**, dans la même vague budgétaire DSI que `PT-02` (comptes nommés et MFA de la TMA). La date qui fait foi est celle de `D7`, plus récente et chiffrée (build/run, 4 000 €/an) ; celle-ci n'est pas corrigée rétroactivement, pour garder trace de la planification initiale du TD 2 de la séance 4. Rien d'autre ne change sur M3 : propriétaire (DSI filiale) et contenu (six secrets distincts, coffre) identiques dans les deux documents.
+
 ---
 
 ## 6. Angles morts et suite

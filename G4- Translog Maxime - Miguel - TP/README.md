@@ -6,11 +6,13 @@
 
 ---
 
-## Avancement : séances 1 à 6 closes, séance 7 ouverte
+## Avancement : séances 1 à 7 closes côté dossier, séance 8 ouverte
 
 Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits, livrables compris. La séance 6 est **close côté dossier** : bureau du RSSI clos (Miguel et Maxime), **TD 2** (management des tiers, lecture du contrat d'infogérance, ateliers 3-4 par écrit), **TP 1** (écosystème et scénarios saisis dans `translog-b` — 5 parties prenantes cotées, 2 critiques, 2 scénarios stratégiques, 1 scénario opérationnel), **TP 2** — livrable `D6` (fiche projet à six jalons + exigences du contrat APPLICA tracées + dispositif de surveillance + export de l'étude) et **sous-section 6** de la note. Reste le CM de la séance 6.
 
-**La séance 7 est ouverte : les deux TD sont rendus, les deux TP sont faits, `D7` est rédigé, les coûts sont saisis dans `translog-b`.** `Session-7/` porte les quatre emplacements constants, tous remplis. **Restent dues** les deux pages du bureau du RSSI. **Les séances 8 et 9 n'ont pas eu lieu** — leurs emplacements n'existent pas encore, et c'est normal à cette date.
+**La séance 7 est faite : les deux TD sont rendus, les deux TP sont faits, `D7` est rédigé, les coûts sont saisis dans `translog-b`.** `Session-7/` porte les quatre emplacements constants, tous remplis. **Restent dues** les deux pages du bureau du RSSI.
+
+**La séance 8 est ouverte : le TD 1 est fait** (`Session-8/1-CISO-desk/`, *« The CISO's Desk: The Certification Business Case »*) — note collective des cinq questions guidées, périmètre de certification proposé pour MERIDIAN Logistique, et **page individuelle de Maxime rendue**. **Restent** le CM, la page individuelle de Miguel, les deux TP et le livrable `D8`. **La séance 9 n'a pas eu lieu** — son emplacement n'existe pas encore, et c'est normal à cette date.
 
 | Séance | Thème | Livrable | Points | État |
 |---|---|---|---|---|
@@ -21,7 +23,8 @@ Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits
 | **S5** | Risques majeurs · EBIOS RM ateliers 1-2 | **D5** Appréciation initiale des risques | 3 | ✅ **livrable assemblé**, ateliers 1-2 saisis dans `translog-b` — reste la page S5 de Miguel *(F12)* |
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | 7 | ✅ **livrable assemblé**, bureau du RSSI clos, TD 2 + TP 1 + TP 2 faits — reste le CM |
 | **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | ✅ **livrable rédigé**, TD 1 + TD 2 + TP 1 + TP 2 faits, coûts saisis dans l'outil (82K €/an, 13/13 mesures) — restent les 2 pages du bureau du RSSI |
-| S8–S9 | SMSI, indicateurs | D8, D9 | 5 | ⏳ séances non tenues |
+| **S8** | Périmètre du SMSI · business case de certification | **D8** Déclaration d'applicabilité | 2 | 🔄 **TD 1 fait**, page de Maxime rendue — restent le CM, la page de Miguel, TP 1, TP 2 et `D8` |
+| S9 | Indicateurs, version finale | D9 | 3 | ⏳ séance non tenue |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 7 sous-sections sur 9, **toutes rédigées** |
 
 **Barème des livrables : 40 points** (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note 3), convertis sur 20, coefficient 4 sur 10.
@@ -111,6 +114,11 @@ pages individuelles qu'elle nourrit. Le **TD 2** de l'après-midi va dans **`4-W
 - `3-Evidence/` — **dix captures S7-05** (TP 1), aucun doublon d'empreinte : compteurs avant saisie, scénarios opérationnels et détail d'OS2, vraisemblances justifiées d'OS2/OS3, registre généré à 8 lignes, options/porteurs/échéances, contrôle qualité au vert, résiduels cotés, et la tentative de résiduel supérieur acceptée par l'outil sans refus. Les trois captures `S7-06-…` du TP 2 (coûts d'une mesure, aperçu budgétaire, rapport d'étude) restent dues — subordonnées à la saisie des coûts dans l'outil.
 
 > **Réserve de forme sur la séance 7** : la note du **TD 1** est encore rédigée sans accents, là où tout le reste du dossier est en français accentué. Le TD 2 ne l'est plus depuis sa réécriture du 14 septembre. Aucun point n'en dépend (matière de travail, non notée), mais le contraste se voit maintenant entre les deux notes de la même séance — reprise à faire à la main avant la remise (`fixes.md` **F14**).
+
+### Séance 8 — Périmètre du SMSI *(D8)* 🔄 en cours
+- `1-CISO-desk/Seance-8-TD-S8-01-le-business-case-de-la-certification.md` — **TD 1 fait** : la note collective des cinq questions guidées du cas *« The Certification Business Case »*. La clause du client pharmaceutique décomposée en trois exigences emboîtées, deux lectures de la « démarche documentée équivalente » (stricte : D3+D4+D7 déjà documentables ; large : écartée, le client vient d'annoncer un questionnaire) ; quatre audiences pour ce que le certificat prouverait (client pharmaceutique, Direction Générale et actionnaires, filiales et équipes, régulateur avec nuance) et quatre limites pour ce qu'il ne prouverait pas (réglementaire, sécurité réelle, périmètre, fraîcheur/vivacité) ; un **périmètre de certification proposé** — MERIDIAN Logistique d'abord, les services du client pharmaceutique (chaîne du froid et flux WMS des entrepôts E1 et E4, `LOG-PA-02`/`LOG-PA-04` de D2) — avec la **réserve honnête** qu'E4 est à la fois dédié au client pharmaceutique et équipé d'automates de tri sur le réseau non cloisonné du constat C3 de D4, à exclure explicitement tant que la segmentation IT/OT (`PT-03` de D7) n'est pas faite ; la décision en trois phrases demandée au Comité Exécutif, sans date de certificat ni coût improvisé (le seul montant cité, 82 000 €/an, est celui déjà arrêté par D7).
+- `1-CISO-desk/S8-bureau-du-RSSI-Maxime.md` — **page individuelle de Maxime rendue** : angle sur la tension d'E4, à la fois dédié au client pharmaceutique et porteur des automates non cloisonnés (C3) — deux façons de la découvrir (devant l'auditeur de certification, ou écrite par nous), une seule choisie. Recommandation : inscrire dans `D8` une **exclusion écrite et datée** de l'automatisation d'E4 jusqu'à la segmentation IT/OT (`PT-03`, 14/06/2027), reprise en une phrase dans la réponse écrite au client. **La page de Miguel reste due** — trois angles restants proposés dans le `README` du dossier.
+- Restent à faire : le CM (*ISO/IEC 27001:2022, architecture et rôle de la direction*, non noté), la page de Miguel, le TP 1 (évaluation de conformité et déclaration d'applicabilité dans `translog-b`), le TP 2 et le livrable `D8` (2 pts), et la sous-section 8 de la note de stratégie. La séance 8 ne comporte pas de TD 2 (`S8 - Sources/` ne contient que CM, TD 1, TP 1, TP 2).
 
 ---
 
