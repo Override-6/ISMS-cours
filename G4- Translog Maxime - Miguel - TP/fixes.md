@@ -22,7 +22,7 @@ se supprime : une correction close garde sa fiche, elle change d'état dans le r
 | Quoi | Pourquoi c'est là | Points |
 |---|---|---|
 | **Les supports de soutenance** — 18 minutes de présentation, 12 de questions, devant un comité exécutif supposé ne rien connaître à la sécurité | Séance 10. Aucun fichier n'existe à ce jour, et le minutage du jour même suppose des supports déjà prêts (« dernières retouches aux slides », 8h30) | **30**, coef. 3 |
-| **Séance 8** : le CM, les deux TP, le livrable **`D8`** (périmètre du SMSI, contrôles retenus, exclusions justifiées, taux de couverture, écarts restants) et la **sous-section 8** de la note | Séance tenue, livrable dû. Le TD 1 est fait (**F16**) et les deux pages du bureau du RSSI aussi (**F19**) | **2** + note |
+| **Séance 8** : le CM, le **TP 2**, le livrable **`D8`** (périmètre du SMSI, contrôles retenus, exclusions justifiées, taux de couverture, écarts restants) et la **sous-section 8** de la note | Séance tenue, livrable dû. Sont faits : le TD 1 (**F16**), les deux pages du bureau du RSSI (**F19**) et le **TP 1** — clauses 4 à 10 évaluées sur 30 exigences, déclaration d'applicabilité à 15 contrôles, exclusion d'`A.8.28` justifiée, quatre captures au dossier | **2** + note |
 | **La note de stratégie en PDF** | La pièce 1 est « **un fichier PDF** » ; elle n'existe qu'en `.md`. Geste de fin, mais il conditionne la forme du rendu | forme du rendu |
 
 ## 2 · Éléments exigés — portés le 15 septembre ✅
