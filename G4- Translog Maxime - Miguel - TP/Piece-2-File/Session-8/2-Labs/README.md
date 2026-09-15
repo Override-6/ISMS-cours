@@ -8,7 +8,14 @@ de la note de stratégie rédigée.
 |---|---|---|
 | `PLAN-Seance-8-TP-S8-05-evaluation-clauses-et-SoA.md` | Le mode opératoire du TP 1, écrit **avant** la saisie : verdict décidé pour les 30 exigences de clauses et les 15 contrôles d'annexe A, sourcé sur D1-D7 et le pack de filiale | ✅ **écrit** — trace de méthode |
 | `Seance-8-TP-S8-05-feuille-de-travail-evaluation-et-SoA.md` | La feuille de travail du TP 1 : compteurs lus dans l'outil, écart d'outil trouvé et corrigé (le champ Observation n'enregistrait rien au premier passage), captures listées | ✅ **remplie** — 30 clauses et 15 contrôles évalués, comptes vérifiés à l'écran |
-| **`D8-declaration-d-applicabilite-et-perimetre-smsi.md`** | **Le livrable D8** — périmètre du SMSI en quatre paragraphes, déclaration d'applicabilité (16,1 % de couverture, cohérence croisée avec D4 et D7 vérifiée), registre des exclusions (A.8.28), synthèse pour la direction en dix lignes | ✅ **rédigé** · ✅ **2 points** |
+| **`D8-declaration-d-applicabilite.md`** | **Le livrable D8** — deux périmètres distingués (SMSI de la filiale entière / certification visée sur le seul périmètre pharmaceutique) avec test du tiers dedans/dehors, déclaration d'applicabilité (16,1 % de couverture, cohérence croisée avec D4 et D7 vérifiée dans les deux sens), registre des exclusions (`A.8.28`), synthèse pour la direction en dix lignes | ✅ **rédigé** · ✅ **2 points** |
+
+> **Note de rangement (15 sept.)** : deux versions du livrable ont été écrites en parallèle par les deux
+> auteurs pendant la même fenêtre de travail ; `D8-declaration-d-applicabilite.md` (Miguel) a été retenue
+> comme version canonique — plus complète (test du tiers §1.5, distinction périmètre SMSI / périmètre de
+> certification en §1.6, cohérence croisée dans les deux sens en §2.4) — et la réserve F17 sur les dates
+> `M1`/`M2`/`M4` de D4 y a été reportée depuis l'autre version, qui a été retirée pour ne garder qu'un seul
+> livrable `D8`.
 
 ## TP 1 — Évaluation des clauses 4-10 et déclaration d'applicabilité
 
@@ -31,17 +38,20 @@ créée en séance 3, complétée en séance 4 sur douze exigences d'annexe A) :
 
 **Source** : `../../../../S8 - Sources/TP 2/Justification of Exclusions (D8) and Strategy Note _ Lockbay Academy.pdf`
 
-Quatre sections attendues, toutes dans `D8-…md` : le **périmètre du SMSI** (activités, entités et systèmes,
-interfaces, exclusions assumées) ; la **déclaration d'applicabilité**, taux de couverture affiché en tête et
-comptes lus dans l'outil, jamais recopiés à la main ; le **registre des exclusions**, repris tel que saisi le
-matin, non réécrit ; la **synthèse pour la direction**, dix lignes — profil de l'évaluation, deux clauses les
-plus faibles, chantier désigné, décision attendue.
+Quatre sections attendues, toutes dans `D8-declaration-d-applicabilite.md` : le **périmètre du SMSI**
+(activités, entités et systèmes, interfaces, exclusions assumées — avec, en plus, le test du tiers dedans/dehors
+et la distinction entre le périmètre du SMSI et le périmètre visé pour la première certification) ; la
+**déclaration d'applicabilité**, taux de couverture affiché en tête et comptes lus dans l'outil, jamais
+recopiés à la main ; le **registre des exclusions**, repris tel que saisi le matin, non réécrit ; la
+**synthèse pour la direction**, dix lignes — profil de l'évaluation, deux clauses les plus faibles, chantier
+désigné, décision attendue.
 
-**Cohérence croisée vérifiée** (exigée par l'énoncé) : chaque écart majeur de D4 (`C3`, `C4`) mène à un
-contrôle inclus et non conforme parmi les quinze — aucun orphelin ; côté D7, trois mesures « réduire »
-(`PT-01`, `PT-04`, `PT-12`) n'ont encore aucun contrôle investigué qui les couvre, et trois contrôles inclus
-ce jour (`A.5.24`, `A.6.3`, `A.7.4`) n'ont pas encore de mesure de traitement au registre — chantiers
-signalés, pas des oublis de saisie.
+**Cohérence croisée vérifiée dans les deux sens** (exigée par l'énoncé) : chaque écart majeur de D4 (`C3`,
+`C4`) mène à un contrôle inclus et non conforme parmi les quinze — aucun orphelin ; côté D7, chaque risque
+réduit du registre mène à au moins un contrôle retenu, sauf **ER7** (perte du savoir-faire), dont l'unique
+ancrage `A.5.37` fait partie des 78 contrôles non investigués ; huit contrôles au total sont rapprochés d'une
+mesure du plan sans être encore investigués, et trois contrôles inclus ce jour (`A.5.24`, `A.6.3`, `A.7.4`)
+n'ont pas encore de mesure de traitement au registre — chantiers signalés, pas des oublis de saisie.
 
 > **Réserve héritée de `fixes.md` F17** : trois mesures de D4 (`M1`, `M2`, `M4`) portent sur les mêmes
 > contrôles que trois mesures de D7 (`PT-03`, `PT-06`, `PT-02`) avec des dates différentes — écart décrit et
@@ -50,13 +60,13 @@ signalés, pas des oublis de saisie.
 
 ### Sous-section 8 de la note de stratégie
 
-Trois éléments, une demi-page : le périmètre choisi en deux phrases, articulé à la sous-section 2 (actifs
-critiques) ; la décision de certification recommandée le matin (TD 1) avec la réponse au client dans
-l'intervalle ; le constat de l'évaluation initiale en une phrase, articulé à la sous-section 7 (le plan de
-traitement fonde la déclaration d'applicabilité). Rien n'est réécrit dans les sous-sections 1 à 7.
+Le périmètre du SMSI et le périmètre de certification visé, distingués en deux phrases et articulés à la
+sous-section 2 (actifs critiques) ; la décision de certification recommandée le matin (TD 1) avec la réponse
+au client dans l'intervalle ; le constat de l'évaluation initiale en une phrase, articulé à la sous-section 7
+(le plan de traitement fonde la déclaration d'applicabilité). Rien n'est réécrit dans les sous-sections 1 à 7.
 
 ---
 
 **Deux points de vigilance, constants depuis la séance 1.** Le livrable, c'est `D8-…` : autonome, nommé, au
-format exigé ; les feuilles de travail restent à côté comme trace de méthode. Chaque objet modifié dans
-`translog-b` se capture dans `../3-Evidence/` — c'est la moitié du coefficient individuel.
+format exigé, **un seul par séance**. Les feuilles de travail restent à côté comme trace de méthode. Chaque
+objet modifié dans `translog-b` se capture dans `../3-Evidence/` — c'est la moitié du coefficient individuel.
