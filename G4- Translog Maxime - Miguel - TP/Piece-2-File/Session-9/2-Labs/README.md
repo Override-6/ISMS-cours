@@ -1,13 +1,16 @@
 # Séance 9 — TP · livrable D9 (3 points)
 
-**État : TP 1 et TP 2 non tenus.** Le **mode opératoire du TP 1 est écrit** (contenu des trois documents et
-des sept indicateurs décidé avant la saisie, sourcé sur `D1` à `D8` et le pack de filiale). Il reste la
-saisie dans `translog-b`, la feuille de travail, le livrable `D9` et la sous-section 9 de la note.
+**État : TP 1 tenu, TP 2 non tenu.** Deux modes opératoires ont été écrits **indépendamment** avant la
+saisie par les deux membres du groupe (sept indicateurs côté Miguel, six côté Maxime) ; l'exercice 4 a été
+**fusionné en un jeu de huit indicateurs**, décision de Maxime, détaillée dans la feuille de travail §4. La
+saisie dans `translog-b` est faite (trois documents, huit indicateurs, six relevés datés, tableau de bord),
+la feuille de travail est remplie. Restent la revue croisée de Miguel sur les trois documents, le livrable
+`D9` et la sous-section 9 de la note (TP 2).
 
 | Fichier | Rôle | État |
 |---|---|---|
-| `PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md` | Le mode opératoire du TP 1, écrit **avant** la saisie : les cinq règles de `PSSI-VUL`, les trois blocs de `FR-RANCON`, les **sept fiches d'indicateurs** complètes (formule, source, cible, seuil, fréquence, destinataire, valeur du jour) et la composition du tableau de bord | ✅ **écrit** — trace de méthode |
-| `Seance-9-TP-S9-05-feuille-de-travail-politique-et-indicateurs.md` | La feuille de travail du TP 1 : valeurs relues dans l'outil, écarts d'outil rencontrés, résultat du test en binôme de la fiche réflexe, captures listées | ⏳ **à remplir pendant la séance** |
+| `PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md` (Miguel) et `PLAN-Seance-9-TP-S9-05-pssi-procedure-fiche-reflexe-indicateurs.md` (Maxime) | Les deux modes opératoires du TP 1, écrits **avant** la saisie, indépendamment l'un de l'autre | ✅ **écrits** — trace de méthode, non fusionnés eux-mêmes : la fusion se lit dans la feuille de travail |
+| `Seance-9-TP-S9-05-feuille-de-travail-politique-et-indicateurs.md` | La feuille de travail du TP 1 : valeurs relues dans l'outil, écarts d'outil rencontrés, table de correspondance de la fusion des deux plans, ce qui reste dû (revue croisée, test en binôme), captures listées | ✅ **remplie** |
 | **`D9-politique-procedures-et-indicateurs.md`** | **Le livrable D9** — la politique sur le gabarit imposé, une procédure, une fiche réflexe, **cinq à huit indicateurs** avec formule, source, seuil, fréquence et destinataire | ⏳ **à rédiger (TP 2)** · **3 points** |
 
 ---
@@ -30,8 +33,9 @@ Quatre exercices, dont un optionnel. Tout est décidé dans le plan ; ici, l'ess
    trois blocs : gestes immédiats, alertes, interdits). Site retenu : **E1** — WMS, base, local serveur
    unique, et point de départ du flux vers MERIDIAN Santé, seule dépendance inter-filiales de §6, donc le
    seul flux sur lequel `ARB-02` a un objet. **Test en binôme imposé** : une minute, montre en main.
-4. **Exercice 4 — les indicateurs et le tableau de bord.** Sept indicateurs, une *metric definition* et une
-   *metric instance* chacun, **six calculables le jour même**, un en `Draft`. Puis le tableau de bord du
+4. **Exercice 4 — les indicateurs et le tableau de bord.** Prévu à sept indicateurs (plan de Miguel) ; réalisé
+   à **huit**, fusion avec le plan de Maxime (feuille de travail §4). Une *metric definition* et une
+   *metric instance* chacune, **six calculables le jour même**, deux en `Draft`. Puis le tableau de bord du
    Comité, tuiles ordonnées par importance de décision, et sa **capture datée** — c'est la maquette de `D9`.
 
 **Le point de la journée que ce TP referme** : le **trou dans le filet** désigné par le CM — l'avancement de
@@ -88,10 +92,10 @@ elle-même, **jamais une précédente** — rien ne se supprime dans cette note.
 
 ## Deux chantiers hérités, à traiter dans cette séance
 
-| Chantier | Origine | Ce qu'il faut faire |
-|---|---|---|
-| **Corriger `D7` §6** | `fixes.md` F22 | Le tableau mesure ↔ exigence de `D7` §6 ne nomme ni `A.5.15` (fermé de fait par `PT-02`) ni `A.8.8` (fermé de fait par `PT-01`). `D8` §2.4 assume ces deux rapprochements comme **une lecture de D8** et inscrit la correction de `D7` à la séance 9. Tant qu'elle n'est pas faite, les deux contrôles sont traités *de fait* et orphelins *au registre*. |
-| **Trancher les cinq écarts de fond en attente** | `fixes.md` F17 | Trois mesures de `D4` datées différemment de leurs équivalents de `D7` sur le **même** contrôle (`M1`/`PT-03`, `M2`/`PT-06`, `M4`/`PT-02`) ; le titre du dirigeant de la filiale ; les porteurs nominatifs de `D4` à reprendre en rôles ; la table de correspondance des niveaux de risque dans la note ; les jalons de `D6` sans date. Aucun point direct en jeu — mais un correcteur qui ouvre `D4` et `D7` sur le même contrôle voit deux dates. |
+| Chantier | Origine | Ce qu'il faut faire | État |
+|---|---|---|---|
+| **Corriger `D7` §6** | `fixes.md` F22 §3 | Le tableau mesure ↔ exigence de `D7` §6 ne nommait ni `A.5.15` (fermé de fait par `PT-02`) ni `A.8.8` (fermé de fait par `PT-01`). `D8` §2.4 assumait ces deux rapprochements comme **une lecture de D8** et inscrivait la correction due à la séance 9. | ✅ **fait** — les deux lignes complétées dans `D7` §6, le tableau des orphelins de `D8` §2.4 mis à jour en conséquence |
+| **Trancher les quatre écarts de fond en attente** | `fixes.md` F17 (le cinquième, la correspondance des niveaux de risque, a été fermé par F18 avant cette séance) | Trois mesures de `D4` datées différemment de leurs équivalents de `D7` sur le **même** contrôle (`M1`/`PT-03`, `M2`/`PT-06`, `M4`/`PT-02`) ; le titre du dirigeant de la filiale ; les porteurs nominatifs de `D4` à reprendre en rôles ; les jalons de `D6` sans date. | ⏳ **non tranché** — chacun est une décision des deux auteurs, pas une correction mécanique ; détaillé dans la feuille de travail du TP 1, §6 |
 
 ---
 

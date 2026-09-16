@@ -1,28 +1,45 @@
 # Preuves d'instance — séance 9
 
-**État : TP non tenu, aucune capture à ce jour.** Le mode opératoire est écrit
-(`../2-Labs/PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md`) ; les captures se produisent
-pendant la séance, à mesure que les objets sont créés dans `translog-b`.
+**État : TP 1 tenu, neuf captures produites.** Mode opératoire :
+`../2-Labs/PLAN-Seance-9-TP-S9-05-pssi-procedure-fiche-reflexe-indicateurs.md` (Maxime) et
+`../2-Labs/PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md` (Miguel). Compte rendu de
+l'exécution et de la fusion des deux plans : `../2-Labs/Seance-9-TP-S9-05-feuille-de-travail-politique-et-indicateurs.md`.
 
-## Les captures attendues
+## Les captures produites (TP 1, S9-05)
 
-Nommage repris des séances 4 à 8 : `S9-05-…` pour le TP 1, `S9-06-…` pour le TP 2.
+Le jeu d'indicateurs a été **fusionné** entre les deux plans (huit indicateurs au lieu de sept — détail en
+feuille de travail §4) ; les noms de capture ci-dessous reflètent le résultat réel, pas la liste prévue avant
+séance.
 
-| Capture attendue | Ce qu'elle doit montrer | Pièce qu'elle appuie |
+| Capture | Ce qu'elle montre | Pièce qu'elle appuie |
 |---|---|---|
-| `S9-05-ex1-PSSI-VUL-document-publie.jpg` | Le document `PSSI-VUL` de type *Policy*, **publié en version 1**, avec son auteur et **son validateur — un autre membre du groupe** | `D9` · exercice 1 |
-| `S9-05-ex1-PSSI-VUL-relation-PT-01.jpg` | La relation posée sous *Relations* vers le contrôle appliqué `PT-01` — la section n'est pas orpheline | `D9` · exercice 1, étape 2 |
-| `S9-05-ex3-FR-RANCON-document-publie.jpg` | La fiche réflexe `FR-RANCON` de type *Other*, publiée, ses trois blocs visibles | `D9` · exercice 3 |
-| `S9-05-ex4-metric-definitions-liste.jpg` | Les **sept définitions** d'indicateurs, avec la nature en tête de description et la case *higher is better* décochée sur les deux comptes qui doivent baisser | `D9` · exercice 4, étape 1 |
-| `S9-05-ex4-IND-03-instance-detail.jpg` | Le détail d'une instance complète — formule, source, seuil, fréquence, destinataire, objectif de la note surveillé, `Assigned to` | `D9` · gabarit de la fiche |
-| `S9-05-ex4-IND-07-statut-draft.jpg` | `IND-07` en statut **`Draft`**, la mention « non mesuré » lisible — l'argument de la page S9 de Miguel, prouvé dans l'outil | `D9` · bureau du RSSI S9 |
-| `S9-05-ex4-releves-dates-six-indicateurs.jpg` | Les **six échantillons datés** du jour, chacun avec son observation portant numérateur, dénominateur et document d'origine | `D9` · exercice 4, étape 3 |
-| **`S9-05-tableau-de-bord-date.jpg`** | **Le tableau de bord du Comité, page entière et datée** — une carte par indicateur, les vues natives, la tuile de période et la tuile des décisions demandées | **`D9` — maquette exigée au dossier** |
-| `S9-06-verification-cinq-questions.jpg` | Un indicateur dont la fiche répond aux cinq questions du Comité, après complétion | TP 2 · étape unique |
+| `S9-05-PSSI-VUL-in-review.png` | Le document `PSSI-VUL` (*Policy*), rendu complet, cinq règles, citation de la justification `A.8.8` de D8 §2.2 | `D9` · exercice 1 |
+| `S9-05-PRO-PRIV-in-review.png` | Le document `PRO-PRIV` (*Procedure*), six étapes | `D9` · exercice 2 (optionnel) |
+| `S9-05-FR-RANCON-in-review.png` | La fiche réflexe `FR-RANCON` (*Other*), ses trois blocs | `D9` · exercice 3 |
+| `S9-05-documents-liste-trois-objets.png` | Les trois documents groupés, vue liste | `D9` · exercices 1-3 |
+| `S9-05-documents-manage-view-trois-objets.png` | Les trois documents, vue gestion (`/document-containers`) avec statut, progression, domaine | `D9` · exercices 1-3 |
+| `S9-05-metric-definitions-huit-indicateurs.png` | Les huit définitions d'indicateurs, nature en tête de description, case *higher is better* réglée par indicateur | `D9` · exercice 4, étape 1 |
+| `S9-05-metric-instances-huit-lignes.png` | Les huit instances : valeur, cible, unité, statut (six `Active`, deux `Draft`) | `D9` · exercice 4, étape 2 |
+| `S9-05-IND-04-fiche-detail.png` | Le gabarit complet d'une fiche — formule, source, cible, seuil, destinataire, objectif de note surveillé, échantillon daté | `D9` · gabarit de la fiche |
+| `S9-05-dashboard-fusionne-final.png` | Le tableau de bord `TDB-COMEX`, page entière — huit cartes ordonnées par poids de décision, tuile de période, tuile des décisions demandées | **`D9` — maquette exigée au dossier** |
 
 > **Rappel de la règle de nommage** : une capture porte ce qu'elle montre, pas le numéro de l'écran. Et
 > **chaque objet créé porte un auteur nommé** dans l'instance — c'est la moitié du coefficient individuel,
 > l'autre moitié étant la question individuelle en soutenance.
 
-**Ce qui reste pour la séance 10** : les **exports datés** de l'instance et le report des propriétaires dans
-*« Assigné à »*, au TP de finalisation du matin, **avant** les soutenances. C'est la pièce 3 du rendu.
+## Ce qui n'est pas couvert par une capture, et pourquoi
+
+- **La relation `PSSI-VUL` → `PT-01`** : ce type de document ne porte pas de section *Relations* structurée
+  dans cette version de l'outil (à la différence des contrôles appliqués ou des risques). Le renvoi est
+  **textuel**, dans la règle `PSSI-CADRE-VUL-02` — visible sur `S9-05-PSSI-VUL-in-review.png`.
+- **Le statut `Draft` de `IND-07` et `IND-08`** : visible sur `S9-05-metric-instances-huit-lignes.png`
+  (colonne *Status*), sans capture dédiée par indicateur.
+
+## Ce qui reste pour la suite
+
+- **`S9-06-verification-cinq-questions.jpg`** (TP 2) : un indicateur dont la fiche répond aux cinq questions
+  du Comité, après complétion.
+- Les **exports datés** de l'instance et le report des propriétaires dans *« Assigné à »*, au TP de
+  finalisation du matin de la séance 10, avant les soutenances — pièce 3 du rendu.
+- Les trois documents restent `In review` : aucune capture de version **publiée/validée** n'existe encore,
+  la revue croisée de Miguel étant due (feuille de travail §8).

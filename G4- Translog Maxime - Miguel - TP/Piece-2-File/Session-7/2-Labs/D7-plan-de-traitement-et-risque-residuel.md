@@ -198,8 +198,8 @@ Chaque mesure du plan est formulée en **objectif vérifiable**, pas en intentio
 
 | Mesure | Formulation vérifiable | Exigence ISO/IEC 27001:2022 rapprochée |
 |---|---|---|
-| `PT-01` | Recette formalisée + avenant avant toute mise à jour du WMS | `A.8.32` (gestion du changement) |
-| `PT-02` | Suppression des comptes de domaine partagés au profit de comptes nominatifs tracés, MFA | `A.5.16`, `A.8.2`, `A.8.5` |
+| `PT-01` | Recette formalisée + avenant avant toute mise à jour du WMS | `A.8.32` (gestion du changement), `A.8.8` (gestion des vulnérabilités techniques — l'écart de A.8.8 *est* l'absence de maîtrise de ces mises à jour) |
+| `PT-02` | Suppression des comptes de domaine partagés au profit de comptes nominatifs tracés, MFA | `A.5.16`, `A.8.2`, `A.8.5`, `A.5.15` (contrôle d'accès, fermé de fait par les mêmes comptes nominatifs tracés) |
 | `PT-03` | Cloisonnement réseau IT/OT sur les six sites | `A.8.22` |
 | `PT-04` | Test de restauration périodique avec RTO mesuré | `A.8.13`, `A.5.30` |
 | `PT-05` | Inventaire et supervision de la liaison 4G de l'intégrateur | `A.5.9`, `A.8.20` |
@@ -213,6 +213,12 @@ Chaque mesure du plan est formulée en **objectif vérifiable**, pas en intentio
 | `PT-13` | Inventaire et propriétaire des biens supports découverts | `A.5.9` |
 
 Aucune mesure formulée « renforcer la sécurité des accès » ou équivalent générique : chacune se vérifie.
+
+**Correction de séance 9 (`fixes.md` F22 §3)** : `A.5.15` et `A.8.8` manquaient à ce tableau alors que D8 §2.4
+les rapprochait déjà de `PT-02` et `PT-01` — un rapprochement juste sur le fond (mêmes comptes nominatifs
+tracés pour `A.5.15` ; même absence de maîtrise des mises à jour du WMS pour `A.8.8`) mais qui étendait D7
+en silence. Les deux lignes ci-dessus sont désormais complètes ; les deux contrôles ne sont plus orphelins
+« de D7, pas de la déclaration ».
 
 ---
 
