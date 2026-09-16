@@ -11,7 +11,7 @@ direction. Note individuelle — 10 points sur les neuf séances, coefficient 1.
 
 | Étudiant | Fichier | État |
 |---|---|---|
-| Miguel Monereo | `S9-bureau-du-RSSI-Miguel-Monereo.md` | 🔴 **à écrire** |
+| Miguel Monereo | `S9-bureau-du-RSSI-Miguel-Monereo.md` | 🟢 **fait** — angle : le candidat 12 (`INC-01`) ne peut aujourd'hui passer ni au rouge ni au vert, faute de chronologie — `A.5.24` orphelin en D8 §2.4 |
 | Maxime | `S9-bureau-du-RSSI-Maxime.md` | 🟢 **fait** — angle : le taux de sensibilisation groupe (64 %) tient sur une moyenne dont Logistique n'a jamais mesuré sa part (`A.6.3` non évalué, D4 §6, orphelin en D8 §2.4) |
 
 `Seance-9-TD-S9-01-indicateurs-du-comite-executif.md` — le **compte rendu collectif** du TD (les cinq
@@ -74,6 +74,9 @@ written)* — exactitude et pertinence 4, posture de RSSI 3, rédaction 3.
 
 ## Angle pris
 
+Les deux étudiants prennent des **angles distincts**, sur les deux mêmes orphelins de D8 §2.4
+(`A.5.24`, `A.6.3`) — c'est la règle du dossier depuis la séance 1.
+
 **Le chiffre moyen qui cache une case vide** *(Maxime, voir `S9-bureau-du-RSSI-Maxime.md`)*. Le taux de
 sensibilisation groupe (64 %) est calculé sur quatre filiales dont l'une — la nôtre — n'a jamais mesuré sa
 part (`A.6.3` non évalué depuis D4, orphelin sans mesure de traitement en D8). Angle : *un indicateur moyen
@@ -82,7 +85,15 @@ cacher un zéro sans que personne ne l'ait décidé*. Recommandation : ne pas re
 de bord tant que sa fiabilité n'est pas vérifiée filiale par filiale, et ouvrir dès cette séance le chantier
 documentaire que D8 désigne déjà pour Logistique.
 
-Angle de Miguel à préciser à la remise de sa page.
+**L'indicateur qui ne peut ni rougir ni verdir** *(Miguel, voir `S9-bureau-du-RSSI-Miguel-Monereo.md`)*. Le
+candidat 12, respect du délai de notification `INC-01`, suppose une capacité que Logistique n'a pas :
+reconstituer après coup l'heure de détection et l'heure de notification d'un incident. `A.5.24` (gestion des
+incidents) reste non conforme et orphelin en D8, et le seul incident majeur du dossier — l'arrêt du WMS
+d'avril 2026 — n'a justement pas de chronologie tenue (établi dès la séance 3) : impossible de dire s'il
+aurait respecté le seuil. Angle : *une case vide sur un tableau de bord binaire rouge/vert se lit trop
+facilement comme une case verte*. Recommandation : refermer `A.5.24` par une procédure d'incident écrite
+avant que l'indicateur ne serve, et l'afficher « non mesuré » plutôt que de laisser le silence passer pour
+une conformité.
 
 ---
 
