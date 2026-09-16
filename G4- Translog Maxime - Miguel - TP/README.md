@@ -14,7 +14,18 @@ Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits
 
 **La séance 8 est entièrement close : le TD 1 est fait, les deux pages individuelles sont rendues (F19), les deux TP sont saisis dans `translog-b` et le livrable `D8` est rédigé.** TP 1 : 30 exigences de clauses 4-10 évaluées, 15 contrôles d'annexe A investigués, 16,1 % de couverture. TP 2 : `D8` (périmètre du SMSI, déclaration d'applicabilité, registre des exclusions, synthèse) et la sous-section 8 de la note de stratégie. **Reste** le CM (non noté).
 
-**La séance 9 est ouverte — le TD 1 est fait.** Note collective des cinq questions guidées du cas *« The CISO's Desk: Indicators for the Executive Committee »* : classification des douze indicateurs candidats en trois familles, sélection des cinq indicateurs du tableau de bord (couverture PSSI, obsolescence du parc, délai moyen de détection, respect du délai de notification `INC-01`, constats critiques sans plan daté), cible/seuil/phrase de la règle d'or pour chacun, traduction du délai de détection en langage exécutif, réponse à l'adjoint sur le nombre d'attaques bloquées. **Page individuelle de Maxime rendue** (angle : le taux de sensibilisation groupe, 64 %, calculé sur une moyenne dont Logistique n'a jamais mesuré sa part, `A.6.3` non évalué). **Reste** : la page de Miguel, les deux TP et le livrable `D9`.
+**La séance 9 — le TD 1 et le TP 1 sont faits.** TD 1 : note collective des cinq questions guidées du cas
+*« The CISO's Desk: Indicators for the Executive Committee »* : classification des douze indicateurs
+candidats en trois familles, sélection des cinq indicateurs du tableau de bord, cible/seuil/phrase de la
+règle d'or pour chacun, traduction du délai de détection en langage exécutif, réponse à l'adjoint sur le
+nombre d'attaques bloquées. **Les deux pages individuelles rendues** (Maxime : le taux de sensibilisation
+groupe, 64 %, calculé sur une moyenne dont Logistique n'a jamais mesuré sa part ; Miguel : `INC-01`, qui ne
+peut aujourd'hui passer ni au rouge ni au vert faute de chronologie d'incident). **TP 1 : les trois documents
+saisis dans `translog-b`** (`PSSI-VUL`, `FR-RANCON`, `PRO-PRIV`, tous `In review`) et **le jeu d'indicateurs
+fusionné entre les deux plans indépendants** de Maxime et de Miguel — huit indicateurs, six actifs et datés,
+deux en `Draft` affichés « non mesuré » — assemblés dans le tableau de bord `TDB-COMEX`. `D7` §6 corrigé au
+passage (F22 §3). **Reste** : la revue croisée de Miguel sur les trois documents, le TP 2 et le livrable
+`D9`.
 
 | Séance | Thème | Livrable | Points | État |
 |---|---|---|---|---|
@@ -26,7 +37,7 @@ Le bloc 1 (séances 1–2, fondations) et le bloc 2 (séances 3 à 6) sont faits
 | **S6** | Tiers et projets · EBIOS RM ateliers 3-4 | **D6** Tiers et projets | 7 | ✅ **livrable assemblé**, bureau du RSSI clos, TD 2 + TP 1 + TP 2 faits — reste le CM |
 | **S7** | Traitement du risque · EBIOS RM atelier 4 + registre | **D7** Plan de traitement et risque résiduel | 5 | ✅ **livrable rédigé**, bureau du RSSI clos *(F14/F19)*, coûts saisis dans l'outil (82K €/an, 13/13 mesures) |
 | **S8** | Périmètre du SMSI · business case de certification | **D8** Déclaration d'applicabilité | 2 | ✅ **livrable rédigé**, bureau du RSSI clos *(F16/F19)*, 30 exigences + 15 contrôles évalués dans l'outil (16,1 % de couverture) — reste le CM |
-| **S9** | Indicateurs, version finale | **D9** Politique, documents, indicateurs | 3 | 🟡 **TD 1 fait** (note collective + page de Maxime) — restent la page de Miguel, les TP et `D9` |
+| **S9** | Indicateurs, version finale | **D9** Politique, documents, indicateurs | 3 | 🟡 **TD 1 et TP 1 faits** (2 pages individuelles, 3 documents saisis, 8 indicateurs, tableau de bord) — restent la revue croisée, le TP 2 et `D9` |
 | S1–S9 | — | Note de stratégie | 3 | 🔄 8 sous-sections sur 9, **toutes rédigées** — la 9e referme le document sur lui-même |
 
 **Barème des livrables : 40 points** (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · D8 2 · D9 3 · note 3), convertis sur 20, coefficient 4 sur 10.
@@ -127,12 +138,32 @@ pages individuelles qu'elle nourrit. Le **TD 2** de l'après-midi va dans **`4-W
 
 > **Réserve héritée de `fixes.md` F17** : les renvois de `D8` vers `PT-02`/`PT-03`/`PT-06` (D7) ne referment pas l'écart de dates avec `M1`/`M2`/`M4` (D4) sur les mêmes contrôles — décrit et laissé ouvert, arbitrage d'auteur toujours dû avant `D9`.
 
-### Séance 9 — Indicateurs pour le Comité Exécutif *(D9)* 🟡 ouverte
+### Séance 9 — Indicateurs pour le Comité Exécutif *(D9)* 🟡 TD 1 et TP 1 faits
 - `1-CISO-desk/Seance-9-TD-S9-01-indicateurs-du-comite-executif.md` — **TD 1 fait** : note collective des cinq questions guidées du cas *« The CISO's Desk: Indicators for the Executive Committee »*. Les douze indicateurs candidats de l'adjoint classés en trois familles (stratégique présentable, technique à traduire, vanité à écarter), avec pour chacun une lecture propre à Logistique plutôt qu'une lecture générique — le taux de sensibilisation (64 % groupe) signalé comme non vérifiable chez nous (`A.6.3` : angle mort de D4 §6, **coté non conforme** en D8 §2.2 et orphelin du plan en D8 §2.4 — le contrôle est évalué, c'est le **taux** qui n'existe pas), le décompte de constats non résolus à 30 jours reformulé pour ne pas pénaliser un plan daté et approuvé (`C3`/`C4`, `PT-02`/`PT-03`). **Cinq indicateurs sélectionnés** (couverture PSSI, obsolescence du parc, délai moyen de détection, respect du délai de notification `INC-01`, constats critiques sans plan daté), chacun complété d'une cible, d'un seuil d'alerte et de sa phrase de la règle d'or, construits sur les cibles déjà posées en séance 1 quand elles existent (obsolescence < 5 %/> 15 %, repris à l'identique). Traduction du délai de détection en trois phrases sans le mot « journaux », rattachée à la fenêtre de six heures avant blocage du WMS (D1). Réponse au candidat « attaques bloquées » : indicateur de vanité, remplacé par l'obsolescence du parc.
 - `1-CISO-desk/S9-bureau-du-RSSI-Maxime.md` — **page individuelle de Maxime** : angle sur le taux de sensibilisation groupe (64 %), moyenne calculée sur quatre filiales dont Logistique n'a jamais mesuré sa part — recommandation de l'exclure du tableau de bord tant que sa fiabilité n'est pas vérifiée filiale par filiale, et d'ouvrir dès cette séance le chantier documentaire que `D8` désignait déjà pour `A.6.3`.
 - `1-CISO-desk/S9-bureau-du-RSSI-Miguel-Monereo.md` — **page individuelle de Miguel** : angle sur le candidat 12 (`INC-01`), qui ne peut aujourd'hui passer ni au rouge ni au vert faute de chronologie d'incident — `A.5.24` orphelin en D8 §2.4, et l'arrêt du WMS d'avril 2026 laissé sans heure de détection — recommandation de refermer `A.5.24` par une procédure d'incident écrite et d'afficher l'indicateur *« non mesuré »* plutôt qu'en blanc. **Le bureau du RSSI passe à 18 pages sur 18.**
-- `2-Labs/PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md` — **mode opératoire du TP 1 écrit avant la saisie** (**F23**), au format des plans des séances 4 à 8 : les cinq règles de la section `PSSI-VUL` (dont `COR-01` et le circuit `ARB-03`, que le groupe possède déjà), les trois blocs de la fiche réflexe `FR-RANCON` sur le site **E1**, et les **sept fiches d'indicateurs** complètes — formule, source, cible, seuil et ce qu'il déclenche, fréquence, destinataire, objectif de la note surveillé, valeur du jour. **Six des sept sont calculables le jour même**, dont celui que l'énoncé désigne pour Logistique : les restaurations de sauvegarde testées depuis la mise en service du WMS, **zéro**.
-- **Reste** : le CM (*Politique de sécurité de l'information et architecture documentaire du SMSI*, non noté), la **saisie dans `translog-b`** (trois documents publiés avec auteur et validateur distincts, sept indicateurs, six relevés datés, le tableau de bord et sa capture datée), la feuille de travail du TP 1, le livrable **`D9`** (3 pts) et la **sous-section 9** de la note — plus les deux chantiers hérités à traiter dans cette séance : corriger `D7` §6 (F22) et trancher les cinq écarts de F17.
+- `2-Labs/PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md` (Miguel) et
+  `2-Labs/PLAN-Seance-9-TP-S9-05-pssi-procedure-fiche-reflexe-indicateurs.md` (Maxime) — **deux modes
+  opératoires du TP 1 écrits indépendamment avant la saisie** (**F23**), au format des plans des séances 4 à
+  8 : les cinq règles de `PSSI-VUL` (dont `COR-01` et le circuit `ARB-03`), les trois blocs de la fiche
+  réflexe `FR-RANCON` sur le site **E1**, et deux jeux d'indicateurs — sept côté Miguel (six calculables le
+  jour même), six côté Maxime (deux calculables) — **fusionnés à l'exécution en un jeu de huit** (voir la
+  feuille de travail ci-dessous, §4).
+- `2-Labs/Seance-9-TP-S9-05-feuille-de-travail-politique-et-indicateurs.md` — **TP 1 fait, saisi dans
+  `translog-b`** : trois documents (`PSSI-VUL`, `FR-RANCON`, `PRO-PRIV` optionnel), tous `In review` — la
+  revue croisée de Miguel reste due, l'outil ne bloquant pas techniquement l'auto-validation mais la
+  convention du dossier l'exige depuis la séance 3. **Huit indicateurs** (fusion des deux plans, table de
+  correspondance en §4.2 de la feuille de travail) saisis en *metric definitions*/*instances*, six actifs
+  avec un relevé daté du 16 septembre, deux en `Draft` affichés « non mesuré ». Tableau de bord `TDB-COMEX`
+  construit, tuiles ordonnées par poids de décision, capturé daté — c'est la maquette de `D9`. `D7` §6
+  corrigé au passage (F22 §3 : `A.5.15`→`PT-02`, `A.8.8`→`PT-01`, déjà justifiés dans `D8` §2.4 mais non
+  reportés). Le test à blanc en binôme de `FR-RANCON` **n'a pas été mené** (suppose deux personnes réellement
+  présentes) — reste dû par Maxime et Miguel avant la remise.
+- **Reste** : le CM (*Politique de sécurité de l'information et architecture documentaire du SMSI*, non
+  noté), la **revue croisée de Miguel** sur les trois documents, le **test à blanc en binôme**, le livrable
+  **`D9`** (3 pts) et la **sous-section 9** de la note (TP 2) — plus les quatre écarts de fond de F17
+  (dates `M1`/`M2`/`M4`, titre du dirigeant, porteurs de D4, jalons de D6), décrits et laissés intacts :
+  décision des deux auteurs, pas une correction mécanique.
 
 ---
 
