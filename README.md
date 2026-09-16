@@ -19,7 +19,7 @@
 |---|---|---|---|
 | **Livrables D1→D9** | 40 pts → /20, **coef. 4** | **34 pts** assemblés (D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · D7 5 · **D8 2**) | D9 = 3 pts, TD 1 fait, TP et livrable restent |
 | **Note de stratégie** (pièce 1) | 3 pts (inclus dans les 40) | **8 sous-sections sur 9**, toutes rédigées | 1 sous-section, séance 9 |
-| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **16 pages sur 16** pour les huit séances tenues — S1→S8 complètes, les deux auteurs (F7, F12, F14 et F19 clos) ; **page S9 de Maxime rendue** | ⏳ la page S9 de Miguel · 🟡 tenue en longueur à resserrer sur les 16 (voir F19) |
+| **Bureau du RSSI** | 10 pts, **coef. 1**, **individuel** | **18 pages sur 18** — S1→S8 complètes (F7, F12, F14, F19 clos) et **les deux pages S9 rendues** | 🟡 tenue en longueur à resserrer sur les **18** (voir F19 et F23 : de 564 à 864 mots, le barème impose une page au plus) |
 | **Coefficient individuel** | ×0,85 / 0,95 / 1,05 / 1,15 | ✅ traçabilité nominative confirmée (auteurs + statut, étude EBIOS RM comprise) | — |
 | **Preuve d'état** (pièce 3) | support | captures intermédiaires par séance | export final, produit en **séance 10** |
 
@@ -134,7 +134,7 @@ Plus les **captures** dans `Session-n/3-Evidence/` dès qu'un objet est créé o
 | ~~S6~~ | ~~**D6** — tiers et projets *(le plus lourd du module)*~~ ✅ | **7** |
 | ~~S7~~ | ~~**D7** — plan de traitement et risque résiduel~~ ✅ | 5 |
 | ~~S8~~ | ~~**D8** — périmètre du SMSI~~ ✅ | 2 |
-| S9 | **D9** — indicateurs + **version close de la note de stratégie** — TD 1 fait | 3 |
+| S9 | **D9** — indicateurs + **version close de la note de stratégie** — TD 1 fait, **deux pages individuelles rendues**, **mode opératoire du TP 1 écrit** (F23) | 3 |
 | **S10** | **Pièce 3** — export daté de l'instance, 8h30–9h15, au dépôt | support |
 
 **Budget de pages de la note** : 3 à 5 pages de texte (3 est la cible). Huit sous-sections écrites, **1 875 mots ≈ 3,3 à 3,8 pages** — la sous-section 9 se rédigera serrée sur sa réserve de 250 mots, toute contrainte se traitant en la resserrant elle, jamais une précédente.

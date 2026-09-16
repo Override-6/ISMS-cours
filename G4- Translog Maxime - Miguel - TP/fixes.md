@@ -2,14 +2,14 @@
 
 **Source de vérité** : `ISMS module common thread.pdf` — version 2, 8 septembre 2026.
 **Remise** : 17 septembre 2026 · **Instance** : `translog-b` · **périmètre** : `MERIDIAN-LOGISTIQUE`.
-**Journal à jour au 15 septembre 2026** · 22 corrections ouvertes depuis le 8 septembre : **20 closes**, une partiellement traitée (**F17**), une ouverte (**F20**).
+**Journal à jour au 16 septembre 2026** · 23 corrections ouvertes depuis le 8 septembre : **21 closes**, une partiellement traitée (**F17**), une ouverte (**F20**).
 
 > La règle qui gouverne tout : *la sous-section n de la note affirme ; la séance n du dossier prouve ;
 > l'export montre que l'objet existe dans l'outil.* Une affirmation sans pièce derrière elle ne compte pas ;
 > une pièce dont la note ne dit rien est du travail perdu.
 
 **Comment lire ce journal.** La section **« Ce qui reste »** ci-dessous est la seule à consulter pour savoir
-quoi faire : elle est classée par points en jeu. Vient ensuite le **relevé des corrections** (F1 à F22) en
+quoi faire : elle est classée par points en jeu. Vient ensuite le **relevé des corrections** (F1 à F23) en
 une ligne chacune, puis leurs **fiches détaillées**, dans l'ordre où elles ont été traitées — le relevé sert d'index. Rien ne
 se supprime : une correction close garde sa fiche, elle change d'état dans le relevé.
 
@@ -73,7 +73,7 @@ dossier à 18 pages sur 18.
 
 ---
 
-# Relevé des corrections — F1 à F22
+# Relevé des corrections — F1 à F23
 
 | # | Objet | État |
 |---|---|---|
@@ -99,6 +99,7 @@ dossier à 18 pages sur 18.
 | **F20** | Conformité au fil rouge du module, élément par élément | 🔄 **les 3 éléments exigés portés** le 15 sept. (charte `D1`, taux par thème `D4`, `D5` resserré) — restent les 2 pièces à produire (§1) |
 | **F21** | Deux fichiers `D8` écrits en parallèle par les deux auteurs, dans le même dossier | ✅ **clos** (15 sept.) — version de Miguel retenue (plus complète), réserve F17 récupérée depuis l'autre avant suppression |
 | **F22** | Les deux TP de la séance 8 relus contre leurs énoncés et leurs corrigés, état vérifié dans `translog-b` | ✅ **clos** (15 sept.) — saisie conforme au chiffre près ; 4 corrections portées (dont 2 dans l'outil), sévérité assumée par écrit |
+| **F23** | Séance 9 relue contre ses énoncés : la citation de `A.6.3` était fausse, et la séance n'avait ni `2-Labs/` ni `3-Evidence/` | ✅ **clos** (16 sept.) — 7 corrections de fond dans le TD 1 et son README ; mode opératoire du TP 1 écrit, les deux emplacements manquants créés |
 
 **Barème** : D1 4 · D2 5 · D3 4 · D4 4 · D5 3 · D6 7 · **D7 5** · D8 2 · D9 3 · note de stratégie 3 =
 **40 points**, convertis sur 20, coefficient 4 sur 10.
@@ -1222,6 +1223,112 @@ inscrite au chantier de la séance 9.
 
 ---
 
+## F23 · La séance 9 relue contre ses énoncés, et ses deux emplacements manquants créés — ✅ fait
+
+**Ce qui a été relu** : l'état de `Session-9/` (qui ne contenait que `1-CISO-desk/`), la note collective du
+TD 1, les deux pages individuelles et le README de la séance, confrontés à l'énoncé du TD 1
+(*« The CISO's Desk: Indicators for the Executive Committee »*), à celui du TP 1 (*« Workshop in the tool:
+PSSI, quick-reaction sheet, indicators and dashboard »*), à celui du TP 2 (*« Checking deliverable D9 and the
+final strategy note »*), et aux pièces citées — `D1`, `D4`, `D7`, `D8`, le pack de filiale et la feuille de
+travail `S1-05`. Les corrigés des trois énoncés sont repliés dans les exports (« cliquer pour révéler »),
+donc non consultés.
+
+### Ce qui tient — vérifié pièce en main, ne pas rouvrir
+
+- **Les cinq directives** citées sont les bonnes : `PSSI-CADRE-ACC-01`, `ACC-02`, `INC-01`, `JRN-01`,
+  `COR-01` (D1, charte article 1), et `ARB-03` est bien le circuit de dérogation à 48 h.
+- **Le KRI d'obsolescence** est repris à l'identique de la séance 1 — cible < 5 %, seuil d'alerte > 15 %
+  (`S1-05` exercice 3), et la réallocation de 15 % qui s'y adosse est bien en `S1-06`.
+- **Le récit de l'arrêt d'avril 2026** — trois chefs d'entrepôt appellent la TMA, deux l'intégrateur, un le
+  Responsable SI en congé, personne ne tient de chronologie — est établi dès la séance 3 et repris par la
+  séance 4 ; « avril 2026 » est la forme déjà employée par `D8` §2.2.
+- **Le taux de conformité de 9 % sur 13 % de l'annexe A regardée**, les constats `C3`/`C4` et leurs
+  traitements `PT-03` (14/06/2027) et `PT-02` (14/01/2027) sont conformes à `D4`, `D7` et `D8`.
+- **Les deux angles individuels sont distincts** et portent chacun sur l'un des deux orphelins que `D8` §2.4
+  renvoie nommément à la séance 9 : `A.5.24` pour Miguel, `A.6.3` pour Maxime. Chacune des deux pages est
+  close par une recommandation à la direction.
+- **Les trois contraintes de composition** de la question 2 sont couvertes (conformité, exposition au risque,
+  réponse à incident), et les deux réponses rédigées (questions 4 et 5) tiennent la longueur imposée.
+
+### Les sept corrections portées
+
+1. **`A.6.3` était déclaré « jamais évalué », ce qui est faux** — et la note collective se contredisait
+   elle-même dans la même phrase (« jamais évaluée » puis « non conforme »). `D8` §2.2 **a évalué** ce
+   contrôle et l'a coté **non conforme**, précisément *« faute de toute preuve de sensibilisation depuis »* :
+   c'est `D4` qui l'avait laissé non statué, pas `D8`. La nuance n'est pas cosmétique — **le contrôle est
+   évalué, c'est le taux qui n'existe pas** : il n'y a chez nous ni numérateur ni dénominateur pour calculer
+   une part de salariés sensibilisés. Réécrit au rappel du cas et au candidat 7, avec le bon renvoi (§2.2
+   pour la cotation, §2.4 pour l'orphelin). La page de Maxime, elle, disait juste depuis le début : la note
+   collective la contredisait dans le même dossier.
+2. **`A.5.24` était appelé « constat »** au candidat 12. Dans ce dossier, « constat » désigne les constats
+   gradés `C1` à `C8` de `D4` ; `A.5.24` est un **contrôle** d'annexe A. Corrigé en *« contrôle `A.5.24`,
+   coté non conforme en D8 §2.2 »*.
+3. **Les quatre relevés du trimestre étaient présentés comme les nôtres.** L'énoncé les donne comme ceux des
+   « quatre indicateurs cibles que le groupe s'est fixés en séance 1 » ; notre tableau de bord de séance 1
+   (`S1-05` exercice 3) en porte **huit** — quatre KRI et quatre KPI — et **un seul se retrouve à
+   l'identique**, l'obsolescence. « Couverture de la PSSI » et « taux de sensibilisation » ne sont pas de
+   nous, et là où l'énoncé mesure un **délai de détection**, notre séance 1 mesurait un **délai de
+   notification**. Les quatre relevés sont conservés — l'énoncé les rend opposables pour la journée — mais
+   **l'écart est déclaré**, dans la note collective et dans le README, comme aux séances 6 et 8 : un chiffre
+   emprunté se signale comme emprunté.
+4. **La question 3 ne disait pas d'où venait chaque cible**, alors que l'énoncé demande de s'appuyer sur les
+   cibles de la séance 1 *« quand elles existent »*. Paragraphe ajouté avant le tableau : deux des cinq
+   reprennent une cible existante, trois sont posées pour la première fois et sont donc à justifier.
+5. **La cible de l'indicateur `INC-01` ignorait celle que la séance 1 avait déjà posée** — un KPI *délai
+   moyen de notification d'un incident majeur, cible < 30 min*, délibérément plus strict que les deux heures
+   de la directive. Les deux sont désormais articulées : la cible interne d'exploitation reste le délai
+   moyen, ce qui remonte au Comité est le **taux de respect du seuil contractuel de 2 h**, parce qu'une
+   moyenne ne dit pas combien d'incidents ont dépassé.
+6. **Les seuils du délai de détection étaient présentés sans dire qu'ils étaient nouveaux.** Marqués comme
+   tels, avec la justification du seuil (les deux tiers de la fenêtre de six heures).
+7. **Le README de la séance portait les deux mêmes erreurs de citation sur `A.6.3`** et décrivait `S1-05`
+   exercice 3 comme portant « quatre indicateurs cibles ». Réaligné sur les six points ci-dessus.
+
+### Les deux emplacements manquants, créés
+
+La séance n'existait qu'en `1-CISO-desk/`. La séance 9 n'a **pas de TD 2** — comme la séance 8, elle a donc
+trois emplacements et non quatre, et pas de `4-Working-notes/`.
+
+- **`2-Labs/`** — `README.md` (les quatre exercices du TP 1, l'étape unique et la sous-section 9 du TP 2, et
+  les deux chantiers hérités : corriger `D7` §6 pour F22, trancher les cinq écarts de F17) et
+  **`PLAN-Seance-9-TP-S9-05-politique-fiche-reflexe-et-indicateurs.md`**, mode opératoire écrit **avant la
+  saisie** au format des plans des séances 4 à 8 : les cinq règles de la section `PSSI-VUL` (dont `COR-01` et
+  `ARB-03`, que le groupe possède déjà), les trois blocs de la fiche réflexe `FR-RANCON` sur le site **E1**,
+  et les **sept fiches d'indicateurs** complètes — formule, source, cible, seuil et ce qu'il déclenche,
+  fréquence, destinataire, objectif de la note surveillé, valeur du jour et son comptage.
+- **`3-Evidence/`** — `README.md` listant les neuf captures attendues, dont la **capture datée du tableau de
+  bord**, qui est la maquette de `D9` exigée au dossier.
+
+**Trois points de méthode portés au plan**, et qui sont la raison d'être de ce travail :
+
+- **Six des sept indicateurs sont calculables le jour même** — l'énoncé n'en exige qu'un. Dont celui qu'il
+  désigne nommément pour Logistique : *les restaurations de sauvegarde testées depuis la mise en service du
+  WMS, **zéro*** (pack §5).
+- **Le « trou dans le filet » que le CM désigne** — l'avancement de la séparation des réseaux, qu'aucun
+  chiffre ne surveillait — devient `IND-04`, et c'est lui qui dira si l'exclusion de l'automatisation d'E4 du
+  périmètre de certification tombe au 14/06/2027 ou non.
+- **Les deux angles du bureau du RSSI entrent dans le jeu d'indicateurs plutôt qu'à côté** : `IND-07` est
+  saisi en `Draft` et affiché **« non mesuré »** au lieu d'être laissé vide, parce qu'une case vide se lit
+  comme une case verte (Miguel) ; et le taux de sensibilisation reste hors du jeu tant que `A.6.3` n'a pas
+  produit de mesure (Maxime).
+
+### Ce qui reste dû sur la séance 9, et qui n'est pas de la relecture
+
+La saisie dans `translog-b` (trois documents publiés avec **auteur et validateur distincts**, sept
+indicateurs, six relevés datés, le tableau de bord), la feuille de travail du TP 1, le **livrable `D9`**
+(3 points) et la **sous-section 9 de la note de stratégie** — celle qui referme le document sur lui-même, une
+phrase par sous-section antérieure. Rien de cela ne peut s'écrire sans l'instance : aucune valeur n'a été
+inventée ici.
+
+### Une réserve consignée, non traitée
+
+La page S9 de Miguel fait **832 mots**, la plus longue des dix-huit pages du bureau du RSSI (les autres vont
+de 564 à 864). Le barème impose « une page au plus ». C'est la réserve déjà ouverte par **F19** pour les seize
+pages précédentes ; la resserrer seule créerait une incohérence de format dans le jeu. Le resserrement reste
+une passe unique à faire sur les **dix-huit** pages — 3 points sur 10, note individuelle.
+
+---
+
 ## Vérifié bon — ne pas rouvrir
 
 - **123 exigences** importées, deux blocs, quatre thèmes d'annexe A — capture à l'appui.
@@ -1272,3 +1379,4 @@ inscrite au chantier de la séance 9.
 | 15 sept. 2026 | **F20 · rendu confronté au fil rouge du module, élément par élément** — les trois pièces, les éléments exigés de D1 à D9, les tailles imposées, les barèmes. **L'essentiel passe** : D2 (7 éléments), D3 (5, deux pages plus export), D6 (4), D7 (5, dont le chiffrage **sur trois ans** que le total annuel seul n'aurait pas satisfait), D5 sur le fond (7 événements redoutés pour 6 demandés, 3 couples sur 5 avec les raisons des écartés) ; feuille de route de la séance 1 bien hors rendu ; pièce 3 vide et documentée ; points réconciliés à 40. **Cinq écarts ouverts** : `D1` **n'a pas de charte de gouvernance** alors que la sous-section 1 de la note y renvoie explicitement — affirmation sans pièce derrière elle, ce que le module disqualifie ; `D4` ne donne **pas de taux de conformité par thème** alors que D3 a établi les quatre thèmes et que l'outil porte le taux en capture ; `D5` fait ≈ 2,9 pages contre une demi-page demandée ; la note de stratégie **n'existe pas en PDF** alors que la pièce 1 est « un fichier PDF » ; **aucun support de soutenance** n'existe alors que la soutenance vaut 30 points, coefficient 3. **Confirmé au passage** : le barème du bureau du RSSI (4/3/3) est le barème **officiel** du module, page 4 — non une convention des séances antérieures, comme le `README` de la séance 8 l'affirmait à tort (corrigé). |
 | 15 sept. 2026 | **F20 · les trois éléments exigés manquants sont portés.** **`D1` reçoit sa charte de gouvernance** — quatre articles et un tableau de signature, à la définition que les notes de la séance 1 donnaient elles-mêmes : elle **adopte** le schéma à trois niveaux, la matrice RACI, les cinq directives `PSSI-CADRE-*` et les trois règles `ARB-*` sans les recopier, pose l'exigence de vérifiabilité, fixe entrée en vigueur, adaptation à six mois et révision annuelle, et nomme l'autorité signataire — le RSSI Groupe y signe la proposition et le compte rendu, **jamais la règle**. L'affirmation de la sous-section 1 de la note de stratégie a désormais sa pièce derrière elle. **`D4` reçoit son taux de conformité par thème** (§2.1) : 8 % à l'organisationnel, 10 % au technologique, non calculable sur A.6, **zéro exigence évaluée sur les quatorze du thème physique** alors que la filiale exploite six entrepôts, des chambres froides et un local serveur unique — angle mort que seule la ventilation par thème fait apparaître ; 9 % d'ensemble, portant sur 13 % de l'annexe A seulement, à lire « sur ce que nous avons regardé, presque rien n'est en place ». **`D5` est resserré** de 1 415 à 724 mots de prose (−49 %) par la méthode de F18 — cadrage, vraisemblance et seuil passés en tableaux — **sans descendre à la demi-page demandée** : ce qui reste est la justification que le module exige (raisons des couples écartés, seuil des six heures d'ER1, événements critiques sans source), et la couper aurait échangé une consigne de taille contre une consigne de contenu. **Réserve** : la charte porte `D1` à ~1 010 mots de prose contre « deux pages » annoncées. **Restent ouverts** : la note de stratégie en PDF (écartée par les auteurs pour l'instant) et les supports de soutenance, 30 points coefficient 3. |
 | 15 sept. 2026 | **F22 · les deux TP de la séance 8 relus contre leurs énoncés et leurs corrigés, état confronté à `translog-b`** — relecture conduite sur les deux PDF **corrigés compris** (la section « Answer keys and assessment criteria » n'avait pas été confrontée à la saisie) et sur l'état réel de l'outil, lu exigence par exigence. **La saisie est conforme au chiffre près** : 123 exigences évaluables, 30 clauses sur 30 à `Done` (2 / 8 / 20, aucune non évaluée, aucun *not applicable* — les deux interdits tenus), 15 contrôles d'annexe A marqués et ce sont **les bons quinze** (les huit du CM ∪ les douze de la séance 4, intersection de cinq, union de quinze — le compte de l'énoncé retrouvé exactement), observation réelle sur chaque clause non conforme et sur chacun des quinze, compteurs 2/19/23/1/78 et 45 à `Done` identiques à ceux que `D8` affiche. **Le profil des clauses correspond au corrigé presque ligne à ligne**, jusqu'aux deux clauses les plus faibles — support (7) et évaluation des performances (9), la paire même que le corrigé annonce. **Quatre corrections portées, deux dans l'outil.** `D8` §2.3 comptait la clause 7 **sur six** exigences au lieu de sept, le tableau sommant à 29 au lieu de 30 — corrigé. Les exigences **`4.1` et `5.3` portaient encore leur observation de la séance 3**, qui affirmait dans l'outil que *« l'évaluation initiale [est] vierge »* à côté d'un résultat `Done` / partiellement conforme qui prouve le contraire — les deux réécrites sur leurs pièces réelles, persistance vérifiée par rechargement, **aucun compte touché**, deux captures ajoutées, règle consignée pour la séance 9 (*une exigence dont le résultat change doit voir son observation relue*). `D8` §2.4 **rapprochait `A.5.15` de `PT-02` et `A.8.8` de `PT-01`, que `D7` §6 ne leur donne pas** : juste sur le fond, mais étendant `D7` en silence — §2.4 réécrit en tableau par ligne de registre séparant ce que `D7` porte, ce qui tombe parmi les 78, et ce que `D8` ajoute, les deux ajouts signalés et **inscrits comme troisième ligne d'orphelins**, deux renvois erronés corrigés (`OS3` citait `A.5.15` pour `A.5.16` ; `ER2` citait `A.8.5` pour `A.8.24`) ; conclusion inchangée — **un seul trou de couverture, `ER7`**. La note de stratégie annonçait « six exclusions » et n'en listait que quatre — rétablies, corps 1 922 → **1 939 mots**, ligne datée au journal d'amendements. **Un arbitrage, non une correction** : la notation est plus sévère que l'état présumé du CM sur **cinq des huit contrôles calibrés** (`A.5.17`, `A.5.19`, `A.5.24`, `A.6.3`, `A.8.8`, présumés *partiels*, notés non conformes). Les notes **n'ont pas été changées** — les adoucir aurait contredit `D4` sans fait nouveau, ce qu'un auditeur lit comme de la complaisance ; ce qui manquait était la **règle de notation écrite**, que `D8` §2.2 porte désormais : l'état constaté au 15 septembre, jamais l'intention, donc un contrôle dont la seule couverture est une mesure à échéance future est non conforme avec un traitement daté. **Chantier ouvert pour la séance 9** : corriger `D7` §6 en y ajoutant les deux rapprochements. |
+| 16 sept. 2026 | **F23 · la séance 9 relue contre ses énoncés, et ses deux emplacements manquants créés** — `Session-9/` ne contenait que `1-CISO-desk/`. Le fond du TD 1 tient et les deux angles individuels sont distincts et sourcés, mais **sept corrections** ont été portées, dont trois de fond. `A.6.3` était déclaré *« jamais évalué »* en renvoyant à `D8` §2.4 : `D8` **§2.2** l'a évalué et coté **non conforme** faute de toute preuve — le contrôle est évalué, **c'est le taux qui n'existe pas**, et la note collective se contredisait dans la même phrase tout en contredisant la page de Maxime, qui disait juste. `A.5.24` était appelé « constat » là où ce dossier réserve le mot aux constats gradés `C1`–`C8` : c'est un **contrôle** d'annexe A. Les **quatre relevés du trimestre** étaient présentés comme les cibles de notre séance 1 : notre tableau de bord `S1-05` en porte **huit** et **un seul** se retrouve à l'identique (l'obsolescence, < 5 % / > 15 %) — les relevés sont conservés, l'énoncé les rendant opposables, mais **l'écart est déclaré**. Plus quatre corrections de méthode : provenance de chaque cible dite avant le tableau de la question 3 ; cible `INC-01` articulée au KPI *< 30 min* que la séance 1 portait déjà ; seuils du délai de détection marqués comme nouveaux ; README réaligné. **Emplacements créés** : `2-Labs/` (README des quatre exercices + le **mode opératoire du TP 1** écrit avant saisie — cinq règles de `PSSI-VUL`, trois blocs de la fiche réflexe `FR-RANCON` sur le site E1, **sept fiches d'indicateurs** complètes dont **six calculables le jour même**) et `3-Evidence/` (neuf captures attendues, dont la **capture datée du tableau de bord**, maquette de `D9`). La séance 9 n'ayant **pas de TD 2**, elle a trois emplacements et non quatre, comme la séance 8. **Restent dus** : la saisie dans `translog-b`, la feuille de travail, le livrable **`D9`** et la **sous-section 9** de la note — aucune valeur d'instance n'a été inventée. **Réserve consignée, non traitée** : la page S9 de Miguel fait 832 mots contre « une page au plus » — c'est la réserve F19, qui porte sur les **dix-huit** pages et se traite en une passe unique. |

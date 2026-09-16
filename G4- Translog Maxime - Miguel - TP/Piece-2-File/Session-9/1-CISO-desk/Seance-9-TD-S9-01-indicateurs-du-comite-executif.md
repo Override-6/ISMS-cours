@@ -44,16 +44,30 @@ Ces quatre relevés font foi pour tout l'exercice ; les cinq directives codifié
 (`PSSI-CADRE-ACC-01` à `COR-01`, codifiées en D1 et adoptées par la charte de gouvernance, article 1) font autorité, quel que soit le libellé que le groupe
 leur a donné.
 
+**Un écart à déclarer avant de s'en servir.** L'énoncé présente ces quatre relevés comme ceux des
+« quatre indicateurs cibles que le groupe s'est fixés en séance 1 ». Notre propre tableau de bord de séance 1
+(feuille de travail `S1-05`, exercice 3) n'en porte pas quatre mais **huit** — quatre KRI et quatre KPI — et
+**un seul des quatre se retrouve à l'identique** : l'obsolescence du parc, cible < 5 %, seuil d'alerte > 15 %.
+Les trois autres ne sont pas les nôtres : nous n'avons jamais posé de « couverture de la PSSI » ni de « taux
+de sensibilisation », et là où l'énoncé mesure un **délai de détection**, notre séance 1 mesurait un **délai de
+notification** (KPI rattaché à `INC-01`, cible < 30 min). Nous retenons les quatre relevés parce que l'énoncé
+les rend opposables pour la journée, et nous le disons plutôt que de laisser croire qu'ils sortent de notre
+dossier — c'est la même discipline qu'aux séances 6 et 8 : un chiffre emprunté se signale comme emprunté.
+
 **Ce que nous y ajoutons, sans rien y substituer.** L'énoncé désigne lui-même le rapport d'audit de la
 séance 4 et l'évaluation initiale de la séance 8 comme le réservoir dans lequel puiser la matière des
 indicateurs. Pour Logistique, ce réservoir dit trois choses que la moyenne groupe de 82 %/5 h/9 %/64 % ne
 montre pas : le taux de conformité mesuré en D4 n'est que de **9 %**, et seulement sur 13 % de l'annexe A
 regardée ; deux non-conformités majeures (`C3` cloisonnement IT/OT, `C4` compte de domaine partagé avec la
 TMA) restent ouvertes, traitées par `PT-03` (14/06/2027) et `PT-02` (14/01/2027) ; et la sensibilisation
-(`A.6.3`) n'a **jamais été évaluée** chez nous — angle mort assumé dès D4 §6, toujours **non conforme et sans
-mesure de traitement** en D8 §2.4, qui désigne explicitement ce trou comme le « chantier documentaire de la
-séance 9 ». Le tableau de bord que nous proposons au Comité doit tenir compte de ce que notre propre filiale
-sait, et de ce qu'elle ne sait pas encore.
+(`A.6.3`) n'a **jamais produit de mesure** chez nous — angle mort assumé dès D4 §6, faute d'avoir posé la
+question à la filiale, puis **tranché en D8 §2.2**, qui cote le contrôle **non conforme** faute de toute preuve
+de sensibilisation depuis, et le range en §2.4 parmi les **trois écarts qu'aucune mesure du plan de traitement
+de la séance 7 ne porte** (`A.5.24`, `A.6.3`, `A.7.4`), avec la séance 9 explicitement désignée comme le
+chantier documentaire qui doit refermer les deux premiers. **La nuance compte pour la suite** : le contrôle est
+évalué, c'est le **taux** qui n'existe pas — il n'y a chez nous ni numérateur ni dénominateur pour calculer une
+part de salariés sensibilisés. Le tableau de bord que nous proposons au Comité doit tenir compte de ce que
+notre propre filiale sait, et de ce qu'elle ne sait pas encore.
 
 ---
 
@@ -84,12 +98,12 @@ avant présentation, indicateur de vanité à écarter — chaque classement jus
 | 4 | Systèmes sur OS obsolète | **Indicateur stratégique, présentable en l'état** | C'est le KRI d'obsolescence déjà posé en séance 1 (cible < 5 %, seuil d'alerte > 15 %, feuille de travail S1-05 exercice 3) ; franchi, il commande un arbitrage budgétaire déjà esquissé (réallocation de 15 % vers la modernisation, S1-06) |
 | 5 | Délai moyen de détection des incidents | **Métrique technique à traduire** | Une durée en heures est un langage d'ingénieur ; c'est l'objet même de la question 4 avant qu'elle ne monte au Comité |
 | 6 | Tickets ouverts par l'équipe infrastructure | **Indicateur de vanité (hors sujet)** | Ni rassurant ni informatif sur l'exposition ou la conformité : c'est un indicateur de charge du support IT, pas de sécurité — à écarter, pas seulement à redescendre |
-| 7 | Salariés ayant suivi la sensibilisation sur douze mois | **Métrique technique à vérifier avant agrégation** | Un candidat naturel de comité en principe, mais chez Logistique, l'exigence sous-jacente (`A.6.3`) n'a **jamais été évaluée** (D4 §6, D8 §2.4) — la moyenne groupe de 64 % peut très bien masquer un zéro chez nous sans que personne ne l'ait décidé |
+| 7 | Salariés ayant suivi la sensibilisation sur douze mois | **Métrique technique à vérifier avant agrégation** | Un candidat naturel de comité en principe, mais chez Logistique l'exigence sous-jacente (`A.6.3`) est cotée **non conforme faute de toute preuve** (D8 §2.2) et **n'a jamais produit de mesure** — la moyenne groupe de 64 % agrège donc au moins une filiale sans numérateur, et peut masquer un zéro sans que personne ne l'ait décidé |
 | 8 | Volume de journaux collectés par jour vers le SOC centralisé | **Métrique technique** | Un volume ne dit rien de la couverture ; c'est la brique qui nourrit le KRI du « périmètre non supervisé » déjà posé en séance 1, pas un indicateur en soi |
 | 9 | Constats d'audit critiques non résolus après 30 jours | **Indicateur stratégique, présentable en l'état — sous une définition précisée** | Directement lisible sur `C3`/`C4` de D4 et leurs échéances `PT-03`/`PT-02` de D7 ; **mais** pris tel quel, il classerait aujourd'hui Logistique en échec, puisque ces échéances dépassent largement 30 jours alors qu'elles sont datées et approuvées — la question 3 précise donc « sans plan daté et sans propriétaire », pas « pas encore clos » |
 | 10 | Filiales couvertes par la PSSI-cadre du groupe | **Indicateur stratégique, présentable en l'état** | C'est l'indicateur de couverture PSSI de la séance 1 lui-même (82 % ce trimestre), et répond mot pour mot à la question « respectons-nous nos obligations ? » |
 | 11 | Disponibilité du site vitrine du groupe | **Indicateur de vanité** | Rassurant sur le mauvais système : l'enjeu du groupe posé en D1 est l'arrêt du WMS (40 % du volume expédié, six heures de tolérance), pas la vitrine institutionnelle — un site vitrine disponible à 99,9 % ne dit rien de cette exposition-là |
-| 12 | Incidents majeurs notifiés au RSSI Groupe sous 2 h (`INC-01`) | **Indicateur stratégique, présentable en l'état** | Directive datée et nommée (D1), et le seul incident majeur connu du dossier — l'arrêt du WMS d'avril 2026 — n'a **justement pas** de chronologie tenue (constat `A.5.24`, D8 §2.2) : on ne sait même pas s'il aurait respecté ce seuil |
+| 12 | Incidents majeurs notifiés au RSSI Groupe sous 2 h (`INC-01`) | **Indicateur stratégique, présentable en l'état** | Directive datée et nommée (D1), et le seul incident majeur connu du dossier — l'arrêt du WMS d'avril 2026 — n'a **justement pas** de chronologie tenue (contrôle `A.5.24`, coté non conforme en D8 §2.2) : on ne sait même pas s'il aurait respecté ce seuil |
 
 ---
 
@@ -130,12 +144,19 @@ automate/WMS avant `PT-07`, aucune chronologie tenue pour l'arrêt d'avril 2026)
 *Cible, seuil d'alerte et phrase de la règle d'or pour chacun, en s'appuyant sur les cibles déjà posées en
 séance 1 quand elles existent.*
 
+**D'où vient chaque cible, dit avant le tableau.** Deux des cinq reprennent une cible de notre séance 1 :
+l'**obsolescence** (< 5 % / > 15 %, reprise à l'identique du KRI de `S1-05` exercice 3) et la **notification
+`INC-01`**, dont la séance 1 portait déjà un KPI — *délai moyen de notification d'un incident majeur, cible
+< 30 min*, délibérément plus strict que les deux heures de la directive. Les trois autres n'ont **aucune cible
+antérieure** dans notre dossier et sont posées ici pour la première fois : couverture de la PSSI, délai moyen
+de détection, constats critiques sans plan daté. Elles sont donc à justifier, pas à citer.
+
 | Indicateur | Cible | Seuil d'alerte | Phrase de la règle d'or |
 |---|---|---|---|
 | **Couverture de la PSSI-cadre** | 100 % des quatre filiales | **< 75 %** *(une filiale de moins que la totalité)* | Ce chiffre vous dit si le socle de règles du groupe est réellement adopté là où l'exposition vit — pas seulement écrit là où siège le RSSI Groupe — et s'il passe sous 75 %, la décision est de réorienter l'appui du RSSI Groupe vers la filiale en retard avant le jalon des six mois de la charte (D1, article 3) |
 | **Obsolescence du parc** | **< 5 %** *(reprise identique du KRI de séance 1)* | **> 15 %** *(reprise identique)* | Ce chiffre vous dit quelle part du parc technique du groupe tourne sur un logiciel non maintenu — la même classe d'exposition que le secret partagé WMS↔automates resté en clair depuis 2019 — et s'il franchit 15 %, la décision est de réallouer le budget vers la modernisation, comme déjà proposé à hauteur de 15 % des enveloppes existantes (feuille de route S1-06) |
-| **Délai moyen de détection** | **< 2 h** | **> 4 h** | Ce chiffre vous dit combien de la fenêtre de six heures avant qu'un arrêt du WMS ne bloque 40 % du volume expédié du groupe s'écoule avant même qu'on sache qu'il y a un problème, et s'il franchit 4 h, la décision est de financer le raccordement des journaux OT/WMS au SOC (`PT-07`, déjà budgété chez Logistique) partout où il manque encore |
-| **Respect du délai de notification `INC-01`** | **100 %** *(directive ferme, pas une aspiration)* | **< 100 %** *(tout manquement à une directive datée compte)* | Ce chiffre vous dit si chaque incident majeur a bien atteint le RSSI Groupe dans les deux heures que `PSSI-CADRE-INC-01` exige — la même fenêtre que l'arrêt du WMS d'avril 2026 a testée sans que personne n'en ait tenu la chronologie —, et s'il passe sous 100 %, la décision est d'exiger de la filiale en cause une dérogation formelle et bornée dans le temps sous `ARB-03`, plutôt que de laisser un manquement répété devenir un droit acquis sans circuit |
+| **Délai moyen de détection** | **< 2 h** *(cible nouvelle — la séance 1 ne mesurait que la notification)* | **> 4 h** *(les deux tiers de la fenêtre de six heures)* | Ce chiffre vous dit combien de la fenêtre de six heures avant qu'un arrêt du WMS ne bloque 40 % du volume expédié du groupe s'écoule avant même qu'on sache qu'il y a un problème, et s'il franchit 4 h, la décision est de financer le raccordement des journaux OT/WMS au SOC (`PT-07`, déjà budgété chez Logistique) partout où il manque encore |
+| **Respect du délai de notification `INC-01`** | **100 %** *(directive ferme, pas une aspiration)* — la séance 1 portait déjà un KPI sur cette directive, un **délai moyen** cible < 30 min ; nous le gardons comme cible interne d'exploitation et remontons au Comité le **taux de respect du seuil contractuel de 2 h**, parce qu'une moyenne ne dit pas combien d'incidents ont dépassé | **< 100 %** *(tout manquement à une directive datée compte)* | Ce chiffre vous dit si chaque incident majeur a bien atteint le RSSI Groupe dans les deux heures que `PSSI-CADRE-INC-01` exige — la même fenêtre que l'arrêt du WMS d'avril 2026 a testée sans que personne n'en ait tenu la chronologie —, et s'il passe sous 100 %, la décision est d'exiger de la filiale en cause une dérogation formelle et bornée dans le temps sous `ARB-03`, plutôt que de laisser un manquement répété devenir un droit acquis sans circuit |
 | **Constats critiques sans plan daté après 30 jours** | **0 %** | **> 0 %** *(tout constat majeur sans propriétaire ni échéance après 30 jours déclenche l'alerte)* | Ce chiffre vous dit si un constat majeur comme `C3` ou `C4` chez Logistique avance sous un plan daté et porté par un nom, ou s'il traîne sans personne dessus, et dès qu'un constat franchit ce seuil, la décision est d'escalader la propriété au Comité sécurité groupe |
 
 ---

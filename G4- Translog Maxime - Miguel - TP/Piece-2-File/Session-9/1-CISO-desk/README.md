@@ -12,7 +12,7 @@ direction. Note individuelle — 10 points sur les neuf séances, coefficient 1.
 | Étudiant | Fichier | État |
 |---|---|---|
 | Miguel Monereo | `S9-bureau-du-RSSI-Miguel-Monereo.md` | 🟢 **fait** — angle : le candidat 12 (`INC-01`) ne peut aujourd'hui passer ni au rouge ni au vert, faute de chronologie — `A.5.24` orphelin en D8 §2.4 |
-| Maxime | `S9-bureau-du-RSSI-Maxime.md` | 🟢 **fait** — angle : le taux de sensibilisation groupe (64 %) tient sur une moyenne dont Logistique n'a jamais mesuré sa part (`A.6.3` non évalué, D4 §6, orphelin en D8 §2.4) |
+| Maxime | `S9-bureau-du-RSSI-Maxime.md` | 🟢 **fait** — angle : le taux de sensibilisation groupe (64 %) tient sur une moyenne dont Logistique n'a jamais mesuré sa part (`A.6.3` : jamais mesuré chez nous, angle mort de D4 §6, **coté non conforme** en D8 §2.2 et orphelin du plan de traitement en D8 §2.4) |
 
 `Seance-9-TD-S9-01-indicateurs-du-comite-executif.md` — le **compte rendu collectif** du TD (les cinq
 questions guidées), conservé comme matière de travail. **Ce n'est pas le bureau du RSSI** : il est collectif
@@ -21,9 +21,9 @@ séances 5 à 8.
 
 **Source** : `../../../../S9 - Sources/TD 1/The CISO's Desk_ Indicators for the Executive Committee _ Lockbay Academy.pdf`
 (énoncé ; corrigé et grille d'évaluation repliés dans la page, « cliquer pour révéler », non consultés — nos
-réponses sont construites directement sur l'énoncé et sur D1/D4/D7/D8). Corpus mobilisé : le tableau de bord
-esquissé en séance 1 (D1, feuille de travail S1-05 exercice 3, quatre indicateurs cibles et leurs
-relevés du trimestre) · D4 (taux de conformité, constats `C3`/`C4`, angle mort `A.6.3`) · D7 (plan de
+réponses sont construites directement sur l'énoncé et sur D1/D4/D7/D8). Corpus mobilisé : notre tableau de bord
+de séance 1 (feuille de travail `S1-05` exercice 3 — **quatre KRI et quatre KPI**, pas quatre indicateurs
+cibles ; les quatre relevés du trimestre viennent de l'énoncé, voir l'écart déclaré dans la note collective) · D4 (taux de conformité, constats `C3`/`C4`, angle mort `A.6.3`) · D7 (plan de
 traitement daté et chiffré, mesures `PT-02`, `PT-03`, `PT-07`) · D8 (déclaration d'applicabilité, écarts
 sans mesure de traitement `A.5.24`/`A.6.3`).
 
@@ -41,6 +41,10 @@ pas, l'indicateur redescend d'un étage.
 
 **Les quatre relevés du trimestre, niveau groupe, qui font foi pour toute la journée** : couverture PSSI
 82 % · délai moyen de détection 5 h · obsolescence du parc 9 % · taux de sensibilisation 64 %.
+**Écart déclaré** : un seul de ces quatre figure à l'identique dans notre propre tableau de bord de séance 1
+(l'obsolescence, cible < 5 % / seuil > 15 %). Les trois autres ne sont pas les nôtres — nous les retenons
+parce que l'énoncé les rend opposables pour la journée, et nous le disons plutôt que de laisser croire
+qu'ils sortent du dossier.
 
 ## Les cinq questions du cas
 
@@ -79,7 +83,7 @@ Les deux étudiants prennent des **angles distincts**, sur les deux mêmes orphe
 
 **Le chiffre moyen qui cache une case vide** *(Maxime, voir `S9-bureau-du-RSSI-Maxime.md`)*. Le taux de
 sensibilisation groupe (64 %) est calculé sur quatre filiales dont l'une — la nôtre — n'a jamais mesuré sa
-part (`A.6.3` non évalué depuis D4, orphelin sans mesure de traitement en D8). Angle : *un indicateur moyen
+part (`A.6.3` : angle mort de D4, coté **non conforme faute de toute preuve** en D8 §2.2 et orphelin sans mesure de traitement en D8 §2.4 — le contrôle est évalué, c'est le **taux** qui n'existe pas). Angle : *un indicateur moyen
 n'est prudent que si chacune de ses composantes existe réellement — sinon il rassure sur un chiffre qui peut
 cacher un zéro sans que personne ne l'ait décidé*. Recommandation : ne pas retenir cet indicateur au tableau
 de bord tant que sa fiabilité n'est pas vérifiée filiale par filiale, et ouvrir dès cette séance le chantier
